@@ -22,7 +22,7 @@ jaudas.
 magnētiskā lauka (B) svārstības, kas izplatās telpā. Abi lauki ir
 perpendikulāri viens otram un abi — viļņa izplatīšanās virzienam [1].
 
-<!-- ZĪMĒJUMS 8.1: elektromagnētiskais vilnis — E lauks vertikālā plaknē, B lauks horizontālā, bultiņa izplatīšanās virzienam -->
+![8.1. attēls. Elektromagnētiskais vilnis.](../atteli/08-1-elektromagnetiskais-vilnis.svg)
 
 Radioviļņiem nav vajadzīga vide: tie izplatās arī vakuumā. To ātrums ir
 gaismas ātrums [1]:
@@ -134,7 +134,7 @@ kādu tā īpašību. Šo procesu sauc par **modulāciju** [1].
 | SSB | Amplitūdu; raida tikai vienu sānjoslu, nesējs nomākts | 2,4–3 kHz | Balss sakari īsviļņos |
 | FM | Frekvenci; amplitūda nemainās | ap 12–16 kHz | Balss sakari UKV, atkārtotāji |
 
-<!-- ZĪMĒJUMS 8.2: trīs grafiki vienā kolonnā — nesējs; AM (mainās augstums); FM (mainās blīvums) -->
+![8.2. attēls. Amplitūdas un frekvences modulācija.](../atteli/08-2-modulacija.svg)
 
 **AM — amplitūdas modulācija.** Nesēja frekvence nemainās, bet tā stiprums
 seko balsij. Spektrā AM signālam ir nesējs un divas vienādas sānjoslas, pa
@@ -147,7 +147,7 @@ un signāls aizņem uz pusi šaurāku joslu. Tāpēc ar SSB pie tās pašas jaud
 var sazināties tālāk [1]. Atlikusī sānjosla ir vai nu augšējā (**USB**), vai
 apakšējā (**LSB**); kuru lietot, pasaka 6. nodaļa.
 
-<!-- ZĪMĒJUMS 8.3: spektri — AM (nesējs + LSB + USB), SSB (tikai USB, nesējs punktēts), CW (šaura līnija), FM (plata) -->
+![8.3. attēls. AM, SSB, CW un FM signālu spektri.](../atteli/08-3-spektri.svg)
 
 **FM — frekvences modulācija.** Balss maina nesēja frekvenci, amplitūda
 paliek nemainīga. Tā kā lielākā daļa traucējumu ietekmē tieši amplitūdu, FM

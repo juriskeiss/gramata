@@ -30,8 +30,10 @@ failā `nodalas/NN-nosaukums.md` un aizpildi.
   mērvienību (100 W, 50 Ω).
 - **Atsauces.** Tekstā numurs kvadrātiekavās, piemēram, `[2]`; numuri atbilst
   sarakstam nodaļas beigās. Normatīvajiem aktiem norāda punktu.
-- **Attēli.** `![Paraksts](../atteli/05-qso-dalas.svg)`; katram attēlam
-  `avoti.md` norāda autoru un licenci.
+- **Attēli.** Atsevišķā rindā: `![7.1. attēls. Paraksts.](../atteli/07-1-nosaukums.svg)`.
+  Teksts kvadrātiekavās kļūst par attēla parakstu. Faila nosaukums sākas ar
+  nodaļas un attēla numuru. Zīmējumus ģenerē ar kodu mapē `riki/zim/`;
+  svešiem attēliem `avoti.md` norāda autoru un licenci.
 - **Zīmējumu vietas.** Kamēr zīmējuma vēl nav, tā vietu atzīmē ar komentāru
   `<!-- ZĪMĒJUMS 7.1: īss apraksts, kas jāuzzīmē -->`.
 - **C kategorija.** Apakšnodaļas, kas vajadzīgas arī C kategorijas eksāmenam,

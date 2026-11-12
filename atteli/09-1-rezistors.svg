@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 200" width="700" height="200" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<title>Rezistora apzīmējums un krāsu kods</title>
+<rect x="0" y="0" width="700" height="200" fill="white"/>
+<text x="140.0" y="24.0" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Apzīmējums shēmā</text>
+<line x1="60.0" y1="90.0" x2="118.0" y2="90.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="162.0" y1="90.0" x2="220.0" y2="90.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="118.0" y="82.0" width="44.0" height="16.0" rx="0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="140.0" y="76.0" text-anchor="middle" font-size="13" fill="#111111" font-style="italic">R</text>
+<text x="480.0" y="24.0" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Rezistors ar krāsu kodu</text>
+<line x1="330.0" y1="90.0" x2="380.0" y2="90.0" stroke="#9a9a9a" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="580.0" y1="90.0" x2="630.0" y2="90.0" stroke="#9a9a9a" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="380.0" y="66.0" width="200.0" height="48.0" rx="18" fill="#ececec" stroke="#111111" stroke-width="1.6"/>
+<rect x="405.0" y="66.8" width="14.0" height="46.4" rx="0" fill="#444" stroke="#111111" stroke-width="0.8"/>
+<rect x="435.0" y="66.8" width="14.0" height="46.4" rx="0" fill="#777" stroke="#111111" stroke-width="0.8"/>
+<rect x="465.0" y="66.8" width="14.0" height="46.4" rx="0" fill="#222" stroke="#111111" stroke-width="0.8"/>
+<rect x="540.0" y="66.8" width="14.0" height="46.4" rx="0" fill="#aaa" stroke="#111111" stroke-width="0.8"/>
+<line x1="412.0" y1="116.0" x2="370.0" y2="150.0" stroke="#111111" stroke-width="0.8" stroke-linecap="round"/>
+<text x="370.0" y="166.0" text-anchor="middle" font-size="12" fill="#111111">1. cipars</text>
+<line x1="442.0" y1="116.0" x2="440.0" y2="150.0" stroke="#111111" stroke-width="0.8" stroke-linecap="round"/>
+<text x="440.0" y="166.0" text-anchor="middle" font-size="12" fill="#111111">2. cipars</text>
+<line x1="472.0" y1="116.0" x2="510.0" y2="150.0" stroke="#111111" stroke-width="0.8" stroke-linecap="round"/>
+<text x="510.0" y="166.0" text-anchor="middle" font-size="12" fill="#111111">nuļļu skaits</text>
+<line x1="547.0" y1="116.0" x2="590.0" y2="150.0" stroke="#111111" stroke-width="0.8" stroke-linecap="round"/>
+<text x="590.0" y="166.0" text-anchor="middle" font-size="12" fill="#111111">pielaide</text>
+</svg>

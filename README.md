@@ -41,9 +41,38 @@ gramata/
 ├── avoti.md               avotu saraksts ar lietošanas tiesību statusu
 ├── nodalas/               viena nodaļa = viens fails
 ├── pielikumi/             A–J pielikumi (vēl nav)
-├── atteli/                zīmējumi SVG formātā (vēl nav)
+├── atteli/                39 zīmējumi SVG formātā (ģenerēti ar riki/zim/)
+├── riki/zim/              zīmējumu pirmkods (Python)
+├── riki/priekssatijums.py uzbūvē HTML un PDF priekšskatījumu
+├── izvade/                uzbūvētie priekšskatījumi (nav pirmavots)
 └── recenzijas/            piezīmes recenzentiem; grāmatā neieiet
 ```
+
+## Zīmējumi
+
+Visi zīmējumi ir oriģināli, uzzīmēti ar kodu vienotā melnbaltā stilā; shēmu
+apzīmējumi ir pēc IEC (rezistors kā taisnstūris). Tie nav pārņemti no slaidiem
+vai citiem avotiem un tiek izdoti ar grāmatas licenci.
+
+Zīmējumu labo tā pirmkodā (`riki/zim/figs_a.py`, `figs_b.py`, `figs_c.py`),
+nevis SVG failā, un pārbūvē:
+
+```
+python3 riki/zim/build.py
+```
+
+## Priekšskatījums
+
+Visu melnrakstu vienā HTML un PDF failā ar zīmējumiem, formulām un satura
+rādītāju uzbūvē ar:
+
+```
+python3 riki/priekssatijums.py
+```
+
+Vajag `pandoc`; PDF izveidei arī Python pakotni `playwright` ar Chromium.
+Rezultāts ir mapē `izvade/`. Tas ir priekšskatījums recenzēšanai, nevis
+galīgais makets.
 
 ## Kā labot
 

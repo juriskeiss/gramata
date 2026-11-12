@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 954 290" width="954" height="290" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<title>SSB raidītāja blokshēma</title>
+<rect x="0" y="0" width="954" height="290" fill="white"/>
+<circle cx="38.0" cy="130.0" r="10.0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<line x1="26.0" y1="118.0" x2="26.0" y2="142.0" stroke="#111111" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="48.0" y1="130.0" x2="50.0" y2="130.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="50.0" y1="130.0" x2="74.6" y2="130.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="80.0,130.0 71.8,133.7 71.8,126.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="80.0" y="105.0" width="62.0" height="50.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="111.0" y="134.3" text-anchor="middle" font-size="12" fill="#111111">ZFP</text>
+<line x1="142.0" y1="130.0" x2="180.6" y2="130.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="186.0,130.0 177.8,133.7 177.8,126.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="186.0" y="105.0" width="90.0" height="50.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="231.0" y="126.8" text-anchor="middle" font-size="12" fill="#111111">Balansa</text>
+<text x="231.0" y="141.8" text-anchor="middle" font-size="12" fill="#111111">modulators</text>
+<line x1="276.0" y1="130.0" x2="314.6" y2="130.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="320.0,130.0 311.8,133.7 311.8,126.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="320.0" y="105.0" width="62.0" height="50.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="351.0" y="126.8" text-anchor="middle" font-size="12" fill="#111111">SSB</text>
+<text x="351.0" y="141.8" text-anchor="middle" font-size="12" fill="#111111">filtrs</text>
+<line x1="382.0" y1="130.0" x2="420.6" y2="130.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="426.0,130.0 417.8,133.7 417.8,126.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="426.0" y="105.0" width="68.4" height="50.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="460.2" y="134.3" text-anchor="middle" font-size="12" fill="#111111">Jaucējs</text>
+<line x1="494.4" y1="130.0" x2="533.0" y2="130.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="538.4,130.0 530.2,133.7 530.2,126.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="538.4" y="105.0" width="62.0" height="50.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="569.4" y="126.8" text-anchor="middle" font-size="12" fill="#111111">Joslas</text>
+<text x="569.4" y="141.8" text-anchor="middle" font-size="12" fill="#111111">filtrs</text>
+<line x1="600.4" y1="130.0" x2="639.0" y2="130.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="644.4,130.0 636.2,133.7 636.2,126.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="644.4" y="105.0" width="133.2" height="50.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="711.0" y="126.8" text-anchor="middle" font-size="12" fill="#111111">Lineārais jaudas</text>
+<text x="711.0" y="141.8" text-anchor="middle" font-size="12" fill="#111111">pastiprinātājs</text>
+<line x1="777.6" y1="130.0" x2="816.2" y2="130.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="821.6,130.0 813.4,133.7 813.4,126.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="821.6" y="105.0" width="62.0" height="50.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="852.6" y="134.3" text-anchor="middle" font-size="12" fill="#111111">LPF</text>
+<line x1="883.6" y1="130.0" x2="912.2" y2="130.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="917.6,130.0 909.4,133.7 909.4,126.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="917.6" y1="130.0" x2="917.6" y2="86.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="917.6" y1="104.0" x2="905.6" y2="86.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="917.6" y1="104.0" x2="929.6" y2="86.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="186.0" y="204.0" width="90.0" height="44.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="231.0" y="222.8" text-anchor="middle" font-size="12" fill="#111111">Nesēja</text>
+<text x="231.0" y="237.8" text-anchor="middle" font-size="12" fill="#111111">ģenerators</text>
+<line x1="231.0" y1="204.0" x2="231.0" y2="158.4" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="231.0,153.0 234.7,161.2 227.3,161.2" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="425.2" y="204.0" width="70.0" height="44.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="460.2" y="230.3" text-anchor="middle" font-size="12" fill="#111111">VFO</text>
+<line x1="460.2" y1="204.0" x2="460.2" y2="158.4" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="460.2,153.0 463.9,161.2 456.5,161.2" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="38.0" y="164.0" text-anchor="middle" font-size="11" fill="#111111" font-style="italic">mikrofons</text>
+<line x1="264.0" y1="86.0" x2="332.0" y2="86.0" stroke="#111111" stroke-width="1" stroke-linecap="round"/>
+<polygon points="272.0,86.0 272.0,74.0 293.0,62.0 293.0,86.0" fill="#cfcfcf" stroke="#111111" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="324.0,86.0 324.0,74.0 303.0,62.0 303.0,86.0" fill="#cfcfcf" stroke="#111111" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="298.0" y1="86.0" x2="298.0" y2="52.0" stroke="#9a9a9a" stroke-width="1.1" stroke-dasharray="3 3" stroke-linecap="round"/>
+<text x="298.0" y="27.4" text-anchor="middle" font-size="10" fill="#111111">abas sānjoslas,</text>
+<text x="298.0" y="39.9" text-anchor="middle" font-size="10" fill="#111111">nesējs nomākts</text>
+<line x1="370.0" y1="86.0" x2="438.0" y2="86.0" stroke="#111111" stroke-width="1" stroke-linecap="round"/>
+<polygon points="430.0,86.0 430.0,74.0 409.0,62.0 409.0,86.0" fill="#cfcfcf" stroke="#111111" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="404.0" y1="86.0" x2="404.0" y2="52.0" stroke="#9a9a9a" stroke-width="1.1" stroke-dasharray="3 3" stroke-linecap="round"/>
+<text x="404.0" y="27.4" text-anchor="middle" font-size="10" fill="#111111">viena</text>
+<text x="404.0" y="39.9" text-anchor="middle" font-size="10" fill="#111111">sānjosla</text>
+<line x1="588.4" y1="86.0" x2="656.4" y2="86.0" stroke="#111111" stroke-width="1" stroke-linecap="round"/>
+<polygon points="648.4,86.0 648.4,74.0 627.4,62.0 627.4,86.0" fill="#cfcfcf" stroke="#111111" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="622.4" y1="86.0" x2="622.4" y2="52.0" stroke="#9a9a9a" stroke-width="1.1" stroke-dasharray="3 3" stroke-linecap="round"/>
+<text x="622.4" y="27.4" text-anchor="middle" font-size="10" fill="#111111">darba</text>
+<text x="622.4" y="39.9" text-anchor="middle" font-size="10" fill="#111111">frekvencē</text>
+</svg>

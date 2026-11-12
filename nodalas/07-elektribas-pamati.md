@@ -35,7 +35,7 @@ strāvai pretojas [1].
 No salīdzinājuma uzreiz redzams galvenais: lielāks spiediens dod lielāku
 plūsmu, šaurāka caurule — mazāku. Tieši to saka Oma likums.
 
-<!-- ZĪMĒJUMS 7.1: vienkārša ķēde — baterija, rezistors, bultiņa strāvai; blakus ūdens analoģija -->
+![7.1. attēls. Elektriskā ķēde un ūdens salīdzinājums.](../atteli/07-1-kede-un-udens.svg)
 
 ## 7.2. Oma likums
 
@@ -51,7 +51,7 @@ izsaki pats.
 > Aizklāj meklējamo lielumu: ja pārējie divi ir blakus, tos reizina; ja viens
 > virs otra, dala.
 
-<!-- ZĪMĒJUMS 7.2: Oma likuma trijstūris (U augšā, I un R apakšā) -->
+![7.2. attēls. Oma likuma trijstūris.](../atteli/07-2-oma-trijsturis.svg)
 
 > **Piemērs.** Rezistors ar pretestību 60 Ω pieslēgts 12 V akumulatoram. Cik
 > liela strāva plūst?
@@ -171,7 +171,7 @@ elektronika transīvera iekšpusē [1].
 elektrotīklā (230 V, 50 Hz), un tāds ir arī radiofrekvences signāls kabelī
 un antenā [1].
 
-<!-- ZĪMĒJUMS 7.3: līdzstrāva (taisna līnija) un maiņstrāva (sinusoīda) laikā; sinusoīdā atzīmēts Umax, URMS, Up-p un periods T -->
+![7.3. attēls. Līdzspriegums un maiņspriegums.](../atteli/07-3-lidzstrava-mainstrava.svg)
 
 Maiņspriegumu apraksta četri lielumi [2]:
 

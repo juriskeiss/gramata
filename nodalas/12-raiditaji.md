@@ -38,7 +38,7 @@ kā notiek modulācija.
 Telegrāfa raidītājs ir vienkāršākais: nesējs nav jāmodulē, tas tikai
 jāieslēdz un jāizslēdz [1].
 
-<!-- ZĪMĒJUMS 12.1: ģenerators → bufera pakāpe / reizinātājs → jaudas pastiprinātājs → LPF → antena; telegrāfa atslēga pievienota starppakāpei -->
+![12.1. attēls. CW raidītāja blokshēma.](../atteli/12-1-cw-raiditajs.svg)
 
 | Bloks | Ko dara |
 | --- | --- |
@@ -65,7 +65,7 @@ AM raidītājā balss maina nesēja amplitūdu. Mikrofona signālu pastiprina
 zemfrekvences pastiprinātājs (ZFP), un modulators ar to vada augstfrekvences
 pakāpes pastiprinājumu [1].
 
-<!-- ZĪMĒJUMS 12.2: augšējā rinda: ģenerators → starppakāpe → jaudas pastiprinātājs → LPF → antena; apakšējā rinda: mikrofons → ZFP → modulators, bultiņa uz jaudas pastiprinātāju -->
+![12.2. attēls. AM raidītāja blokshēma.](../atteli/12-2-am-raiditajs.svg)
 
 Radioamatieri AM lieto reti: nesējs un otra sānjosla patērē jaudu un joslu,
 neko nedodot. Tomēr blokshēma jāzina, jo no AM izriet SSB.
@@ -75,7 +75,7 @@ neko nedodot. Tomēr blokshēma jāzina, jo no AM izriet SSB.
 FM raidītājā mikrofona signāls maina paša ģeneratora frekvenci. Modulācija
 notiek pašā sākumā, mazā jaudā [1].
 
-<!-- ZĪMĒJUMS 12.3: mikrofons → ZFP → ģenerators ar frekvences modulatoru → reizinātāji → jaudas pastiprinātājs → LPF → antena -->
+![12.3. attēls. FM raidītāja blokshēma.](../atteli/12-3-fm-raiditajs.svg)
 
 | Bloks | Ko dara |
 | --- | --- |
@@ -102,7 +102,7 @@ lēti.
 SSB raidītājs ir sarežģītākais, jo jāatbrīvojas no nesēja un vienas
 sānjoslas. To dara ar filtra metodi [1].
 
-<!-- ZĪMĒJUMS 12.4: mikrofons → ZFP → balansa modulators (no apakšas nesēja ģenerators) → SSB filtrs → jaucējs (no apakšas VFO) → joslas filtrs → lineārais jaudas pastiprinātājs → LPF → antena; zem blokiem mazi spektra attēli: abas sānjoslas ar nesēju, abas bez nesēja, viena sānjosla -->
+![12.4. attēls. SSB raidītāja blokshēma.](../atteli/12-4-ssb-raiditajs.svg)
 
 | Nr. | Bloks | Kas ir tā izejā |
 | --- | --- | --- |

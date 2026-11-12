@@ -96,7 +96,7 @@ Ja zemējuma maģistrāle atrodas ārpus ēkas, pievads gar ēkas sienu vai stab
 jānosedz ar metāla cauruli vai leņķdzelzi līdz **2,5 m** augstumam no
 zemes [1].
 
-<!-- ZĪMĒJUMS 17.1: stacijas zemējums — transīvers, barošanas bloks un skaņotājs, katrs ar savu vadu uz kopīgu zemējuma kopni; kopne uz zemētāju -->
+![17.1. attēls. Stacijas zemējums.](../atteli/17-1-stacijas-zemejums.svg)
 
 > **Atceries:** četri — zemējuma pretestība ne vairāk kā 4 Ω.
 > Gāze, apkure, kabeļu apvalki — nekad.

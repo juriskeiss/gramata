@@ -39,7 +39,7 @@ Kontūram ir divi slēgumi, un rezonansē tie uzvedas pretēji [1]:
 | Virknes | L un C viens aiz otra | Minimāla | Rezonanses frekvenci laiž cauri |
 | Paralēlais | L un C blakus | Maksimāla | Rezonanses frekvenci aiztur; uz tā veidojas lielākais spriegums |
 
-<!-- ZĪMĒJUMS 10.1: virknes un paralēlais LC kontūrs; zem katra grafiks — pretestība atkarībā no frekvences (bedre un kalns) -->
+![10.1. attēls. Virknes un paralēlais svārstību kontūrs.](../atteli/10-1-kontura-rezonanse.svg)
 
 > **Piemērs.** Kontūrā ir spole L = 10 µH un kondensators C = 100 pF. Kāda ir
 > rezonanses frekvence?
@@ -67,7 +67,7 @@ ka kondensators labāk laiž augstas frekvences, bet spole — zemas [1].
 | Joslas filtrs | BPF (band pass) | Noteiktu frekvenču joslu | Visu zem un virs tās |
 | Sprostfiltrs | BSF (band stop) | Visu pārējo | Noteiktu frekvenču joslu |
 
-<!-- ZĪMĒJUMS 10.2: četri grafiki — LPF, HPF, BPF, BSF caurlaidības līknes, ar atzīmētu robežfrekvenci -->
+![10.2. attēls. Četru filtru veidu caurlaidības līknes.](../atteli/10-2-filtri.svg)
 
 **Robežfrekvence** ir vieta, kur filtrs sāk aizturēt. Reāls filtrs nenogriež
 asi: aiz robežfrekvences vājinājums pieaug pakāpeniski.
@@ -98,7 +98,7 @@ Starp tiem ir barošanas bloks, kas sastāv no četrām pakāpēm.
 | 3. Gludinātājs | Izlīdzina pulsācijas | Liels elektrolītiskais kondensators |
 | 4. Stabilizators | Notur nemainīgu izejas spriegumu | Zenera diode, tranzistors vai mikroshēma |
 
-<!-- ZĪMĒJUMS 10.3: barošanas bloka blokshēma ar sprieguma formu pēc katras pakāpes: sinusoīda → mazāka sinusoīda → pulsējošs → viļņots → taisna līnija -->
+![10.3. attēls. Barošanas bloka blokshēma.](../atteli/10-3-barosanas-bloks.svg)
 
 **Taisngriezis** izmanto diodes īpašību vadīt vienā virzienā. Viena diode
 laiž cauri tikai pusi no maiņstrāvas perioda. Četras diodes, saslēgtas

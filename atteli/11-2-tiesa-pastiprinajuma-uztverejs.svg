@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 549 130" width="549" height="130" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<title>Tiešā pastiprinājuma uztvērēja blokshēma</title>
+<rect x="0" y="0" width="549" height="130" fill="white"/>
+<line x1="40.0" y1="70.0" x2="40.0" y2="26.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="40.0" y1="44.0" x2="28.0" y2="26.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="40.0" y1="44.0" x2="52.0" y2="26.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="40.0" y1="70.0" x2="78.6" y2="70.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="84.0,70.0 75.8,73.7 75.8,66.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="84.0" y="47.0" width="68.4" height="46.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="118.2" y="66.8" text-anchor="middle" font-size="12" fill="#111111">Ieejas</text>
+<text x="118.2" y="81.8" text-anchor="middle" font-size="12" fill="#111111">kontūrs</text>
+<line x1="152.4" y1="70.0" x2="187.0" y2="70.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="192.4,70.0 184.2,73.7 184.2,66.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="192.4" y="47.0" width="62.0" height="46.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="223.4" y="74.3" text-anchor="middle" font-size="12" fill="#111111">AFP</text>
+<line x1="254.4" y1="70.0" x2="289.0" y2="70.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="294.4,70.0 286.2,73.7 286.2,66.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="294.4" y="47.0" width="82.8" height="46.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="335.8" y="74.3" text-anchor="middle" font-size="12" fill="#111111">Detektors</text>
+<line x1="377.2" y1="70.0" x2="411.8" y2="70.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="417.2,70.0 409.0,73.7 409.0,66.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="417.2" y="47.0" width="62.0" height="46.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="448.2" y="74.3" text-anchor="middle" font-size="12" fill="#111111">ZFP</text>
+<line x1="479.2" y1="70.0" x2="501.8" y2="70.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="507.2,70.0 499.0,73.7 499.0,66.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="507.2" y="62.0" width="9.0" height="16.0" rx="0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<polygon points="516.2,62.0 529.2,52.0 529.2,88.0 516.2,78.0" fill="white" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="223.4" y="112.0" text-anchor="middle" font-size="10" fill="#111111" font-style="italic">pastiprina</text>
+<text x="223.4" y="124.0" text-anchor="middle" font-size="10" fill="#111111" font-style="italic">augstfrekvenci</text>
+<text x="448.2" y="112.0" text-anchor="middle" font-size="10" fill="#111111" font-style="italic">pastiprina</text>
+<text x="448.2" y="124.0" text-anchor="middle" font-size="10" fill="#111111" font-style="italic">skaņu</text>
+</svg>

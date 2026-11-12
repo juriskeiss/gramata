@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 669 230" width="669" height="230" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<title>CW raidītāja blokshēma</title>
+<rect x="0" y="0" width="669" height="230" fill="white"/>
+<rect x="40.0" y="57.0" width="90.0" height="46.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="85.0" y="84.3" text-anchor="middle" font-size="12" fill="#111111">Ģenerators</text>
+<line x1="130.0" y1="80.0" x2="164.6" y2="80.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="170.0,80.0 161.8,83.7 161.8,76.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="170.0" y="57.0" width="111.6" height="46.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="225.8" y="76.8" text-anchor="middle" font-size="12" fill="#111111">Starppakāpe</text>
+<text x="225.8" y="91.8" text-anchor="middle" font-size="12" fill="#111111">(reizinātājs)</text>
+<line x1="281.6" y1="80.0" x2="316.2" y2="80.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="321.6,80.0 313.4,83.7 313.4,76.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="321.6" y="57.0" width="118.8" height="46.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="381.0" y="76.8" text-anchor="middle" font-size="12" fill="#111111">Jaudas</text>
+<text x="381.0" y="91.8" text-anchor="middle" font-size="12" fill="#111111">pastiprinātājs</text>
+<line x1="440.4" y1="80.0" x2="475.0" y2="80.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="480.4,80.0 472.2,83.7 472.2,76.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="480.4" y="57.0" width="118.8" height="46.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="539.8" y="76.8" text-anchor="middle" font-size="12" fill="#111111">Zemo frekvenču</text>
+<text x="539.8" y="91.8" text-anchor="middle" font-size="12" fill="#111111">filtrs (LPF)</text>
+<line x1="599.2" y1="80.0" x2="627.8" y2="80.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="633.2,80.0 625.0,83.7 625.0,76.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="633.2" y1="80.0" x2="633.2" y2="36.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="633.2" y1="54.0" x2="621.2" y2="36.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="633.2" y1="54.0" x2="645.2" y2="36.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="184.4" y="150.0" width="82.8" height="44.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="225.8" y="168.8" text-anchor="middle" font-size="12" fill="#111111">Telegrāfa</text>
+<text x="225.8" y="183.8" text-anchor="middle" font-size="12" fill="#111111">atslēga</text>
+<line x1="225.8" y1="150.0" x2="225.8" y2="108.4" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="225.8,103.0 229.5,111.2 222.1,111.2" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="225.8" y="210.0" text-anchor="middle" font-size="11" fill="#111111" font-style="italic">ieslēdz un izslēdz signālu</text>
+</svg>

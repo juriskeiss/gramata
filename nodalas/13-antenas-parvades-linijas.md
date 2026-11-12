@@ -62,7 +62,7 @@ Pārrēķins ir vienkāršs: dBi = dBd + 2,15.
 ir pusi viļņa gari. Tā ir vienkāršākā rezonanses antena un lieliska pirmā
 antena [1].
 
-<!-- ZĪMĒJUMS 13.1: horizontāls dipols starp diviem mastiem — divi pleci, izolatori galos, centra izolators ar koaksiālo kabeli uz leju; atzīmēts kopējais garums λ/2 -->
+![13.1. attēls. Pusviļņa dipols.](../atteli/13-1-dipols.svg)
 
 | Īpašība | Vērtība |
 | --- | --- |
@@ -106,7 +106,7 @@ variantus [1].
 | **Vairākjoslu dipols (fan dipole)** | Vairāki dažāda garuma dipoli uz viena pievada | Vajag vairākus diapazonus bez skaņotāja |
 | **OCF dipols** | Pievads nav vidū; pieslēgts caur 4:1 vai 6:1 transformatoru | Viena antena vairākiem diapazoniem |
 
-<!-- ZĪMĒJUMS 13.2: trīs skices blakus — Inverted-V, fan dipols, OCF dipols -->
+![13.2. attēls. Dipola varianti.](../atteli/13-2-dipola-varianti.svg)
 
 **Gala barotā pusviļņa antena (EFHW)** arī ir pusviļņa vads, bet pievads
 pieslēgts tā galā, nevis vidū. Vada galā pretestība ir ļoti augsta, tāpēc
@@ -124,7 +124,7 @@ starp kabeli un vadu liek 49:1 transformatoru (ununu) [1].
 ceturtdaļu viļņa garš. Dipola "otro pusi" tai aizstāj zeme vai **radiāļi** —
 vadi, kas no antenas pamatnes iet uz sāniem [1].
 
-<!-- ZĪMĒJUMS 13.3: vertikāls stienis λ/4, no pamatnes četri radiāļi, koaksiālais kabelis; blakus starojuma diagramma no augšas (aplis) -->
+![13.3. attēls. Ceturtdaļviļņa vertikālā antena.](../atteli/13-3-vertikala-antena.svg)
 
 $$L\,[\text{m}] \approx \frac{71{,}25}{f\,[\text{MHz}]}$$
 
@@ -145,7 +145,7 @@ $$L\,[\text{m}] \approx \frac{71{,}25}{f\,[\text{MHz}]}$$
 **Yagi** ir virziena antena: tā izstaro galvenokārt vienā virzienā. To veido
 vairāki paralēli elementi uz kopīgas nesošās caurules [1].
 
-<!-- ZĪMĒJUMS 13.4: trīs elementu Yagi no augšas — reflektors (garākais), aktīvais elements ar pievadu, direktors (īsākais); bultiņa galvenajā virzienā uz direktora pusi -->
+![13.4. attēls. Trīs elementu Yagi antena.](../atteli/13-4-yagi.svg)
 
 | Elements | Garums | Uzdevums |
 | --- | --- | --- |
@@ -191,7 +191,7 @@ un pašai neizstarot [1].
 | Montāža | Vienkārša; var likt gar metālu un caur sienām | Jātur atstatu no metāla priekšmetiem |
 | Veids | Nesimetriska | Simetriska |
 
-<!-- ZĪMĒJUMS 13.5: koaksiālā kabeļa šķērsgriezums ar četriem slāņiem; blakus simetriskā līnija (kāpnītes) -->
+![13.5. attēls. Koaksiālais kabelis un simetriskā līnija.](../atteli/13-5-parvades-linijas.svg)
 
 **Raksturpretestība** ir līnijas īpašība, ko nosaka tās izmēri un izolators,
 nevis garums. Radioamatieru tehnikā standarts ir 50 Ω: tāda ir transīvera

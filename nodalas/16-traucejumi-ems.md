@@ -74,7 +74,7 @@ diode detektoruztvērējā.
 
 Lai traucējumu novērstu, jāzina, pa kuru ceļu tas iekļūst.
 
-<!-- ZĪMĒJUMS 16.1: māja ar radioamatiera antenu un kaimiņa māju; četri ceļi ar bultiņām — caur kaimiņa antenu, pa elektrotīkla vadiem, pa skaļruņu/telefona vadiem, tieši caur ierīces korpusu -->
+![16.1. attēls. Ceļi, pa kuriem traucējums nonāk ierīcē.](../atteli/16-1-traucejumu-celi.svg)
 
 | Ceļš | Kā izpaužas | Kā pārbaudīt |
 | --- | --- | --- |

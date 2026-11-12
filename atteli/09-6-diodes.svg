@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" width="720" height="200" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<title>Diožu apzīmējumi</title>
+<rect x="0" y="0" width="720" height="200" fill="white"/>
+<line x1="60.0" y1="75.0" x2="109.0" y2="75.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="131.0" y1="75.0" x2="180.0" y2="75.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="109.0,64.0 109.0,86.0 131.0,75.0" fill="white" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="131.0" y1="64.0" x2="131.0" y2="86.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<text x="120.0" y="180.0" text-anchor="middle" font-size="13" fill="#111111">Diode</text>
+<line x1="300.0" y1="75.0" x2="349.0" y2="75.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="371.0" y1="75.0" x2="420.0" y2="75.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="349.0,64.0 349.0,86.0 371.0,75.0" fill="white" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="371.0" y1="64.0" x2="371.0" y2="86.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+<line x1="362.0" y1="60.0" x2="369.7" y2="50.8" stroke="#111111" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="372.0,48.0 370.4,53.8 366.6,50.6" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="372.0" y1="62.0" x2="379.7" y2="52.8" stroke="#111111" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="382.0,50.0 380.4,55.8 376.6,52.6" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="360.0" y="180.0" text-anchor="middle" font-size="13" fill="#111111">Gaismas diode (LED)</text>
+<line x1="540.0" y1="75.0" x2="589.0" y2="75.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="611.0" y1="75.0" x2="660.0" y2="75.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="589.0,64.0 589.0,86.0 611.0,75.0" fill="white" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="606.0,60.0 611.0,64.0 611.0,86.0 616.0,90.0" fill="none" stroke="#111111" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="600.0" y="180.0" text-anchor="middle" font-size="13" fill="#111111">Zenera diode</text>
+<text x="62.0" y="65.0" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">A</text>
+<text x="178.0" y="65.0" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">K</text>
+<text x="62.0" y="99.0" text-anchor="middle" font-size="11" fill="#111111">anods</text>
+<text x="178.0" y="99.0" text-anchor="middle" font-size="11" fill="#111111">katods</text>
+<line x1="90.0" y1="121.0" x2="144.6" y2="121.0" stroke="#111111" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="150.0,121.0 141.8,124.7 141.8,117.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="120.0" y="139.0" text-anchor="middle" font-size="11" fill="#111111" font-style="italic">strāvas virziens</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 435 170" width="435" height="170" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<title>Detektoruztvērēja blokshēma</title>
+<rect x="0" y="0" width="435" height="170" fill="white"/>
+<line x1="40.0" y1="70.0" x2="40.0" y2="26.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="40.0" y1="44.0" x2="28.0" y2="26.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="40.0" y1="44.0" x2="52.0" y2="26.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="40.0" y1="70.0" x2="78.6" y2="70.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="84.0,70.0 75.8,73.7 75.8,66.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="84.0" y="47.0" width="82.8" height="46.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="125.4" y="66.8" text-anchor="middle" font-size="12" fill="#111111">Svārstību</text>
+<text x="125.4" y="81.8" text-anchor="middle" font-size="12" fill="#111111">kontūrs</text>
+<line x1="166.8" y1="70.0" x2="201.4" y2="70.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="206.8,70.0 198.6,73.7 198.6,66.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="206.8" y="47.0" width="82.8" height="46.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="248.2" y="66.8" text-anchor="middle" font-size="12" fill="#111111">Detektors</text>
+<text x="248.2" y="81.8" text-anchor="middle" font-size="12" fill="#111111">(diode)</text>
+<line x1="289.6" y1="70.0" x2="324.2" y2="70.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="329.6,70.0 321.4,73.7 321.4,66.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="329.6" y="47.0" width="75.6" height="46.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="367.4" y="74.3" text-anchor="middle" font-size="12" fill="#111111">Austiņas</text>
+<line x1="125.4" y1="93.0" x2="125.4" y2="115.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="113.4" y1="115.0" x2="137.4" y2="115.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="117.4" y1="120.0" x2="133.4" y2="120.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="121.4" y1="125.0" x2="129.4" y2="125.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<text x="145.4" y="132.0" text-anchor="start" font-size="11" fill="#111111" font-style="italic">zemējums</text>
+<text x="186.8" y="58.0" text-anchor="middle" font-size="11" fill="#111111" font-style="italic">AM</text>
+<text x="309.6" y="58.0" text-anchor="middle" font-size="11" fill="#111111" font-style="italic">skaņa</text>
+<text x="40.0" y="92.0" text-anchor="middle" font-size="11" fill="#111111" font-style="italic">antena</text>
+</svg>

@@ -48,7 +48,7 @@ Blokshēmās lietosim šādus saīsinājumus [1]:
 
 Vienkāršākais iespējamais uztvērējs sastāv no četrām detaļām [1].
 
-<!-- ZĪMĒJUMS 11.1: detektoruztvērēja blokshēma — antena → svārstību kontūrs → detektors (diode) → austiņas; zemējums -->
+![11.1. attēls. Detektoruztvērēja blokshēma.](../atteli/11-1-detektoruztverejs.svg)
 
 | Bloks | Ko dara |
 | --- | --- |
@@ -67,7 +67,7 @@ Ja detektoruztvērējam pirms detektora pieliek augstfrekvences pastiprinātāju
 un aiz tā — zemfrekvences pastiprinātāju, iegūst **tiešā pastiprinājuma
 uztvērēju** [1].
 
-<!-- ZĪMĒJUMS 11.2: antena → ieejas kontūrs → AFP → detektors → ZFP → skaļrunis -->
+![11.2. attēls. Tiešā pastiprinājuma uztvērēja blokshēma.](../atteli/11-2-tiesa-pastiprinajuma-uztverejs.svg)
 
 Signāls visu ceļu līdz detektoram paliek savā sākotnējā frekvencē.
 Jutība ir labāka, bet paliek divas problēmas: visi kontūri jāpārskaņo reizē,
@@ -80,7 +80,7 @@ superheterodīns.
 vienu nemainīgu frekvenci — **starpfrekvenci** — un galveno pastiprināšanu
 un filtrēšanu veic tur. Tā uzbūvēta lielākā daļa transīveru [1].
 
-<!-- ZĪMĒJUMS 11.3: superheterodīna blokshēma — antena → AFP → jaucējs (no apakšas heterodīns) → SF filtrs → SFP → detektors (no apakšas otrais heterodīns SSB/CW uztveršanai) → ZFP → skaļrunis -->
+![11.3. attēls. Superheterodīna uztvērēja blokshēma.](../atteli/11-3-superheterodins.svg)
 
 | Nr. | Bloks | Ko dara |
 | --- | --- | --- |
@@ -139,7 +139,7 @@ jo tālāk spoguļkanāls ir no vajadzīgā signāla un jo vieglāk to nofiltrē
 tieši uz signāla frekvenci. Jaucēja izejā starpība uzreiz ir skaņas
 frekvencē, un starpfrekvences nav vispār [1].
 
-<!-- ZĪMĒJUMS 11.4: antena → ieejas filtrs → jaucējs (no apakšas heterodīns uz signāla frekvences) → ZF filtrs → ZFP → skaļrunis -->
+![11.4. attēls. Tiešās pārveidošanas uztvērēja blokshēma.](../atteli/11-4-tiesas-parveidosanas-uztverejs.svg)
 
 | Priekšrocības | Trūkumi |
 | --- | --- |
@@ -155,7 +155,7 @@ Daudzi vienkāršie pašbūves komplekti iesācējiem ir tieši šādi.
 Signālu no antenas pārvērš skaitļu virknē, un filtrēšanu, demodulāciju un
 pastiprināšanu veic dators vai procesors [1].
 
-<!-- ZĪMĒJUMS 11.5: antena → ieejas filtrs → analogciparu pārveidotājs → signālu apstrāde (programma) → skaņa; virs programmas bloka uzraksts "filtri, demodulators, AGC" -->
+![11.5. attēls. SDR uztvērēja blokshēma.](../atteli/11-5-sdr.svg)
 
 | Daļa | Kas tajā ir |
 | --- | --- |

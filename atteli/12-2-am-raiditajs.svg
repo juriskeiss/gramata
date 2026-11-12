@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 655 240" width="655" height="240" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<title>AM raidītāja blokshēma</title>
+<rect x="0" y="0" width="655" height="240" fill="white"/>
+<rect x="40.0" y="47.0" width="90.0" height="46.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="85.0" y="74.3" text-anchor="middle" font-size="12" fill="#111111">Ģenerators</text>
+<line x1="130.0" y1="70.0" x2="164.6" y2="70.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="170.0,70.0 161.8,73.7 161.8,66.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="170.0" y="47.0" width="97.2" height="46.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="218.6" y="74.3" text-anchor="middle" font-size="12" fill="#111111">Starppakāpe</text>
+<line x1="267.2" y1="70.0" x2="301.8" y2="70.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="307.2,70.0 299.0,73.7 299.0,66.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="307.2" y="47.0" width="118.8" height="46.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="366.6" y="66.8" text-anchor="middle" font-size="12" fill="#111111">Jaudas</text>
+<text x="366.6" y="81.8" text-anchor="middle" font-size="12" fill="#111111">pastiprinātājs</text>
+<line x1="426.0" y1="70.0" x2="460.6" y2="70.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="466.0,70.0 457.8,73.7 457.8,66.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="466.0" y="47.0" width="118.8" height="46.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="525.4" y="66.8" text-anchor="middle" font-size="12" fill="#111111">Zemo frekvenču</text>
+<text x="525.4" y="81.8" text-anchor="middle" font-size="12" fill="#111111">filtrs (LPF)</text>
+<line x1="584.8" y1="70.0" x2="613.4" y2="70.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="618.8,70.0 610.6,73.7 610.6,66.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="618.8" y1="70.0" x2="618.8" y2="26.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="618.8" y1="44.0" x2="606.8" y2="26.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="618.8" y1="44.0" x2="630.8" y2="26.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="318.6" y="148.0" width="96.0" height="44.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="366.6" y="174.3" text-anchor="middle" font-size="12" fill="#111111">Modulators</text>
+<line x1="366.6" y1="148.0" x2="366.6" y2="98.4" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="366.6,93.0 370.3,101.2 362.9,101.2" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="208.6" y="148.0" width="70.0" height="44.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="243.6" y="174.3" text-anchor="middle" font-size="12" fill="#111111">ZFP</text>
+<line x1="278.6" y1="170.0" x2="313.2" y2="170.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="318.6,170.0 310.4,173.7 310.4,166.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="162.6" cy="170.0" r="10.0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<line x1="150.6" y1="158.0" x2="150.6" y2="182.0" stroke="#111111" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="172.6" y1="170.0" x2="174.6" y2="170.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="174.6" y1="170.0" x2="203.2" y2="170.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="208.6,170.0 200.4,173.7 200.4,166.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="162.6" y="204.0" text-anchor="middle" font-size="11" fill="#111111" font-style="italic">mikrofons</text>
+<text x="374.6" y="126.0" text-anchor="start" font-size="11" fill="#111111" font-style="italic">maina amplitūdu</text>
+</svg>

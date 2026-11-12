@@ -21,7 +21,7 @@ radioiekārta, un iemāca aprēķināt to slēgumus.
 **Rezistors** ierobežo strāvu un rada sprieguma kritumu. Tā galvenais
 parametrs ir pretestība omos (Ω) [1].
 
-<!-- ZĪMĒJUMS 9.1: rezistora apzīmējums shēmā (taisnstūris) un rezistora izskats ar krāsu joslām -->
+![9.1. attēls. Rezistora apzīmējums un krāsu kods.](../atteli/09-1-rezistors.svg)
 
 Otrs svarīgais parametrs ir **izkliedes jauda**. Rezistors elektrisko
 enerģiju pārvērš siltumā, P = I² · R, un katrs rezistors iztur tikai noteiktu
@@ -68,7 +68,7 @@ Diviem rezistoriem ir ērtāka formula [2]:
 
 $$R_{kop} = \frac{R_1 \cdot R_2}{R_1 + R_2}$$
 
-<!-- ZĪMĒJUMS 9.2: divi rezistori virknē un divi paralēli, ar strāvas bultiņām -->
+![9.2. attēls. Rezistoru virknes un paralēlais slēgums.](../atteli/09-2-rezistoru-slegumi.svg)
 
 > **Atceries:** virknē kopējā pretestība ir lielāka par lielāko. Paralēli —
 > mazāka par mazāko. Ja atbilde tam neatbilst, aprēķinā ir kļūda.
@@ -108,7 +108,7 @@ spriegumu likums [2].
 kurām ir izolators. Tā galvenais parametrs ir **kapacitāte** farados (F).
 Farads ir ļoti liela vienība, tāpēc praksē sastopamas µF, nF un pF [1].
 
-<!-- ZĪMĒJUMS 9.3: kondensatora apzīmējums (divas paralēlas svītras), elektrolītiskā kondensatora apzīmējums ar +, maināmā kondensatora apzīmējums -->
+![9.3. attēls. Kondensatoru apzīmējumi.](../atteli/09-3-kondensatori.svg)
 
 Kas jāzina par kondensatoru:
 
@@ -158,7 +158,7 @@ magnētiskais lauks, kurā uzkrājas enerģija. Spole pretojas strāvas
 izmaiņām. Tās galvenais parametrs ir **induktivitāte** henrijos (H); praksē
 mH un µH [1].
 
-<!-- ZĪMĒJUMS 9.4: spoles apzīmējums (pusloki), spole ar serdi -->
+![9.4. attēls. Spoles apzīmējumi.](../atteli/09-4-spoles.svg)
 
 Spole uzvedas pretēji kondensatoram:
 
@@ -195,7 +195,7 @@ vērtības [1].
 Maiņstrāva primārajā tinumā rada mainīgu magnētisko lauku, kas inducē
 spriegumu sekundārajā tinumā [1].
 
-<!-- ZĪMĒJUMS 9.5: transformatora apzīmējums — primārais tinums N1, serde, sekundārais tinums N2 -->
+![9.5. attēls. Transformatora apzīmējums.](../atteli/09-5-transformators.svg)
 
 Spriegumu attiecība ir vienāda ar vijumu skaita attiecību; strāvām ir
 otrādi [1]:
@@ -223,7 +223,7 @@ saskaņošanai — tādi ir antenu baluni un ununi (13. nodaļa).
 pretējā. Tai ir divi izvadi: **anods** (A) un **katods** (K). Strāva plūst no
 anoda uz katodu [1].
 
-<!-- ZĪMĒJUMS 9.6: diodes apzīmējums (trijstūris ar svītru), anods un katods; LED un Zenera diodes apzīmējumi -->
+![9.6. attēls. Diožu apzīmējumi.](../atteli/09-6-diodes.svg)
 
 | Veids | Ko dara | Kur lieto |
 | --- | --- | --- |
@@ -239,7 +239,7 @@ Diode nav ideāls slēdzis: vadošā virzienā uz silīcija diodes krīt ap 0,6�
 signālu vada lielu strāvu. Tas dara divas lietas: **pastiprina** signālu vai
 strādā kā **slēdzis** [1].
 
-<!-- ZĪMĒJUMS 9.7: NPN un PNP tranzistora apzīmējumi ar izvadiem B, C, E; lauktranzistora apzīmējums -->
+![9.7. attēls. Tranzistoru apzīmējumi.](../atteli/09-7-tranzistori.svg)
 
 | Veids | Izvadi | Kā vada |
 | --- | --- | --- |

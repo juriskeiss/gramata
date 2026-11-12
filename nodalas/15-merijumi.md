@@ -27,7 +27,7 @@ strāvu, pretestību, jaudu un SWR — un nesabojāt ne mērierīci, ne sevi.
 | SWR | SWR mērītājs | Kabelī starp raidītāju un antenu |
 | Frekvence | Frekvenču skaitītājs | Pie mērāmā signāla avota |
 
-<!-- ZĪMĒJUMS 15.1: vienkārša ķēde ar bateriju un rezistoru; voltmetrs pieslēgts paralēli rezistoram, ampērmetrs ieslēgts virknē -->
+![15.1. attēls. Voltmetra un ampērmetra pieslēgšana.](../atteli/15-1-voltmetrs-ampermetrs.svg)
 
 Kāpēc tieši tā:
 
@@ -103,7 +103,7 @@ mēra divas jaudas: **tiešo**, kas iet uz antenu, un **atstaroto**, kas nāk
 atpakaļ. No to attiecības iegūst SWR (13. nodaļa). Lielākā daļa mērītāju
 rāda arī pašu jaudu vatos.
 
-<!-- ZĪMĒJUMS 15.2: transīvers → SWR/jaudas mērītājs → antena; virs mērītāja bultiņas "tiešā jauda" un "atstarotā jauda" -->
+![15.2. attēls. SWR mērītāja pieslēgšana.](../atteli/15-2-swr-meritajs.svg)
 
 **Kā izmēra SWR:**
 
@@ -156,7 +156,7 @@ būvētājam tā ir otrā svarīgākā mērierīce pēc multimetra.
 | **Osciloskops** | Sprieguma izmaiņas **laikā** — signāla formu | Amplitūda, periods, kropļojumi |
 | **Spektra analizators** | Signāla sastāvu pa **frekvencēm** | Harmonikas, joslas platums, blakusizstarojumi |
 
-<!-- ZĪMĒJUMS 15.3: viens un tas pats signāls divos skatos — osciloskopā (sinusoīda laikā) un spektra analizatorā (vertikāla līnija pamatfrekvencē un mazākas harmoniku līnijas) -->
+![15.3. attēls. Osciloskops un spektra analizators.](../atteli/15-3-osciloskops-spektra-analizators.svg)
 
 No osciloskopa attēla var nolasīt periodu un aprēķināt frekvenci.
 

@@ -46,7 +46,7 @@ Jo augstāka frekvence, jo īsāks vilnis un jo mazāka antena.
 
 Radiovilnis no raidītāja līdz uztvērējam var nokļūt trijos veidos [1].
 
-<!-- ZĪMĒJUMS 14.1: Zemes izliekums ar raidītāju un trim ceļiem — zemes vilnis gar virsmu, tiešais vilnis starp diviem mastiem, telpas vilnis ar atstarošanos no jonosfēras -->
+![14.1. attēls. Trīs radioviļņu izplatīšanās veidi.](../atteli/14-1-izplatisanas-veidi.svg)
 
 | Veids | Kā izplatās | Kur valda | Tipisks attālums |
 | --- | --- | --- | --- |
@@ -68,7 +68,7 @@ Jonizēts slānis radioviļņus noliec atpakaļ uz Zemi, līdzīgi kā spogulis 
 
 Jonosfērā izšķir trīs slāņus.
 
-<!-- ZĪMĒJUMS 14.2: Zeme, virs tās slāņi D, E, F ar augstumiem; divas puses — diena (D, E, F1, F2) un nakts (tikai F); bultiņa, kas dienā tiek absorbēta D slānī, un bultiņa, kas atstarojas no F -->
+![14.2. attēls. Jonosfēras slāņi dienā un naktī.](../atteli/14-2-jonosferas-slani.svg)
 
 | Slānis | Augstums | Kad pastāv | Ko dara |
 | --- | --- | --- | --- |
@@ -98,7 +98,7 @@ Telpas vilnis atgriežas uz Zemi tālu no raidītāja, bet zemes vilnis jau sen
 ir izdzisis. Starp abiem ir josla, kurā signāls nav dzirdams vispār, —
 **mirusī zona** (skip zone).
 
-<!-- ZĪMĒJUMS 14.3: raidītājs, īss zemes vilnis, telpas vilnis ar pirmo nolaišanās vietu; starp tiem iezīmēta mirusī zona -->
+![14.3. attēls. Mirusī zona.](../atteli/14-3-mirusi-zona.svg)
 
 Tāpēc 15 m diapazonā vari dzirdēt Spāniju un nedzirdēt Lietuvu, kas ir
 desmit reizes tuvāk.
@@ -154,7 +154,7 @@ vaina var nebūt tavā antenā.
 signālu raida gandrīz taisni uz augšu. Jonosfēra to atstaro atpakaļ kā
 lietussargs, un signāls nosedz apgabalu ap raidītāju bez mirušās zonas [1].
 
-<!-- ZĪMĒJUMS 14.4: zemu uzkārts dipols, stari gandrīz vertikāli uz augšu, atstarojas no F slāņa un nosedz apli ap raidītāju; salīdzinājumam punktēts zema leņķa stars, kas aiziet tālu -->
+![14.4. attēls. NVIS izplatīšanās.](../atteli/14-4-nvis.svg)
 
 | | NVIS |
 | --- | --- |

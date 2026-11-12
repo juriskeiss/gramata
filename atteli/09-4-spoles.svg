@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 160" width="560" height="160" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<title>Spoles apzīmējumi</title>
+<rect x="0" y="0" width="560" height="160" fill="white"/>
+<path d="M 112.0 70.0 a 7 7 0 0 1 14 0 a 7 7 0 0 1 14 0 a 7 7 0 0 1 14 0 a 7 7 0 0 1 14 0 " fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="60.0" y1="70.0" x2="112.0" y2="70.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="168.0" y1="70.0" x2="220.0" y2="70.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<text x="140.0" y="128.0" text-anchor="middle" font-size="13" fill="#111111">Spole</text>
+<path d="M 392.0 70.0 a 7 7 0 0 1 14 0 a 7 7 0 0 1 14 0 a 7 7 0 0 1 14 0 a 7 7 0 0 1 14 0 " fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="340.0" y1="70.0" x2="392.0" y2="70.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="448.0" y1="70.0" x2="500.0" y2="70.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="392.0" y1="54.0" x2="448.0" y2="54.0" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="392.0" y1="49.0" x2="448.0" y2="49.0" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<text x="420.0" y="128.0" text-anchor="middle" font-size="13" fill="#111111">Spole ar serdi</text>
+<text x="140.0" y="98.0" text-anchor="middle" font-size="14" fill="#111111" font-style="italic">L</text>
+</svg>

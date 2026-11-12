@@ -35,5 +35,13 @@ Statusi: `Jāpārbauda` → `Tikai atsaucei` / `Atļauts (pamatojums)` / `Atļau
 | 13 | Tīmekļa resursi | DX uzvedības kodekss (DX Code of Conduct) | dx-code.org | Jāpārbauda; līdz tam tikai atsaucei, teksts nav pārņemts | nav atvērts |
 | 12 | LRAL kursa materiāli | Radioamatieru formulu lapa, Matīss YL3RZ, 2026 | kursa materiāli | © autors; vajadzīga atļauja izdot ar grāmatas licenci | 2026-11-12 |
 
+## Zīmējumi
+
+Visi 39 zīmējumi mapē `atteli/` ir oriģināli: tie uzzīmēti ar kodu
+(`riki/zim/`) šīs grāmatas vajadzībām, izmantojot mākslīgā intelekta modeli
+Claude Fable 5.2 (Anthropic), un nav pārņemti ne no kursa slaidiem, ne no
+citiem avotiem. Tie tiek izdoti ar grāmatas licenci CC BY-NC-SA 4.0.
+Shēmu apzīmējumi atbilst vispārpieņemtiem IEC simboliem.
+
 Nodaļās atsauču numuri ir vietējie (katrai nodaļai savs saraksts); pirms
 maketēšanas tos pārnumurē pēc šīs tabulas.
