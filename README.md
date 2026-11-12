@@ -1,0 +1,71 @@
+# Radioamatiera mācību grāmata (B kategorija)
+
+Mācību grāmata topošajiem radioamatieriem, kas gatavojas B kategorijas
+(iesācēja radioamatiera) eksāmenam. Izdevējs: Latvijas Radioamatieru līga (LRAL).
+
+Šis ir grāmatas **darba pirmavots**. Visus labojumus veic šeit, Markdown failos;
+PDF ir tikai no tiem uzbūvēts rezultāts un ar roku netiek labots.
+
+## Statuss
+
+| Nr. | Nodaļa | Fails | Statuss |
+| --- | --- | --- | --- |
+| 1 | Kas ir radioamatierisms | `nodalas/01-kas-ir-radioamatierisms.md` | Melnraksts |
+| 2 | Ceļš līdz licencei | `nodalas/02-cels-lidz-licencei.md` | Melnraksts |
+| 3 | Normatīvie akti | `nodalas/03-normativie-akti.md` | Melnraksts |
+| 4 | Izsaukuma signāli, joslas un jaudas | `nodalas/04-izsaukuma-signali-joslas-jaudas.md` | Melnraksts |
+| 5 | Radiosakaru prakse | `nodalas/05-radiosakaru-prakse.md` | Melnraksts (paraugnodaļa) |
+| 6 | Joslu plāni un ētera kultūra | `nodalas/06-joslu-plani-etera-kultura.md` | Melnraksts |
+| 7 | Elektrības pamati | `nodalas/07-elektribas-pamati.md` | Melnraksts |
+| 8 | Radioviļņi, signāli un modulācija | `nodalas/08-radiovilni-signali-modulacija.md` | Melnraksts |
+| 9 | Elektronikas komponenti | `nodalas/09-komponenti.md` | Melnraksts |
+| 10 | Shēmas | `nodalas/10-shemas.md` | Melnraksts |
+| 11 | Uztvērēji | `nodalas/11-uztvereji.md` | Melnraksts |
+| 12 | Raidītāji | `nodalas/12-raiditaji.md` | Melnraksts |
+| 13 | Antenas un pārvades līnijas | `nodalas/13-antenas-parvades-linijas.md` | Melnraksts |
+| 14 | Frekvenču spektrs un izplatīšanās | `nodalas/14-spektrs-izplatisanas.md` | Melnraksts |
+| 15 | Mērījumi | `nodalas/15-merijumi.md` | Melnraksts |
+| 16 | Traucējumi un elektromagnētiskā saderība | `nodalas/16-traucejumi-ems.md` | Melnraksts |
+| 17 | Drošības tehnika | `nodalas/17-drosibas-tehnika.md` | Melnraksts |
+| 18 | Gatavošanās eksāmenam | `nodalas/18-gatavosanas-eksamenam.md` | Melnraksts |
+| 19 | Licence izsniegta — kas tagad? | `nodalas/19-licence-izsniegta.md` | Melnraksts |
+
+Statusi: Nav sākts → Melnraksts → Recenzēts → Apstiprināts.
+
+## Mapju struktūra
+
+```
+gramata/
+├── README.md              šis fails
+├── VEIDNE.md              nodaļas veidne un pieraksta noteikumi
+├── avoti.md               avotu saraksts ar lietošanas tiesību statusu
+├── nodalas/               viena nodaļa = viens fails
+├── pielikumi/             A–J pielikumi (vēl nav)
+├── atteli/                zīmējumi SVG formātā (vēl nav)
+└── recenzijas/            piezīmes recenzentiem; grāmatā neieiet
+```
+
+## Kā labot
+
+1. Atver nodaļas failu un labo tekstu.
+2. Ievēro `VEIDNE.md` noteikumus par izceltajiem lodziņiem, formulām un atsaucēm.
+3. Ja pievieno faktu no ārēja avota, ieraksti avotu `avoti.md` un pārbaudi tā
+   lietošanas tiesības, **pirms** izmanto tekstu vai attēlu.
+4. Pēc labojuma atjauno nodaļas statusu šajā failā.
+
+## PDF izveide
+
+Grāmata tiek izdota tikai PDF formātā. Būvēšanas rīks (Quarto vai Pandoc) vēl
+nav izvēlēts; failu pieraksts ir saderīgs ar abiem.
+
+## Licence
+
+Grāmata tiek izdota ar licenci
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.lv):
+to drīkst lietot, pielāgot un uzlabot, ja norāda autoru, nelieto komerciāliem
+mērķiem un savu versiju izdod ar to pašu licenci.
+
+## Mākslīgā intelekta izmantošana
+
+Grāmatas sagatavošanā izmantots mākslīgā intelekta modelis Claude Fable 5.2
+(Anthropic); saturu pārbaudījuši un rediģējuši LRAL autori.
