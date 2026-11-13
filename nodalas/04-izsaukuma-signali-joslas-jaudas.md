@@ -17,7 +17,7 @@ kurās frekvencēs un ar kādu jaudu drīkst raidīt B kategorijas stacija.
 
 ## 4.1. Latvijas izsaukuma signāla uzbūve
 
-Izsaukuma signālus piešķir "Elektroniskie sakari" (ES). Pamata izsaukuma
+Izsaukuma signālus piešķir SIA "Elektroniskie sakari" (ES). Pamata izsaukuma
 signāls sastāv no prefiksa **YL**, viena cipara un sufiksa. Sufiksa garums
 rāda stacijas kategoriju (32.–33. punkts) [1].
 

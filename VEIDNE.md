@@ -31,6 +31,9 @@ failā `nodalas/NN-nosaukums.md` un aizpildi.
   nelieto. MK noteikumu apzīmējums ir MGM. Vārdu "UKV" nelieto: raksta VHF,
   UHF vai konkrētu diapazonu (piemēram, "2 m diapazons"). SSB sadaļās raksta
   "sānjoslas izvēle", nevis "paražas".
+- **Iestādes nosaukums.** Raksta SIA "Elektroniskie sakari" (saīsinājums ES);
+  nosaukumu bez "SIA" vai ar "VAS" nelieto (VAS tikai vēsturiskās atsaucēs,
+  piemēram, 2019. gada izdevumam).
 - **Skaitļi.** Decimālais komats (21,295 MHz), atstarpe starp skaitli un
   mērvienību (100 W, 50 Ω).
 - **Atsauces.** Tekstā numurs kvadrātiekavās, piemēram, `[2]`; numuri atbilst

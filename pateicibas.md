@@ -6,24 +6,22 @@ kuru domas ir palīdzējušas saprast tēmu.
 ## Materiālu autori
 
 - **LRAL bezmaksas kursa 2026** prezentāciju un video lekciju autori un
-  lektori; uz to pamata veidota grāmatas struktūra un mācību kārtība.
-  <!-- TODO: autoru vārdi un izsaukuma signāli -->
+  lektori **YL2GD, YL3MS, YL3RZ, YL3OF, YL3AQS** un **YL3QT**; uz kursa pamata
+  veidota grāmatas struktūra un mācību kārtība.
 - **Matīss YL3RZ**, radioamatieru formulu lapas autors.
-- **"Radioamatierisms" (2019)** autori, VAS "Elektroniskie sakari" mācību
-  literatūra topošajiem radioamatieriem.
-  <!-- TODO: autoru vārdi -->
-- **"Radioamatiera ētika un darba procedūras"** autori.
-  <!-- TODO: autoru vārdi un izsaukuma signāli -->
-- **hamradio.lv** autori: materiāli par tehniku, antenām un drošības tehniku.
-  <!-- TODO: autoru vārdi un izsaukuma signāli -->
-- **IRTS HAREC Amateur Station Licence Study Guide** autori (Irish Radio
-  Transmitters Society).
-  <!-- TODO: autoru vārdi, ja jānorāda -->
-- **DX uzvedības kodeksa (DX Code of Conduct)** autori.
+- **Jurijs Baltins, YL2DX** (SK), grāmatas "Radioamatierisms un amatieru
+  radiosakaru prakse jautājumos un atbildēs" autors; grāmata lejupielādējama
+  SIA "Elektroniskie sakari" tīmekļvietnē.
+- **John Devoldere, ON4UN**, un **Mark Demeuleneere, ON4WW**, rokasgrāmatas
+  "Radioamatieru ētika un ētera procedūras" autori, un **Jānis Oskars Vanags,
+  YL3AD**, tās tulkotājs latviešu valodā.
+- **YL2FD**, vietnes hamradio.lv autors: materiāli par tehniku, antenām un
+  drošības tehniku.
+- **Randy Johnson, W6SJ** (SK), DX uzvedības kodeksa (DX Code of Conduct)
+  sākotnējais autors.
 - **IARU 1. reģiona** joslu plāna sagatavotāji.
-- **CEPT** radioamatieru iesācēju programmas (ERC ziņojuma Nr. 32) autori.
-- **Radioamatieru eksāmena materiālu** sagatavotāji VAS "Elektroniskie
-  sakari".
+- **SIA "Elektroniskie sakari"**, radioamatieru eksāmena materiālu
+  sagatavotāji.
 
 ## Redaktori
 

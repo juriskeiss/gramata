@@ -324,7 +324,7 @@ atnāk ar sūdzību par traucējumiem televizorā.
 11. Kas izlemj, ja radioamatieris un traucētās iekārtas īpašnieks nevar vienoties?
     - A. Latvijas Radioamatieru līga
     - B. Pašvaldība
-    - C. "Elektroniskie sakari"
+    - C. SIA "Elektroniskie sakari"
     - D. Policija
 12. Kāds ir vienkāršākais veids, kā uzreiz samazināt jebkuru traucējumu, ko rada tava stacija?
     - A. Palielināt jaudu

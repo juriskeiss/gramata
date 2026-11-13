@@ -79,7 +79,7 @@ Hobijam ir arī praktiska puse [1]:
 
 **Izsaukuma signāls** ir radioamatiera oficiālais vārds ēterā. Tas ir unikāls:
 pasaulē nav divu radioamatieru ar vienādu izsaukuma signālu. To piešķir valsts
-atbildīgā iestāde; Latvijā tie ir "Elektroniskie sakari" (ES) [1].
+atbildīgā iestāde; Latvijā tie ir SIA "Elektroniskie sakari" (ES) [1].
 
 Izsaukuma signāls sastāv no divām daļām:
 
@@ -163,7 +163,7 @@ Jaudas pastiprinātājs ir papildu iekārta, kas iesācējam nav vajadzīga.
   tehniskie pētījumi; bez materiālas ieinteresētības.
 - Aizliegts: komerciāla izmantošana, apraide, šifrēšana, anonīmi raidījumi,
   traucējumi citiem dienestiem, darbs ārpus atļautajām frekvencēm un jaudām.
-- Latvijas prefikss ir YL; izsaukuma signālus piešķir "Elektroniskie sakari".
+- Latvijas prefikss ir YL; izsaukuma signālus piešķir SIA "Elektroniskie sakari".
 - QSO ir radiosakars; QSL ir sakara apstiprinājums.
 
 ## Pamēģini pats
@@ -218,7 +218,7 @@ signālu. Pieraksti:
     - D. ES
 5. Kas Latvijā piešķir radioamatieru izsaukuma signālus?
     - A. Latvijas Radioamatieru līga
-    - B. "Elektroniskie sakari"
+    - B. SIA "Elektroniskie sakari"
     - C. Starptautiskā Telesakaru savienība (ITU)
     - D. Radioamatieris izvēlas pats
 6. Kas ir QSO?
