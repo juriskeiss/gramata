@@ -29,7 +29,7 @@ local CALLOUTS = {
 
 local SECTIONS = {
   ["Pēc šīs nodaļas tu pratīsi"] = { cls = "merki" },
-  ["Eksāmenā jāzina"]           = { cls = "jazina",    kicker = "Eksāmenā jāzina" },
+  ["Eksāmenā jāzina"]           = { cls = "jazina" },
   ["Pamēģini pats"]             = { cls = "pameigini", kicker = "Praktiski" },
   ["Kopsavilkums"]              = { cls = "kopsavilkums", kicker = "Atkārto" },
   ["Paškontroles jautājumi"]    = { cls = "jautajumi", kicker = "Paškontrole" },

@@ -127,8 +127,8 @@ def nodala(md: Path):
     body = frag[m.end():]
     body = re.sub(r"<!--NODALA-ATVERUMS \d+-->", "", body)
     page_css = (f'.nodala-{num} {{ page: nodala{num}; }}\n'
-                f'@page nodala{num} {{ @top-right {{ content: "{num}. '
-                f'{title.replace(chr(34), "")}"; }} }}\n')
+                f'@page nodala{num} {{ @bottom-left {{ content: "{GRAMATA} · LRAL'
+                f'   |   {num}. {title.replace(chr(34), "")}"; }} }}\n')
     out = (f'<section class="nodala nodala-{num}" id="nodala-{num}">'
            + galva(num, title, m.group(3))
            + f'\n<div class="nodala-teksts">\n{body}\n</div></section>\n')

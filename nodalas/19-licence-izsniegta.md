@@ -8,12 +8,15 @@ kopienā.
 **Eksāmena programma:** šī nodaļa eksāmenā netiek prasīta.
 **Lasīšanas laiks:** ap 1 stundu.
 
-## Šajā nodaļā
+## Pēc šīs nodaļas tu pratīsi
 
-- trīs soļi: reģistrējies, aprīkojies, iesaisties;
-- kā izvēlēties žurnāla programmu un pirmo transīveru;
-- kādu antenu būvēt vispirms;
-- kādos virzienos hobijs var attīstīties.
+- pieprasīt radiostacijas atļauju un zināt, kas jāizdara pirms pirmā
+  raidījuma;
+- izvēlēties žurnāla programmu, pirmo transīveru un barošanas avotu;
+- izvēlēties un uzbūvēt pirmo antenu;
+- sagatavoties pirmajam sakaram;
+- atrast savu vietu radioamatieru kopienā un izvēlēties, kurā virzienā
+  attīstīt hobiju.
 
 ## 19.1. Pirmais solis: atļauja un izsaukuma signāls
 

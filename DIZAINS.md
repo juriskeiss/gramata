@@ -81,8 +81,11 @@ Formulas: MathML ar Latin Modern Math. Lapas malas 18 mm.
   nosaukums, ievadteikums, maza līniju ikona gaišā aplī; zem tā "Par nodaļu"
   (video lekcija ar QR vietu, eksāmena programma, mācību laiks) un "Pēc šīs
   nodaļas tu pratīsi" gaiši pelēkā blokā. Teksts turpinās tajā pašā lapā.
-- **Galvene un kājene** — galvenē pelēkā krāsā nodaļas nosaukums; kājenē maza
-  LRAL zīme, grāmatas nosaukums un lapas numurs.
+- **Kājene** — maza LRAL zīme, grāmatas nosaukums, nodaļas numurs un
+  nosaukums, lapas numurs. Galvenes nav.
+- **Beigu sadaļu virsraksti** — virs virsraksta mazs pelēks vai krāsains
+  uzraksts (piemēram, "Atkārto" virs "Kopsavilkums") tikai tad, ja tas
+  nesakrīt ar pašu virsrakstu; "Eksāmenā jāzina" lodziņam tā nav.
 - **Tabulas** — gaišs galvas tonis, plānas horizontālas līnijas, bez rāmjiem.
 - **Izceltie lodziņi** — plāna krāsaina kreisā mala, ļoti gaišs fons, maza ikona.
 - **Nodaļas beigas** — "Eksāmenā jāzina" gaiši dzintara rāmī, "Pamēģini pats"
