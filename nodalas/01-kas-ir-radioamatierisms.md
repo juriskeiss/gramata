@@ -172,9 +172,17 @@ Jaudas pastiprinātājs ir papildu iekārta, kas iesācējam nav vajadzīga.
 "amateur radio prefix list" un noskaidro, no kurām valstīm ir stacijas
 JY5IB, 9A3B, OH2XX, SP5ABC un K4A.
 
-**2. Paklausies ēteru (15 minūtes).** Atver websdr.venta.lv:8901, izvēlies
-80 m vai 40 m diapazonu un sameklē vienu balss sakaru un vienu telegrāfa
-signālu. Pieraksti:
+**2. Paklausies ēteru (15 minūtes).** Atver kādu no tuvākajiem WebSDR
+uztvērējiem:
+
+- websdr.venta.lv:8901 (Ventspils);
+- websdr.virac.eu (Ventspils, VIRAC);
+- es4o.erau.ee (Igaunija).
+
+Izvēlies 40 m vai 20 m diapazonu un sameklē vienu balss
+sakaru un vienu telegrāfa signālu. Šajos diapazonos dzirdamas stacijas no
+visas Eiropas un tālākām zemēm. 20 m diapazonā B kategorija raidīt nedrīkst,
+bet klausīties drīkst ikviens. Pieraksti:
 
 - [ ] vienu izsaukuma signālu, ko izdevās saklausīt;
 - [ ] kurā frekvencē tas bija;
