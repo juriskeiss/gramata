@@ -1,4 +1,6 @@
-# Radioamatiera mācību grāmata (B kategorija)
+# No nulles līdz izsaukuma signālam
+
+**Mācību grāmata radioamatiera B kategorijai**
 
 Mācību grāmata topošajiem radioamatieriem, kas gatavojas B kategorijas
 (iesācēja radioamatiera) eksāmenam. Izdevējs: Latvijas Radioamatieru līga (LRAL).
@@ -38,41 +40,54 @@ Statusi: Nav sākts → Melnraksts → Recenzēts → Apstiprināts.
 gramata/
 ├── README.md              šis fails
 ├── VEIDNE.md              nodaļas veidne un pieraksta noteikumi
+├── DIZAINS.md             grāmatas dizains: krāsas, burti, lapu elementi
 ├── avoti.md               avotu saraksts ar lietošanas tiesību statusu
+├── pateicibas.md          pateicības lapa: materiālu autori un redaktori
+├── video-saites.md        video lekciju saites QR kodiem
 ├── nodalas/               viena nodaļa = viens fails
 ├── pielikumi/             A–J pielikumi (vēl nav)
-├── atteli/                39 zīmējumi SVG formātā (ģenerēti ar riki/zim/)
+├── atteli/                69 zīmējumi SVG formātā (ģenerēti ar riki/zim/)
 ├── riki/zim/              zīmējumu pirmkods (Python)
-├── riki/priekssatijums.py uzbūvē HTML un PDF priekšskatījumu
-├── izvade/                uzbūvētie priekšskatījumi (nav pirmavots)
+├── riki/makets.py         uzbūvē grāmatas maketu (HTML un PDF)
+├── riki/dizains/          maketa stils, Pandoc filtrs, ikonas, LRAL zīme
+├── riki/priekssatijums.py vienkāršs priekšskatījums recenzēšanai
+├── izvade/                uzbūvētie faili (nav pirmavots)
 └── recenzijas/            piezīmes recenzentiem; grāmatā neieiet
 ```
 
 ## Zīmējumi
 
-Visi zīmējumi ir oriģināli, uzzīmēti ar kodu vienotā melnbaltā stilā; shēmu
-apzīmējumi ir pēc IEC (rezistors kā taisnstūris). Tie nav pārņemti no slaidiem
-vai citiem avotiem un tiek izdoti ar grāmatas licenci.
+Visi zīmējumi ir oriģināli, uzzīmēti ar kodu vienotā stilā. Pamatā tie ir
+melnbalti; krāsa ir tur, kur tā palīdz saprast (viļņi, spektri, joslu plāni,
+izplatīšanās, rezistoru krāsu kods, traucējumi). Krāsas ir no grāmatas dizaina
+paletes (`DIZAINS.md`). Shēmu apzīmējumi ir pēc IEC (rezistors kā
+taisnstūris). Zīmējumi nav pārņemti no slaidiem vai citiem avotiem un tiek
+izdoti ar grāmatas licenci. Trūkstošo attēlu saraksts:
+`recenzijas/trukstosie-atteli.md`.
 
-Zīmējumu labo tā pirmkodā (`riki/zim/figs_a.py`, `figs_b.py`, `figs_c.py`),
+Zīmējumu labo tā pirmkodā (`riki/zim/figs_a.py` … `figs_e.py`),
 nevis SVG failā, un pārbūvē:
 
 ```
 python3 riki/zim/build.py
 ```
 
-## Priekšskatījums
+## PDF izveide
 
-Visu melnrakstu vienā HTML un PDF failā ar zīmējumiem, formulām un satura
-rādītāju uzbūvē ar:
+Grāmata tiek izdota tikai PDF formātā (A4). Makets ir veidots vienā stilā ar
+LRAL bezmaksas kursa prezentācijām; sīkāk sk. `DIZAINS.md`. Uzbūvē ar:
 
 ```
-python3 riki/priekssatijums.py
+python3 riki/makets.py              # visa grāmata
+python3 riki/makets.py --paraugs 05 # viena nodaļa + dizaina elementu lapa
 ```
 
-Vajag `pandoc`; PDF izveidei arī Python pakotni `playwright` ar Chromium.
-Rezultāts ir mapē `izvade/`. Tas ir priekšskatījums recenzēšanai, nevis
-galīgais makets.
+Vajag `pandoc` 3.x, Python pakotni `playwright` ar Chromium un fontu Inter.
+Rezultāts ir `izvade/gramata.pdf`.
+
+Grāmatas nosaukums un apakšvirsraksts ir `riki/makets.py` (konstantes
+`GRAMATA` un `APAKSV`); no tiem tiek ņemts titullapas, lapu kājenes un PDF
+nosaukums.
 
 ## Kā labot
 
@@ -81,11 +96,6 @@ galīgais makets.
 3. Ja pievieno faktu no ārēja avota, ieraksti avotu `avoti.md` un pārbaudi tā
    lietošanas tiesības, **pirms** izmanto tekstu vai attēlu.
 4. Pēc labojuma atjauno nodaļas statusu šajā failā.
-
-## PDF izveide
-
-Grāmata tiek izdota tikai PDF formātā. Būvēšanas rīks (Quarto vai Pandoc) vēl
-nav izvēlēts; failu pieraksts ir saderīgs ar abiem.
 
 ## Licence
 

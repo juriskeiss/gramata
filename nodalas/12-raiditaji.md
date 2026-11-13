@@ -43,17 +43,18 @@ jāieslēdz un jāizslēdz [1].
 | Bloks | Ko dara |
 | --- | --- |
 | Ģenerators | Rada stabilu nesēja frekvenci |
-| Starppakāpe | Atdala ģeneratoru no slodzes; var būt arī frekvences reizinātājs |
-| Jaudas pastiprinātājs | Pastiprina signālu līdz izejas jaudai |
+| Atdalošais (bufer) pastiprinātājs | Atdala ģeneratoru no nākamajām pakāpēm, lai slodze neietekmētu frekvenci |
+| Manipulējamais pastiprinātājs | To ieslēdz un izslēdz telegrāfa atslēga Morzes koda ritmā |
+| Pastiprinātājs | Pastiprina signālu; var būt arī frekvences reizinātājs |
+| Izejas pastiprinātājs | Pastiprina signālu līdz izejas jaudai |
 | Zemo frekvenču filtrs | Aiztur harmonikas |
-| Telegrāfa atslēga | Ieslēdz un izslēdz signālu Morzes koda ritmā |
 
-Starppakāpe var darboties kā **frekvences reizinātājs**: ja tās kontūru
+Pastiprinātājs var darboties kā **frekvences reizinātājs**: ja tā kontūru
 noskaņo uz otro vai trešo harmoniku, no 7 MHz ģeneratora iegūst 14 vai
 21 MHz [1].
 
-Atslēgu pieslēdz starppakāpei, nevis ģeneratoram, lai ģenerators strādātu
-nepārtraukti un frekvence nemainītos katrā zīmē.
+Atslēga ieslēdz un izslēdz manipulējamo pastiprinātāju, nevis ģeneratoru, lai
+ģenerators strādātu nepārtraukti un frekvence nemainītos katrā zīmē.
 
 > **Uzmanību!** Ja signālu ieslēdz un izslēdz pārāk strauji, katras zīmes
 > sākumā un beigās rodas plats traucējums — "klikšķi", ko dzird vairākus
@@ -62,8 +63,8 @@ nepārtraukti un frekvence nemainītos katrā zīmē.
 ## 12.3. AM raidītājs
 
 AM raidītājā balss maina nesēja amplitūdu. Mikrofona signālu pastiprina
-zemfrekvences pastiprinātājs (ZFP), un modulators ar to vada augstfrekvences
-pakāpes pastiprinājumu [1].
+zemfrekvences pastiprinātājs (ZFP), un ar to vada izejas pastiprinātāja
+pastiprinājumu. Izejas pastiprinātājs tādējādi ir arī modulators [1].
 
 ![12.2. attēls. AM raidītāja blokshēma.](../atteli/12-2-am-raiditajs.svg)
 
@@ -81,8 +82,8 @@ notiek pašā sākumā, mazā jaudā [1].
 | --- | --- |
 | Mikrofons un ZFP | Pārvērš balsi elektriskā signālā un pastiprina to |
 | Ģenerators ar modulatoru | Balss signāls maina ģeneratora frekvenci |
-| Reizinātāji | Paceļ frekvenci līdz darba diapazonam; reizē palielina arī frekvences novirzi |
-| Jaudas pastiprinātājs | Pastiprina līdz izejas jaudai |
+| Starppastiprinātāji | Pastiprina signālu; var būt arī reizinātāji, kas paceļ frekvenci līdz darba diapazonam un reizē palielina frekvences novirzi |
+| Izejas pastiprinātājs | Pastiprina līdz izejas jaudai |
 | Zemo frekvenču filtrs | Aiztur harmonikas |
 
 Cik tālu frekvence novirzās no vidējās vērtības, sauc par **deviāciju**. Jo
@@ -107,17 +108,17 @@ sānjoslas. To dara ar filtra metodi [1].
 | Nr. | Bloks | Kas ir tā izejā |
 | --- | --- | --- |
 | 1 | Mikrofons un ZFP | Balss signāls |
-| 2 | Nesēja ģenerators | Nemainīga frekvence, piemēram, 9 MHz |
-| 3 | Balansa modulators | Abas sānjoslas, nesējs nomākts |
+| 2 | SSB atbalsta ģenerators | Nemainīga frekvence, piemēram, 9 MHz |
+| 3 | Balansēts jaucējs (balansa modulators) | Abas sānjoslas, nesējs nomākts |
 | 4 | SSB filtrs | Viena sānjosla; otru filtrs aiztur |
-| 5 | Jaucējs ar VFO | SSB signāls, pārnests uz darba frekvenci |
-| 6 | Joslas filtrs | Tikai vajadzīgā jaucēja izejas frekvence |
-| 7 | Lineārais jaudas pastiprinātājs | Tas pats signāls ar pilnu jaudu |
+| 5 | Diapazonu jaucējs ar diapazonu VFO | SSB signāls, pārnests uz darba frekvenci |
+| 6 | Diapazonu joslas filtri | Tikai vajadzīgā jaucēja izejas frekvence |
+| 7 | Pastiprinātāji un lineārais izejas pastiprinātājs | Tas pats signāls ar pilnu jaudu |
 | 8 | Zemo frekvenču filtrs | Signāls bez harmonikām |
 
 Divi bloki ir jauni:
 
-- **Balansa modulators** ir jaucējs, kas uzbūvēts tā, lai nesējs izejā
+- **Balansēts jaucējs** jeb balansa modulators ir jaucējs, kas uzbūvēts tā, lai nesējs izejā
   savstarpēji dzēstos. Paliek tikai abas sānjoslas.
 - **SSB filtrs** ir ļoti šaurs, parasti kvarca filtrs, ap 2,4 kHz plats. Tas
   laiž cauri vienu sānjoslu.
@@ -215,11 +216,13 @@ stāsta 16. nodaļa.
 
 ## Eksāmenā jāzina
 
-- CW raidītājs: ģenerators, starppakāpe (var būt reizinātājs), jaudas
-  pastiprinātājs; manipulē ar telegrāfa atslēgu.
-- AM raidītājs: mikrofons, ZFP, modulators, kas maina nesēja amplitūdu.
+- CW raidītājs: ģenerators, atdalošais pastiprinātājs, manipulējamais
+  pastiprinātājs ar telegrāfa atslēgu, pastiprinātāji (var būt reizinātāji),
+  izejas pastiprinātājs, zemo frekvenču filtrs.
+- AM raidītājs: mikrofons un ZFP; zemfrekvence modulē izejas pastiprinātāju,
+  kas maina nesēja amplitūdu.
 - FM raidītājs: zemfrekvences signāls maina ģeneratora frekvenci.
-- SSB raidītājs: balansa modulators nomāc nesēju, SSB filtrs — vienu
+- SSB raidītājs: balansēts jaucējs nomāc nesēju, SSB filtrs — vienu
   sānjoslu; jaucējs pārnes signālu uz darba frekvenci.
 - Frekvences reizinātājs: kontūrs noskaņots uz 2. vai 3. harmoniku.
 - Harmonikas ir pamatfrekvences daudzkārtņi; tās aiztur zemo frekvenču

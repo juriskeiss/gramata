@@ -89,6 +89,8 @@ $$P = I^2 \cdot R \qquad P = \frac{U^2}{R}$$
 | Strāva un pretestība | P = I² · R |
 | Spriegums un pretestība | P = U² / R |
 
+![7.3. attēls. Jaudas trijstūris.](../atteli/07-3-jaudas-trijsturis.svg)
+
 > **Piemērs.** Transīvers raidīšanas laikā no 13,8 V barošanas bloka patērē
 > 20 A. Cik lielu jaudu tas patērē?
 >
@@ -171,7 +173,7 @@ elektronika transīvera iekšpusē [1].
 elektrotīklā (230 V, 50 Hz), un tāds ir arī radiofrekvences signāls kabelī
 un antenā [1].
 
-![7.3. attēls. Līdzspriegums un maiņspriegums.](../atteli/07-3-lidzstrava-mainstrava.svg)
+![7.4. attēls. Līdzspriegums un maiņspriegums.](../atteli/07-4-lidzstrava-mainstrava.svg)
 
 Maiņspriegumu apraksta četri lielumi [2]:
 

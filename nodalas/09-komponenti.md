@@ -246,6 +246,10 @@ strādā kā **slēdzis** [1].
 | Bipolārais (NPN, PNP) | Bāze (B), kolektors (C), emiters (E) | Maza bāzes strāva vada lielu strāvu starp kolektoru un emiteru |
 | Lauktranzistors (FET) | Aizvars (G), notece (D), izteka (S) | Spriegums uz aizvara vada strāvu starp noteci un izteku |
 
+Lauktranzistori ir divu veidu: JFET un MOSFET. MOSFET aizvars ir izolēts no
+kanāla, tāpēc tā ieejas pretestība ir ļoti liela; tādi tranzistori ir
+mūsdienu transīveru jaudas pakāpēs.
+
 NPN un PNP tranzistori atšķiras ar strāvas virzienu; shēmā tos atšķir pēc
 emitera bultiņas virziena.
 

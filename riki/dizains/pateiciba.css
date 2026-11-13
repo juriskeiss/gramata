@@ -1,0 +1,13 @@
+/* Pateicības lapa: materiālu autori un redaktori */
+.pateiciba { break-after: page; }
+.pateiciba > h2:first-child { display: block; font-size: 20pt; margin: 0 0 6mm; }
+.pateiciba > p { font-size: 10.4pt; line-height: 1.5; max-width: 150mm; }
+.pateiciba ul { list-style: none; padding: 0; margin: 0 0 4mm; }
+.pateiciba li {
+  padding: 1.6mm 0; margin: 0; border-bottom: .2mm solid var(--linija);
+  font-size: 9.6pt; line-height: 1.45;
+}
+.pateiciba li strong { color: var(--tinte); }
+.pateiciba .redaktori ul { columns: 2; column-gap: 10mm; }
+.pateiciba .redaktori li { break-inside: avoid; }
+.pateiciba .redaktori li strong { color: var(--akcents); letter-spacing: .02em; }

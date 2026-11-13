@@ -37,11 +37,14 @@ Statusi: `Jāpārbauda` → `Tikai atsaucei` / `Atļauts (pamatojums)` / `Atļau
 
 ## Zīmējumi
 
-Visi 39 zīmējumi mapē `atteli/` ir oriģināli: tie uzzīmēti ar kodu
+Visi 69 zīmējumi mapē `atteli/` ir oriģināli: tie uzzīmēti ar kodu
 (`riki/zim/`) šīs grāmatas vajadzībām, izmantojot mākslīgā intelekta modeli
 Claude Fable 5.2 (Anthropic), un nav pārņemti ne no kursa slaidiem, ne no
 citiem avotiem. Tie tiek izdoti ar grāmatas licenci CC BY-NC-SA 4.0.
-Shēmu apzīmējumi atbilst vispārpieņemtiem IEC simboliem.
+Shēmu apzīmējumi atbilst vispārpieņemtiem IEC simboliem. Uztvērēju un
+raidītāju blokshēmas (11.1.–12.4. attēls) zīmētas ar tiem pašiem simboliem un
+bloku secību kā LRAL bezmaksas kursa 7. nodarbības slaidos, lai grāmata un
+slaidi veidotu vienotu mācību komplektu.
 
 Nodaļās atsauču numuri ir vietējie (katrai nodaļai savs saraksts); pirms
 maketēšanas tos pārnumurē pēc šīs tabulas.

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<title>Izsaukuma signāla uzbūve</title>
+<rect x="0" y="0" width="760" height="300" fill="white"/>
+<text x="200.0" y="120.0" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="72" font-weight="bold" fill="#111111">YL3ABC</text>
+<text x="459.2" y="120.0" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="72" font-weight="bold" fill="#9a9a9a">/P</text>
+<polyline points="204.0,134.0 204.0,144.0 325.6,144.0 325.6,134.0" fill="none" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="264.8" y1="144.0" x2="264.8" y2="154.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<text x="264.8" y="176.0" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">Prefikss</text>
+<text x="264.8" y="194.0" text-anchor="middle" font-size="12" fill="#111111">YL un cipars</text>
+<text x="264.8" y="212.0" text-anchor="middle" font-size="12" fill="#111111">YL — Latvija</text>
+<polyline points="333.6,134.0 333.6,144.0 455.2,144.0 455.2,134.0" fill="none" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="394.4" y1="144.0" x2="394.4" y2="154.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<text x="394.4" y="176.0" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">Sufikss</text>
+<text x="394.4" y="194.0" text-anchor="middle" font-size="12" fill="#111111">3 burti —</text>
+<text x="394.4" y="212.0" text-anchor="middle" font-size="12" fill="#111111">B kategorija</text>
+<polyline points="463.2,134.0 463.2,144.0 541.6,144.0 541.6,134.0" fill="none" stroke="#111111" stroke-width="1.6" stroke-dasharray="5 4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="502.4" y1="144.0" x2="502.4" y2="154.0" stroke="#111111" stroke-width="1.6" stroke-dasharray="5 4" stroke-linecap="round"/>
+<text x="502.4" y="176.0" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">Papildzīme</text>
+<text x="502.4" y="194.0" text-anchor="middle" font-size="12" fill="#111111">/P — portatīva</text>
+<text x="502.4" y="212.0" text-anchor="middle" font-size="12" fill="#111111">(nav obligāta)</text>
+<text x="380.0" y="270.0" text-anchor="middle" font-size="13" fill="#111111">YL2AB — A kategorija    ·    YL3ABC — B kategorija    ·    YL3ABCD — C kategorija</text>
+</svg>

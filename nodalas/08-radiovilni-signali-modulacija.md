@@ -68,6 +68,8 @@ viļņa garums metros [2]:
 
 $$\lambda\,[\text{m}] = \frac{300}{f\,[\text{MHz}]} \qquad f\,[\text{MHz}] = \frac{300}{\lambda\,[\text{m}]}$$
 
+![8.2. attēls. Viļņa garums un frekvence: jo augstāka frekvence, jo īsāks vilnis.](../atteli/08-2-vilna-garums.svg)
+
 > **Piemērs.** Kāds ir viļņa garums frekvencē 3,7 MHz?
 >
 > 1. λ = 300 / 3,7 ≈ 81 m.
@@ -92,7 +94,7 @@ Diapazonu nosaukumi ir noapaļoti viļņa garumi:
 > **Praktisks padoms.** Viļņa garums nosaka antenas izmēru. Vienkāršākā
 > antena, pusviļņa dipols, ir apmēram puse no viļņa garuma: 80 m diapazonam
 > ap 40 m, 2 m diapazonam ap 1 m. Tāpēc īsviļņu antenai vajag pagalmu, bet
-> UKV antena ietilpst uz balkona. Vairāk 13. nodaļā.
+> 2 m diapazona antena ietilpst uz balkona. Vairāk 13. nodaļā.
 
 ## 8.4. Polarizācija
 
@@ -104,7 +106,7 @@ nosaka raidošās antenas novietojums [1].
 | Vertikāla | Vertikāls | Stāv vertikāli, piemēram, automašīnas vai rokas stacijas antena |
 | Horizontāla | Horizontāls | Novietota horizontāli, piemēram, dipols starp diviem mastiem |
 
-UKV sakaros abām stacijām vajag vienādu polarizāciju; ja viena antena ir
+VHF un UHF sakaros abām stacijām vajag vienādu polarizāciju; ja viena antena ir
 vertikāla un otra horizontāla, signāls ir daudzkārt vājāks. FM sakaros un
 atkārtotājos lieto vertikālu polarizāciju. Īsviļņos, atstarojoties no
 jonosfēras, polarizācija mainās, tāpēc tur tai ir mazāka nozīme.
@@ -132,9 +134,9 @@ kādu tā īpašību. Šo procesu sauc par **modulāciju** [1].
 | CW | Nesēju ieslēdz un izslēdz Morzes koda ritmā | ap 100–500 Hz | Visos diapazonos |
 | AM | Amplitūdu | ap 6 kHz | Radioamatieru sakaros reti; apraide, aviācija |
 | SSB | Amplitūdu; raida tikai vienu sānjoslu, nesējs nomākts | 2,4–3 kHz | Balss sakari īsviļņos |
-| FM | Frekvenci; amplitūda nemainās | ap 12–16 kHz | Balss sakari UKV, atkārtotāji |
+| FM | Frekvenci; amplitūda nemainās | ap 12–16 kHz | Balss sakari VHF un UHF diapazonos, atkārtotāji |
 
-![8.2. attēls. Amplitūdas un frekvences modulācija.](../atteli/08-2-modulacija.svg)
+![8.3. attēls. Amplitūdas un frekvences modulācija.](../atteli/08-3-modulacija.svg)
 
 **AM — amplitūdas modulācija.** Nesēja frekvence nemainās, bet tā stiprums
 seko balsij. Spektrā AM signālam ir nesējs un divas vienādas sānjoslas, pa
@@ -147,7 +149,7 @@ un signāls aizņem uz pusi šaurāku joslu. Tāpēc ar SSB pie tās pašas jaud
 var sazināties tālāk [1]. Atlikusī sānjosla ir vai nu augšējā (**USB**), vai
 apakšējā (**LSB**); kuru lietot, pasaka 6. nodaļa.
 
-![8.3. attēls. AM, SSB, CW un FM signālu spektri.](../atteli/08-3-spektri.svg)
+![8.4. attēls. AM, SSB, CW un FM signālu spektri.](../atteli/08-4-spektri.svg)
 
 **FM — frekvences modulācija.** Balss maina nesēja frekvenci, amplitūda
 paliek nemainīga. Tā kā lielākā daļa traucējumu ietekmē tieši amplitūdu, FM

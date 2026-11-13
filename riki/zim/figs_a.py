@@ -1,6 +1,7 @@
 """7.–10. nodaļas zīmējumi."""
 import math
-from lib import Fig, K, G, LG, MG, chain, tw
+from lib import (Fig, K, G, LG, MG, chain, tw, RED, RED_T, BLUE, BLUE_T, GREEN, GREEN_T,
+                 AMBER, AMBER_T, BRICK, BRICK_T)
 
 
 def f07_1():
@@ -88,7 +89,7 @@ def f07_3():
     f.text(x0 + W * 3 / 8, yt + 16, "T (periods)", size=12, italic=True)
     f.line(x0 + W / 8, y0 - A, x0 + W / 8, yt, w=0.7, dash="2 3")
     f.line(x0 + W * 5 / 8, y0 - A, x0 + W * 5 / 8, yt, w=0.7, dash="2 3")
-    f.save("atteli/07-3-lidzstrava-mainstrava.svg", "Līdzspriegums un maiņspriegums")
+    f.save("atteli/07-4-lidzstrava-mainstrava.svg", "Līdzspriegums un maiņspriegums")
 
 
 def f08_1():
@@ -105,21 +106,21 @@ def f08_1():
         t = i / n
         v = math.sin(2 * math.pi * 2 * t)
         pts.append((x0 + W * t - 0.62 * A * v, y0 + 0.42 * A * v))
-    f.pl(pts, w=1.6, color=MG)
+    f.pl(pts, w=1.8, color=BLUE)
     for k in range(1, 16):
         t = k / 16
         v = math.sin(2 * math.pi * 2 * t)
         if abs(v) > 0.3:
-            f.line(x0 + W * t, y0, x0 + W * t - 0.62 * A * v, y0 + 0.42 * A * v, w=0.8, color=MG)
+            f.line(x0 + W * t, y0, x0 + W * t - 0.62 * A * v, y0 + 0.42 * A * v, w=0.8, color=BLUE)
     # E lauks
-    f.sine(x0, y0, W, A, 2, w=2.2)
+    f.sine(x0, y0, W, A, 2, w=2.2, color=RED)
     for k in range(1, 16):
         t = k / 16
         v = math.sin(2 * math.pi * 2 * t)
         if abs(v) > 0.3:
-            f.line(x0 + W * t, y0, x0 + W * t, y0 - A * v, w=0.8)
-    f.text(x0 + W / 8, y0 - A - 10, "E — elektriskais lauks", size=13, bold=True)
-    f.text(x0, 244, "B — magnētiskais lauks", anchor="start", size=13, bold=True, color="#555")
+            f.line(x0 + W * t, y0, x0 + W * t, y0 - A * v, w=0.8, color=RED)
+    f.text(x0 + W / 8, y0 - A - 10, "E — elektriskais lauks", size=13, bold=True, color=RED)
+    f.text(x0, 244, "B — magnētiskais lauks", anchor="start", size=13, bold=True, color=BLUE)
     # viļņa garums
     yl = y0 - A - 34
     f.darrow(x0 + W / 8, yl + 6, x0 + W * 5 / 8, yl + 6)
@@ -132,21 +133,21 @@ def f08_2():
     x0, W = 150, 520
     rows = [("Informācijas\nsignāls", 60), ("Nesējs", 160), ("AM", 265), ("FM", 370)]
     for lab, y in rows:
-        f.mtext(75, y, lab, size=13, bold=True)
+        f.mtext(75, y, lab, size=13, bold=True, color=(BLUE if y == 60 else (RED if y == 160 else K)))
         f.line(x0, y, x0 + W, y, w=0.7, color=MG)
     m = lambda t: math.sin(2 * math.pi * 2 * t)
-    f.sine(x0, 60, W, 30, 2, w=2)
-    f.sine(x0, 160, W, 32, 26, n=900)
-    f.sine(x0, 265, W, 26, 26, n=900, env=lambda t: 1 + 0.7 * m(t))
-    # apliecēja
+    f.sine(x0, 60, W, 30, 2, w=2.2, color=BLUE)
+    f.sine(x0, 160, W, 32, 26, n=900, color=RED)
+    f.sine(x0, 265, W, 26, 26, n=900, env=lambda t: 1 + 0.7 * m(t), color=RED)
+    # apliecēja — tā pati forma kā informācijas signālam
     pts = [(x0 + W * i / 200, 265 - 26 * (1 + 0.7 * m(i / 200))) for i in range(201)]
-    f.pl(pts, dash="4 4", w=0.9, color=MG)
+    f.pl(pts, dash="5 4", w=1.6, color=BLUE)
     pts = [(x0 + W * i / 200, 265 + 26 * (1 + 0.7 * m(i / 200))) for i in range(201)]
-    f.pl(pts, dash="4 4", w=0.9, color=MG)
-    f.sine(x0, 370, W, 32, 26, n=1200, fm=lambda t: -9.0 * math.cos(2 * math.pi * 2 * t))
+    f.pl(pts, dash="5 4", w=1.6, color=BLUE)
+    f.sine(x0, 370, W, 32, 26, n=1200, fm=lambda t: -9.0 * math.cos(2 * math.pi * 2 * t), color=RED)
     f.text(x0 + W, 312, "mainās amplitūda", anchor="end", size=11, italic=True)
     f.text(x0 + W, 418, "mainās frekvence, amplitūda nemainīga", anchor="end", size=11, italic=True)
-    f.save("atteli/08-2-modulacija.svg", "Amplitūdas un frekvences modulācija")
+    f.save("atteli/08-3-modulacija.svg", "Amplitūdas un frekvences modulācija")
 
 
 def f08_3():
@@ -161,46 +162,64 @@ def f08_3():
         f.arrow(x, yb, x + pw, yb, w=1.2, head=7)
         f.text(x + pw, yb + 15, "f", anchor="end", italic=True, size=12)
         if i == 0:
-            f.line(cx, yb, cx, 55, w=3)
-            f.pl([(cx - 44, yb), (cx - 44, 125), (cx - 6, 95), (cx - 6, yb)], close=True, fill=G)
-            f.pl([(cx + 44, yb), (cx + 44, 125), (cx + 6, 95), (cx + 6, yb)], close=True, fill=G)
+            f.line(cx, yb, cx, 55, w=3, color=RED)
+            f.pl([(cx - 44, yb), (cx - 44, 125), (cx - 6, 95), (cx - 6, yb)], close=True, fill=BLUE_T, color=BLUE)
+            f.pl([(cx + 44, yb), (cx + 44, 125), (cx + 6, 95), (cx + 6, yb)], close=True, fill=BLUE_T, color=BLUE)
             f.text(cx - 26, 90, "LSB", size=10); f.text(cx + 28, 90, "USB", size=10)
             f.text(cx, 48, "nesējs", size=10)
             lo, hi = cx - 44, cx + 44
         elif i == 1:
-            f.line(cx - 20, yb, cx - 20, 70, w=1.5, dash="4 4", color=MG)
+            f.line(cx - 20, yb, cx - 20, 70, w=1.5, dash="4 4", color=RED)
             f.text(cx - 20, 62, "nomākts nesējs", size=10)
-            f.pl([(cx + 24, yb), (cx + 24, 125), (cx - 14, 95), (cx - 14, yb)], close=True, fill=G)
+            f.pl([(cx + 24, yb), (cx + 24, 125), (cx - 14, 95), (cx - 14, yb)], close=True, fill=BLUE_T, color=BLUE)
             lo, hi = cx - 14, cx + 24
         elif i == 2:
-            f.line(cx, yb, cx, 60, w=4)
+            f.line(cx, yb, cx, 60, w=4, color=RED)
             lo, hi = cx - 4, cx + 4
         else:
             for k in range(-7, 8):
                 h = 80 * math.exp(-(k / 5.5) ** 4) * (0.55 + 0.45 * abs(math.cos(k * 1.3)))
-                f.line(cx + k * 10, yb, cx + k * 10, yb - h, w=3, color="#555")
+                f.line(cx + k * 10, yb, cx + k * 10, yb - h, w=3, color=(RED if k == 0 else BLUE))
             lo, hi = cx - 74, cx + 74
         f.darrow(lo, yb + 28, hi, yb + 28) if hi - lo > 30 else f.line(lo, yb + 28, hi, yb + 28, w=1.2)
         f.text(cx, yb + 50, bwid, size=12)
-    f.save("atteli/08-3-spektri.svg", "AM, SSB, CW un FM signālu spektri")
+    f.save("atteli/08-4-spektri.svg", "AM, SSB, CW un FM signālu spektri")
+
+
+RES_COLORS = [("melna", "#1a1a1a"), ("brūna", "#7a4a1e"), ("sarkana", "#c62828"), ("oranža", "#ef7d16"),
+              ("dzeltena", "#f2c40f"), ("zaļa", "#2e8b3e"), ("zila", "#1f5fbf"), ("violeta", "#7b3fa0"),
+              ("pelēka", "#8a8a8a"), ("balta", "#ffffff")]
+GOLD = "#c9a227"
 
 
 def f09_1():
-    f = Fig(700, 200)
-    f.text(140, 24, "Apzīmējums shēmā", bold=True, size=14)
-    f.line(60, 90, 118, 90); f.line(162, 90, 220, 90)
-    f.resistor(140, 90, label="R")
+    f = Fig(720, 300)
+    f.text(130, 24, "Apzīmējums shēmā", bold=True, size=14)
+    f.line(50, 90, 108, 90); f.line(152, 90, 210, 90)
+    f.resistor(130, 90, label="R")
     f.text(480, 24, "Rezistors ar krāsu kodu", bold=True, size=14)
     f.line(330, 90, 380, 90, w=2.5, color=MG); f.line(580, 90, 630, 90, w=2.5, color=MG)
-    f.rect(380, 66, 200, 48, fill=LG, rx=18)
-    bands = [(405, "#444"), (435, "#777"), (465, "#222"), (540, "#aaa")]
+    f.rect(380, 66, 200, 48, fill="#e9d8b4", rx=18)
+    # piemērs no 9.1. apakšnodaļas: dzeltena, violeta, sarkana, zelta = 4,7 kΩ ±5 %
+    bands = [(405, RES_COLORS[4][1]), (435, RES_COLORS[7][1]), (465, RES_COLORS[2][1]), (540, GOLD)]
     for x, c in bands:
         f.rect(x, 66.8, 14, 46.4, fill=c, rx=0, sw=0.8)
-    labs = ["1. cipars", "2. cipars", "nuļļu skaits", "pielaide"]
-    xs = [370, 440, 510, 590]
+    labs = ["1. cipars: 4", "2. cipars: 7", "nulles: 2 (×100)", "pielaide ±5 %"]
+    xs = [362, 448, 534, 628]
     for (x, c), lab, lx in zip(bands, labs, xs):
-        f.line(x + 7, 116, lx, 150, w=0.8)
-        f.text(lx, 166, lab, size=12)
+        f.line(x + 7, 116, lx, 146, w=0.8)
+        f.text(lx, 162, lab, size=11)
+    f.text(480, 188, "47 · 100 = 4700 Ω = 4,7 kΩ ±5 %", size=13, bold=True)
+    # krāsu tabula
+    y = 232
+    f.text(40, y - 16, "Cipari:", anchor="start", size=12, bold=True)
+    for i, (name, c) in enumerate(RES_COLORS):
+        x = 40 + i * 62
+        f.rect(x, y, 52, 22, fill=c, rx=2, sw=0.8)
+        f.text(x + 26, y + 16, str(i), size=13, bold=True, color=("white" if i in (0, 1, 2, 5, 6, 7) else K))
+        f.text(x + 26, y + 40, name, size=10)
+    f.rect(668, y, 22, 22, fill=GOLD, rx=2, sw=0.8)
+    f.text(679, y + 40, "zelta", size=10)
     f.save("atteli/09-1-rezistors.svg", "Rezistora apzīmējums un krāsu kods")
 
 
@@ -307,7 +326,7 @@ def _bjt(f, x, y, npn=True):
 
 
 def f09_7():
-    f = Fig(720, 230)
+    f = Fig(940, 230)
     _bjt(f, 130, 100, True); f.text(120, 205, "NPN tranzistors", size=13)
     _bjt(f, 360, 100, False); f.text(350, 205, "PNP tranzistors", size=13)
     x, y = 590, 100
@@ -319,7 +338,22 @@ def f09_7():
     f.text(x - 66, y + 5, "G", anchor="end", bold=True, size=14)
     f.text(x + 22, y - 48, "D", anchor="start", bold=True, size=14)
     f.text(x + 22, y + 56, "S", anchor="start", bold=True, size=14)
-    f.text(x - 6, 205, "Lauktranzistors (FET)", size=13)
+    f.text(x - 6, 205, "Lauktranzistors (JFET)", size=13)
+    # MOSFET ar inducētu N kanālu
+    x, y = 820, 100
+    f.circ(x, y, 30)
+    f.line(x - 60, y + 14, x - 14, y + 14)
+    f.line(x - 14, y - 18, x - 14, y + 18, w=2.4)
+    for a, b in ((-22, -10), (-6, 6), (10, 22)):
+        f.line(x - 6, y + a, x - 6, y + b, w=3)
+    f.line(x - 6, y - 16, x + 14, y - 16); f.line(x + 14, y - 16, x + 14, y - 58)
+    f.line(x - 6, y + 16, x + 14, y + 16); f.line(x + 14, y + 16, x + 14, y + 58)
+    f.arrow(x + 14, y, x - 5, y, head=9, w=1.4)
+    f.line(x + 14, y, x + 14, y + 16)
+    f.text(x - 66, y + 19, "G", anchor="end", bold=True, size=14)
+    f.text(x + 22, y - 48, "D", anchor="start", bold=True, size=14)
+    f.text(x + 22, y + 56, "S", anchor="start", bold=True, size=14)
+    f.text(x - 6, 205, "MOSFET", size=13)
     f.save("atteli/09-7-tranzistori.svg", "Tranzistoru apzīmējumi")
 
 
@@ -390,8 +424,8 @@ def f10_2():
                 v = 1 - 1 / math.sqrt(1 + ((t - 0.5) / 0.13) ** 8)
             pts.append((x0 + W * t, y0 - H * (0.03 + 0.9 * v)))
         # caurlaides zona iekrāsota
-        f.pl(pts + [(x0 + W, y0), (x0, y0)], close=True, fill=LG, w=0, color=LG)
-        f.pl(pts, w=2.2)
+        f.pl(pts + [(x0 + W, y0), (x0, y0)], close=True, fill=GREEN_T, w=0, color=GREEN_T)
+        f.pl(pts, w=2.2, color=GREEN)
         marks = {"lp": [0.45], "hp": [0.55], "bp": [0.37, 0.63], "bs": [0.37, 0.63]}[kind]
         for m in marks:
             f.line(x0 + W * m, y0, x0 + W * m, y0 - H, dash="3 4", w=0.9, color=MG)

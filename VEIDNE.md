@@ -26,6 +26,11 @@ failā `nodalas/NN-nosaukums.md` un aizpildi.
   `Atceries:`, `Padziļināti.`
 - **Formulas.** LaTeX pierakstā: rindā `$U = I \cdot R$`, atsevišķā rindā
   `$$f = \frac{1}{2\pi\sqrt{LC}}$$`.
+- **Terminoloģija.** Digitālos darba veidus (FT8, RTTY, PSK31 u.c.) sauc par
+  **ciparu darba veidiem**; sinonīms — ciparu režīmi. Vārdu "ciparātie"
+  nelieto. MK noteikumu apzīmējums ir MGM. Vārdu "UKV" nelieto: raksta VHF,
+  UHF vai konkrētu diapazonu (piemēram, "2 m diapazons"). SSB sadaļās raksta
+  "sānjoslas izvēle", nevis "paražas".
 - **Skaitļi.** Decimālais komats (21,295 MHz), atstarpe starp skaitli un
   mērvienību (100 W, 50 Ω).
 - **Atsauces.** Tekstā numurs kvadrātiekavās, piemēram, `[2]`; numuri atbilst

@@ -26,6 +26,8 @@ Radioviļņi nepazīst valstu robežu, tāpēc noteikumi veidojas trīs līmeņo
 | Eiropa | CEPT — Eiropas Pasta un telesakaru administrāciju konference | Saskaņo eksāmenu programmas un atļauju atzīšanu starp valstīm | Netieši: valstis ieteikumus ievieš savos noteikumos |
 | Latvija | Ministru kabinets; "Elektroniskie sakari" (ES) | MK noteikumi Nr. 257; ES rīko eksāmenus, izsniedz atļaujas, piešķir izsaukuma signālus, uzrauga | Jā, katram radioamatierim |
 
+![3.1. attēls. Kas regulē radioamatierus un kas tos pārstāv.](../atteli/03-1-normativo-aktu-limeni.svg)
+
 Līdzās regulatoriem darbojas radioamatieru pašu organizācijas [2]:
 
 - **IARU** — Starptautiskā Radioamatieru savienība. Pārstāv radioamatierus
