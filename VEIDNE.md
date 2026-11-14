@@ -8,7 +8,7 @@ failā `nodalas/NN-nosaukums.md` un aizpildi.
 - **Virsraksti.** `#` tikai nodaļas nosaukumam, `##` apakšnodaļām (5.1., 5.2.),
   `###` sīkākam dalījumam.
 - **Termini.** Jaunu terminu pirmajā lietojumā raksta **treknrakstā** un
-  pievieno terminu vārdnīcai (I pielikums).
+  pievieno terminu vārdnīcai (G pielikums).
 - **Izceltie lodziņi.** Raksta kā citātu ar treknu nosaukumu pirmajā rindā:
 
   ```markdown
@@ -93,7 +93,7 @@ daži aprēķinu uzdevumi un divi atvērti jautājumi.
 
 ## Atbildes
 
-Tabula: numurs, atbilde, skaidrojums. (Grāmatā tiks pārcelta uz G pielikumu.)
+Tabula: numurs, atbilde, skaidrojums. Atbildes paliek nodaļas beigās.
 
 ## Padziļināti
 

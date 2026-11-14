@@ -36,6 +36,8 @@ local SECTIONS = {
   ["Atbildes"]                  = { cls = "atbildes",  kicker = "Paškontrole" },
   ["Padziļināti"]               = { cls = "padzilinati-sad", kicker = "Neobligāti" },
   ["Nodaļas avoti"]             = { cls = "avoti",     kicker = "Avoti" },
+  ["1. izmēģinājuma eksāmens"]  = { cls = "jautajumi", kicker = "40 jautājumi, 60 minūtes" },
+  ["2. izmēģinājuma eksāmens"]  = { cls = "jautajumi", kicker = "40 jautājumi, 60 minūtes" },
 }
 
 local function esc(s)
@@ -153,6 +155,9 @@ function Pandoc(doc)
   if blocks[1] and blocks[1].t == "Header" and blocks[1].level == 1 then
     local h = stringify(blocks[1])
     local n, t = h:match("^(%d+)%.%s*nodaļa%.%s*(.*)$")
+    if not n then
+      n, t = h:match("^(%u)%s+pielikums%.%s*(.*)$")   -- "C pielikums. Nosaukums"
+    end
     chapter.num = n or ""
     chapter.title = t or h
     i = 2

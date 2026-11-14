@@ -26,14 +26,14 @@ Statusi: `Jāpārbauda` → `Tikai atsaucei` / `Atļauts (pamatojums)` / `Atļau
 | 3 | Mācību literatūra | Radioamatieru ētika un ētera procedūras, 3. izd., 2009. Autori John Devoldere ON4UN un Mark Demeuleneere ON4WW; latviski tulkojis Jānis Oskars Vanags YL3AD | lral.lv/oldwww/files/ETIKA_latb-YL.pdf | Tikai atsaucei: © autori; grozījumi un citāda izmantošana tikai ar autoru rakstisku atļauju (norādīts dokumentā). Oriģināls tagad IARU uzturēts | 2026-11-13 (titullapa un autortiesību nosacījumi) |
 | 4 | Normatīvie akti | Elektronisko sakaru likums | likumi.lv | Tāpat kā Nr. 2 | nav atvērts |
 | 5 | Eksāmena dokumenti | CEPT ERC 32. ziņojums, tulkojums latviešu valodā | https://vases.lv/sites/default/files/2024-07/Radioamatieru_iesaceju_programma_aplieciba_ERC32.pdf | Jāpārbauda CEPT un ES nosacījumi | 2026-11-12 (fragmenti) |
-| 6 | Eksāmena dokumenti | SIA "Elektroniskie sakari" radioamatieru eksāmena lapa un drošības tehnikas materiāls | esakari.lv/lv/radioamatieru-eksamens | Jāpārbauda; vēlama rakstiska ES atļauja | nav atvērts |
-| 7 | Eksāmena dokumenti | B kategorijas eksāmena jautājumu paraugs, 2009 | https://vases.lv/sites/default/files/2024-07/B_kategorija_2009.pdf | LRAL ieskatā drīkst izmantot; vēlams rakstisks ES apstiprinājums | 2026-11-12 (fragmenti) |
-| 8 | Mācību literatūra | Radioamatierisms un amatieru radiosakaru prakse jautājumos un atbildēs. Autors Jurijs Baltins YL2DX (SK); izdevējs "Elektroniskie sakari" (toreiz VAS), 2019 | https://lrg.lv/_faili/literatura/radioamatierisms_2019.pdf | © autors; tikai atsaucei, kamēr nav atļaujas no tiesību pārmantotājiem vai SIA "Elektroniskie sakari" | 2026-11-13 (titullapa) |
+| 6 | Eksāmena dokumenti | SIA "Elektroniskie sakari" radioamatieru eksāmena lapa un drošības tehnikas materiāls | esakari.lv/lv/radioamatieru-eksamens | Atļauja saņemta (2026-11-13): SIA "Elektroniskie sakari" atļauj izmantot savus materiālus ar atsauci | nav atvērts |
+| 7 | Eksāmena dokumenti | B kategorijas eksāmena jautājumu paraugs, 2009 | https://vases.lv/sites/default/files/2024-07/B_kategorija_2009.pdf | Atļauja saņemta (2026-11-13): SIA "Elektroniskie sakari" atļauj izmantot ar atsauci | 2026-11-12 (fragmenti) |
+| 8 | Mācību literatūra | Radioamatierisms un amatieru radiosakaru prakse jautājumos un atbildēs. Autors Jurijs Baltins YL2DX (SK); izdevējs "Elektroniskie sakari" (toreiz VAS), 2019 | https://lrg.lv/_faili/literatura/radioamatierisms_2019.pdf | Izdevējs SIA "Elektroniskie sakari" atļauj izmantot savus materiālus ar atsauci (2026-11-13); grāmatā izmantots kā avots ar atsauci | 2026-11-13 (titullapa) |
 | 9 | Mācību literatūra | IRTS HAREC Amateur Station Licence Study Guide | irts.ie | Jāpārbauda; līdz tam tikai atsaucei | nav atvērts |
-| 10 | Tīmekļa resursi | hamradio.lv (autors YL2FD) — tehnika, antenas teorijā un praksē, drošības tehnika | hamradio.lv | Jāprasa atļauja autoram | nav atvērts |
+| 10 | Tīmekļa resursi | hamradio.lv (autors Andris Bruņenieks, YL2FD) — tehnika, antenas teorijā un praksē, drošības tehnika | hamradio.lv | Jāprasa atļauja autoram | nav atvērts |
 | 11 | Tīmekļa resursi | IARU 1. reģiona HF joslu plāns | iaru-r1.org | Jāpārbauda; līdz tam tikai kā faktu avots | nav atvērts |
 | 13 | Tīmekļa resursi | DX uzvedības kodekss (DX Code of Conduct); sākotnējais autors Randy Johnson W6SJ (SK) ar DX Code of Conduct komiteju | dx-code.org | Autors atļāvis kodeksu brīvi kopēt; grāmatā teksts nav pārņemts, izklāstīts saviem vārdiem | 2026-11-13 (autora ziņas) |
-| 12 | LRAL kursa materiāli | Radioamatieru formulu lapa, Matīss YL3RZ, 2026 | kursa materiāli | © autors; vajadzīga atļauja izdot ar grāmatas licenci | 2026-11-12 |
+| 12 | LRAL kursa materiāli | Radioamatieru formulu lapa, Matīss YL3RZ, 2026 | kursa materiāli | Atļauja saņemta (2026-11-13): autors atļauj izmantot grāmatā; A pielikums veidots pēc formulu lapas | 2026-11-12 |
 
 ## Zīmējumi
 

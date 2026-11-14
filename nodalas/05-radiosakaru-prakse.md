@@ -226,7 +226,7 @@ Katram QSO ir četras daļas [1]:
 > pārraides beigās, un nekad nenokavēsi.
 
 > **Praktisks padoms.** Pirmajam QSO uzraksti uz lapas savu vārdu un QTH
-> fonētiski un noliec blakus transīveram (J pielikumā ir gatavs paraugs).
+> fonētiski un noliec blakus transīveram (H pielikumā ir gatavs paraugs).
 > Uztraukumā aizmirstas pat paša vārds.
 
 ## 5.6. Split, žurnāls un QSL

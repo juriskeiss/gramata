@@ -135,6 +135,31 @@ def nodala(md: Path):
     return num, title, out, page_css
 
 
+PIEL = SAKNE / "pielikumi"
+PIELIKUMI_SAR = []
+
+
+def pielikums(md: Path):
+    """Pielikums: '# C pielikums. Nosaukums'; vienkāršs sākums bez mērķiem un QR."""
+    frag = pandoc(md)
+    m = re.search(r'<template class="atv-dati" data-num="([A-Z])" data-title="([^"]*)">(.*?)</template>',
+                  frag, re.S)
+    if not m:
+        raise SystemExit(f"{md.name}: nav atrasts virsraksts '# X pielikums. Nosaukums'")
+    burts, title = m.group(1), html.unescape(m.group(2))
+    ievads = re.search(r'<div class="atv-ievads">(.*?)</div>', m.group(3), re.S)
+    body = re.sub(r"<!--NODALA-ATVERUMS \w+-->", "", frag[m.end():])
+    page_css = (f'.pielikums-{burts} {{ page: piel{burts}; }}\n'
+                f'@page piel{burts} {{ @bottom-left {{ content: "{GRAMATA} · LRAL'
+                f'   |   {burts} pielikums. {title.replace(chr(34), "")}"; }} }}\n')
+    out = (f'<section class="nodala pielikums pielikums-{burts}" id="pielikums-{burts}">'
+           f'<header class="nod-galva"><div><span class="kicker">{burts} pielikums</span>'
+           f'<h1>{html.escape(title)}</h1>'
+           f'<p class="nod-ievads">{ievads.group(1).strip() if ievads else ""}</p></div></header>'
+           f'\n<div class="nodala-teksts">\n{body}\n</div></section>\n')
+    return burts, title, out, page_css
+
+
 def tituls() -> str:
     return f'''
 <section class="tituls">
@@ -168,6 +193,12 @@ def saturs(nodalas, lpp) -> str:
             rindas.append(f'<li><span class="nr">{n}</span><span class="nos">'
                           f'<a href="#nodala-{n}">{html.escape(t)}</a></span>'
                           f'<span class="lpp">{lpp.get(n, "")}</span></li>')
+    if PIELIKUMI_SAR:
+        rindas.append('<li class="sadala-grupa">Pielikumi</li>')
+        for b, t in PIELIKUMI_SAR:
+            rindas.append(f'<li><span class="nr">{b}</span><span class="nos">'
+                          f'<a href="#pielikums-{b}">{html.escape(t)}</a></span>'
+                          f'<span class="lpp">{lpp.get(b, "")}</span></li>')
     return (f'<section class="saturs"><h2><span class="kicker">{GRAMATA}</span>'
             f'Saturs</h2><ol>{"".join(rindas)}</ol></section>')
 
@@ -205,6 +236,9 @@ def lapas_nodalam(pdf: Path) -> dict:
         for m in re.finditer(r"^(\d+)\.NODAĻA$", plakans, re.M):
             if int(m.group(1)) not in lpp:
                 lpp[int(m.group(1))] = i
+        for m in re.finditer(r"^([A-Z])PIELIKUMS$", plakans, re.M):
+            if m.group(1) not in lpp:
+                lpp[m.group(1)] = i
     return lpp
 
 
@@ -235,6 +269,11 @@ def main(args):
     for f in faili:
         n, t, h, c = nodala(f)
         nodalas.append((n, t)); teksts.append(h); css_extra.append(c)
+    PIELIKUMI_SAR.clear()
+    if not filtri or "piel" in filtri:
+        for f in sorted(PIEL.glob("[A-Z]-*.md")):
+            b, t, h, c = pielikums(f)
+            PIELIKUMI_SAR.append((b, t)); teksts.append(h); css_extra.append(c)
 
     # Lapas kājenes teksts tiek ņemts no GRAMATA, lai nosaukums ir vienā vietā.
     css = (DIZ / "gramata.css").read_text(encoding="utf-8").replace(
@@ -252,7 +291,7 @@ def main(args):
                 f'{paraugs() if ar_paraugu else ""}</body></html>')
 
     pdf = IZV / "gramata.pdf"
-    renderet(salikt({n: "00" for n, _ in nodalas}), pdf)   # 1. gājiens: lapu numuri
+    renderet(salikt({**{n: "00" for n, _ in nodalas}, **{b: "00" for b, _ in PIELIKUMI_SAR}}), pdf)   # 1. gājiens: lapu numuri
     lpp = lapas_nodalam(pdf)
     renderet(salikt(lpp), pdf)                              # 2. gājiens: ar saturu
     print(f"{pdf} — nodaļas: {', '.join(str(n) for n, _ in nodalas)}; sākumlapas: {lpp}")

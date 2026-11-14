@@ -73,8 +73,9 @@ eksāmeni dod vairāk punktu nekā vēl viena izlasīta nodaļa.
 
 Pēdējās divās nedēļās vairs nemācies visu vienādi.
 
-1. **Izpildi pirmo izmēģinājuma eksāmenu** (F pielikums) eksāmena apstākļos:
-   60 minūtes, bez grāmatas, bez pārtraukumiem.
+1. **Izpildi pirmo izmēģinājuma eksāmenu** eksāmena apstākļos: 60 minūtes,
+   bez grāmatas, bez pārtraukumiem. Sastādi to pats no nodaļu paškontroles
+   jautājumiem: pa diviem vai trim no katras nodaļas, kopā 40.
 2. **Saskaiti rezultātu pa tēmām**, nevis tikai kopā.
 3. **Tēmām, kur rezultāts ir zem 75 %**, atkārto "Eksāmenā jāzina" un
    pārrisini paškontroles jautājumus.
@@ -158,7 +159,7 @@ formulu lapu, iemācies tajā orientēties; ja ne — šīs jāzina no galvas.
 
 **Pēdējā nedēļā:**
 
-- [ ] izpildi abus izmēģinājuma eksāmenus;
+- [ ] izpildi divus izmēģinājuma eksāmenus;
 - [ ] katru dienu atkārto skaitļu lapu (E pielikums);
 - [ ] pārlasi visu nodaļu "Eksāmenā jāzina" un "Kopsavilkums";
 - [ ] pārbaudi, vai pieteikums un maksājums ir iesniegti un apstiprināti;

@@ -186,7 +186,7 @@ Tev ir atļauja, stacija un antena. Atliek nospiest taustiņu.
 1. Paklausies diapazonu vismaz dažas minūtes.
 2. Sākumā atbildi uz cita CQ — tas ir vieglāk nekā saukt pašam.
 3. Noliec priekšā lapu ar savu izsaukuma signālu fonētiski, vārdu un QTH
-   (J pielikums).
+   (H pielikums).
 4. Pasaki, ka tas ir tavs pirmais sakars. Otrā galā gandrīz vienmēr būs
    cilvēks, kurš atceras savējo.
 5. Ieraksti sakaru žurnālā.

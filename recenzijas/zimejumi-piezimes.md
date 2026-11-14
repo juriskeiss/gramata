@@ -145,3 +145,10 @@ Ievietojot jaunos zīmējumus, pārnumurēti: 5.1.→5.2., 5.2.→5.3., 5.3.→5
   slaidiem 16.–19. un 21.–24.; tā sakrīt. Vienīgā apzinātā atšķirība: SSB
   raidītājs (12.4.) zīmēts divās rindās, lai ietilptu A4 lapā, un tam
   pievienoti mazi spektri.
+
+### Joslu plāni pārbaudīti (2026-11-13)
+
+- [x] **6.1., 6.2., 6.4. un 6.2. tabula** salīdzinātas ar IARU 1. reģiona HF
+  joslu plānu (spēkā no 2020-10-16; jaunāka HF versija nav pieņemta) un VHF
+  rokasgrāmatu 10.03 (2026-02). Segmentu robežas sakrīt vienkāršotā veidā;
+  sīkāks plāns ir D pielikumā.
