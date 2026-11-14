@@ -102,8 +102,9 @@ Līdzīgi ar svešiem ziņojumiem: ja nejauši uztver ziņojumu, kas nav
 radioamatieru, to nedrīkst pierakstīt, publicēt vai izpaust (40. punkts) [1].
 
 Sakari atļauti tikai ar citiem radioamatieriem (41. punkts). Izņēmums ir
-ārkārtas gadījumi: ar citu dienestu drīkst sazināties, ja apdraudēta dzīvība
-vai notiek valsts vadīta glābšanas operācija vai tās mācības (42. punkts). Par
+ārkārtas gadījumi: ar citu dienestu drīkst sazināties, ja **apdraudēta cilvēka
+dzīvība** vai notiek valsts vadīta glābšanas operācija vai tās mācības
+(42. punkts). Par
 šādu sakaru **trīs darbdienu laikā** jāziņo ES (43. punkts) [1].
 
 > **Uzmanību!** Ja esi sazinājies ar cita dienesta staciju ārkārtas situācijā,
