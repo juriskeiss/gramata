@@ -44,22 +44,27 @@ Blokshēmās lietosim šādus saīsinājumus [1]:
 | — | Jaucējs | Mixer |
 | — | Detektors (demodulators) | Detector |
 
+Apzīmējumi ir tie paši, kas LRAL kursa 7. nodarbības slaidos; tos lieto gan
+uztvērēju, gan raidītāju (12. nodaļa) blokshēmās.
+
+![11.1. attēls. Blokshēmu apzīmējumi.](../atteli/11-1-apzimejumi.svg)
+
 ## 11.2. Detektoruztvērējs
 
 Vienkāršākais iespējamais uztvērējs sastāv no četrām detaļām [1].
 
-![11.1. attēls. Detektoruztvērēja blokshēma.](../atteli/11-1-detektoruztverejs.svg)
+![11.2. attēls. Detektoruztvērēja blokshēma.](../atteli/11-2-detektoruztverejs.svg)
 
 | Bloks | Ko dara |
 | --- | --- |
 | Antena | Uztver radioviļņus |
-| Svārstību kontūrs | Izvēlas vienu frekvenci |
+| Preselektors (pārskaņojams joslas filtrs) | Izvēlas vienu frekvenci |
 | Detektors (diode) | Atdala skaņu no AM signāla nesēja |
 | Austiņas | Pārvērš strāvu skaņā |
 
 Tam nav ne pastiprinātāja, ne barošanas: visa enerģija nāk no paša
 radioviļņa. Tāpēc dzirdamas tikai tuvas un spēcīgas AM stacijas, un
-selektivitāte ir vāja — kontūrs viens pats blakus stacijas neatdala.
+selektivitāte ir vāja — preselektors viens pats blakus stacijas neatdala.
 
 ## 11.3. Tiešā pastiprinājuma uztvērējs
 
@@ -67,7 +72,7 @@ Ja detektoruztvērējam pirms detektora pieliek augstfrekvences pastiprinātāju
 un aiz tā — zemfrekvences pastiprinātāju, iegūst **tiešā pastiprinājuma
 uztvērēju** [1].
 
-![11.2. attēls. Tiešā pastiprinājuma uztvērēja blokshēma.](../atteli/11-2-tiesa-pastiprinajuma-uztverejs.svg)
+![11.3. attēls. Tiešā pastiprinājuma uztvērēja blokshēma.](../atteli/11-3-tiesa-pastiprinajuma-uztverejs.svg)
 
 Signāls visu ceļu līdz detektoram paliek savā sākotnējā frekvencē.
 Jutība ir labāka, bet paliek divas problēmas: visi kontūri jāpārskaņo reizē,
@@ -80,17 +85,22 @@ superheterodīns.
 vienu nemainīgu frekvenci — **starpfrekvenci** — un galveno pastiprināšanu
 un filtrēšanu veic tur. Tā uzbūvēta lielākā daļa transīveru [1].
 
-![11.3. attēls. Superheterodīna uztvērēja blokshēma.](../atteli/11-3-superheterodins.svg)
+![11.4. attēls. Superheterodīna uztvērēja blokshēma.](../atteli/11-4-superheterodins.svg)
 
 | Nr. | Bloks | Ko dara |
 | --- | --- | --- |
-| 1 | Ieejas filtrs un AFP | Izdala diapazonu un pastiprina vājo signālu |
+| 1 | Preselektors un AFP | Izdala diapazonu un pastiprina vājo signālu; lētos uztvērējos AFP var nebūt |
 | 2 | Heterodīns | Ģenerē pārskaņojamu frekvenci; ar to noskaņo uztvērēju |
 | 3 | Jaucējs | No signāla un heterodīna frekvences veido starpfrekvenci |
-| 4 | Starpfrekvences filtrs | Nosaka uztvērēja selektivitāti |
+| 4 | Pamatselekcijas (starpfrekvences) filtrs | Nosaka uztvērēja selektivitāti |
 | 5 | SFP | Dod galveno pastiprinājumu |
 | 6 | Detektors | Atdala skaņu no starpfrekvences signāla |
 | 7 | ZFP | Pastiprina skaņu līdz skaļrunim |
+
+Aiz SFP signāls atkarībā no darba veida iet pa vienu no trim zariem
+(11.4. attēls): AM signālu demodulē detektors (zilais zars), FM signālu —
+amplitūdas ierobežotājs un diskriminators (sarkanais zars), CW un SSB
+signālu — jaucējs ar papildģeneratoru (zaļais zars).
 
 10. nodaļā redzējām, ka jaucēja izejā ir ieejas frekvenču summa un
 starpība. Superheterodīnā izmanto vienu no tām:
@@ -109,7 +119,8 @@ trāpītu tieši starpfrekvences filtrā.
 >    uztvērēja konstrukcija.
 
 **SSB un CW uztveršana.** Šiem signāliem nesēja nav, tāpēc parasts detektors
-dotu nesaprotamu skaņu. Uztvērējā ir otrs ģenerators, kas nesēju atjauno;
+dotu nesaprotamu skaņu. Uztvērējā ir otrs ģenerators ar nemainīgu frekvenci —
+**papildģenerators** (atbalsta ģenerators), kas nesēju atjauno;
 detektors tad ir vēl viens jaucējs, kura izejā ir skaņas frekvence. CW
 signālam tā rodas dzirdams tonis.
 
@@ -139,7 +150,7 @@ jo tālāk spoguļkanāls ir no vajadzīgā signāla un jo vieglāk to nofiltrē
 tieši uz signāla frekvenci. Jaucēja izejā starpība uzreiz ir skaņas
 frekvencē, un starpfrekvences nav vispār [1].
 
-![11.4. attēls. Tiešās pārveidošanas uztvērēja blokshēma.](../atteli/11-4-tiesas-parveidosanas-uztverejs.svg)
+![11.5. attēls. Tiešās pārveidošanas uztvērēja blokshēma.](../atteli/11-5-tiesas-parveidosanas-uztverejs.svg)
 
 | Priekšrocības | Trūkumi |
 | --- | --- |
@@ -155,11 +166,11 @@ Daudzi vienkāršie pašbūves komplekti iesācējiem ir tieši šādi.
 Signālu no antenas pārvērš skaitļu virknē, un filtrēšanu, demodulāciju un
 pastiprināšanu veic dators vai procesors [1].
 
-![11.5. attēls. SDR uztvērēja blokshēma.](../atteli/11-5-sdr.svg)
+![11.6. attēls. SDR uztvērēja blokshēma.](../atteli/11-6-sdr.svg)
 
 | Daļa | Kas tajā ir |
 | --- | --- |
-| Aparatūra | Ieejas filtri, pastiprinātājs, analogciparu pārveidotājs (ADC) |
+| Aparatūra | Ieejas filtrs, jaucējs ar ģeneratoru, analogciparu pārveidotājs (ADC) |
 | Programma | Filtri, demodulators, trokšņu slāpēšana, spektra attēls |
 
 Ko tas dod praksē:
@@ -192,7 +203,7 @@ pieslēgts internetam. Arī lielākā daļa mūsdienu transīveru iekšpusē ir 
 
 > **Uzmanību!** Šaurāks filtrs ne vienmēr ir labāks. SSB balsij vajag ap
 > 2,4 kHz; ar 500 Hz filtru tā kļūst nesaprotama. Šaurie filtri ir
-> telegrāfam un ciparātajiem veidiem.
+> telegrāfam un ciparu darba veidiem.
 
 ## Eksāmenā jāzina
 
@@ -253,7 +264,7 @@ frekvenci.
 3. No kādiem blokiem sastāv detektoruztvērējs?
     - A. AFP, jaucējs, heterodīns, ZFP
     - B. Heterodīns, jaucējs, skaļrunis
-    - C. Svārstību kontūrs, detektors, austiņas
+    - C. Preselektors, detektors, austiņas
     - D. Analogciparu pārveidotājs un dators
 4. Kādu signālu uztveršanai paredzēts detektoruztvērējs?
     - A. SSB
@@ -352,7 +363,7 @@ ir 16,05 + 9 = 25,05 MHz (pārbaude: 7,05 + 2 · 9 = 25,05 MHz).
   ir noturīgs pret impulsu traucējumiem.
 - **Trokšņu koeficients.** Skaitlis, kas rāda, cik daudz paša uztvērēja
   trokšņu pievienojas signālam. Īsviļņos tas ir mazsvarīgs, jo atmosfēras
-  troksnis ir lielāks; UKV un augstāk tas nosaka jutību.
+  troksnis ir lielāks; VHF un UHF diapazonos un augstāk tas nosaka jutību.
 
 ## Nodaļas avoti
 

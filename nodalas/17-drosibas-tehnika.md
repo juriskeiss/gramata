@@ -24,6 +24,8 @@ Bīstams ir nevis spriegums pats par sevi, bet strāva, kas plūst caur
 ķermeni. Cik liela tā būs, nosaka spriegums un ķermeņa pretestība; slapja
 āda pretestību samazina daudzkārt.
 
+![17.1. attēls. Strāvas ceļš caur cilvēka ķermeni.](../atteli/17-1-stravas-cels.svg)
+
 Maiņstrāvas (50 Hz) iedarbība uz cilvēku [1]:
 
 | Strāva | Iedarbība |
@@ -96,7 +98,7 @@ Ja zemējuma maģistrāle atrodas ārpus ēkas, pievads gar ēkas sienu vai stab
 jānosedz ar metāla cauruli vai leņķdzelzi līdz **2,5 m** augstumam no
 zemes [1].
 
-![17.1. attēls. Stacijas zemējums.](../atteli/17-1-stacijas-zemejums.svg)
+![17.2. attēls. Stacijas zemējums.](../atteli/17-2-stacijas-zemejums.svg)
 
 > **Atceries:** četri — zemējuma pretestība ne vairāk kā 4 Ω.
 > Gāze, apkure, kabeļu apvalki — nekad.
@@ -189,6 +191,8 @@ jumta segums tam neder.
 > nonāk tieši rokās. Attālumam līdz līnijai jābūt lielākam par masta
 > augstumu un antenas garumu kopā.
 
+![17.3. attēls. Masta krišanas zona un attālums līdz elektrolīnijai.](../atteli/17-3-masta-drosibas-zona.svg)
+
 Vēl trīs noteikumi, kas nav eksāmena skaitļi, bet glābj dzīvību:
 
 - augstumā nestrādā viens; otram cilvēkam jābūt uz zemes;
@@ -203,6 +207,8 @@ Vēl trīs noteikumi, kas nav eksāmena skaitļi, bet glābj dzīvību:
 2. atvieno antenas kabeli no transīvera un, ja iespējams, savieno to ar
    zemējumu ārpus mājas;
 3. atvieno iekārtas no elektrotīkla.
+
+![17.4. attēls. Antenas aizsardzība pret zibeni.](../atteli/17-4-zibens.svg)
 
 Zibens nav jātrāpa tieši: arī tuvs spēriens kabelī inducē spriegumu, kas
 iznīcina transīvera ieeju.
@@ -402,7 +408,7 @@ vismaz seši cilvēki, piemēroti laikapstākļi, zemējums un zibens aizsardzī
 - **Elektromagnētiskā lauka robežvērtības.** Iedzīvotāju aizsardzībai ir
   noteiktas lauka intensitātes normas. Ar B kategorijas jaudām un antenu
   dažu metru attālumā no cilvēkiem tās parasti netiek pārsniegtas, bet ar
-  virziena antenām UKV tas ir jāpārbauda.
+  VHF/UHF virziena antenām tas ir jāpārbauda.
 
 ## Nodaļas avoti
 

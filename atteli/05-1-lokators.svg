@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<title>WW lokatora uzbūve</title>
+<rect x="0" y="0" width="800" height="320" fill="white"/>
+<text x="170.0" y="30.0" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Lauks KO</text>
+<text x="170.0" y="48.0" text-anchor="middle" font-size="11" fill="#111111" font-style="italic">20° garumā × 10° platumā</text>
+<rect x="40.0" y="70.0" width="260.0" height="160.0" rx="0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<line x1="66.0" y1="70.0" x2="66.0" y2="230.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="40.0" y1="86.0" x2="300.0" y2="86.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="92.0" y1="70.0" x2="92.0" y2="230.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="40.0" y1="102.0" x2="300.0" y2="102.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="118.0" y1="70.0" x2="118.0" y2="230.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="40.0" y1="118.0" x2="300.0" y2="118.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="144.0" y1="70.0" x2="144.0" y2="230.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="40.0" y1="134.0" x2="300.0" y2="134.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="170.0" y1="70.0" x2="170.0" y2="230.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="40.0" y1="150.0" x2="300.0" y2="150.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="196.0" y1="70.0" x2="196.0" y2="230.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="40.0" y1="166.0" x2="300.0" y2="166.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="222.0" y1="70.0" x2="222.0" y2="230.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="40.0" y1="182.0" x2="300.0" y2="182.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="248.0" y1="70.0" x2="248.0" y2="230.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="40.0" y1="198.0" x2="300.0" y2="198.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="274.0" y1="70.0" x2="274.0" y2="230.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="40.0" y1="214.0" x2="300.0" y2="214.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<text x="53.0" y="246.0" text-anchor="middle" font-size="10" fill="#111111">0</text>
+<text x="32.0" y="226.0" text-anchor="end" font-size="10" fill="#111111">0</text>
+<text x="79.0" y="246.0" text-anchor="middle" font-size="10" fill="#111111">1</text>
+<text x="32.0" y="210.0" text-anchor="end" font-size="10" fill="#111111">1</text>
+<text x="105.0" y="246.0" text-anchor="middle" font-size="10" fill="#111111">2</text>
+<text x="32.0" y="194.0" text-anchor="end" font-size="10" fill="#111111">2</text>
+<text x="131.0" y="246.0" text-anchor="middle" font-size="10" fill="#111111">3</text>
+<text x="32.0" y="178.0" text-anchor="end" font-size="10" fill="#111111">3</text>
+<text x="157.0" y="246.0" text-anchor="middle" font-size="10" fill="#111111">4</text>
+<text x="32.0" y="162.0" text-anchor="end" font-size="10" fill="#111111">4</text>
+<text x="183.0" y="246.0" text-anchor="middle" font-size="10" fill="#111111">5</text>
+<text x="32.0" y="146.0" text-anchor="end" font-size="10" fill="#111111">5</text>
+<text x="209.0" y="246.0" text-anchor="middle" font-size="10" fill="#111111">6</text>
+<text x="32.0" y="130.0" text-anchor="end" font-size="10" fill="#111111">6</text>
+<text x="235.0" y="246.0" text-anchor="middle" font-size="10" fill="#111111">7</text>
+<text x="32.0" y="114.0" text-anchor="end" font-size="10" fill="#111111">7</text>
+<text x="261.0" y="246.0" text-anchor="middle" font-size="10" fill="#111111">8</text>
+<text x="32.0" y="98.0" text-anchor="end" font-size="10" fill="#111111">8</text>
+<text x="287.0" y="246.0" text-anchor="middle" font-size="10" fill="#111111">9</text>
+<text x="32.0" y="82.0" text-anchor="end" font-size="10" fill="#111111">9</text>
+<rect x="92.0" y="118.0" width="26.0" height="16.0" rx="0" fill="#73281e" stroke="#73281e" stroke-width="1"/>
+<text x="170.0" y="266.0" text-anchor="middle" font-size="10" fill="#111111" font-style="italic">1. cipars — austrumu virzienā, 2. — ziemeļu</text>
+<text x="570.0" y="30.0" text-anchor="middle" font-size="14" fill="#73281e" font-weight="bold">Kvadrāts KO26</text>
+<text x="570.0" y="48.0" text-anchor="middle" font-size="11" fill="#111111" font-style="italic">2° × 1°, Latvijas centrālā daļa</text>
+<line x1="118.0" y1="118.0" x2="420.0" y2="70.0" stroke="#73281e" stroke-width="0.8" stroke-dasharray="3 3" stroke-linecap="round"/>
+<line x1="118.0" y1="134.0" x2="420.0" y2="220.0" stroke="#73281e" stroke-width="0.8" stroke-dasharray="3 3" stroke-linecap="round"/>
+<rect x="420.0" y="70.0" width="300.0" height="150.0" rx="0" fill="#f3e3e0" stroke="#73281e" stroke-width="1.6"/>
+<line x1="432.5" y1="70.0" x2="432.5" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="76.2" x2="720.0" y2="76.2" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="445.0" y1="70.0" x2="445.0" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="82.5" x2="720.0" y2="82.5" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="457.5" y1="70.0" x2="457.5" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="88.8" x2="720.0" y2="88.8" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="470.0" y1="70.0" x2="470.0" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="95.0" x2="720.0" y2="95.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="482.5" y1="70.0" x2="482.5" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="101.2" x2="720.0" y2="101.2" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="495.0" y1="70.0" x2="495.0" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="107.5" x2="720.0" y2="107.5" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="507.5" y1="70.0" x2="507.5" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="113.8" x2="720.0" y2="113.8" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="520.0" y1="70.0" x2="520.0" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="120.0" x2="720.0" y2="120.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="532.5" y1="70.0" x2="532.5" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="126.2" x2="720.0" y2="126.2" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="545.0" y1="70.0" x2="545.0" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="132.5" x2="720.0" y2="132.5" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="557.5" y1="70.0" x2="557.5" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="138.8" x2="720.0" y2="138.8" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="570.0" y1="70.0" x2="570.0" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="145.0" x2="720.0" y2="145.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="582.5" y1="70.0" x2="582.5" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="151.2" x2="720.0" y2="151.2" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="595.0" y1="70.0" x2="595.0" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="157.5" x2="720.0" y2="157.5" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="607.5" y1="70.0" x2="607.5" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="163.8" x2="720.0" y2="163.8" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="620.0" y1="70.0" x2="620.0" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="170.0" x2="720.0" y2="170.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="632.5" y1="70.0" x2="632.5" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="176.2" x2="720.0" y2="176.2" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="645.0" y1="70.0" x2="645.0" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="182.5" x2="720.0" y2="182.5" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="657.5" y1="70.0" x2="657.5" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="188.8" x2="720.0" y2="188.8" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="670.0" y1="70.0" x2="670.0" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="195.0" x2="720.0" y2="195.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="682.5" y1="70.0" x2="682.5" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="201.2" x2="720.0" y2="201.2" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="695.0" y1="70.0" x2="695.0" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="207.5" x2="720.0" y2="207.5" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="707.5" y1="70.0" x2="707.5" y2="220.0" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<line x1="420.0" y1="213.8" x2="720.0" y2="213.8" stroke="#c9a9a4" stroke-width="0.4" stroke-linecap="round"/>
+<rect x="532.5" y="126.2" width="12.5" height="6.2" rx="0" fill="#73281e" stroke="#73281e" stroke-width="0.5"/>
+<text x="420.0" y="236.0" text-anchor="middle" font-size="10" fill="#111111">a</text>
+<text x="720.0" y="236.0" text-anchor="middle" font-size="10" fill="#111111">x</text>
+<text x="412.0" y="220.0" text-anchor="end" font-size="10" fill="#111111">a</text>
+<text x="412.0" y="78.0" text-anchor="end" font-size="10" fill="#111111">x</text>
+<text x="570.0" y="261.1" text-anchor="middle" font-size="11" fill="#111111">apakškvadrāts KO26xx: 5′ × 2,5′ (ap 5 × 5 km)</text>
+<text x="570.0" y="274.8" text-anchor="middle" font-size="11" fill="#111111">burti a–x: austrumu un ziemeļu virzienā</text>
+<text x="170.0" y="304.3" text-anchor="middle" font-size="12" fill="#111111" font-weight="bold">KO — lauks, 26 — kvadrāts, xx — apakškvadrāts</text>
+</svg>

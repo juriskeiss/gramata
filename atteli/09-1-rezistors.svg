@@ -1,25 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 200" width="700" height="200" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
 <title>Rezistora apzīmējums un krāsu kods</title>
-<rect x="0" y="0" width="700" height="200" fill="white"/>
-<text x="140.0" y="24.0" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Apzīmējums shēmā</text>
-<line x1="60.0" y1="90.0" x2="118.0" y2="90.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
-<line x1="162.0" y1="90.0" x2="220.0" y2="90.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
-<rect x="118.0" y="82.0" width="44.0" height="16.0" rx="0" fill="white" stroke="#111111" stroke-width="1.6"/>
-<text x="140.0" y="76.0" text-anchor="middle" font-size="13" fill="#111111" font-style="italic">R</text>
+<rect x="0" y="0" width="720" height="300" fill="white"/>
+<text x="130.0" y="24.0" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Apzīmējums shēmā</text>
+<line x1="50.0" y1="90.0" x2="108.0" y2="90.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="152.0" y1="90.0" x2="210.0" y2="90.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="108.0" y="82.0" width="44.0" height="16.0" rx="0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="130.0" y="76.0" text-anchor="middle" font-size="13" fill="#111111" font-style="italic">R</text>
 <text x="480.0" y="24.0" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Rezistors ar krāsu kodu</text>
 <line x1="330.0" y1="90.0" x2="380.0" y2="90.0" stroke="#9a9a9a" stroke-width="2.5" stroke-linecap="round"/>
 <line x1="580.0" y1="90.0" x2="630.0" y2="90.0" stroke="#9a9a9a" stroke-width="2.5" stroke-linecap="round"/>
-<rect x="380.0" y="66.0" width="200.0" height="48.0" rx="18" fill="#ececec" stroke="#111111" stroke-width="1.6"/>
-<rect x="405.0" y="66.8" width="14.0" height="46.4" rx="0" fill="#444" stroke="#111111" stroke-width="0.8"/>
-<rect x="435.0" y="66.8" width="14.0" height="46.4" rx="0" fill="#777" stroke="#111111" stroke-width="0.8"/>
-<rect x="465.0" y="66.8" width="14.0" height="46.4" rx="0" fill="#222" stroke="#111111" stroke-width="0.8"/>
-<rect x="540.0" y="66.8" width="14.0" height="46.4" rx="0" fill="#aaa" stroke="#111111" stroke-width="0.8"/>
-<line x1="412.0" y1="116.0" x2="370.0" y2="150.0" stroke="#111111" stroke-width="0.8" stroke-linecap="round"/>
-<text x="370.0" y="166.0" text-anchor="middle" font-size="12" fill="#111111">1. cipars</text>
-<line x1="442.0" y1="116.0" x2="440.0" y2="150.0" stroke="#111111" stroke-width="0.8" stroke-linecap="round"/>
-<text x="440.0" y="166.0" text-anchor="middle" font-size="12" fill="#111111">2. cipars</text>
-<line x1="472.0" y1="116.0" x2="510.0" y2="150.0" stroke="#111111" stroke-width="0.8" stroke-linecap="round"/>
-<text x="510.0" y="166.0" text-anchor="middle" font-size="12" fill="#111111">nuļļu skaits</text>
-<line x1="547.0" y1="116.0" x2="590.0" y2="150.0" stroke="#111111" stroke-width="0.8" stroke-linecap="round"/>
-<text x="590.0" y="166.0" text-anchor="middle" font-size="12" fill="#111111">pielaide</text>
+<rect x="380.0" y="66.0" width="200.0" height="48.0" rx="18" fill="#e9d8b4" stroke="#111111" stroke-width="1.6"/>
+<rect x="405.0" y="66.8" width="14.0" height="46.4" rx="0" fill="#f2c40f" stroke="#111111" stroke-width="0.8"/>
+<rect x="435.0" y="66.8" width="14.0" height="46.4" rx="0" fill="#7b3fa0" stroke="#111111" stroke-width="0.8"/>
+<rect x="465.0" y="66.8" width="14.0" height="46.4" rx="0" fill="#c62828" stroke="#111111" stroke-width="0.8"/>
+<rect x="540.0" y="66.8" width="14.0" height="46.4" rx="0" fill="#c9a227" stroke="#111111" stroke-width="0.8"/>
+<line x1="412.0" y1="116.0" x2="362.0" y2="146.0" stroke="#111111" stroke-width="0.8" stroke-linecap="round"/>
+<text x="362.0" y="162.0" text-anchor="middle" font-size="11" fill="#111111">1. cipars: 4</text>
+<line x1="442.0" y1="116.0" x2="448.0" y2="146.0" stroke="#111111" stroke-width="0.8" stroke-linecap="round"/>
+<text x="448.0" y="162.0" text-anchor="middle" font-size="11" fill="#111111">2. cipars: 7</text>
+<line x1="472.0" y1="116.0" x2="534.0" y2="146.0" stroke="#111111" stroke-width="0.8" stroke-linecap="round"/>
+<text x="534.0" y="162.0" text-anchor="middle" font-size="11" fill="#111111">nulles: 2 (×100)</text>
+<line x1="547.0" y1="116.0" x2="628.0" y2="146.0" stroke="#111111" stroke-width="0.8" stroke-linecap="round"/>
+<text x="628.0" y="162.0" text-anchor="middle" font-size="11" fill="#111111">pielaide ±5 %</text>
+<text x="480.0" y="188.0" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">47 · 100 = 4700 Ω = 4,7 kΩ ±5 %</text>
+<text x="40.0" y="216.0" text-anchor="start" font-size="12" fill="#111111" font-weight="bold">Cipari:</text>
+<rect x="40.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#1a1a1a" stroke="#111111" stroke-width="0.8"/>
+<text x="66.0" y="248.0" text-anchor="middle" font-size="13" fill="white" font-weight="bold">0</text>
+<text x="66.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">melna</text>
+<rect x="102.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#7a4a1e" stroke="#111111" stroke-width="0.8"/>
+<text x="128.0" y="248.0" text-anchor="middle" font-size="13" fill="white" font-weight="bold">1</text>
+<text x="128.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">brūna</text>
+<rect x="164.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#c62828" stroke="#111111" stroke-width="0.8"/>
+<text x="190.0" y="248.0" text-anchor="middle" font-size="13" fill="white" font-weight="bold">2</text>
+<text x="190.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">sarkana</text>
+<rect x="226.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#ef7d16" stroke="#111111" stroke-width="0.8"/>
+<text x="252.0" y="248.0" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">3</text>
+<text x="252.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">oranža</text>
+<rect x="288.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#f2c40f" stroke="#111111" stroke-width="0.8"/>
+<text x="314.0" y="248.0" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">4</text>
+<text x="314.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">dzeltena</text>
+<rect x="350.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#2e8b3e" stroke="#111111" stroke-width="0.8"/>
+<text x="376.0" y="248.0" text-anchor="middle" font-size="13" fill="white" font-weight="bold">5</text>
+<text x="376.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">zaļa</text>
+<rect x="412.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#1f5fbf" stroke="#111111" stroke-width="0.8"/>
+<text x="438.0" y="248.0" text-anchor="middle" font-size="13" fill="white" font-weight="bold">6</text>
+<text x="438.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">zila</text>
+<rect x="474.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#7b3fa0" stroke="#111111" stroke-width="0.8"/>
+<text x="500.0" y="248.0" text-anchor="middle" font-size="13" fill="white" font-weight="bold">7</text>
+<text x="500.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">violeta</text>
+<rect x="536.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#8a8a8a" stroke="#111111" stroke-width="0.8"/>
+<text x="562.0" y="248.0" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">8</text>
+<text x="562.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">pelēka</text>
+<rect x="598.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#ffffff" stroke="#111111" stroke-width="0.8"/>
+<text x="624.0" y="248.0" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">9</text>
+<text x="624.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">balta</text>
+<rect x="668.0" y="232.0" width="22.0" height="22.0" rx="2" fill="#c9a227" stroke="#111111" stroke-width="0.8"/>
+<text x="679.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">zelta</text>
 </svg>

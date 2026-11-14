@@ -10,7 +10,7 @@ eksāmena juridiskajā daļā.
 
 ## Pēc šīs nodaļas tu pratīsi
 
-- nosaukt, ko dara ITU, CEPT, IARU, "Elektroniskie sakari" un LRAL;
+- nosaukt, ko dara ITU, CEPT, IARU, SIA "Elektroniskie sakari" un LRAL;
 - atrast vajadzīgo tēmu MK noteikumos Nr. 257;
 - pateikt, ko radioamatieris drīkst un ko nedrīkst raidīt;
 - nosaukt galvenos radiostacijas lietošanas nosacījumus un to skaitļus;
@@ -24,7 +24,9 @@ Radioviļņi nepazīst valstu robežu, tāpēc noteikumi veidojas trīs līmeņo
 | --- | --- | --- | --- |
 | Pasaule | ITU — Starptautiskā Telesakaru savienība, ANO aģentūra | Sadala frekvenču spektru starp dienestiem, nosaka Radionoteikumus | Jā, valstīm |
 | Eiropa | CEPT — Eiropas Pasta un telesakaru administrāciju konference | Saskaņo eksāmenu programmas un atļauju atzīšanu starp valstīm | Netieši: valstis ieteikumus ievieš savos noteikumos |
-| Latvija | Ministru kabinets; "Elektroniskie sakari" (ES) | MK noteikumi Nr. 257; ES rīko eksāmenus, izsniedz atļaujas, piešķir izsaukuma signālus, uzrauga | Jā, katram radioamatierim |
+| Latvija | Ministru kabinets; SIA "Elektroniskie sakari" (ES) | MK noteikumi Nr. 257; ES rīko eksāmenus, izsniedz atļaujas, piešķir izsaukuma signālus, uzrauga | Jā, katram radioamatierim |
+
+![3.1. attēls. Kas regulē radioamatierus un kas tos pārstāv.](../atteli/03-1-normativo-aktu-limeni.svg)
 
 Līdzās regulatoriem darbojas radioamatieru pašu organizācijas [2]:
 
@@ -204,7 +206,7 @@ pietiek zināt šo faktu.
 - ITU ir augstākais starptautiskais regulators; Latvija ir ITU un IARU
   1. reģionā.
 - Radioamatierus Latvijā regulē MK noteikumi Nr. 257; uzrauga
-  "Elektroniskie sakari".
+  SIA "Elektroniskie sakari".
 - Atļauja: līdz 5 gadiem; par izmaiņām jāpaziņo 30 dienu laikā.
 - Ziņojumi ir atklāti; šifrēt aizliegts; atļauti Q kodi un saīsinājumi.
 - Sakari ar citiem dienestiem tikai dzīvības glābšanai un glābšanas
@@ -265,7 +267,7 @@ tev un kas — kaimiņam.
     - B. Līdz pieciem gadiem
     - C. Uz desmit gadiem
     - D. Uz mūžu
-5. Tu esi pārcēlies uz citu dzīvesvietu kopā ar staciju. Cik ilgā laikā par to jāpaziņo "Elektroniskajiem sakariem"?
+5. Tu esi pārcēlies uz citu dzīvesvietu kopā ar staciju. Cik ilgā laikā par to jāpaziņo SIA "Elektroniskie sakari"?
     - A. 3 darbdienu laikā
     - B. 10 dienu laikā
     - C. 30 dienu laikā
@@ -280,7 +282,7 @@ tev un kas — kaimiņam.
     - B. Ja tas notiek naktī
     - C. Nekad
     - D. Ja apdraudēta cilvēka dzīvība vai notiek valsts vadīta glābšanas operācija
-8. Cik ilgā laikā pēc sakara ar cita dienesta staciju par to jāinformē "Elektroniskie sakari"?
+8. Cik ilgā laikā pēc sakara ar cita dienesta staciju par to jāinformē SIA "Elektroniskie sakari"?
     - A. Nekavējoties pa radio
     - B. Trīs darbdienu laikā
     - C. 30 dienu laikā

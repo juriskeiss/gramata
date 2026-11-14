@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<title>Jaucējs: summa un starpība</title>
+<rect x="0" y="0" width="760" height="380" fill="white"/>
+<text x="40.0" y="85.0" text-anchor="start" font-size="13" fill="#1e5aa8" font-weight="bold">f₁ = 9 MHz</text>
+<line x1="132.0" y1="80.0" x2="196.0" y2="80.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<circle cx="220.0" cy="80.0" r="23.0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<line x1="203.7" y1="63.7" x2="236.3" y2="96.3" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="203.7" y1="96.3" x2="236.3" y2="63.7" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<text x="220.0" y="46.0" text-anchor="middle" font-size="11" fill="#111111">Jaucējs</text>
+<line x1="220.0" y1="140.0" x2="220.0" y2="104.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="220.0" y1="132.0" x2="220.0" y2="110.4" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="220.0,105.0 223.7,113.2 216.3,113.2" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="220.0" y="156.0" text-anchor="middle" font-size="13" fill="#1e5aa8" font-weight="bold">f₂ = 2 MHz</text>
+<line x1="244.0" y1="80.0" x2="314.6" y2="80.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="320.0,80.0 311.8,83.7 311.8,76.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="282.0" y="66.0" text-anchor="middle" font-size="11" fill="#111111">7 un 11 MHz</text>
+<rect x="321.0" y="57.0" width="46.0" height="46.0" rx="0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<polyline points="331.0,68.0 331.6,67.4 332.3,66.8 332.9,66.2 333.6,65.6 334.2,65.2 334.9,64.8 335.6,64.4 336.2,64.2 336.9,64.0 337.5,64.0 338.1,64.0 338.8,64.2 339.4,64.4 340.1,64.8 340.8,65.2 341.4,65.6 342.1,66.2 342.7,66.8 343.4,67.4 344.0,68.0 344.6,68.6 345.3,69.2 345.9,69.8 346.6,70.4 347.2,70.8 347.9,71.2 348.6,71.6 349.2,71.8 349.9,72.0 350.5,72.0 351.1,72.0 351.8,71.8 352.4,71.6 353.1,71.2 353.8,70.8 354.4,70.4 355.1,69.8 355.7,69.2 356.4,68.6 357.0,68.0" fill="none" stroke="#111111" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="340.0" y1="74.0" x2="348.0" y2="62.0" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<polyline points="331.0,80.0 331.6,79.4 332.3,78.8 332.9,78.2 333.6,77.6 334.2,77.2 334.9,76.8 335.6,76.4 336.2,76.2 336.9,76.0 337.5,76.0 338.1,76.0 338.8,76.2 339.4,76.4 340.1,76.8 340.8,77.2 341.4,77.6 342.1,78.2 342.7,78.8 343.4,79.4 344.0,80.0 344.6,80.6 345.3,81.2 345.9,81.8 346.6,82.4 347.2,82.8 347.9,83.2 348.6,83.6 349.2,83.8 349.9,84.0 350.5,84.0 351.1,84.0 351.8,83.8 352.4,83.6 353.1,83.2 353.8,82.8 354.4,82.4 355.1,81.8 355.7,81.2 356.4,80.6 357.0,80.0" fill="none" stroke="#111111" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="331.0,92.0 331.6,91.4 332.3,90.8 332.9,90.2 333.6,89.6 334.2,89.2 334.9,88.8 335.6,88.4 336.2,88.2 336.9,88.0 337.5,88.0 338.1,88.0 338.8,88.2 339.4,88.4 340.1,88.8 340.8,89.2 341.4,89.6 342.1,90.2 342.7,90.8 343.4,91.4 344.0,92.0 344.6,92.6 345.3,93.2 345.9,93.8 346.6,94.4 347.2,94.8 347.9,95.2 348.6,95.6 349.2,95.8 349.9,96.0 350.5,96.0 351.1,96.0 351.8,95.8 352.4,95.6 353.1,95.2 353.8,94.8 354.4,94.4 355.1,93.8 355.7,93.2 356.4,92.6 357.0,92.0" fill="none" stroke="#111111" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="340.0" y1="98.0" x2="348.0" y2="86.0" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<text x="344.0" y="46.0" text-anchor="middle" font-size="11" fill="#111111">Joslas filtrs 7 MHz</text>
+<line x1="368.0" y1="80.0" x2="444.6" y2="80.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="450.0,80.0 441.8,83.7 441.8,76.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="458.0" y="85.0" text-anchor="start" font-size="13" fill="#2f7a4b" font-weight="bold">7 MHz</text>
+<rect x="377.4" y="200.0" width="81.9" height="120.0" rx="0" fill="#dcefe2" stroke="#111111" stroke-width="0"/>
+<text x="418.4" y="194.0" text-anchor="middle" font-size="11" fill="#2f7a4b" font-style="italic">filtrs</text>
+<line x1="60.0" y1="320.0" x2="714.6" y2="320.0" stroke="#111111" stroke-width="1.3" stroke-linecap="round"/>
+<polygon points="720.0,320.0 711.8,323.7 711.8,316.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="720.0" y="358.0" text-anchor="end" font-size="12" fill="#111111" font-style="italic">f, MHz</text>
+<line x1="60.0" y1="320.0" x2="60.0" y2="325.0" stroke="#111111" stroke-width="1" stroke-linecap="round"/>
+<text x="60.0" y="340.0" text-anchor="middle" font-size="11" fill="#111111">0</text>
+<line x1="111.2" y1="320.0" x2="111.2" y2="325.0" stroke="#111111" stroke-width="1" stroke-linecap="round"/>
+<text x="111.2" y="340.0" text-anchor="middle" font-size="11" fill="#111111">1</text>
+<line x1="162.4" y1="320.0" x2="162.4" y2="325.0" stroke="#111111" stroke-width="1" stroke-linecap="round"/>
+<text x="162.4" y="340.0" text-anchor="middle" font-size="11" fill="#111111">2</text>
+<line x1="213.6" y1="320.0" x2="213.6" y2="325.0" stroke="#111111" stroke-width="1" stroke-linecap="round"/>
+<text x="213.6" y="340.0" text-anchor="middle" font-size="11" fill="#111111">3</text>
+<line x1="264.8" y1="320.0" x2="264.8" y2="325.0" stroke="#111111" stroke-width="1" stroke-linecap="round"/>
+<text x="264.8" y="340.0" text-anchor="middle" font-size="11" fill="#111111">4</text>
+<line x1="316.0" y1="320.0" x2="316.0" y2="325.0" stroke="#111111" stroke-width="1" stroke-linecap="round"/>
+<text x="316.0" y="340.0" text-anchor="middle" font-size="11" fill="#111111">5</text>
+<line x1="367.2" y1="320.0" x2="367.2" y2="325.0" stroke="#111111" stroke-width="1" stroke-linecap="round"/>
+<text x="367.2" y="340.0" text-anchor="middle" font-size="11" fill="#111111">6</text>
+<line x1="418.4" y1="320.0" x2="418.4" y2="325.0" stroke="#111111" stroke-width="1" stroke-linecap="round"/>
+<text x="418.4" y="340.0" text-anchor="middle" font-size="11" fill="#111111">7</text>
+<line x1="469.6" y1="320.0" x2="469.6" y2="325.0" stroke="#111111" stroke-width="1" stroke-linecap="round"/>
+<text x="469.6" y="340.0" text-anchor="middle" font-size="11" fill="#111111">8</text>
+<line x1="520.8" y1="320.0" x2="520.8" y2="325.0" stroke="#111111" stroke-width="1" stroke-linecap="round"/>
+<text x="520.8" y="340.0" text-anchor="middle" font-size="11" fill="#111111">9</text>
+<line x1="572.0" y1="320.0" x2="572.0" y2="325.0" stroke="#111111" stroke-width="1" stroke-linecap="round"/>
+<text x="572.0" y="340.0" text-anchor="middle" font-size="11" fill="#111111">10</text>
+<line x1="623.2" y1="320.0" x2="623.2" y2="325.0" stroke="#111111" stroke-width="1" stroke-linecap="round"/>
+<text x="623.2" y="340.0" text-anchor="middle" font-size="11" fill="#111111">11</text>
+<line x1="674.4" y1="320.0" x2="674.4" y2="325.0" stroke="#111111" stroke-width="1" stroke-linecap="round"/>
+<text x="674.4" y="340.0" text-anchor="middle" font-size="11" fill="#111111">12</text>
+<line x1="162.4" y1="320.0" x2="162.4" y2="250.0" stroke="#1e5aa8" stroke-width="4" stroke-linecap="round"/>
+<text x="162.4" y="242.0" text-anchor="middle" font-size="12" fill="#1e5aa8" font-weight="bold">f₂</text>
+<line x1="520.8" y1="320.0" x2="520.8" y2="250.0" stroke="#1e5aa8" stroke-width="4" stroke-linecap="round"/>
+<text x="520.8" y="242.0" text-anchor="middle" font-size="12" fill="#1e5aa8" font-weight="bold">f₁</text>
+<line x1="418.4" y1="320.0" x2="418.4" y2="220.0" stroke="#2f7a4b" stroke-width="4" stroke-linecap="round"/>
+<text x="418.4" y="212.0" text-anchor="middle" font-size="12" fill="#2f7a4b" font-weight="bold">9 − 2 = 7</text>
+<line x1="623.2" y1="320.0" x2="623.2" y2="220.0" stroke="#9a9a9a" stroke-width="4" stroke-linecap="round"/>
+<text x="623.2" y="212.0" text-anchor="middle" font-size="12" fill="#9a9a9a" font-weight="bold">9 + 2 = 11</text>
+<line x1="520.0" y1="140.0" x2="548.0" y2="140.0" stroke="#1e5aa8" stroke-width="4" stroke-linecap="round"/>
+<text x="556.0" y="144.0" text-anchor="start" font-size="11" fill="#111111">ieejas signāli</text>
+<line x1="520.0" y1="160.0" x2="548.0" y2="160.0" stroke="#2f7a4b" stroke-width="4" stroke-linecap="round"/>
+<text x="556.0" y="164.0" text-anchor="start" font-size="11" fill="#111111">starpība — filtrs to izvēlas</text>
+<line x1="520.0" y1="180.0" x2="548.0" y2="180.0" stroke="#9a9a9a" stroke-width="4" stroke-linecap="round"/>
+<text x="556.0" y="184.0" text-anchor="start" font-size="11" fill="#111111">summa — filtrs to aiztur</text>
+</svg>

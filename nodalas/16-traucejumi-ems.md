@@ -72,9 +72,12 @@ diode detektoruztvērējā.
 
 ## 16.3. Kā traucējums nonāk ierīcē
 
-Lai traucējumu novērstu, jāzina, pa kuru ceļu tas iekļūst.
+Lai traucējumu novērstu, jāzina, pa kuru ceļu tas iekļūst. Ceļi darbojas abos
+virzienos: pa tiem pašiem ceļiem tavs signāls nonāk kaimiņa ierīcēs, bet
+saules paneļu invertoru, barošanas bloku, kondicionieru, siltumsūkņu, LED
+lampu, mirgojošu lampiņu un bojātu elektrolīniju troksnis — tavā uztvērējā (16.8. apakšnodaļa).
 
-![16.1. attēls. Ceļi, pa kuriem traucējums nonāk ierīcē.](../atteli/16-1-traucejumu-celi.svg)
+![16.1. attēls. Traucējumi iet abos virzienos: raidītāja signāls var traucēt sadzīves ierīcēm, bet elektroierīču un elektrolīniju troksnis — uztvērējam.](../atteli/16-1-traucejumu-celi.svg)
 
 | Ceļš | Kā izpaužas | Kā pārbaudīt |
 | --- | --- | --- |
@@ -105,6 +108,8 @@ ja pieskaras kabelim.
 Ferītu lieto tā: vadu vairākas reizes izver caur gredzenu, pēc iespējas tuvu
 traucētajai ierīcei. Signālam vada iekšpusē tas netraucē, bet strāvai pa vada
 ārpusi rada lielu pretestību.
+
+![16.2. attēls. Kur liek filtrus un ferītus.](../atteli/16-2-filtri-un-feriti.svg)
 
 > **Praktisks padoms.** Lētākais un ātrākais līdzeklis ir samazināt jaudu.
 > Noteikumi prasa lietot mazāko jaudu, ar kuru sakars iespējams [1]. No
@@ -197,8 +202,11 @@ trokšņus — par QRN (5. nodaļa).
 | Impulsu barošanas bloki, lādētāji | Signāli ik pēc vienādiem frekvences soļiem; dūkoņa |
 | LED apgaismojums | Plats troksnis, kas pazūd, izslēdzot gaismu |
 | Saules paneļu invertori | Troksnis tikai dienā |
+| Kondicionieri, siltumsūkņi | Troksnis, kamēr darbojas kompresors; mainās līdz ar tā ātrumu |
 | Datu pārraide pa elektrotīklu | Plats troksnis lielā daļā īsviļņu |
 | Elektriskais gans | Regulāri klikšķi reizi sekundē |
+| Mirgojošas dekoratīvās lampiņas | Troksnis vai klikšķi mirgošanas ritmā |
+| Bojāta elektrolīnija, netīrs vai ieplaisājis izolators | Sprakšķi un dūkoņa, stiprāka mitrā laikā; dzirdama plašā apkārtnē |
 | Elektromotori, vecas sadzīves ierīces | Sprakšķi, kamēr ierīce strādā |
 
 **Kā atrast avotu savās mājās:**
@@ -318,7 +326,7 @@ atnāk ar sūdzību par traucējumiem televizorā.
 11. Kas izlemj, ja radioamatieris un traucētās iekārtas īpašnieks nevar vienoties?
     - A. Latvijas Radioamatieru līga
     - B. Pašvaldība
-    - C. "Elektroniskie sakari"
+    - C. SIA "Elektroniskie sakari"
     - D. Policija
 12. Kāds ir vienkāršākais veids, kā uzreiz samazināt jebkuru traucējumu, ko rada tava stacija?
     - A. Palielināt jaudu

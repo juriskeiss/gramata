@@ -133,7 +133,7 @@ $$L\,[\text{m}] \approx \frac{71{,}25}{f\,[\text{MHz}]}$$
 | Aizņem maz vietas | Vajag radiāļus; bez tiem zudumi ir lieli |
 | Izstaro vienādi visos virzienos horizontālā plaknē | Jutīgāka pret vietējiem traucējumiem |
 | Zems izstarošanas leņķis — labi tālajiem sakariem | Atkarīga no zemes īpašībām |
-| Vertikāla polarizācija — der UKV FM sakariem | |
+| Vertikāla polarizācija — der VHF/UHF FM sakariem | |
 
 > **Piemērs.** Cik gara ir ceturtdaļviļņa antena 145 MHz frekvencei?
 >
@@ -155,12 +155,14 @@ vairāki paralēli elementi uz kopīgas nesošās caurules [1].
 
 Signāls ir visstiprākais direktoru virzienā. Kas jāzina par Yagi [1]:
 
-- pastiprinājums aug ar elementu skaitu; garām UKV antenām tas var sasniegt
+- pastiprinājums aug ar elementu skaitu; garām VHF/UHF antenām tas var sasniegt
   20 dBi;
 - dubultojot elementu skaitu vai saslēdzot kopā divas vienādas Yagi,
   pastiprinājums pieaug apmēram par 3 dB;
 - antena vāji uztver no aizmugures un sāniem, tāpēc samazina traucējumus;
 - to vajag griezt pret korespondentu, tāpēc vajadzīgs rotors.
+
+![13.5. attēls. Dipola un Yagi starojuma diagrammas.](../atteli/13-5-starojuma-diagrammas.svg)
 
 > **Atceries:** reflektors — garākais un aizmugurē. Direktori — īsākie un
 > priekšā. Signāls iet no garā uz īso.
@@ -191,7 +193,7 @@ un pašai neizstarot [1].
 | Montāža | Vienkārša; var likt gar metālu un caur sienām | Jātur atstatu no metāla priekšmetiem |
 | Veids | Nesimetriska | Simetriska |
 
-![13.5. attēls. Koaksiālais kabelis un simetriskā līnija.](../atteli/13-5-parvades-linijas.svg)
+![13.6. attēls. Koaksiālais kabelis un simetriskā līnija.](../atteli/13-6-parvades-linijas.svg)
 
 **Raksturpretestība** ir līnijas īpašība, ko nosaka tās izmēri un izolators,
 nevis garums. Radioamatieru tehnikā standarts ir 50 Ω: tāda ir transīvera
@@ -257,6 +259,8 @@ traucējumi mājas tehnikā. To novērš ar balunu [1].
 shēma starp transīveru un antenas sistēmu. Tas pārveido pretestību tā, lai
 transīvers redzētu 50 Ω.
 
+![13.7. attēls. SWR mērītāja, antenas skaņotāja un baluna vieta stacijā.](../atteli/13-7-saskanosana.svg)
+
 > **Atceries:** skaņotājs nepadara antenu labāku. Tas tikai ļauj raidītājam
 > strādāt ar pilnu jaudu. Stāvviļņi un zudumi kabelī starp skaņotāju un
 > antenu paliek.
@@ -310,7 +314,7 @@ garumu. Izmēri savu pagalmu, balkonu vai bēniņus:
 radiation pattern" un "3 element yagi radiation pattern". Salīdzini abas un
 atrodi, kurā virzienā dipols neizstaro gandrīz neko.
 
-**3. Uzbūvē UKV antenu.** Ceturtdaļviļņa antenu 145 MHz frekvencei var
+**3. Uzbūvē 2 m antenu.** Ceturtdaļviļņa antenu 145 MHz frekvencei var
 uzbūvēt no piecu vadu gabaliem un viena savienotāja stundas laikā. Aprēķini
 stieņa un radiāļu garumu.
 

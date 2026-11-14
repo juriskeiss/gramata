@@ -36,7 +36,7 @@ signālu.
 | Telegrāfs (CW) | QRL? DE YL3ABC |
 
 Ja kāds atbild, ka frekvence ir aizņemta, pasaki paldies un meklē citu.
-Ciparātajos darba veidos dari to pašu: pirms raidi, pārliecinies, ka izvēlētajā
+Ciparu darba veidos dari to pašu: pirms raidi, pārliecinies, ka izvēlētajā
 vietiņā neviens nestrādā.
 
 > **Praktisks padoms.** Pirms pirmā QSO dažus vakarus tikai klausies.
@@ -147,7 +147,7 @@ sistēmu**: trīs cipari, katrs savam rādītājam [1].
 - **Telefonijā** (SSB, FM) dod tikai divus ciparus, RS: "pieci deviņi",
   "five nine".
 - **Telegrāfā un RTTY** dod visus trīs, piemēram, 599.
-- **Ciparātajos darba veidos**, piemēram, FT8, programma pati izmēra signāla un
+- **Ciparu darba veidos**, piemēram, FT8, programma pati izmēra signāla un
   trokšņa attiecību decibelos.
 
 > **Piemērs.** Korespondents saka: "You are five three." Ko tas nozīmē?
@@ -229,6 +229,8 @@ Katram QSO ir četras daļas [1]:
    antena, jauda, laikapstākļi.
 4. **Noslēgums** — pateicība, 73 un abi izsaukuma signāli.
 
+![5.3. attēls. QSO četras daļas.](../atteli/05-2-qso-uzbuve.svg)
+
 **Piemērs: pilns QSO angļu valodā**
 
 | Kas runā | Teksts |
@@ -255,7 +257,7 @@ Katram QSO ir četras daļas [1]:
 > pārraides beigās, un nekad nenokavēsi.
 
 > **Praktisks padoms.** Pirmajam QSO uzraksti uz lapas savu vārdu un QTH
-> fonētiski un noliec blakus transīveram (J pielikumā ir gatavs paraugs).
+> fonētiski un noliec blakus transīveram (H pielikumā ir gatavs paraugs).
 > Uztraukumā aizmirstas pat paša vārds.
 
 ## 5.6. Split, žurnāls un QSL
@@ -271,6 +273,8 @@ augstāk, "down 2" — 2 kHz zemāk [1].
 > 1. "Up" nozīmē augstāk, "5" nozīmē 5 kHz = 0,005 MHz.
 > 2. 21,295 MHz + 0,005 MHz = 21,300 MHz.
 > 3. Transīverī ieslēdz SPLIT: uztveršana 21,295 MHz, raidīšana 21,300 MHz.
+
+![5.4. attēls. Darbs split režīmā.](../atteli/05-3-split.svg)
 
 > **Uzmanību!** Nekad neraidi DX stacijas raidīšanas frekvencē, ja tā strādā
 > split režīmā. Tā ir biežākā un visvairāk dzirdamā iesācēja kļūda.
@@ -298,6 +302,8 @@ iepriekšējā dienā.
 joprojām sūta, bet elektroniskās sistēmas ir ātrākas; par tām stāsta
 19. nodaļa.
 
+![5.5. attēls. QSL kartītes paraugs. Kartītē ir korespondenta izsaukuma signāls, datums, laiks UTC, frekvence, darba veids un signāla ziņojums.](../atteli/05-4-qsl-kartite.svg)
+
 ## 5.7. VHF un UHF sakari, atkārtotāji
 
 Uz 2 m un 70 cm diapazoniem vietējie sakari parasti notiek FM. Kopējā
@@ -308,6 +314,8 @@ pārceļ uz citu brīvu frekvenci [1].
 tavu signālu uztver vienā frekvencē un tūlīt raida tālāk citā. Tā divas rokas
 stacijas sazinās desmitiem kilometru attālumā. Starpību starp abām frekvencēm
 sauc par **nobīdi**; Latvijā 2 m atkārtotājiem tā ir 600 kHz [1].
+
+![5.6. attēls. Atkārtotāja darbība.](../atteli/05-5-atkartotajs.svg)
 
 > **Piemērs.** Atkārtotājs raida 145,650 MHz, nobīde ir −600 kHz. Kurā
 > frekvencē raidi tu?
@@ -512,5 +520,5 @@ frekvencē, traucē visiem.
    eksaminācijas apliecību un radioamatieru radiostacijas atļauju saņemšanas
    kārtība, kā arī radioamatieru radiostaciju lietošanas kārtība".
    <https://likumi.lv/ta/id/342127>
-3. Radioamatiera ētika un darba procedūras. lral.lv/files/ETIKA_latb-YL.pdf.
+3. Radioamatieru ētika un ētera procedūras. J. Devoldere ON4UN, M. Demeuleneere ON4WW; tulkojis J. O. Vanags YL3AD. 3. izdevums, 2009. lral.lv/oldwww/files/ETIKA_latb-YL.pdf.
    Izmantots tikai kā norāde tālākai lasīšanai.

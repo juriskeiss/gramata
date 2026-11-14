@@ -13,7 +13,7 @@ un iepazīstina ar pamatjēdzieniem, kas atkārtosies visā grāmatā.
 - nosaukt sešas lietas, ko radioamatieris ēterā nedara;
 - izskaidrot, no kā sastāv izsaukuma signāls;
 - paskaidrot, kas ir QSO un QSL;
-- atšķirt galvenos sakaru veidus: SSB, FM, CW un ciparātos.
+- atšķirt galvenos sakaru veidus: SSB, FM, CW un ciparu darba veidus.
 
 ## 1.1. Kas ir radioamatieris
 
@@ -79,7 +79,7 @@ Hobijam ir arī praktiska puse [1]:
 
 **Izsaukuma signāls** ir radioamatiera oficiālais vārds ēterā. Tas ir unikāls:
 pasaulē nav divu radioamatieru ar vienādu izsaukuma signālu. To piešķir valsts
-atbildīgā iestāde; Latvijā tie ir "Elektroniskie sakari" (ES) [1].
+atbildīgā iestāde; Latvijā tie ir SIA "Elektroniskie sakari" (ES) [1].
 
 Izsaukuma signāls sastāv no divām daļām:
 
@@ -128,7 +128,7 @@ Radioamatieri sazinās ne tikai ar balsi [1].
 | Balss, SSB | Vienas sānjoslas telefonija (USB vai LSB) | Visbiežāk īsviļņos (HF), tālajiem sakariem |
 | Balss, FM | Frekvences modulācija | VHF un UHF, vietējiem sakariem un atkārtotājiem |
 | Telegrāfs, CW | Morzes kods | Visos diapazonos; ļoti efektīvs ar mazu jaudu |
-| Ciparātie veidi | FT8, FT4, RTTY, PSK31 — signālu raida un atšifrē dators | Visos diapazonos; darbojas arī ar ļoti vājiem signāliem |
+| Ciparu darba veidi (ciparu režīmi) | FT8, FT4, RTTY, PSK31 — signālu raida un atšifrē dators | Visos diapazonos; darbojas arī ar ļoti vājiem signāliem |
 | Datu sakari | Winlink, VarAC — e-pasts un ziņas pa radio | Ārkārtas sakaros, ekspedīcijās |
 | Satelītu sakari | Sakari caur amatieru satelītiem | VHF un UHF |
 | EME | Signālu atstaro no Mēness | VHF un augstāk; lielām antenām |
@@ -144,9 +144,11 @@ Radioamatiera stacijā parasti ir [1]:
 - **antena** un kabelis, kas to savieno ar raiduztvērēju;
 - **barošanas avots**;
 - **mēriekārtas**, vismaz stāvviļņa (SWR) un jaudas mērītājs;
-- **dators** ar interfeisu ciparātajiem sakaru veidiem un žurnālam.
+- **dators** ar interfeisu ciparu darba veidiem un žurnālam.
 
 Jaudas pastiprinātājs ir papildu iekārta, kas iesācējam nav vajadzīga.
+
+![1.1. attēls. Radioamatiera stacijas uzbūve.](../atteli/01-1-stacija.svg)
 
 > **Praktisks padoms.** Nepērc aparatūru, pirms neesi nokārtojis eksāmenu un
 > paklausījies ēteru. Pēc mēneša klausīšanās tu zināsi, kuri diapazoni un
@@ -161,7 +163,7 @@ Jaudas pastiprinātājs ir papildu iekārta, kas iesācējam nav vajadzīga.
   tehniskie pētījumi; bez materiālas ieinteresētības.
 - Aizliegts: komerciāla izmantošana, apraide, šifrēšana, anonīmi raidījumi,
   traucējumi citiem dienestiem, darbs ārpus atļautajām frekvencēm un jaudām.
-- Latvijas prefikss ir YL; izsaukuma signālus piešķir "Elektroniskie sakari".
+- Latvijas prefikss ir YL; izsaukuma signālus piešķir SIA "Elektroniskie sakari".
 - QSO ir radiosakars; QSL ir sakara apstiprinājums.
 
 ## Pamēģini pats
@@ -170,9 +172,17 @@ Jaudas pastiprinātājs ir papildu iekārta, kas iesācējam nav vajadzīga.
 "amateur radio prefix list" un noskaidro, no kurām valstīm ir stacijas
 JY5IB, 9A3B, OH2XX, SP5ABC un K4A.
 
-**2. Paklausies ēteru (15 minūtes).** Atver websdr.venta.lv:8901, izvēlies
-80 m vai 40 m diapazonu un sameklē vienu balss sakaru un vienu telegrāfa
-signālu. Pieraksti:
+**2. Paklausies ēteru (15 minūtes).** Atver kādu no tuvākajiem WebSDR
+uztvērējiem:
+
+- websdr.venta.lv:8901 (Ventspils);
+- websdr.virac.eu (Ventspils, VIRAC);
+- es4o.erau.ee (Igaunija).
+
+Izvēlies 40 m vai 20 m diapazonu un sameklē vienu balss
+sakaru un vienu telegrāfa signālu. Šajos diapazonos dzirdamas stacijas no
+visas Eiropas un tālākām zemēm. 20 m diapazonā B kategorija raidīt nedrīkst,
+bet klausīties drīkst ikviens. Pieraksti:
 
 - [ ] vienu izsaukuma signālu, ko izdevās saklausīt;
 - [ ] kurā frekvencē tas bija;
@@ -189,7 +199,7 @@ signālu. Pieraksti:
 - Izsaukuma signāls sastāv no prefiksa (valsts) un sufiksa (stacija);
   Latvijas prefikss ir YL.
 - QSO ir sakars starp divām stacijām; QSL ir tā apstiprinājums.
-- Sakaru veidi ir dažādi: SSB un FM balss, CW telegrāfs, ciparātie veidi,
+- Sakaru veidi ir dažādi: SSB un FM balss, CW telegrāfs, ciparu darba veidi,
   satelīti.
 
 ## Paškontroles jautājumi
@@ -216,7 +226,7 @@ signālu. Pieraksti:
     - D. ES
 5. Kas Latvijā piešķir radioamatieru izsaukuma signālus?
     - A. Latvijas Radioamatieru līga
-    - B. "Elektroniskie sakari"
+    - B. SIA "Elektroniskie sakari"
     - C. Starptautiskā Telesakaru savienība (ITU)
     - D. Radioamatieris izvēlas pats
 6. Kas ir QSO?
@@ -243,7 +253,7 @@ signālu. Pieraksti:
     - A. Sakarus ar tālām stacijām
     - B. Sakarus ar mazu jaudu
     - C. Sakarus caur atkārtotāju
-    - D. Ciparātos sakaru veidus
+    - D. Ciparu darba veidus
 
 **Atvērtie jautājumi**
 

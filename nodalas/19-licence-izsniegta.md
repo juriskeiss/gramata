@@ -8,12 +8,15 @@ kopienā.
 **Eksāmena programma:** šī nodaļa eksāmenā netiek prasīta.
 **Lasīšanas laiks:** ap 1 stundu.
 
-## Šajā nodaļā
+## Pēc šīs nodaļas tu pratīsi
 
-- trīs soļi: reģistrējies, aprīkojies, iesaisties;
-- kā izvēlēties žurnāla programmu un pirmo transīveru;
-- kādu antenu būvēt vispirms;
-- kādos virzienos hobijs var attīstīties.
+- pieprasīt radiostacijas atļauju un zināt, kas jāizdara pirms pirmā
+  raidījuma;
+- izvēlēties žurnāla programmu, pirmo transīveru un barošanas avotu;
+- izvēlēties un uzbūvēt pirmo antenu;
+- sagatavoties pirmajam sakaram;
+- atrast savu vietu radioamatieru kopienā un izvēlēties, kurā virzienā
+  attīstīt hobiju.
 
 ## 19.1. Pirmais solis: atļauja un izsaukuma signāls
 
@@ -94,7 +97,7 @@ Pirms pirkšanas izlem, kur strādāsi: mājās vai dabā [1].
 | | Bāzes stacija | Portatīvā stacija |
 | --- | --- | --- |
 | Jauda | 100 W — tieši B kategorijas robeža īsviļņos | 5–20 W |
-| Kas svarīgi | Visi HF diapazoni; SSB, CW un ciparātie veidi; pieslēgums datoram (CAT) | Mazs strāvas patēriņš uztveršanā; svars |
+| Kas svarīgi | Visi HF diapazoni; SSB, CW un ciparu darba veidi; pieslēgums datoram (CAT) | Mazs strāvas patēriņš uztveršanā; svars |
 | Antenu skaņotājs | Vēlams iebūvēts | Ļoti vēlams, jo antenas dabā ir kompromiss |
 | Barošana | 13,8 V barošanas bloks | Akumulators, vislabāk LiFePO4 |
 
@@ -154,7 +157,7 @@ diennakts laikā strādāsi un ar ko gribi sazināties [1].
 | Diapazons | Dipola garums | Dienā | Naktī |
 | --- | --- | --- | --- |
 | 80 m | ap 39 m | Latvija un Baltija | Eiropa; ar labu antenu tālāk |
-| 40 m | ap 20 m | Baltija un Eiropa (B kategorijai CW un ciparātie veidi) | Eiropa un tālāk |
+| 40 m | ap 20 m | Baltija un Eiropa (B kategorijai CW un ciparu darba veidi) | Eiropa un tālāk |
 | 15 m | ap 6,7 m | Tālā Eiropa un citi kontinenti | Parasti slēgts |
 | 10 m | ap 5 m | Maksimuma gados visa pasaule | Slēgts |
 
@@ -163,7 +166,7 @@ diennakts laikā strādāsi un ar ko gribi sazināties [1].
 | Kas | Kāds |
 | --- | --- |
 | Vads | Vara dzīsla, kas iztur nospriegojumu; izolācija nav obligāta |
-| Koaksiālais kabelis | Īsiem gabaliem īsviļņos der RG58; garākiem un UKV — RG213 vai labāks |
+| Koaksiālais kabelis | Īsiem gabaliem īsviļņos der RG58; garākiem gabaliem un VHF/UHF diapazonos — RG213 vai labāks |
 | Savienotājs | PL-259, lodējams vai presējams |
 | Izolatori | Vidū un abos galos |
 | Baluns | 1:1 strāvas baluns vai drosele pie pieslēgvietas |
@@ -183,7 +186,7 @@ Tev ir atļauja, stacija un antena. Atliek nospiest taustiņu.
 1. Paklausies diapazonu vismaz dažas minūtes.
 2. Sākumā atbildi uz cita CQ — tas ir vieglāk nekā saukt pašam.
 3. Noliec priekšā lapu ar savu izsaukuma signālu fonētiski, vārdu un QTH
-   (J pielikums).
+   (H pielikums).
 4. Pasaki, ka tas ir tavs pirmais sakars. Otrā galā gandrīz vienmēr būs
    cilvēks, kurš atceras savējo.
 5. Ieraksti sakaru žurnālā.
@@ -200,10 +203,10 @@ Radioamatierismā nav viena ceļa. Lūk, virzieni, kuros cilvēki pavada gadus [
 | **DX** | Sakari ar tālām un retām stacijām; diplomi par valstīm un teritorijām |
 | **Sacensības** | Pēc iespējas vairāk sakaru noteiktā laikā — no 4 līdz 48 stundām |
 | **Antenu būve** | Eksperimenti ar raidošām un uztverošām antenām |
-| **UKV un vājie signāli** | Tālie sakari 6 m, 2 m un augstāk: tropo, sporādiskais E, meteori, EME |
+| **VHF/UHF un vājie signāli** | Tālie sakari 6 m, 2 m un augstāk: tropo, sporādiskais E, meteori, EME |
 | **Konstruēšana** | Pastiprinātāji, uztvērēji, interfeisi — no nulles vai no komplekta |
 | **Darbs dabā** | POTA, SOTA, WWFF: sakari no parkiem, kalniem un dabas teritorijām |
-| **Ciparātie veidi** | FT8 un citi; sakari ar ļoti vājiem signāliem |
+| **Ciparu darba veidi** | FT8 un citi; sakari ar ļoti vājiem signāliem |
 | **Telegrāfs** | Morzes koda apgūšana — prasme, kas atmaksājas visu mūžu |
 | **Ārkārtas sakari** | Sakaru nodrošināšana, kad parastie tīkli nedarbojas |
 | **Izplatīšanās novērošana** | Bākas, klausīšanās, datu analīze |

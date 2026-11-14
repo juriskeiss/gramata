@@ -138,6 +138,11 @@ jaudas mērītājam [1].
 korpusā. Tas pats pārskrien visu diapazonu ar ļoti mazu jaudu un parāda SWR
 līkni; labāki modeļi rāda arī pretestību.
 
+![15.3. attēls. Antenu analizatora SWR līkne 80 m dipolam.](../atteli/15-3-swr-likne.svg)
+
+Līknes zemākais punkts ir antenas rezonanses frekvence. Ja tas ir zemāk par
+vajadzīgo frekvenci, antena ir par garu un tā jāsaīsina; ja augstāk — par īsu.
+
 | | SWR mērītājs | Antenu analizators |
 | --- | --- | --- |
 | Signāla avots | Tavs raidītājs | Iebūvēts ģenerators |
@@ -156,7 +161,7 @@ būvētājam tā ir otrā svarīgākā mērierīce pēc multimetra.
 | **Osciloskops** | Sprieguma izmaiņas **laikā** — signāla formu | Amplitūda, periods, kropļojumi |
 | **Spektra analizators** | Signāla sastāvu pa **frekvencēm** | Harmonikas, joslas platums, blakusizstarojumi |
 
-![15.3. attēls. Osciloskops un spektra analizators.](../atteli/15-3-osciloskops-spektra-analizators.svg)
+![15.4. attēls. Osciloskops un spektra analizators.](../atteli/15-4-osciloskops-spektra-analizators.svg)
 
 No osciloskopa attēla var nolasīt periodu un aprēķināt frekvenci.
 

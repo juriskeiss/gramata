@@ -1,6 +1,7 @@
 """11.–13. nodaļas zīmējumi."""
 import math
 from lib import Fig, K, G, LG, MG, chain, tw
+from lib import BLUE, BLUE_T, AMBER, AMBER_T, BRICK, BRICK_T
 
 
 def _below(f, pos, i, y, label, dy=92, bh=44, size=12, note=None):
@@ -298,10 +299,15 @@ def f13_5():
     f = Fig(760, 260)
     cx, cy = 150, 130
     f.text(cx + 60, 22, "Koaksiālais kabelis", bold=True, size=14)
-    f.circ(cx, cy, 78, fill="#555")
-    f.circ(cx, cy, 66, fill=MG)
-    f.circ(cx, cy, 56, fill=LG)
-    f.circ(cx, cy, 14, fill=K)
+    COPPER = "#c47a3a"
+    f.circ(cx, cy, 78, fill="#2f2f2f")                 # apvalks
+    f.circ(cx, cy, 66, fill="#d9a066", color=COPPER)   # ekrāns (pinums)
+    for k in range(36):
+        a = 2 * math.pi * k / 36
+        f.line(cx + 57 * math.cos(a), cy + 57 * math.sin(a), cx + 65 * math.cos(a + 0.12),
+               cy + 65 * math.sin(a + 0.12), w=0.8, color=COPPER)
+    f.circ(cx, cy, 56, fill="#f7f7f2")                 # izolators
+    f.circ(cx, cy, 14, fill=COPPER, color="#7a4316")   # centrālais vadītājs
     labs = [(72, -40, "apvalks", 60), (61, -12, "ekrāns", 105), (38, 10, "izolators", 150),
             (13, 45, "centrālais vadītājs", 195)]
     for r, deg, lab, ly in labs:
@@ -314,14 +320,15 @@ def f13_5():
     # simetriskā līnija
     x0 = 600
     f.text(x0, 22, "Simetriskā līnija", bold=True, size=14)
-    f.line(x0 - 28, 50, x0 - 28, 220, w=2.6); f.line(x0 + 28, 50, x0 + 28, 220, w=2.6)
+    f.line(x0 - 28, 50, x0 - 28, 220, w=3, color="#c47a3a"); f.line(x0 + 28, 50, x0 + 28, 220, w=3, color="#c47a3a")
     for yy in range(66, 220, 26):
         f.rect(x0 - 28, yy - 3, 56, 6, fill=LG, rx=1, sw=1)
     f.text(x0 + 44, 100, "vadi", anchor="start", size=12)
     f.text(x0 + 44, 150, "starplikas", anchor="start", size=12)
     f.text(x0, 244, "raksturpretestība 240–600 Ω", size=12, italic=True)
     f.line(470, 40, 470, 250, dash="3 5", w=1, color=MG)
-    f.save("atteli/13-5-parvades-linijas.svg", "Koaksiālais kabelis un simetriskā līnija")
+    f.save("atteli/13-6-parvades-linijas.svg", "Koaksiālais kabelis un simetriskā līnija")
 
 
-ALL = [f11_1, f11_2, f11_3, f11_4, f11_5, f12_1, f12_2, f12_3, f12_4, f13_1, f13_2, f13_3, f13_4, f13_5]
+# 11. un 12. nodaļas blokshēmas ir pārceltas uz figs_e.py (slaidu simboli).
+ALL = [f13_1, f13_2, f13_3, f13_4, f13_5]

@@ -4,15 +4,18 @@ Grāmatā šis fails neieiet.
 
 ## Kopīgi abām nodaļām
 
-- [ ] **Blokshēmas rakstītas no slaidu virsrakstiem, nevis attēliem.**
-  7. nodarbības slaidos blokshēmas ir attēli, kuru saturs teksta veidā nav
-  pieejams. Bloku secība nodaļās ir standarta mācību grāmatu secība un
-  **jāsalīdzina ar slaidu attēliem**, īpaši: kur CW raidītājā pieslēgta
-  atslēga, kur AM raidītājā modulators, cik pakāpju SSB raidītājā.
-- [ ] **Zīmējumi.** 11. nodaļā piecas blokshēmas, 12. nodaļā četras; visas
-  atzīmētas ar `<!-- ZĪMĒJUMS -->`. Bez tām nodaļas nav lietojamas.
-- [ ] **Saīsinājumi.** AFP, SFP, ZFP: slaidā redzams tikai ZFP; pārējie
-  izveidoti pēc analoģijas. Jāsaskaņo ar slaida "Izmantotie apzīmējumi".
+- [x] **Blokshēmas saskaņotas ar slaidiem (2026-11-12).** Visas deviņas
+  blokshēmas pārzīmētas ar 7. nodarbības slaida "Izmantotie apzīmējumi"
+  simboliem un slaidu bloku secību; teksts saskaņots (preselektors,
+  pamatselekcijas filtrs, papildģenerators, FM zars superheterodīnā, jaucējs
+  SDR uztvērējā, CW raidītāja četri pastiprinātāji, AM modulācija izejas
+  pakāpē, starppastiprinātāji FM raidītājā, balansēts jaucējs un diapazonu
+  jaucējs SSB raidītājā). Jāpārbauda, vai slaidu autors piekrīt tekstā
+  pievienotajiem skaidrojumiem.
+- [x] **Zīmējumi.** 11. nodaļā piecas blokshēmas, 12. nodaļā četras —
+  uzzīmētas.
+- [x] **Saīsinājumi.** AFP, SFP, ZFP sakrīt ar slaida "Izmantotie
+  apzīmējumi" skaidrojumu.
 - [ ] **Termini.** "Heterodīns", "starpfrekvence", "spoguļkanāls",
   "balansa modulators", "galotnes jauda", "deviācija", "slodzes ekvivalents"
   jāpārbauda pret Latvijā lietoto terminoloģiju un ES jautājumiem.

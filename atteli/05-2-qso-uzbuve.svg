@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<title>QSO četras daļas</title>
+<rect x="0" y="0" width="760" height="440" fill="white"/>
+<rect x="10.0" y="75.0" width="740.0" height="50.0" rx="0" fill="#ececec" stroke="#111111" stroke-width="0"/>
+<text x="20.0" y="105.0" text-anchor="start" font-size="12" fill="#111111" font-weight="bold">1. Izsaukums</text>
+<rect x="10.0" y="135.0" width="740.0" height="50.0" rx="0" fill="#f6f6f6" stroke="#111111" stroke-width="0"/>
+<text x="20.0" y="165.0" text-anchor="start" font-size="12" fill="#111111" font-weight="bold">2. Atbilde</text>
+<rect x="10.0" y="195.0" width="740.0" height="100.0" rx="0" fill="#ececec" stroke="#111111" stroke-width="0"/>
+<text x="20.0" y="250.0" text-anchor="start" font-size="12" fill="#111111" font-weight="bold">3. Apmaiņa</text>
+<rect x="10.0" y="305.0" width="740.0" height="100.0" rx="0" fill="#f6f6f6" stroke="#111111" stroke-width="0"/>
+<text x="20.0" y="360.0" text-anchor="start" font-size="12" fill="#111111" font-weight="bold">4. Noslēgums</text>
+<rect x="155.0" y="23.0" width="110.0" height="34.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="210.0" y="44.7" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">YL3ABC</text>
+<line x1="210.0" y1="57.0" x2="210.0" y2="420.0" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="5 4" stroke-linecap="round"/>
+<rect x="535.0" y="23.0" width="110.0" height="34.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="590.0" y="44.7" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">ON3DXY</text>
+<line x1="590.0" y1="57.0" x2="590.0" y2="420.0" stroke="#9a9a9a" stroke-width="1.2" stroke-dasharray="5 4" stroke-linecap="round"/>
+<line x1="210.0" y1="108.0" x2="584.6" y2="108.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="590.0,108.0 581.8,111.7 581.8,104.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="400.0" y="101.0" text-anchor="middle" font-size="12" fill="#111111" font-style="italic">CQ CQ CQ, this is YL3ABC</text>
+<line x1="590.0" y1="168.0" x2="215.4" y2="168.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="210.0,168.0 218.2,164.3 218.2,171.7" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="400.0" y="161.0" text-anchor="middle" font-size="12" fill="#111111" font-style="italic">YL3ABC, this is ON3DXY</text>
+<line x1="210.0" y1="232.0" x2="584.6" y2="232.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="590.0,232.0 581.8,235.7 581.8,228.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="400.0" y="225.0" text-anchor="middle" font-size="12" fill="#111111" font-style="italic">five nine · name Anna · QTH Riga · over</text>
+<line x1="590.0" y1="278.0" x2="215.4" y2="278.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="210.0,278.0 218.2,274.3 218.2,281.7" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="400.0" y="271.0" text-anchor="middle" font-size="12" fill="#111111" font-style="italic">five seven · name Mark · QTH Brussels · over</text>
+<line x1="210.0" y1="342.0" x2="584.6" y2="342.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="590.0,342.0 581.8,345.7 581.8,338.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="400.0" y="335.0" text-anchor="middle" font-size="12" fill="#111111" font-style="italic">thanks, 73 · ON3DXY this is YL3ABC, clear</text>
+<line x1="590.0" y1="388.0" x2="215.4" y2="388.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="210.0,388.0 218.2,384.3 218.2,391.7" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="400.0" y="381.0" text-anchor="middle" font-size="12" fill="#111111" font-style="italic">73 · YL3ABC this is ON3DXY, clear</text>
+<text x="660.0" y="254.0" text-anchor="start" font-size="10" fill="#111111">signāla ziņojums,</text>
+<text x="660.0" y="267.0" text-anchor="start" font-size="10" fill="#111111">vārds, QTH</text>
+</svg>

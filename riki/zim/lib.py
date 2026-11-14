@@ -1,4 +1,4 @@
-"""Kopīga zīmēšanas bibliotēka grāmatas zīmējumiem (SVG, melnbalts stils).
+"""Kopīga zīmēšanas bibliotēka grāmatas zīmējumiem (SVG; pamatā melnbalts, krāsa — kur tā palīdz).
 
 Visi zīmējumi tiek ģenerēti ar kodu, lai tos varētu labot un pārbūvēt.
 Palaišana: python3 riki/zim/build.py
@@ -11,6 +11,13 @@ K = "#111111"      # līnijas un teksts
 G = "#cfcfcf"      # pelēks aizpildījums
 LG = "#ececec"     # gaiši pelēks
 MG = "#9a9a9a"     # vidēji pelēks
+# Krāsas — tās pašas, kas grāmatas maketā (riki/dizains/gramata.css). Lieto tikai tur,
+# kur krāsa palīdz saprast zīmējumu; melnbaltā izdrukā tās paliek atšķiramas pēc toņa.
+RED, RED_T = "#b42318", "#fbe4e1"
+BLUE, BLUE_T = "#1e5aa8", "#dde8f6"
+GREEN, GREEN_T = "#2f7a4b", "#dcefe2"
+AMBER, AMBER_T = "#b45309", "#fbebd3"
+BRICK, BRICK_T = "#73281e", "#f3e3e0"
 CW = 0.60          # aptuvens rakstzīmes platums pret fonta izmēru
 
 
@@ -50,10 +57,10 @@ class Fig:
              (x2 - head * math.cos(a + sp), y2 - head * math.sin(a + sp))]
         self.pl(p, w=1, color=color, fill=color, close=True)
 
-    def darrow(self, x1, y1, x2, y2, w=1.2):
+    def darrow(self, x1, y1, x2, y2, w=1.2, color=K):
         """Abpusēja bultiņa (izmēru līnija)."""
-        self.arrow(x1, y1, x2, y2, w=w, head=7)
-        self.arrow(x2, y2, x1, y1, w=w, head=7)
+        self.arrow(x1, y1, x2, y2, w=w, head=7, color=color)
+        self.arrow(x2, y2, x1, y1, w=w, head=7, color=color)
 
     def rect(self, x, y, w, h, fill="white", rx=4, sw=1.6, dash=None, color=K):
         d = f' stroke-dasharray="{dash}"' if dash else ""
@@ -79,22 +86,22 @@ class Fig:
         self.add(f'<text x="{x:.1f}" y="{y:.1f}" text-anchor="{anchor}" font-size="{size}" '
                  f'fill="{color}"{st}>{escape(t)}</text>')
 
-    def ltext(self, x, y, t, anchor="middle", size=12, italic=False, bold=False):
+    def ltext(self, x, y, t, anchor="middle", size=12, italic=False, bold=False, color=K):
         """Teksts ar baltu fonu (lai nepārklātos ar līknēm)."""
         w = len(t) * size * CW + 6
         x0 = x - w / 2 if anchor == "middle" else (x - 3 if anchor == "start" else x - w + 3)
         self.add(f'<rect x="{x0:.1f}" y="{y - size:.1f}" width="{w:.1f}" height="{size + 5:.1f}" fill="white" stroke="none"/>')
-        self.text(x, y, t, anchor=anchor, size=size, italic=italic, bold=bold)
+        self.text(x, y, t, anchor=anchor, size=size, italic=italic, bold=bold, color=color)
 
-    def mtext(self, cx, cy, label, size=13, bold=False, anchor="middle", lh=1.25):
+    def mtext(self, cx, cy, label, size=13, bold=False, anchor="middle", lh=1.25, color=K, italic=False):
         lines = label.split("\n")
         y0 = cy - (len(lines) - 1) * size * lh / 2 + size * 0.36
         for i, t in enumerate(lines):
-            self.text(cx, y0 + i * size * lh, t, anchor=anchor, size=size, bold=bold)
+            self.text(cx, y0 + i * size * lh, t, anchor=anchor, size=size, bold=bold, color=color, italic=italic)
 
-    def box(self, cx, cy, w, h, label, fill="white", size=13, bold=False, dash=None):
-        self.rect(cx - w / 2, cy - h / 2, w, h, fill=fill, dash=dash)
-        self.mtext(cx, cy, label, size=size, bold=bold)
+    def box(self, cx, cy, w, h, label, fill="white", size=13, bold=False, dash=None, color=K, tcolor=K):
+        self.rect(cx - w / 2, cy - h / 2, w, h, fill=fill, dash=dash, color=color)
+        self.mtext(cx, cy, label, size=size, bold=bold, color=tcolor)
 
     def sine(self, x0, y0, width, amp, cycles, phase=0.0, dash=None, w=1.6, n=240,
              env=None, fm=None, rect=False, color=K):
@@ -228,3 +235,99 @@ def arcpts(cx, cy, R, a1, a2, n=60):
     """Punkti uz loka; leņķis mērīts no vertikāles (radiānos)."""
     return [(cx + R * math.sin(a1 + (a2 - a1) * i / n), cy - R * math.cos(a1 + (a2 - a1) * i / n))
             for i in range(n + 1)]
+
+
+# --- funkcionālie simboli blokshēmām (kā LRAL kursa 7. nodarbības slaidos) ---
+SQ = 46  # bloka izmērs
+
+
+def _tilde(f, cx, y, w=26, a=4.0, strike=False):
+    f.sine(cx - w / 2, y, w, a, 1.0, w=1.4, n=40)
+    if strike:
+        f.line(cx - 4, y + 6, cx + 4, y - 6, w=1.4)
+
+
+def sym_filter(f, cx, cy, kind="bp", s=SQ):
+    """Filtrs: bp — joslas, lp — zemo frekvenču, hp — augsto frekvenču."""
+    f.rect(cx - s / 2, cy - s / 2, s, s, rx=0)
+    if kind == "bp":
+        _tilde(f, cx, cy - 12, strike=True)
+        _tilde(f, cx, cy)
+        _tilde(f, cx, cy + 12, strike=True)
+    else:
+        _tilde(f, cx, cy - 7, strike=(kind == "lp"))
+        _tilde(f, cx, cy + 7, strike=(kind == "hp"))
+    return cx - s / 2, cx + s / 2
+
+
+def sym_amp(f, cx, cy, w=42, h=46):
+    f.pl([(cx - w / 2, cy - h / 2), (cx - w / 2, cy + h / 2), (cx + w / 2, cy)], close=True, fill="white")
+    return cx - w / 2, cx + w / 2
+
+
+def sym_mixer(f, cx, cy, r=23):
+    f.circ(cx, cy, r)
+    d = r * 0.707
+    f.line(cx - d, cy - d, cx + d, cy + d, w=1.4)
+    f.line(cx - d, cy + d, cx + d, cy - d, w=1.4)
+    return cx - r, cx + r
+
+
+def sym_gen(f, cx, cy, r=23, tunable=False):
+    f.circ(cx, cy, r)
+    _tilde(f, cx, cy, w=24, a=4.5)
+    if tunable:
+        f.arrow(cx - 11, cy + 9, cx + 11, cy - 11, w=1.4, head=7)
+    return cx - r, cx + r
+
+
+def sym_det(f, cx, cy, s=SQ):
+    f.rect(cx - s / 2, cy - s / 2, s, s, rx=0)
+    f.line(cx, cy - 16, cx, cy + 16, w=1.4)
+    f.pl([(cx - 8, cy - 6), (cx + 8, cy - 6), (cx, cy + 6)], close=True, fill="white", w=1.4)
+    f.line(cx - 8, cy + 6, cx + 8, cy + 6, w=1.6)
+    return cx - s / 2, cx + s / 2
+
+
+def sym_disc(f, cx, cy, s=SQ):
+    f.rect(cx - s / 2, cy - s / 2, s, s, rx=0)
+    f.pl([(cx - s / 2, cy + s / 2), (cx, cy - s / 2), (cx + s / 2, cy + s / 2)], w=1.4)
+    return cx - s / 2, cx + s / 2
+
+
+def sym_lim(f, cx, cy, s=SQ):
+    f.rect(cx - s / 2, cy - s / 2, s, s, rx=0)
+    pts = []
+    for i in range(41):
+        t = i / 40
+        v = max(-0.55, min(0.55, math.sin(2 * math.pi * t)))
+        pts.append((cx - 12 + 24 * t, cy - 14 * v))
+    f.pl(pts, w=1.4)
+    f.line(cx - 19, cy, cx - 13, cy, w=1.4)
+    f.line(cx + 13, cy, cx + 19, cy, w=1.4)
+    return cx - s / 2, cx + s / 2
+
+
+def sym_block(f, cx, cy, label, w=SQ, size=11):
+    f.rect(cx - w / 2, cy - SQ / 2, w, SQ, rx=0)
+    f.mtext(cx, cy, label, size=size)
+    return cx - w / 2, cx + w / 2
+
+
+def sym_key(f, x, y):
+    """Telegrāfa atslēga: augšējais kontakts (x, y), apakšā zemējums."""
+    f.circ(x, y, 3.5)
+    f.circ(x, y + 34, 3.5)
+    f.line(x - 1, y + 31, x - 12, y + 8, w=1.6)
+    f.path(f"M {x - 18} {y + 4} L {x - 18} {y + 16} M {x - 18} {y + 4} Q {x - 10} {y + 10} {x - 18} {y + 16}", w=1.4)
+    f.line(x, y + 38, x, y + 48, w=1.6)
+    f.line(x - 16, y + 48, x + 16, y + 48, w=1.6)
+    for k in range(4):
+        f.line(x - 14 + k * 9, y + 48, x - 20 + k * 9, y + 58, w=1.2)
+
+
+def lab(f, cx, y, text, size=11):
+    """Paraksts virs vai zem simbola; y ir apakšējās (vai vienīgās) rindas bāzes līnija."""
+    lines = text.split("\n")
+    for i, t in enumerate(lines):
+        f.text(cx, y - (len(lines) - 1 - i) * size * 1.2, t, size=size)

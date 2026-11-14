@@ -125,6 +125,8 @@ vieglāki, bet slikti uzbūvēti rada radiotraucējumus (16. nodaļa).
 tāds pats signāls kā ieejā, tikai lielāks. Cik reižu lielāks, pasaka
 **pastiprinājums**, ko parasti izsaka decibelos [1].
 
+![10.4. attēls. Pastiprinātājs: darbība un pakāpe ar tranzistoru.](../atteli/10-4-pastiprinatajs.svg)
+
 | Veids | Ko pastiprina | Kur lieto |
 | --- | --- | --- |
 | Platjoslas (aperiodiskais) | Plašu frekvenču joslu vienādi | Mērierīces, daudzdiapazonu iekārtas |
@@ -155,6 +157,8 @@ pastiprinātājs, kura izejas signāla daļa padota atpakaļ uz ieeju, un
 frekvenci nosaka kontūrs vai kvarca rezonators. Svarīgākie parametri ir
 izejas frekvence un tās stabilitāte [1].
 
+![10.5. attēls. Ģenerators: pastiprinātājs ar atgriezenisko saiti.](../atteli/10-5-generators.svg)
+
 | Veids | Saīsinājums | Īpašība |
 | --- | --- | --- |
 | Maināmas frekvences ģenerators | VFO | Frekvenci var pārskaņot; mazāk stabils |
@@ -175,6 +179,8 @@ $$f_{izejā} = f_1 + f_2 \quad \text{un} \quad f_1 - f_2$$
 
 Aiz jaucēja liek joslas filtru, kas izvēlas vienu no abām.
 
+![10.6. attēls. Jaucējs: izejā ir summa un starpība; filtrs izvēlas vienu.](../atteli/10-6-jaucejs.svg)
+
 > **Piemērs.** Jaucējam padod 9 MHz un 2 MHz signālus. Kādas frekvences ir
 > izejā?
 >
@@ -194,6 +200,8 @@ nesēja [1].
 
 Ciparu tehnikā signālam ir tikai divi stāvokļi: 0 un 1. **Loģiskie elementi**
 no vienas vai divām ieejām veido izeju pēc noteikta likuma [2].
+
+![10.7. attēls. Loģisko elementu UN, VAI un NE apzīmējumi.](../atteli/10-7-logiskie-elementi.svg)
 
 | A | B | UN (AND) | VAI (OR) |
 | --- | --- | --- | --- |

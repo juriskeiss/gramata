@@ -42,7 +42,7 @@ Ceļš līdz darbam ēterā ir vienāds visiem [1]:
    pieejami pārlūkprogrammā.
 3. **Gatavošanās un pieteikšanās eksāmenam.** Šī grāmata, video lekcijas un
    paškontroles jautājumi.
-4. **Eksāmens.** Tests pie "Elektroniskajiem sakariem" (ES).
+4. **Eksāmens.** Tests, ko rīko SIA "Elektroniskie sakari" (ES).
 5. **Radiostacijas atļauja.** Pēc nokārtota eksāmena piesaki atļauju un saņem
    izsaukuma signālu.
 6. **Stacijas ierīkošana.** Raiduztvērējs, antena, barošana.
@@ -150,7 +150,7 @@ jebkuram plānam:
 
 - Kategorijas: C — FM operators, B — iesācējs (NOVICE), A — HAREC.
 - B kategorijas atļauju dod Iesācēja radioamatiera eksaminācijas apliecība.
-- Eksāmens notiek testa veidā; to rīko "Elektroniskie sakari" ne retāk kā
+- Eksāmens notiek testa veidā; to rīko SIA "Elektroniskie sakari" ne retāk kā
   divas reizes gadā.
 - Pieteikties jāpaspēj ne vēlāk kā vienu nedēļu pirms eksāmena.
 - Līdz 16 gadu vecumam vajadzīga vecāku rakstveida piekrišana.
@@ -213,7 +213,7 @@ kuru nodaļu kurā nedēļā apgūsi. Pēdējo nedēļu atstāj izmēģinājuma 
     - B. Vienu dienu
     - C. Vienu mēnesi
     - D. Trīs mēnešus
-7. Cik bieži "Elektroniskie sakari" rīko radioamatieru eksāmenu?
+7. Cik bieži SIA "Elektroniskie sakari" rīko radioamatieru eksāmenu?
     - A. Reizi gadā
     - B. Ne retāk kā divas reizes gadā
     - C. Katru mēnesi

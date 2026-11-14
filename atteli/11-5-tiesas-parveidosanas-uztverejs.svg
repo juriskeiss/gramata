@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 290" width="680" height="290" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<title>Tiešās pārveidošanas uztvērēja blokshēma</title>
+<rect x="0" y="0" width="680" height="290" fill="white"/>
+<rect x="127.0" y="67.0" width="46.0" height="46.0" rx="0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<polyline points="137.0,78.0 137.7,77.4 138.3,76.8 138.9,76.2 139.6,75.6 140.2,75.2 140.9,74.8 141.6,74.4 142.2,74.2 142.8,74.0 143.5,74.0 144.2,74.0 144.8,74.2 145.4,74.4 146.1,74.8 146.8,75.2 147.4,75.6 148.1,76.2 148.7,76.8 149.3,77.4 150.0,78.0 150.7,78.6 151.3,79.2 151.9,79.8 152.6,80.4 153.2,80.8 153.9,81.2 154.6,81.6 155.2,81.8 155.8,82.0 156.5,82.0 157.2,82.0 157.8,81.8 158.4,81.6 159.1,81.2 159.8,80.8 160.4,80.4 161.1,79.8 161.7,79.2 162.3,78.6 163.0,78.0" fill="none" stroke="#111111" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="146.0" y1="84.0" x2="154.0" y2="72.0" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<polyline points="137.0,90.0 137.7,89.4 138.3,88.8 138.9,88.2 139.6,87.6 140.2,87.2 140.9,86.8 141.6,86.4 142.2,86.2 142.8,86.0 143.5,86.0 144.2,86.0 144.8,86.2 145.4,86.4 146.1,86.8 146.8,87.2 147.4,87.6 148.1,88.2 148.7,88.8 149.3,89.4 150.0,90.0 150.7,90.6 151.3,91.2 151.9,91.8 152.6,92.4 153.2,92.8 153.9,93.2 154.6,93.6 155.2,93.8 155.8,94.0 156.5,94.0 157.2,94.0 157.8,93.8 158.4,93.6 159.1,93.2 159.8,92.8 160.4,92.4 161.1,91.8 161.7,91.2 162.3,90.6 163.0,90.0" fill="none" stroke="#111111" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="137.0,102.0 137.7,101.4 138.3,100.8 138.9,100.2 139.6,99.6 140.2,99.2 140.9,98.8 141.6,98.4 142.2,98.2 142.8,98.0 143.5,98.0 144.2,98.0 144.8,98.2 145.4,98.4 146.1,98.8 146.8,99.2 147.4,99.6 148.1,100.2 148.7,100.8 149.3,101.4 150.0,102.0 150.7,102.6 151.3,103.2 151.9,103.8 152.6,104.4 153.2,104.8 153.9,105.2 154.6,105.6 155.2,105.8 155.8,106.0 156.5,106.0 157.2,106.0 157.8,105.8 158.4,105.6 159.1,105.2 159.8,104.8 160.4,104.4 161.1,103.8 161.7,103.2 162.3,102.6 163.0,102.0" fill="none" stroke="#111111" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="146.0" y1="108.0" x2="154.0" y2="96.0" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="50.0" y1="90.0" x2="50.0" y2="44.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="50.0" y1="62.0" x2="38.0" y2="44.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="50.0" y1="62.0" x2="62.0" y2="44.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="50.0" y1="90.0" x2="121.6" y2="90.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="127.0,90.0 118.8,93.7 118.8,86.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="250.0" cy="90.0" r="23.0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<line x1="233.7" y1="73.7" x2="266.3" y2="106.3" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="233.7" y1="106.3" x2="266.3" y2="73.7" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="173.0" y1="90.0" x2="221.6" y2="90.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="227.0,90.0 218.8,93.7 218.8,86.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="250.0" cy="190.0" r="23.0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<polyline points="238.0,190.0 238.6,189.3 239.2,188.6 239.8,188.0 240.4,187.4 241.0,186.8 241.6,186.4 242.2,186.0 242.8,185.7 243.4,185.6 244.0,185.5 244.6,185.6 245.2,185.7 245.8,186.0 246.4,186.4 247.0,186.8 247.6,187.4 248.2,188.0 248.8,188.6 249.4,189.3 250.0,190.0 250.6,190.7 251.2,191.4 251.8,192.0 252.4,192.6 253.0,193.2 253.6,193.6 254.2,194.0 254.8,194.3 255.4,194.4 256.0,194.5 256.6,194.4 257.2,194.3 257.8,194.0 258.4,193.6 259.0,193.2 259.6,192.6 260.2,192.0 260.8,191.4 261.4,190.7 262.0,190.0" fill="none" stroke="#111111" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="239.0" y1="199.0" x2="257.9" y2="181.8" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="261.0,179.0 258.2,185.4 254.4,181.2" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="250.0" y1="167.0" x2="250.0" y2="118.4" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="250.0,113.0 253.7,121.2 246.3,121.2" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="327.0" y="67.0" width="46.0" height="46.0" rx="0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<polyline points="337.0,83.0 337.6,82.4 338.3,81.8 338.9,81.2 339.6,80.6 340.2,80.2 340.9,79.8 341.6,79.4 342.2,79.2 342.9,79.0 343.5,79.0 344.1,79.0 344.8,79.2 345.4,79.4 346.1,79.8 346.8,80.2 347.4,80.6 348.1,81.2 348.7,81.8 349.4,82.4 350.0,83.0 350.6,83.6 351.3,84.2 351.9,84.8 352.6,85.4 353.2,85.8 353.9,86.2 354.6,86.6 355.2,86.8 355.9,87.0 356.5,87.0 357.1,87.0 357.8,86.8 358.4,86.6 359.1,86.2 359.8,85.8 360.4,85.4 361.1,84.8 361.7,84.2 362.4,83.6 363.0,83.0" fill="none" stroke="#111111" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="346.0" y1="89.0" x2="354.0" y2="77.0" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<polyline points="337.0,97.0 337.6,96.4 338.3,95.8 338.9,95.2 339.6,94.6 340.2,94.2 340.9,93.8 341.6,93.4 342.2,93.2 342.9,93.0 343.5,93.0 344.1,93.0 344.8,93.2 345.4,93.4 346.1,93.8 346.8,94.2 347.4,94.6 348.1,95.2 348.7,95.8 349.4,96.4 350.0,97.0 350.6,97.6 351.3,98.2 351.9,98.8 352.6,99.4 353.2,99.8 353.9,100.2 354.6,100.6 355.2,100.8 355.9,101.0 356.5,101.0 357.1,101.0 357.8,100.8 358.4,100.6 359.1,100.2 359.8,99.8 360.4,99.4 361.1,98.8 361.7,98.2 362.4,97.6 363.0,97.0" fill="none" stroke="#111111" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="273.0" y1="90.0" x2="321.6" y2="90.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="327.0,90.0 318.8,93.7 318.8,86.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="429.0,67.0 429.0,113.0 471.0,90.0" fill="white" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="373.0" y1="90.0" x2="423.6" y2="90.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="429.0,90.0 420.8,93.7 420.8,86.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="471.0" y1="90.0" x2="524.6" y2="90.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="530.0,90.0 521.8,93.7 521.8,86.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="530.0" y="82.0" width="9.0" height="16.0" rx="0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<polygon points="539.0,82.0 552.0,72.0 552.0,108.0 539.0,98.0" fill="white" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="150.0" y="58.0" text-anchor="middle" font-size="11" fill="#111111">Ieejas filtrs</text>
+<text x="250.0" y="58.0" text-anchor="middle" font-size="11" fill="#111111">Jaucējs</text>
+<text x="350.0" y="46.0" text-anchor="middle" font-size="10" fill="#111111">Zemo frekvenču</text>
+<text x="350.0" y="58.0" text-anchor="middle" font-size="10" fill="#111111">filtrs</text>
+<text x="450.0" y="58.0" text-anchor="middle" font-size="11" fill="#111111">ZFP</text>
+<text x="250.0" y="232.0" text-anchor="middle" font-size="11" fill="#111111">Heterodīns</text>
+<text x="250.0" y="246.0" text-anchor="middle" font-size="10" fill="#111111">(noskaņots uz signāla frekvenci)</text>
+</svg>

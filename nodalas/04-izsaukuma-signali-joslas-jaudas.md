@@ -17,7 +17,7 @@ kurās frekvencēs un ar kādu jaudu drīkst raidīt B kategorijas stacija.
 
 ## 4.1. Latvijas izsaukuma signāla uzbūve
 
-Izsaukuma signālus piešķir "Elektroniskie sakari" (ES). Pamata izsaukuma
+Izsaukuma signālus piešķir SIA "Elektroniskie sakari" (ES). Pamata izsaukuma
 signāls sastāv no prefiksa **YL**, viena cipara un sufiksa. Sufiksa garums
 rāda stacijas kategoriju (32.–33. punkts) [1].
 
@@ -26,6 +26,8 @@ rāda stacijas kategoriju (32.–33. punkts) [1].
 | A | 2 | YL2AB |
 | B | 3 | YL3ABC |
 | C | 4 | YL3ABCD |
+
+![4.1. attēls. Izsaukuma signāla uzbūve.](../atteli/04-1-izsaukuma-signals.svg)
 
 Pārejot uz augstāku kategoriju, izsaukuma signāls var mainīties: no C uz B
 piešķir signālu ar trīs burtiem, no B uz A — ar diviem [1].
@@ -87,7 +89,7 @@ var ņemt līdzi [1], [2].
 Viesojoties citā valstī, savam izsaukuma signālam priekšā liek šīs valsts
 prefiksu un slīpsvītru:
 
-- Latvijas B kategorijas stacija Lietuvā: **LY/YL3ABC**;
+- Latvijas stacija Lietuvā: **LY/YL2AB**;
 - Lietuvas stacija Latvijā: **YL/LY1AB** (75. punkts) [1].
 
 Ārvalsts radioamatierim pēc pieprasījuma jāuzrāda atļauja un personu
@@ -116,6 +118,8 @@ kolonna "Diapazons" pievienota ērtībai.
 | 70 cm | 430–440 MHz | PRIM | 20 W | |
 | 23 cm | 1240–1300 MHz | sek | 10 W | |
 
+![4.2. attēls. B kategorijas joslas un jaudas.](../atteli/04-2-b-kategorijas-joslas.svg)
+
 Kā lasīt tabulu:
 
 - **Statuss** pasaka, kādas tiesības joslā ir radioamatieriem [1].
@@ -126,14 +130,14 @@ Kā lasīt tabulu:
       un nevar prasīt aizsardzību no to traucējumiem.
 - **Jauda** tabulā ir raidītāja galotnes jauda (pX), proti, lielākā jauda
   signāla maksimumos [1].
-- **MGM** (machine generated modes) ir ciparātie darba veidi, piemēram, FT8
+- **MGM** (machine generated modes) ir ciparu darba veidi, piemēram, FT8
   un RTTY.
 
 > **Atceries:** HF un 6 m — 100 W. Tālāk jauda krītas: 2 m — 50 W,
 > 70 cm — 20 W, 23 cm — 10 W.
 
 > **Uzmanību!** 40 m diapazonā B kategorija drīkst strādāt tikai telegrāfā
-> un ciparātajos veidos. Balss sakari (SSB) tur B kategorijai nav atļauti.
+> un ciparu darba veidos. Balss sakari (SSB) tur B kategorijai nav atļauti.
 
 ## 4.6. Kur B kategorija nedrīkst raidīt
 
@@ -152,7 +156,7 @@ Klausīties drīkst visur.
 > | 3,690 MHz, SSB, 100 W | Jā | 80 m josla, jauda nepārsniedz 100 W |
 > | 3,760 MHz, SSB, 50 W | Nē | Virs 3750 kHz |
 > | 7,060 MHz, SSB, 50 W | Nē | 40 m tikai CW un MGM |
-> | 7,074 MHz, FT8, 50 W | Jā | 40 m josla, ciparātais veids |
+> | 7,074 MHz, FT8, 50 W | Jā | 40 m josla, ciparu darba veids |
 > | 14,200 MHz, SSB, 10 W | Nē | 20 m diapazons B kategorijai nav atļauts |
 > | 145,500 MHz, FM, 50 W | Jā | 2 m josla, tieši lielākā atļautā jauda |
 > | 433,500 MHz, FM, 50 W | Nē | 70 cm lielākā jauda ir 20 W |
@@ -203,10 +207,10 @@ stacijas. Katrai nosaki:
 
 - Sufiksa garums rāda kategoriju: 2, 3 vai 4 burti.
 - Papildzīme aiz slīpsvītras pasaka, kur stacija atrodas.
-- Ārvalstīs priekšā liek viesvalsts prefiksu: LY/YL3ABC.
+- Ārvalstīs priekšā liek viesvalsts prefiksu: LY/YL2AB.
 - B kategorijai ir astoņi diapazoni no 80 m līdz 23 cm.
 - Lielākā jauda ir 100 W īsviļņos un 6 m, mazāka augstākās frekvencēs.
-- 40 m diapazonā B kategorijai tikai CW un ciparātie veidi.
+- 40 m diapazonā B kategorijai tikai CW un ciparu darba veidi.
 - Pirms raidi, pārbaudi trīs lietas: josla, darba veids, jauda.
 
 ## Paškontroles jautājumi

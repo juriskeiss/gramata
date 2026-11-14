@@ -14,7 +14,7 @@ citā — Japānu, un kāpēc tas mainās pa stundām, gadalaikiem un gadiem.
 - nosaukt jonosfēras slāņus un pateikt, ko katrs dara;
 - paredzēt, kurš B kategorijas diapazons kurā diennakts laikā ir "atvērts";
 - paskaidrot, kas ir mirusī zona, feidings un NVIS;
-- novērtēt UKV sakaru attālumu pēc antenu augstuma.
+- novērtēt VHF un UHF sakaru attālumu pēc antenu augstuma.
 
 ## 14.1. Radiofrekvenču spektrs
 
@@ -25,6 +25,8 @@ frekvenci; radioviļņi ir spektra zemāko frekvenču gals [1].
 Radiofrekvences iedala diapazonos; katrs nākamais ir desmit reizes augstāks
 par iepriekšējo [1].
 
+![14.1. attēls. Radiofrekvenču spektra dalījums un B kategorijas joslas.](../atteli/14-1-radiofrekvencu-spektrs.svg)
+
 | Diapazons | Nosaukums | Frekvence | Viļņa garums | B kategorijas joslas |
 | --- | --- | --- | --- | --- |
 | LF | Garie viļņi | 30–300 kHz | 10–1 km | — |
@@ -33,11 +35,8 @@ par iepriekšējo [1].
 | VHF | Metru viļņi | 30–300 MHz | 10–1 m | 6 m, 2 m |
 | UHF | Decimetru viļņi | 300–3000 MHz | 1 m – 10 cm | 70 cm, 23 cm |
 
-Latviski VHF un UHF kopā bieži sauc par ultraīsviļņiem (UKV).
-
 > **Atceries:** robežas ir trijnieki ar nullēm: 3, 30, 300, 3000. HF ir no
-> 3 līdz 30 MHz; viss, kas zemāk par 30 MHz, radioamatieriem ir "īsviļņi",
-> viss virs — "UKV".
+> 3 līdz 30 MHz; virs 30 MHz sākas VHF, virs 300 MHz — UHF.
 
 Frekvence un viļņa garums ir saistīti: λ [m] = 300 / f [MHz] (8. nodaļa).
 Jo augstāka frekvence, jo īsāks vilnis un jo mazāka antena.
@@ -46,7 +45,7 @@ Jo augstāka frekvence, jo īsāks vilnis un jo mazāka antena.
 
 Radiovilnis no raidītāja līdz uztvērējam var nokļūt trijos veidos [1].
 
-![14.1. attēls. Trīs radioviļņu izplatīšanās veidi.](../atteli/14-1-izplatisanas-veidi.svg)
+![14.2. attēls. Trīs radioviļņu izplatīšanās veidi.](../atteli/14-2-izplatisanas-veidi.svg)
 
 | Veids | Kā izplatās | Kur valda | Tipisks attālums |
 | --- | --- | --- | --- |
@@ -68,7 +67,7 @@ Jonizēts slānis radioviļņus noliec atpakaļ uz Zemi, līdzīgi kā spogulis 
 
 Jonosfērā izšķir trīs slāņus.
 
-![14.2. attēls. Jonosfēras slāņi dienā un naktī.](../atteli/14-2-jonosferas-slani.svg)
+![14.3. attēls. Jonosfēras slāņi dienā un naktī.](../atteli/14-3-jonosferas-slani.svg)
 
 | Slānis | Augstums | Kad pastāv | Ko dara |
 | --- | --- | --- | --- |
@@ -90,7 +89,7 @@ no Zemes un vēlreiz no jonosfēras; ar vairākiem lēcieniem tas apiet zemeslod
 jābūt jonizācijai, lai vilni atstarotu. Augstāko frekvenci, ko jonosfēra
 konkrētā ceļā vēl atstaro, sauc par **MUF** (maximum usable frequency).
 Virs MUF signāls aiziet kosmosā. Tāpēc 2 m un 70 cm signāli no jonosfēras
-parasti neatstarojas, un tāpēc ar satelītiem sazinās tieši UKV.
+parasti neatstarojas, un tāpēc ar satelītiem sazinās tieši šajos diapazonos.
 
 ### Mirusī zona un feidings
 
@@ -98,7 +97,7 @@ Telpas vilnis atgriežas uz Zemi tālu no raidītāja, bet zemes vilnis jau sen
 ir izdzisis. Starp abiem ir josla, kurā signāls nav dzirdams vispār, —
 **mirusī zona** (skip zone).
 
-![14.3. attēls. Mirusī zona.](../atteli/14-3-mirusi-zona.svg)
+![14.4. attēls. Mirusī zona.](../atteli/14-4-mirusi-zona.svg)
 
 Tāpēc 15 m diapazonā vari dzirdēt Spāniju un nedzirdēt Lietuvu, kas ir
 desmit reizes tuvāk.
@@ -122,6 +121,8 @@ Saules, jo stiprāka jonizācija un jo augstākas frekvences jonosfēra atstaro.
 Maksimuma gados ar dažiem vatiem 10 m diapazonā var sazināties ar visu
 pasauli [1].
 
+![14.5. attēls. Saules aktivitātes cikls (shematiski).](../atteli/14-5-saules-cikls.svg)
+
 Saule mēdz arī traucēt: spēcīgi uzliesmojumi un ģeomagnētiskās vētras var uz
 stundām vai dienām izslēgt īsviļņu sakarus. Ja diapazoni pēkšņi ir tukši,
 vaina var nebūt tavā antenā.
@@ -133,7 +134,7 @@ vaina var nebūt tavā antenā.
 | Diapazons | Dienā | Naktī | Piezīmes |
 | --- | --- | --- | --- |
 | **80 m** | Tuvie sakari: Latvija, Baltija (NVIS) | Eiropa; ar labu antenu arī tālāk | Nakts diapazons; vasarā daudz atmosfēras trokšņu |
-| **40 m** | Baltija un Eiropa | Eiropa un tālie sakari | B kategorijai tikai CW un ciparātie veidi |
+| **40 m** | Baltija un Eiropa | Eiropa un tālie sakari | B kategorijai tikai CW un ciparu darba veidi |
 | **15 m** | Tālā Eiropa un citi kontinenti | Parasti slēgts | Dienas diapazons; atkarīgs no Saules aktivitātes |
 | **10 m** | Maksimuma gados visa pasaule; minimuma gados bieži kluss | Slēgts | Vasarā sporādiskais E dod Eiropu |
 | **6 m** | Vietējie sakari; vasarā sporādiskais E | Vietējie sakari | "Maģiskais diapazons" — atveras negaidīti |
@@ -154,7 +155,7 @@ vaina var nebūt tavā antenā.
 signālu raida gandrīz taisni uz augšu. Jonosfēra to atstaro atpakaļ kā
 lietussargs, un signāls nosedz apgabalu ap raidītāju bez mirušās zonas [1].
 
-![14.4. attēls. NVIS izplatīšanās.](../atteli/14-4-nvis.svg)
+![14.6. attēls. NVIS izplatīšanās.](../atteli/14-6-nvis.svg)
 
 | | NVIS |
 | --- | --- |
@@ -167,7 +168,7 @@ Latvija no viena gala līdz otram ir ap 450 km, tāpēc ar NVIS 80 m diapazonā
 var nosegt visu valsti. Tas ir iemesls, kāpēc 80 m ir galvenais diapazons
 vietējiem un ārkārtas sakariem.
 
-## 14.7. Izplatīšanās UKV diapazonos
+## 14.7. Izplatīšanās VHF un UHF diapazonos
 
 VHF un UHF viļņi izplatās gandrīz taisni un jonosfērai parasti iet cauri.
 Sakaru attālumu nosaka tas, cik tālu no antenas "redzams" horizonts.
@@ -178,28 +179,30 @@ $$d\,[\text{km}] \approx 4{,}12 \cdot \left(\sqrt{h_1\,[\text{m}]} + \sqrt{h_2\,
 
 kur h₁ un h₂ ir abu antenu augstumi metros.
 
+![14.7. attēls. Radio horizonts: abu antenu augstums nosaka tiešā sakara attālumu.](../atteli/14-7-radiohorizonts.svg)
+
 > **Piemērs.** Tava antena ir 16 m augstumā, korespondenta — 4 m augstumā.
 > Cik tālu iespējams tiešs sakars?
 >
 > 1. √16 = 4; √4 = 2.
 > 2. d ≈ 4,12 · (4 + 2) = 4,12 · 6 ≈ 24,7 km.
 
-No formulas redzams galvenais: UKV sakaros augstums ir svarīgāks par jaudu.
+No formulas redzams galvenais: VHF un UHF sakaros augstums ir svarīgāks par jaudu.
 Tāpēc atkārtotājus liek torņos un pakalnos — atkārtotājs 100 m augstumā
 rokas stacijai ir sasniedzams no vairāk nekā 40 km.
 
-Šķēršļi — ēkas, pakalni, mežs — UKV signālu vājina vai aiztur. Pilsētā
+Šķēršļi — ēkas, pakalni, mežs — VHF un UHF signālu vājina vai aiztur. Pilsētā
 signāls bieži pienāk atstarots no ēkām pa vairākiem ceļiem; tāpēc, pabīdoties
 par metru, uztveršana var mainīties no izcilas uz nekādu.
 
-Dažreiz UKV signāli aiziet daudz tālāk par horizontu:
+Dažreiz VHF un UHF signāli aiziet daudz tālāk par horizontu:
 
 | Veids | Kas notiek | Kad |
 | --- | --- | --- |
 | **Tropo** | Siltā un aukstā gaisa slāņu robeža noliec vai vada viļņus | Stabils augsta spiediena laiks, rudens rīti; simtiem kilometru |
 | **Sporādiskais E** (Es) | E slānī rodas blīvi jonizēti mākoņi | Maijs–augusts; 6 m un 10 m, retāk 2 m; 1000–2000 km |
 | **Aurora** | Atstarošanās no polārblāzmas | Ģeomagnētisko vētru laikā; signāls skan šņācoši |
-| **Meteori** | Atstarošanās no meteoru pēdām | Sekundes; ciparātajiem veidiem |
+| **Meteori** | Atstarošanās no meteoru pēdām | Sekundes; ciparu darba veidiem |
 | **EME** | Atstarošanās no Mēness | Lielām antenām un jutīgiem uztvērējiem |
 
 ## 14.8. Kā uzzināt, kas šobrīd strādā
@@ -209,7 +212,7 @@ Izplatīšanos nevar droši paredzēt, bet to var novērot.
 - **Radiobākas.** Bākas raida nepārtraukti zināmās frekvencēs. Ja dzirdi
   bāku no Dienvidāfrikas, diapazons uz dienvidiem ir atvērts.
 - **DX klasteris.** Tīmekļa vietne, kur operatori ziņo, ko tikko dzirdējuši.
-- **Ciparāto veidu kartes.** Tiešsaistes kartes rāda, kur pasaulē šobrīd
+- **Ciparu darba veidu kartes.** Tiešsaistes kartes rāda, kur pasaulē šobrīd
   uztver FT8 signālus no tava reģiona.
 - **WebSDR.** Paklausies diapazonu no uztvērēja citā valstī un uzzināsi, vai
   tur dzird Latvijas stacijas.
@@ -251,7 +254,7 @@ Salīdzini ar 14.5. tabulu.
 dzirdēto staciju valstis. Kura ir tuvākā? Cik tālu tā ir no uztvērēja?
 
 **3. Aprēķini savu radio horizontu.** Izmēri vai novērtē, cik augstu būs
-tava UKV antena. Aprēķini attālumu līdz rokas stacijai (1,5 m) un līdz
+tava 2 m diapazona antena. Aprēķini attālumu līdz rokas stacijai (1,5 m) un līdz
 tuvākajam atkārtotājam, ja zini tā augstumu.
 
 ## Kopsavilkums
@@ -265,7 +268,7 @@ tuvākajam atkārtotājam, ja zini tā augstumu.
 - Zemie diapazoni strādā naktī, augstie — dienā.
 - Starp zemes vilni un telpas vilni ir mirusī zona.
 - NVIS ar zemu antenu 80 m diapazonā nosedz visu Latviju.
-- UKV sakaru attālumu nosaka antenu augstums.
+- VHF un UHF sakaru attālumu nosaka antenu augstums.
 
 ## Paškontroles jautājumi
 
@@ -368,13 +371,13 @@ tuvākajam atkārtotājam, ja zini tā augstumu.
 | 10 | D | Apmēram 11 gadi starp diviem maksimumiem. |
 | 11 | A | Zemes vilnis jau izdzisis, telpas vilnis vēl nav nolaidies. |
 | 12 | B | Zema horizontāla antena izstaro galvenokārt uz augšu. |
-| 13 | C | UKV izplatās tiešās redzamības robežās. |
+| 13 | C | VHF un UHF izplatās tiešās redzamības robežās. |
 | 14 | D | 4,12 · (10 + 2) ≈ 49 km. |
 | 15 | A | Feidings; Q kodos QSB. |
 
 Atvērtie jautājumi: sešpadsmitajā atbilde ir 80 m — attālums ir ap 400 km,
 naktī D slāņa nav, un ar zemu dipolu (NVIS) signāls nosedz visu Latviju;
-15 m un 10 m naktī ir slēgti, UKV nesniedz tik tālu. Septiņpadsmitajā
+15 m un 10 m naktī ir slēgti, VHF un UHF nesniedz tik tālu. Septiņpadsmitajā
 jāpiemin mirusī zona: Igaunija ir par tālu zemes vilnim un par tuvu pirmajai
 telpas viļņa nolaišanās vietai.
 

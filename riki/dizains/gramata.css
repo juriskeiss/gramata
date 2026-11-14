@@ -1,0 +1,348 @@
+/* =====================================================================
+   LRAL Radioamatiera mācību grāmata — makets
+   Minimālisma stils: balta lapa, viegli toņi, kompakts salikums,
+   draudzīgs izdrukai (arī melnbaltai). Krāsas un burti — no LRAL
+   bezmaksas kursa 2026 prezentācijām. Vāks tiek veidots atsevišķi.
+   Lapa A4, PDF. Renderē Chromium (makets.py).
+   ===================================================================== */
+
+/* ---------------------------------------------------------- krāsas */
+:root {
+  --akcents: #73281e;         /* LRAL ķieģeļsarkanā: tikai virsraksti un sīkas zīmes */
+  --akcents-gaiss: #f7efed;   /* ļoti gaišs akcenta tonis fonam */
+  --akcents-linija: #e6cfca;
+  --dzintars: #b45309;        /* "Atceries", "Eksāmenā jāzina" */
+  --dzintars-gaiss: #fdf7ec;
+  --zils: #1e5aa8;
+  --zils-gaiss: #f2f6fb;
+  --zals: #2f7a4b;
+  --zals-gaiss: #f1f7f3;
+  --sarkans: #b42318;
+  --sarkans-gaiss: #fcf3f2;
+  --tinte: #1f2933;           /* pamatteksts */
+  --pelēks: #6b7280;
+  --linija: #e5e7eb;
+  --fons: #f7f7f8;
+}
+
+/* ---------------------------------------------------------- lapas */
+@page {
+  size: A4;
+  margin: 18mm 18mm 17mm 18mm;
+  @top-right {
+    content: "";
+    font: 500 7.2pt/1 Inter, sans-serif;
+    color: var(--pelēks);
+    vertical-align: bottom;
+    padding-bottom: 3mm;
+  }
+  @bottom-left {
+    content: "Radioamatiera mācību grāmata · LRAL";
+    font: 500 7.2pt/1 Inter, sans-serif;
+    color: var(--pelēks);
+    background: url("lral-logo.png") no-repeat left 2.6mm / auto 3.8mm;
+    padding-left: 4.4mm;
+    vertical-align: top;
+    padding-top: 4mm;
+  }
+  @bottom-right {
+    content: counter(page);
+    font: 600 7.6pt/1 Inter, sans-serif;
+    color: var(--tinte);
+    vertical-align: top;
+    padding-top: 4mm;
+  }
+}
+@page :first {
+  @top-right { content: none; }
+  @bottom-left { content: none; background: none; }
+  @bottom-right { content: none; }
+}
+@page tituls {
+  @top-right { content: none; }
+  @bottom-left { content: none; background: none; }
+  @bottom-right { content: none; }
+}
+
+/* ---------------------------------------------------------- pamats */
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body {
+  margin: 0;
+  font-family: Inter, "Liberation Sans", sans-serif;
+  font-size: 9.8pt;
+  line-height: 1.48;
+  color: var(--tinte);
+  font-feature-settings: "cv11", "ss01";
+  hyphens: auto;
+}
+h1, h2, h3, th, .kicker, .lodzins-nosaukums { hyphens: manual; }
+p { margin: 0 0 2.2mm; orphans: 3; widows: 3; }
+strong { font-weight: 650; }
+a { color: var(--tinte); text-decoration: none; }
+code {
+  font-family: "DejaVu Sans Mono", monospace; font-size: .86em;
+  background: var(--fons); border-radius: .8mm; padding: .1mm .9mm;
+}
+ul, ol { margin: 0 0 2.6mm; padding-left: 5.5mm; }
+li { margin: 0 0 .8mm; }
+li::marker { color: var(--akcents); }
+math { font-family: "Latin Modern Math", math; font-size: 1.08em; }
+math[display="block"] { display: block math; margin: 2.5mm auto; }
+
+/* ---------------------------------------------------------- virsraksti */
+h2 {
+  font-weight: 750; font-size: 13.5pt; line-height: 1.2;
+  letter-spacing: -.01em; color: var(--tinte);
+  margin: 7mm 0 2.6mm; break-after: avoid; break-inside: avoid;
+  display: flex; align-items: baseline; gap: 2.6mm;
+}
+h2 .kicker {
+  font-size: inherit; font-weight: 750; color: var(--akcents);
+  letter-spacing: 0; text-transform: none; margin: 0; flex: none;
+}
+.kicker {
+  display: block; font-size: 6.8pt; font-weight: 700;
+  letter-spacing: .16em; text-transform: uppercase;
+  color: var(--akcents); margin-bottom: 1mm;
+}
+h3 {
+  font-weight: 650; font-size: 10.6pt; color: var(--tinte);
+  margin: 4.5mm 0 1.6mm; break-after: avoid;
+}
+.c-kat {
+  align-self: center; margin-left: auto;
+  font-size: 6.4pt; font-weight: 650; letter-spacing: .06em; text-transform: uppercase;
+  color: var(--zils); border: .25mm solid currentColor; border-radius: 1mm; padding: .5mm 1.6mm;
+}
+
+/* ---------------------------------------------------------- tabulas */
+table {
+  width: 100%; border-collapse: collapse;
+  margin: 1.6mm 0 4mm; font-size: 8.8pt; line-height: 1.35;
+}
+col { width: auto !important; }
+thead { display: table-header-group; }
+th {
+  text-align: left; font-weight: 650; font-size: 8pt; color: var(--akcents);
+  padding: 1.4mm 2.2mm; border-bottom: .4mm solid var(--akcents-linija);
+  background: var(--akcents-gaiss);
+}
+td { padding: 1.2mm 2.2mm; border-bottom: .2mm solid var(--linija); vertical-align: top; }
+tr { break-inside: avoid; }
+td:first-child { font-weight: 600; }
+
+/* ---------------------------------------------------------- attēli */
+figure.attels { margin: 3mm 0 4mm; break-inside: avoid; }
+.att-ramis { text-align: center; padding: 2mm 0; }
+.att-ramis img { max-width: 100%; max-height: 80mm; }
+.att-vietturis {
+  height: 30mm; border: .3mm dashed #d1d5db; border-radius: 1.5mm;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  color: var(--pelēks); font-size: 8pt; gap: 1mm;
+}
+.att-vietturis span { font-weight: 650; text-transform: uppercase; letter-spacing: .14em; font-size: 6.6pt; }
+.att-vietturis code { background: none; }
+figcaption {
+  font-size: 8.2pt; color: var(--pelēks); margin-top: 1.2mm;
+  border-top: .2mm solid var(--linija); padding-top: 1.2mm;
+}
+.att-nr { font-weight: 650; color: var(--tinte); }
+
+/* ---------------------------------------------------------- lodziņi */
+.lodzins {
+  break-inside: avoid; margin: 3mm 0; padding: 2.4mm 3.4mm .6mm 3.6mm;
+  border-left: .7mm solid var(--c); background: var(--b);
+  font-size: 9.3pt;
+}
+.lodzins p { margin-bottom: 1.8mm; }
+.lodzins-nosaukums {
+  font-weight: 700; color: var(--c); font-size: 8.4pt;
+  display: flex; align-items: center; gap: 1.5mm; margin-bottom: .8mm;
+}
+.lodzins .ikona {
+  width: 3.4mm; height: 3.4mm; flex: none; background: var(--c);
+  -webkit-mask: var(--i) center / contain no-repeat; mask: var(--i) center / contain no-repeat;
+}
+.lodzins ol { list-style: none; counter-reset: solis; padding-left: 0; }
+.lodzins ol > li { counter-increment: solis; position: relative; padding-left: 5.6mm; margin-bottom: 1mm; }
+.lodzins ol > li::before {
+  content: counter(solis) "."; position: absolute; left: 0;
+  font-weight: 700; color: var(--c);
+}
+.padoms   { --c: var(--zals);    --b: var(--zals-gaiss);
+  --i: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.3h6c0-1 .4-1.8 1-2.3A7 7 0 0 0 12 2z'/%3E%3C/svg%3E"); }
+.uzmanibu { --c: var(--sarkans); --b: var(--sarkans-gaiss);
+  --i: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3L2 21h20zM12 10v5M12 18v.5'/%3E%3C/svg%3E"); }
+.piemers  { --c: var(--zils);    --b: var(--zils-gaiss);
+  --i: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='5' y='2' width='14' height='20' rx='2'/%3E%3Cpath d='M8 6h8M8 11h2M14 11h2M8 15h2M14 15h2M8 19h2M14 19h2'/%3E%3C/svg%3E"); }
+.atceries { --c: var(--dzintars); --b: var(--dzintars-gaiss);
+  --i: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z'/%3E%3C/svg%3E"); }
+.padzilinati { --c: var(--pelēks); --b: var(--fons);
+  --i: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 2L2 7l10 5 10-5zM2 12l10 5 10-5M2 17l10 5 10-5'/%3E%3C/svg%3E"); }
+
+/* ---------------------------------------------------------- nodaļas beigu sadaļas */
+.sadala { margin-top: 7mm; }
+.sad-virsraksts { margin-top: 0; display: block; }
+.sad-virsraksts .kicker {
+  display: block; font-size: 6.8pt; font-weight: 700; letter-spacing: .16em;
+  text-transform: uppercase; margin-bottom: 1mm;
+}
+
+/* Eksāmenā jāzina — rāmis ar gaišu dzintara toni */
+.jazina {
+  border: .3mm solid #ecd9b8; background: var(--dzintars-gaiss);
+  padding: 3.4mm 4.4mm 1.4mm; break-inside: avoid;
+}
+.jazina .kicker { color: var(--dzintars); }
+.jazina ul { list-style: none; padding-left: 0; }
+.jazina li { position: relative; padding-left: 4.4mm; margin-bottom: 1.1mm; }
+.jazina li::before {
+  content: ""; position: absolute; left: .4mm; top: 1.75mm; width: 1.6mm; height: 1.6mm;
+  background: var(--dzintars); transform: rotate(45deg);
+}
+
+/* Pamēģini pats — vienkāršs rāmis */
+.pameigini { border: .3mm solid var(--linija); padding: 3.4mm 4.4mm 1.4mm; }
+.pameigini ul { list-style: none; padding-left: 0; }
+
+/* Kopsavilkums — tikai līnija virs un ķeksīši */
+.kopsavilkums { border-top: .4mm solid var(--akcents-linija); padding-top: 3mm; break-inside: avoid; }
+.kopsavilkums ul { list-style: none; padding-left: 0; }
+.kopsavilkums li { position: relative; padding-left: 5mm; margin-bottom: 1.1mm; }
+.kopsavilkums li::before {
+  content: ""; position: absolute; left: .6mm; top: 1.1mm; width: 2.4mm; height: 1.3mm;
+  border-left: .45mm solid var(--akcents); border-bottom: .45mm solid var(--akcents);
+  transform: rotate(-45deg);
+}
+
+/* Paškontroles jautājumi */
+.jautajumi > p { color: var(--pelēks); }
+.jautajumi > p > strong { color: var(--tinte); font-size: 10pt; display: block; margin-top: 4mm; }
+.jautajumu-saraksts { counter-reset: jaut; }
+.jautajumu-saraksts > ol { list-style: none; padding-left: 0; }
+.jautajumu-saraksts > ol > li {
+  counter-increment: jaut; position: relative; padding-left: 7mm;
+  margin-bottom: 2.6mm; break-inside: avoid; font-weight: 600;
+}
+.jautajumu-saraksts > ol > li::before {
+  content: counter(jaut) "."; position: absolute; left: 0; width: 5.5mm; text-align: right;
+  font-weight: 700; color: var(--akcents);
+}
+.varianti {
+  list-style: none; padding: 0; margin: 1mm 0 0; font-weight: 400;
+  display: grid; grid-template-columns: 1fr; gap: .6mm 6mm;
+}
+.varianti.divas-kolonnas { grid-template-columns: 1fr 1fr; }
+.varianti li { display: flex; gap: 1.8mm; margin: 0; align-items: baseline; }
+.burts {
+  flex: none; width: 3.8mm; height: 3.8mm; border: .25mm solid #c7cbd1; border-radius: 50%;
+  font-size: 6.4pt; font-weight: 700; color: var(--pelēks); text-align: center; line-height: 3.7mm;
+  position: relative; top: -.1mm;
+}
+
+/* Atbildes */
+.atbildes table { font-size: 8.4pt; }
+.atbildes td:first-child { width: 8mm; text-align: center; }
+.atbildes td:nth-child(2) { width: 14mm; text-align: center; font-weight: 700; color: var(--akcents); }
+.atbildes > p { font-size: 8.8pt; color: var(--pelēks); }
+
+/* Padziļināti */
+.padzilinati-sad { border-left: .7mm solid #c7cbd1; padding: .6mm 0 .2mm 4mm; }
+.padzilinati-sad .kicker { color: var(--pelēks); }
+
+/* Avoti */
+.avoti { font-size: 8pt; color: var(--pelēks); line-height: 1.4; }
+.avoti .sad-virsraksts { font-size: 10.6pt; }
+.avoti ol { padding-left: 5mm; }
+.avoti a { word-break: break-all; color: var(--pelēks); }
+
+/* Pārbaudes ķeksīši (- [ ]) */
+input[type="checkbox"] {
+  appearance: none; width: 3.2mm; height: 3.2mm; border: .3mm solid #9ca3af;
+  border-radius: .6mm; vertical-align: -.5mm; margin: 0 1.6mm 0 0;
+}
+ul.task-list { list-style: none; padding-left: 0; }
+
+/* =====================================================================
+   TITULLAPA UN SATURS
+   ===================================================================== */
+.tituls {
+  page: tituls; break-after: page; height: 255mm;
+  display: flex; flex-direction: column;
+}
+.tituls .logo-maz { height: 20mm; width: auto; align-self: flex-start; margin: 30mm 0 10mm; }
+.tituls h1 {
+  font-size: 26pt; font-weight: 800; color: var(--tinte); line-height: 1.1;
+  margin: 1.5mm 0 3mm; letter-spacing: -.02em;
+}
+.tituls .apaksv { font-size: 12pt; color: var(--pelēks); margin: 0; }
+.tituls .svitra { width: 18mm; height: .8mm; background: var(--akcents); margin: 8mm 0 0; }
+.tituls .kolofons {
+  margin-top: auto; font-size: 8pt; color: var(--pelēks); line-height: 1.45;
+  border-top: .2mm solid var(--linija); padding-top: 4mm;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 3.5mm 10mm;
+}
+.kolofons b { color: var(--tinte); display: block; font-size: 6.6pt; letter-spacing: .14em; text-transform: uppercase; margin-bottom: .5mm; }
+.kolofons p { margin: 0; }
+
+.saturs { break-after: page; }
+.saturs h2 { display: block; font-size: 20pt; margin: 0 0 6mm; }
+.saturs ol { list-style: none; padding: 0; }
+.saturs li {
+  display: flex; align-items: baseline; gap: 3mm; padding: 1.5mm 0;
+  border-bottom: .2mm solid var(--linija); margin: 0; font-size: 10pt;
+}
+.saturs .nr { flex: none; width: 6mm; font-weight: 700; color: var(--akcents); }
+.saturs .nos { flex: 1; }
+.saturs .lpp { font-weight: 600; font-variant-numeric: tabular-nums; }
+.saturs .sadala-grupa {
+  font-size: 6.8pt; font-weight: 700; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--pelēks); border: 0; padding: 5mm 0 .8mm;
+}
+
+/* =====================================================================
+   NODAĻAS SĀKUMS — jaunā lapā, bet teksts turpinās tajā pašā lapā
+   ===================================================================== */
+.nodala { break-before: page; }
+.nod-galva {
+  display: grid; grid-template-columns: 1fr 22mm; gap: 6mm; align-items: start;
+  padding-bottom: 4mm; border-bottom: .3mm solid var(--akcents-linija); margin-bottom: 4mm;
+}
+.nod-galva .kicker { margin-bottom: 1.5mm; }
+.nod-galva h1 {
+  font-size: 24pt; font-weight: 800; line-height: 1.08; letter-spacing: -.02em;
+  margin: 0 0 2.5mm; color: var(--tinte);
+}
+.nod-ievads { font-size: 11pt; color: #4b5563; line-height: 1.42; margin: 0; }
+.nod-ikona {
+  width: 22mm; height: 22mm; border-radius: 50%; background: var(--akcents-gaiss);
+  display: flex; align-items: center; justify-content: center;
+}
+.nod-ikona .ikona-svg { width: 12mm; height: 12mm; stroke: var(--akcents); stroke-width: 2.6; }
+
+.nod-info {
+  display: grid; grid-template-columns: 52mm 1fr; gap: 6mm;
+  margin-bottom: 5mm; font-size: 9pt;
+}
+.nod-info h3 { margin: 0 0 1.6mm; font-size: 6.8pt; font-weight: 700; letter-spacing: .16em;
+  text-transform: uppercase; color: var(--akcents); }
+.atv-meta { margin: 0; }
+.meta-rinda { margin-bottom: 2mm; }
+.meta-rinda dt { font-size: 7.4pt; color: var(--pelēks); }
+.meta-rinda dd { margin: 0; font-weight: 600; line-height: 1.35; }
+.qr-vieta { display: flex; gap: 2.4mm; align-items: center; font-size: 7.2pt; color: var(--pelēks); margin-top: 1mm; }
+.qr-vieta .qr { flex: none; width: 17mm; height: 17mm; }
+.qr svg { display: block; width: 100%; height: 100%; }
+.kol-qr .qr { width: 18mm; height: 18mm; margin-top: 1.5mm; }
+.nod-merki { background: var(--fons); padding: 3mm 4mm 1.6mm; }
+.merki-saraksts { list-style: none; counter-reset: m; padding: 0; margin: 0; }
+.merki-saraksts li { counter-increment: m; position: relative; padding-left: 5.4mm; margin-bottom: 1.2mm; }
+.merki-saraksts li::before {
+  content: counter(m) "."; position: absolute; left: 0; font-weight: 700; color: var(--akcents);
+}
+
+.nodala-teksts > h2:first-child { margin-top: 2mm; }
+
+/* Laužana */
+h2 + p, h2 + table, h2 + ul, h2 + ol { break-before: avoid; }
+.lodzins + .lodzins { margin-top: 2.4mm; }

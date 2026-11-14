@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" width="900" height="460" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<title>Blokshēmu apzīmējumi</title>
+<rect x="0" y="0" width="900" height="460" fill="white"/>
+<rect x="37.0" y="27.0" width="46.0" height="46.0" rx="0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<polyline points="47.0,38.0 47.6,37.4 48.3,36.8 49.0,36.2 49.6,35.6 50.2,35.2 50.9,34.8 51.5,34.4 52.2,34.2 52.9,34.0 53.5,34.0 54.1,34.0 54.8,34.2 55.5,34.4 56.1,34.8 56.8,35.2 57.4,35.6 58.0,36.2 58.7,36.8 59.4,37.4 60.0,38.0 60.6,38.6 61.3,39.2 62.0,39.8 62.6,40.4 63.2,40.8 63.9,41.2 64.5,41.6 65.2,41.8 65.8,42.0 66.5,42.0 67.2,42.0 67.8,41.8 68.5,41.6 69.1,41.2 69.8,40.8 70.4,40.4 71.0,39.8 71.7,39.2 72.3,38.6 73.0,38.0" fill="none" stroke="#111111" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="56.0" y1="44.0" x2="64.0" y2="32.0" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<polyline points="47.0,50.0 47.6,49.4 48.3,48.8 49.0,48.2 49.6,47.6 50.2,47.2 50.9,46.8 51.5,46.4 52.2,46.2 52.9,46.0 53.5,46.0 54.1,46.0 54.8,46.2 55.5,46.4 56.1,46.8 56.8,47.2 57.4,47.6 58.0,48.2 58.7,48.8 59.4,49.4 60.0,50.0 60.6,50.6 61.3,51.2 62.0,51.8 62.6,52.4 63.2,52.8 63.9,53.2 64.5,53.6 65.2,53.8 65.8,54.0 66.5,54.0 67.2,54.0 67.8,53.8 68.5,53.6 69.1,53.2 69.8,52.8 70.4,52.4 71.0,51.8 71.7,51.2 72.3,50.6 73.0,50.0" fill="none" stroke="#111111" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="47.0,62.0 47.6,61.4 48.3,60.8 49.0,60.2 49.6,59.6 50.2,59.2 50.9,58.8 51.5,58.4 52.2,58.2 52.9,58.0 53.5,58.0 54.1,58.0 54.8,58.2 55.5,58.4 56.1,58.8 56.8,59.2 57.4,59.6 58.0,60.2 58.7,60.8 59.4,61.4 60.0,62.0 60.6,62.6 61.3,63.2 62.0,63.8 62.6,64.4 63.2,64.8 63.9,65.2 64.5,65.6 65.2,65.8 65.8,66.0 66.5,66.0 67.2,66.0 67.8,65.8 68.5,65.6 69.1,65.2 69.8,64.8 70.4,64.4 71.0,63.8 71.7,63.2 72.3,62.6 73.0,62.0" fill="none" stroke="#111111" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="56.0" y1="68.0" x2="64.0" y2="56.0" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<text x="104.0" y="54.3" text-anchor="start" font-size="12" fill="#111111">Joslas filtrs</text>
+<rect x="37.0" y="85.0" width="46.0" height="46.0" rx="0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<polyline points="47.0,101.0 47.6,100.4 48.3,99.8 49.0,99.2 49.6,98.6 50.2,98.2 50.9,97.8 51.5,97.4 52.2,97.2 52.9,97.0 53.5,97.0 54.1,97.0 54.8,97.2 55.5,97.4 56.1,97.8 56.8,98.2 57.4,98.6 58.0,99.2 58.7,99.8 59.4,100.4 60.0,101.0 60.6,101.6 61.3,102.2 62.0,102.8 62.6,103.4 63.2,103.8 63.9,104.2 64.5,104.6 65.2,104.8 65.8,105.0 66.5,105.0 67.2,105.0 67.8,104.8 68.5,104.6 69.1,104.2 69.8,103.8 70.4,103.4 71.0,102.8 71.7,102.2 72.3,101.6 73.0,101.0" fill="none" stroke="#111111" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="56.0" y1="107.0" x2="64.0" y2="95.0" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<polyline points="47.0,115.0 47.6,114.4 48.3,113.8 49.0,113.2 49.6,112.6 50.2,112.2 50.9,111.8 51.5,111.4 52.2,111.2 52.9,111.0 53.5,111.0 54.1,111.0 54.8,111.2 55.5,111.4 56.1,111.8 56.8,112.2 57.4,112.6 58.0,113.2 58.7,113.8 59.4,114.4 60.0,115.0 60.6,115.6 61.3,116.2 62.0,116.8 62.6,117.4 63.2,117.8 63.9,118.2 64.5,118.6 65.2,118.8 65.8,119.0 66.5,119.0 67.2,119.0 67.8,118.8 68.5,118.6 69.1,118.2 69.8,117.8 70.4,117.4 71.0,116.8 71.7,116.2 72.3,115.6 73.0,115.0" fill="none" stroke="#111111" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="104.0" y="104.8" text-anchor="start" font-size="12" fill="#111111">Zemo frekvenču filtrs</text>
+<text x="104.0" y="119.8" text-anchor="start" font-size="12" fill="#111111">(nogriež augstās frekvences)</text>
+<rect x="37.0" y="143.0" width="46.0" height="46.0" rx="0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<polyline points="47.0,159.0 47.6,158.4 48.3,157.8 49.0,157.2 49.6,156.6 50.2,156.2 50.9,155.8 51.5,155.4 52.2,155.2 52.9,155.0 53.5,155.0 54.1,155.0 54.8,155.2 55.5,155.4 56.1,155.8 56.8,156.2 57.4,156.6 58.0,157.2 58.7,157.8 59.4,158.4 60.0,159.0 60.6,159.6 61.3,160.2 62.0,160.8 62.6,161.4 63.2,161.8 63.9,162.2 64.5,162.6 65.2,162.8 65.8,163.0 66.5,163.0 67.2,163.0 67.8,162.8 68.5,162.6 69.1,162.2 69.8,161.8 70.4,161.4 71.0,160.8 71.7,160.2 72.3,159.6 73.0,159.0" fill="none" stroke="#111111" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="47.0,173.0 47.6,172.4 48.3,171.8 49.0,171.2 49.6,170.6 50.2,170.2 50.9,169.8 51.5,169.4 52.2,169.2 52.9,169.0 53.5,169.0 54.1,169.0 54.8,169.2 55.5,169.4 56.1,169.8 56.8,170.2 57.4,170.6 58.0,171.2 58.7,171.8 59.4,172.4 60.0,173.0 60.6,173.6 61.3,174.2 62.0,174.8 62.6,175.4 63.2,175.8 63.9,176.2 64.5,176.6 65.2,176.8 65.8,177.0 66.5,177.0 67.2,177.0 67.8,176.8 68.5,176.6 69.1,176.2 69.8,175.8 70.4,175.4 71.0,174.8 71.7,174.2 72.3,173.6 73.0,173.0" fill="none" stroke="#111111" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="56.0" y1="179.0" x2="64.0" y2="167.0" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<text x="104.0" y="170.3" text-anchor="start" font-size="12" fill="#111111">Augsto frekvenču filtrs</text>
+<polygon points="39.0,201.0 39.0,247.0 81.0,224.0" fill="white" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="104.0" y="220.8" text-anchor="start" font-size="12" fill="#111111">Pastiprinātājs: AFP — augstfrekvences,</text>
+<text x="104.0" y="235.8" text-anchor="start" font-size="12" fill="#111111">SFP — starpfrekvences, ZFP — zemfrekvences</text>
+<circle cx="60.0" cy="282.0" r="23.0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<line x1="43.7" y1="265.7" x2="76.3" y2="298.3" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="43.7" y1="298.3" x2="76.3" y2="265.7" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<text x="104.0" y="286.3" text-anchor="start" font-size="12" fill="#111111">Jaucējs (maisītājs, angliski mixer)</text>
+<circle cx="60.0" cy="340.0" r="10.0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<line x1="48.0" y1="328.0" x2="48.0" y2="352.0" stroke="#111111" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="70.0" y1="340.0" x2="72.0" y2="340.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<text x="104.0" y="344.3" text-anchor="start" font-size="12" fill="#111111">Mikrofons</text>
+<circle cx="68.0" cy="372.0" r="3.5" fill="white" stroke="#111111" stroke-width="1.6"/>
+<circle cx="68.0" cy="406.0" r="3.5" fill="white" stroke="#111111" stroke-width="1.6"/>
+<line x1="67.0" y1="403.0" x2="56.0" y2="380.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M 50 376 L 50 388 M 50 376 Q 58 382 50 388" fill="none" stroke="#111111" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="68.0" y1="410.0" x2="68.0" y2="420.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="52.0" y1="420.0" x2="84.0" y2="420.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="54.0" y1="420.0" x2="48.0" y2="430.0" stroke="#111111" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="63.0" y1="420.0" x2="57.0" y2="430.0" stroke="#111111" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="72.0" y1="420.0" x2="66.0" y2="430.0" stroke="#111111" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="81.0" y1="420.0" x2="75.0" y2="430.0" stroke="#111111" stroke-width="1.2" stroke-linecap="round"/>
+<text x="104.0" y="402.3" text-anchor="start" font-size="12" fill="#111111">Telegrāfa atslēga</text>
+<rect x="497.0" y="27.0" width="46.0" height="46.0" rx="0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<line x1="520.0" y1="34.0" x2="520.0" y2="66.0" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="512.0,44.0 528.0,44.0 520.0,56.0" fill="white" stroke="#111111" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="512.0" y1="56.0" x2="528.0" y2="56.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<text x="564.0" y="54.3" text-anchor="start" font-size="12" fill="#111111">Detektors (demodulators)</text>
+<circle cx="520.0" cy="108.0" r="23.0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<polyline points="508.0,108.0 508.6,107.3 509.2,106.6 509.8,106.0 510.4,105.4 511.0,104.8 511.6,104.4 512.2,104.0 512.8,103.7 513.4,103.6 514.0,103.5 514.6,103.6 515.2,103.7 515.8,104.0 516.4,104.4 517.0,104.8 517.6,105.4 518.2,106.0 518.8,106.6 519.4,107.3 520.0,108.0 520.6,108.7 521.2,109.4 521.8,110.0 522.4,110.6 523.0,111.2 523.6,111.6 524.2,112.0 524.8,112.3 525.4,112.4 526.0,112.5 526.6,112.4 527.2,112.3 527.8,112.0 528.4,111.6 529.0,111.2 529.6,110.6 530.2,110.0 530.8,109.4 531.4,108.7 532.0,108.0" fill="none" stroke="#111111" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="509.0" y1="117.0" x2="527.9" y2="99.8" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="531.0,97.0 528.2,103.4 524.4,99.2" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="564.0" y="112.3" text-anchor="start" font-size="12" fill="#111111">Ģenerators (pārskaņojams)</text>
+<circle cx="520.0" cy="166.0" r="23.0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<polyline points="508.0,166.0 508.6,165.3 509.2,164.6 509.8,164.0 510.4,163.4 511.0,162.8 511.6,162.4 512.2,162.0 512.8,161.7 513.4,161.6 514.0,161.5 514.6,161.6 515.2,161.7 515.8,162.0 516.4,162.4 517.0,162.8 517.6,163.4 518.2,164.0 518.8,164.6 519.4,165.3 520.0,166.0 520.6,166.7 521.2,167.4 521.8,168.0 522.4,168.6 523.0,169.2 523.6,169.6 524.2,170.0 524.8,170.3 525.4,170.4 526.0,170.5 526.6,170.4 527.2,170.3 527.8,170.0 528.4,169.6 529.0,169.2 529.6,168.6 530.2,168.0 530.8,167.4 531.4,166.7 532.0,166.0" fill="none" stroke="#111111" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="564.0" y="170.3" text-anchor="start" font-size="12" fill="#111111">Ģenerators (nemainīga frekvence)</text>
+<rect x="497.0" y="201.0" width="46.0" height="46.0" rx="0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<polyline points="497.0,247.0 520.0,201.0 543.0,247.0" fill="none" stroke="#111111" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="564.0" y="228.3" text-anchor="start" font-size="12" fill="#111111">Diskriminators (FM detektors)</text>
+<rect x="497.0" y="259.0" width="46.0" height="46.0" rx="0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<polyline points="508.0,282.0 508.6,279.8 509.2,277.7 509.8,275.6 510.4,274.3 511.0,274.3 511.6,274.3 512.2,274.3 512.8,274.3 513.4,274.3 514.0,274.3 514.6,274.3 515.2,274.3 515.8,274.3 516.4,274.3 517.0,274.3 517.6,274.3 518.2,275.6 518.8,277.7 519.4,279.8 520.0,282.0 520.6,284.2 521.2,286.3 521.8,288.4 522.4,289.7 523.0,289.7 523.6,289.7 524.2,289.7 524.8,289.7 525.4,289.7 526.0,289.7 526.6,289.7 527.2,289.7 527.8,289.7 528.4,289.7 529.0,289.7 529.6,289.7 530.2,288.4 530.8,286.3 531.4,284.2 532.0,282.0" fill="none" stroke="#111111" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="501.0" y1="282.0" x2="507.0" y2="282.0" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="533.0" y1="282.0" x2="539.0" y2="282.0" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<text x="564.0" y="286.3" text-anchor="start" font-size="12" fill="#111111">Amplitūdas ierobežotājs</text>
+<line x1="520.0" y1="362.0" x2="520.0" y2="318.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="520.0" y1="336.0" x2="508.0" y2="318.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="520.0" y1="336.0" x2="532.0" y2="318.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<text x="564.0" y="344.3" text-anchor="start" font-size="12" fill="#111111">Antena</text>
+<rect x="510.0" y="390.0" width="9.0" height="16.0" rx="0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<polygon points="519.0,390.0 532.0,380.0 532.0,416.0 519.0,406.0" fill="white" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="564.0" y="402.3" text-anchor="start" font-size="12" fill="#111111">Skaļrunis vai austiņas</text>
+</svg>

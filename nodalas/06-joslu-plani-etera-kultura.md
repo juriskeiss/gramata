@@ -10,7 +10,7 @@ uzvesties ēterā tā, lai ar tevi gribētu runāt.
 ## Pēc šīs nodaļas tu pratīsi
 
 - paskaidrot, kas ir joslu plāns un kāpēc tas jāievēro;
-- atrast diapazonā vietu telegrāfam, ciparātajiem veidiem un balsij;
+- atrast diapazonā vietu telegrāfam, ciparu darba veidiem un balsij;
 - izvēlēties pareizo sānjoslu SSB sakaram;
 - nosaukt ētikas pamatprincipus;
 - pareizi uzvesties, kad vienu staciju sauc daudzi.
@@ -19,7 +19,7 @@ uzvesties ēterā tā, lai ar tevi gribētu runāt.
 
 MK noteikumi pasaka, **kurās joslās** drīkst raidīt (4. nodaļa). **Joslu
 plāns** pasaka, **kur joslas iekšpusē** strādā katrs darba veids. Bez tā
-platjoslas balss signāls nosegtu desmitiem vāju telegrāfa un ciparāto
+platjoslas balss signāls nosegtu desmitiem vāju telegrāfa un ciparu
 signālu.
 
 Joslu plānus izstrādā IARU, katram reģionam savu; Latvijā lieto IARU
@@ -30,7 +30,7 @@ radioamatierim joslu plāns tātad ir pienākums, nevis tikai pieklājība.
 Plāns balstās uz diviem principiem:
 
 - **šaurie signāli apakšā, platie augšā** — katra diapazona sākumā ir
-  telegrāfs, tad ciparātie veidi, tad balss;
+  telegrāfs, tad ciparu darba veidi, tad balss;
 - **katram segmentam ir lielākais joslas platums** — piemēram, 200 Hz,
   500 Hz vai 2700 Hz; platāku signālu tajā neraida.
 
@@ -39,14 +39,14 @@ Plāns balstās uz diviem principiem:
 Tabulā ir vienkāršots IARU 1. reģiona HF joslu plāns tām joslām, kas atļautas
 B kategorijai [3]. Pilns plāns ir D pielikumā.
 
-| Diapazons | Telegrāfs (CW) | Šaurjoslas un ciparātie veidi | Visi veidi, arī SSB | B kategorijas robežas |
+| Diapazons | Telegrāfs (CW) | Šaurjoslas un ciparu darba veidi | Visi veidi, arī SSB | B kategorijas robežas |
 | --- | --- | --- | --- | --- |
 | 80 m | 3500–3570 kHz | 3570–3600 kHz | 3600–3800 kHz | 3510–3750 kHz |
 | 40 m | 7000–7040 kHz | 7040–7060 kHz | 7060–7200 kHz | 7010–7080 kHz, tikai CW un MGM |
 | 15 m | 21 000–21 070 kHz | 21 070–21 149 kHz | 21 151–21 450 kHz | visa josla |
 | 10 m | 28 000–28 070 kHz | 28 070–28 190 kHz | 28 225–29 700 kHz | visa josla |
 
-Starp ciparāto veidu un balss segmentiem 15 m un 10 m diapazonā ir šaurs
+Starp ciparu darba veidu un balss segmentiem 15 m un 10 m diapazonā ir šaurs
 segments **radiobākām**. Tajā neraida: bākas rāda, vai diapazons ir atvērts.
 
 > **Piemērs.** Tu gribi nodibināt SSB sakaru 80 m diapazonā. Kur drīksti
@@ -57,19 +57,25 @@ segments **radiobākām**. Tajā neraida: bākas rāda, vai diapazons ir atvērt
 > 3. Abi nosacījumi kopā: 3600–3750 kHz. LSB signāls stiepjas 3 kHz uz leju,
 >    tāpēc noskaņojies ne zemāk par 3603 kHz.
 
-Ciparātajiem veidiem ir vispārpieņemtas frekvences, kur satiekas visi.
+![6.1. attēls. 80 m diapazons: joslu plāns un B kategorijas robežas.](../atteli/06-1-80m-josla.svg)
+
+![6.2. attēls. 40 m diapazons: joslu plāns un B kategorijas robežas.](../atteli/06-2-40m-josla.svg)
+
+Ciparu darba veidiem ir vispārpieņemtas frekvences, kur satiekas visi.
 FT8 frekvences B kategorijas diapazonos ir 3,573 MHz, 7,074 MHz, 21,074 MHz
 un 28,074 MHz.
 
-## 6.3. Sānjoslas un UKV paražas
+## 6.3. SSB sānjoslas izvēle
 
-**Sānjoslas izvēle.** SSB signālam ir divi varianti, un visi lieto vienu un
-to pašu, lai saprastos:
+SSB signālam ir divi varianti, un visi lieto vienu un to pašu, lai
+saprastos:
 
 | Diapazons | Sānjosla |
 | --- | --- |
 | Zem 10 MHz (80 m, 40 m) | LSB — apakšējā |
-| Virs 10 MHz (15 m, 10 m, UKV) | USB — augšējā |
+| Virs 10 MHz (15 m, 10 m, VHF un UHF) | USB — augšējā |
+
+![6.3. attēls. LSB un USB signāls pret noskaņoto frekvenci.](../atteli/06-3-lsb-usb.svg)
 
 Ja balss skan kā nesaprotama murmulēšana, visticamāk, esi izvēlējies nepareizo
 sānjoslu.
@@ -79,6 +85,8 @@ sānjoslu.
 - 145,500 MHz ir FM izsaukuma frekvence: tajā izsauc un pāriet uz citu;
 - atkārtotāju frekvences nelieto tiešiem sakariem;
 - diapazona apakšējā daļa ir vāju signālu sakariem (CW, SSB), tur FM neraida.
+
+![6.4. attēls. 2 m diapazons: vienkāršots joslu plāns.](../atteli/06-4-2m-josla.svg)
 
 ## 6.4. Ētikas pamatprincipi
 
@@ -143,13 +151,13 @@ neļaunojies: retā stacija būs ēterā arī rīt.
 | Pārskaļota mikrofona ieeja | Seko ALC rādījumam; izkropļots signāls aizņem platāku joslu |
 | Aizmirsts izsaukuma signāls garā sarunā | Nosauc to katras pārraides beigās |
 | "59" visiem | Dod īstu ziņojumu pēc S metra un dzirdes |
-| Balss sakars ciparāto veidu segmentā | Ieskaties joslu plānā pirms raidīšanas |
+| Balss sakars ciparu darba veidu segmentā | Ieskaties joslu plānā pirms raidīšanas |
 
 ## Eksāmenā jāzina
 
 - Joslu plānus izstrādā IARU; Latvija ir 1. reģionā.
 - MK noteikumu 53. punkts prasa IARU joslu plānus ievērot.
-- Diapazona apakšā telegrāfs, tad ciparātie veidi, augšā balss.
+- Diapazona apakšā telegrāfs, tad ciparu darba veidi, augšā balss.
 - LSB lieto zem 10 MHz, USB virs 10 MHz.
 - Radiobāku segmentos neraida.
 - Pirms raidīšanas jāpārliecinās, ka frekvence ir brīva.
@@ -162,7 +170,7 @@ neļaunojies: retā stacija būs ēterā arī rīt.
 pārskati 80 m diapazonu no 3500 līdz 3800 kHz. Atzīmē uz lapas:
 
 - [ ] kur dzirdi telegrāfu;
-- [ ] kur ir ciparāto veidu signāli (raksturīga čirkstēšana ap 3573 kHz);
+- [ ] kur ir ciparu darba veidu signāli (raksturīga čirkstēšana ap 3573 kHz);
 - [ ] kur sākas balss sakari.
 
 Salīdzini ar 6.2. tabulu.
@@ -186,7 +194,7 @@ labu un vienu sliktu uzvedības piemēru.
 
 1. Kas izstrādā radioamatieru joslu plānus?
     - A. ITU
-    - B. "Elektroniskie sakari"
+    - B. SIA "Elektroniskie sakari"
     - C. IARU
     - D. Katrs radioamatieris pats
 2. Kāpēc Latvijas radioamatierim IARU joslu plāns ir obligāts?
@@ -237,7 +245,7 @@ labu un vienu sliktu uzvedības piemēru.
 
 **Atvērtie jautājumi**
 
-11. Paskaidro, kāpēc telegrāfa un ciparāto veidu segmenti ir atdalīti no
+11. Paskaidro, kāpēc telegrāfa un ciparu darba veidu segmenti ir atdalīti no
     balss segmenta.
 12. Apraksti soli pa solim, ko darīsi, pirms pirmo reizi sauksi retu DX
     staciju, kas strādā split režīmā.
@@ -267,7 +275,7 @@ izsaukums pareizajā brīdī.
 
 - **Joslu plāns mainās.** IARU 1. reģions plānu ik pa laikam pārskata.
   Pirms eksāmena un pirms pirmā sakara ieskaties aktuālajā versijā.
-- **UKV joslu plāns.** 2 m un 70 cm diapazoniem ir atsevišķs, sīkāks plāns ar
+- **VHF/UHF joslu plāns.** 2 m un 70 cm diapazoniem ir atsevišķs, sīkāks plāns ar
   segmentiem satelītiem, atkārtotājiem un vāju signālu sakariem.
 - **Ētikas rokasgrāmata.** Pilns apraksts latviešu valodā ir LRAL
   tīmekļvietnē [6].
@@ -283,5 +291,5 @@ izsaukums pareizajā brīdī.
    lral.lv.
 5. DX uzvedības kodekss (DX Code of Conduct). Izmantots tikai kā norāde;
    teksts nav pārņemts.
-6. Radioamatiera ētika un darba procedūras. lral.lv/files/ETIKA_latb-YL.pdf.
+6. Radioamatieru ētika un ētera procedūras. J. Devoldere ON4UN, M. Demeuleneere ON4WW; tulkojis J. O. Vanags YL3AD. 3. izdevums, 2009. lral.lv/oldwww/files/ETIKA_latb-YL.pdf.
    Izmantots tikai kā norāde tālākai lasīšanai.
