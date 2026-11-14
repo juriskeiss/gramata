@@ -37,11 +37,14 @@ Statusi: `Jāpārbauda` → `Tikai atsaucei` / `Atļauts (pamatojums)` / `Atļau
 
 ## Zīmējumi
 
-Visi 39 zīmējumi mapē `atteli/` ir oriģināli: tie uzzīmēti ar kodu
+Visi zīmējumi (41) mapē `atteli/` ir oriģināli: tie uzzīmēti ar kodu
 (`riki/zim/`) šīs grāmatas vajadzībām, izmantojot mākslīgā intelekta modeli
 Claude Fable 5.2 (Anthropic), un nav pārņemti ne no kursa slaidiem, ne no
 citiem avotiem. Tie tiek izdoti ar grāmatas licenci CC BY-NC-SA 4.0.
 Shēmu apzīmējumi atbilst vispārpieņemtiem IEC simboliem.
+Kontinentu kontūras 5.1. attēlā (`05-1-lokatoru-karte.svg`) ir pašu uzzīmētas,
+speciāli vienkāršotas; nav izmantota neviena ārēja karte vai ģeodatu kopa.
+Lokatora sistēmas noteikumi (Maidenhead) ir fakti, nevis aizsargāts darbs.
 
 Nodaļās atsauču numuri ir vietējie (katrai nodaļai savs saraksts); pirms
 maketēšanas tos pārnumurē pēc šīs tabulas.

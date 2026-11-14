@@ -163,9 +163,42 @@ Signāla stiprumu nolasa no uztvērēja S metra, saprotamību novērtē pats.
 > pieklājīgu "59".
 
 **Atrašanās vieta.** Sarunā pietiek nosaukt pilsētu vai novadu: "QTH Cēsis".
-Ciparātajos darba veidos un VHF sakaros lieto **WW lokatoru** (Maidenhead):
-burtu un ciparu kodu, kas apzīmē lauciņu uz kartes. Latvijas centrālā daļa ir
-lauciņā KO26; ar diviem papildu burtiem vietu norāda vēl precīzāk [1].
+Ciparu darba veidos (piemēram, FT8) un VHF sakaros vietu norāda ar **lokatoru**
+(WW lokatoru jeb Maidenhead lokatoru). Tas ir īss kods no burtiem un cipariem,
+kas apzīmē rūtiņu uz pasaules kartes: jo garāks kods, jo mazāka rūtiņa [1].
+
+Lokatoru veido trīs soļos. Katrs solis rūtiņu sadala sīkākās daļās, un katram
+solim kodā pieraksta vēl divas zīmes. Divās zīmēs vienmēr **pirmā ir garums**
+(uz austrumiem), **otrā ir platums** (uz ziemeļiem).
+
+**1. solis: lauks (divi burti, A–R).** Pasauli sadala 18 joslās no rietumiem
+uz austrumiem (katra 20° plata) un 18 joslās no dienvidiem uz ziemeļiem
+(katra 10° augsta). Kopā ir 18 × 18 = 324 lauki. Skaitīšana sākas pie 180° W
+un 90° S: burts A ir rietumu vai dienvidu mala. Burts K ir garuma josla no
+20° E līdz 40° E, burts O ir platuma josla no 50° N līdz 60° N. Tāpēc visa
+Latvija atrodas laukā **KO**.
+
+![5.1. attēls. Pasaules karte, sadalīta 18 × 18 laukos; iezīmēts lauks KO.](../atteli/05-1-lokatoru-karte.svg)
+
+Tagad aplūkosim lauku KO tuvāk: katrs solis to sadala sīkākās daļās.
+
+**2. solis: kvadrāts (divi cipari, 0–9).** Lauku sadala 10 × 10 kvadrātos:
+katrs ir 2° plats un 1° augsts. Cipari arī sākas no rietumu un dienvidu malas.
+Kvadrāts **KO26** ir cipars 2 garumā (24°–26° E) un cipars 6 platumā
+(56°–57° N). Tajā atrodas Rīga.
+
+**3. solis: apakškvadrāts (divi burti, a–x).** Kvadrātu sadala 24 × 24 daļās:
+katra ir 5′ plata un 2,5′ augsta. Rīga ir apakškvadrātā **bw**, tātad pilns
+lokators ir **KO26bw**.
+
+![5.2. attēls. Lokatora veidošanās: lauks, kvadrāts, apakškvadrāts.](../atteli/05-2-lokatora-veidosanas.svg)
+
+Latvijas platumā četru zīmju lokators (KO26) norāda rūtiņu aptuveni
+120 × 110 km, sešu zīmju lokators (KO26bw) — aptuveni 5 × 4,6 km. FT8
+parasti lieto četras zīmes, VHF sacensībās — sešas.
+
+> **Praktisks padoms.** Savu lokatoru nerēķini ar roku: žurnāla programmas un
+> lokatora kalkulatori to aprēķina pēc koordinātēm vai kartes.
 
 ## 5.5. Izsaukums un QSO uzbūve
 
@@ -312,6 +345,9 @@ vai to mācībās [2].
 - ITU fonētiskais alfabēts no galvas, visi 26 burti.
 - Q kodi: QTH, QSO, QSL, QRZ, QRL, QSY, QRM, QRN, QSB, QRP, QRO, QRX, QRT.
 - RST: R 1–5, S 1–9, T 1–9; telefonijā tikai RS.
+- Lokators: lauks (2 burti A–R, 20° × 10°), kvadrāts (2 cipari, 2° × 1°),
+  apakškvadrāts (2 burti a–x, 5′ × 2,5′); skaita no 180° W un 90° S, vispirms
+  garums.
 - Izsaukuma signāls jānosauc sakara sākumā, beigās un vismaz reizi 10 minūtēs.
 - "UP" pēc izsaukuma signāla nozīmē: stacija klausās augstākā frekvencē.
 - Žurnālā laiku raksta pēc UTC.
@@ -344,6 +380,7 @@ neskatoties lapā.
 - Q kodi un saīsinājumi ļauj saprasties jebkurā valodā; šifrēt ziņojumus ir
   aizliegts.
 - Signāla ziņojumu dod RST sistēmā: telefonijā divi cipari, telegrāfā trīs.
+- Lokators (piemēram, KO26bw) ir kods no lauka, kvadrāta un apakškvadrāta.
 - QSO ir četras daļas: izsaukums, atbilde, apmaiņa, noslēgums.
 - Savu izsaukuma signālu nosauc sākumā, beigās un vismaz reizi 10 minūtēs.
 - Split režīmā raidi tur, kur DX stacija klausās, nevis tur, kur tā raida.

@@ -307,4 +307,156 @@ def f17_1():
     f.save("atteli/17-1-stacijas-zemejums.svg", "Stacijas zemējums")
 
 
-ALL = [f14_1, f14_2, f14_3, f14_4, f15_1, f15_2, f15_3, f16_1, f17_1]
+def _loc(lat, lon):
+    """Maidenhead lokators (6 zīmes) pēc platuma un garuma grādos."""
+    lo, la = lon + 180, lat + 90
+    fl, fa = int(lo // 20), int(la // 10)
+    sl, sa = int(lo % 20 // 2), int(la % 10 // 1)
+    ul, ua = int(lo % 2 / (2 / 24)), int(la % 1 / (1 / 24))
+    return ("ABCDEFGHIJKLMNOPQR"[fl] + "ABCDEFGHIJKLMNOPQR"[fa] + str(sl) + str(sa)
+            + "abcdefghijklmnopqrstuvwx"[ul] + "abcdefghijklmnopqrstuvwx"[ua])
+
+
+# Vienkāršota Baltijas reģiona krasta līnija lauka KO kartei (garums, platums); pašu uzzīmēta.
+_KO_LAND = [(20, 50), (20, 54.4), (20.6, 54.95), (21.1, 55.25), (21.05, 55.7), (21.0, 56.5), (21.1, 57.0),
+            (21.55, 57.4), (22.0, 57.7), (22.6, 57.75), (22.8, 57.5), (23.2, 57.2), (23.8, 56.97), (24.1, 57.0),
+            (24.4, 57.25), (24.35, 57.75), (24.4, 57.87), (24.5, 58.38), (23.85, 58.35), (23.5, 58.7),
+            (23.5, 58.95), (23.7, 59.3), (24.5, 59.45), (26, 59.55), (28, 59.45), (29, 59.9), (30.2, 59.9),
+            (30.3, 60), (40, 60), (40, 50)]
+_KO_SAARE = [(21.9, 58.3), (22.4, 58.6), (23.1, 58.6), (23.3, 58.35), (22.6, 58.1)]
+# Daugava kvadrātā KO26 (garums, platums)
+_DAUGAVA = [(26, 56.45), (25.7, 56.62), (25.4, 56.64), (24.9, 56.7), (24.6, 56.8), (24.35, 56.87),
+            (24.12, 56.97), (24.07, 57.03)]
+
+
+def f05_1():
+    assert _loc(56.95, 24.1) == "KO26bw"  # Rīga
+    f = Fig(760, 276)
+    y, h = 62, 120
+    # 1. lauks: 20° x 10°, 10 x 10 kvadrāti
+    x, w = 15, 240
+    f.text(x + w / 2, 28, "1. Lauks: KO", bold=True, size=14)
+    f.rect(x, y, w, h, rx=0, sw=2)
+    f.add(f'<clipPath id="k1"><rect x="{x}" y="{y}" width="{w}" height="{h}"/></clipPath><g clip-path="url(#k1)">')
+    for poly in (_KO_LAND, _KO_SAARE):
+        f.pl([(x + (a - 20) * 12, y + (60 - b) * 12) for a, b in poly], close=True, fill=LG, w=0.9, color=MG)
+    f.add("</g>")
+    rx_, ry_ = x + (24.1 - 20) * 12, y + (60 - 56.95) * 12
+    f.circ(rx_, ry_, 2.2, fill=K, sw=1)
+    f.text(rx_ - 5, ry_ - 4, "Rīga", anchor="end", size=10.5)
+    for i in range(1, 10):
+        f.line(x + w * i / 10, y, x + w * i / 10, y + h, w=0.5, color=MG)
+        f.line(x, y + h * i / 10, x + w, y + h * i / 10, w=0.5, color=MG)
+    f.rect(x + w * 0.2, y + h * 0.3, w / 10, h / 10, fill="none", rx=0, sw=2.4)
+    f.text(x + w * 0.25, y + h * 0.3 + 7, "26", size=10.5, bold=True)
+    f.text(x + w / 2, y + h + 32, "20° × 10° = 10 × 10 kvadrāti", size=11)
+    f.text(x + w / 2, y + h + 50, "garums 0 → 9 (uz austrumiem)", size=11, italic=True)
+    f.text(x + w / 2, y + h + 65, "platums 0 → 9 (uz ziemeļiem)", size=11, italic=True)
+    for i in range(10):
+        f.text(x + w * (i + 0.5) / 10, y + h + 12, str(i), size=10.5, bold=(i == 2))
+        f.text(x - 4, y + h * (9.5 - i) / 10 + 3, str(i), anchor="end", size=10.5, bold=(i == 6))
+    # 2. kvadrāts: 2° x 1°, 24 x 24 apakškvadrāti
+    x2 = 305
+    f.text(x2 + w / 2, 28, "2. Kvadrāts: 26", bold=True, size=14)
+    f.rect(x2, y, w, h, fill=LG, rx=0, sw=2)
+    f.add(f'<clipPath id="k2"><rect x="{x2}" y="{y}" width="{w}" height="{h}"/></clipPath><g clip-path="url(#k2)">')
+    f.pl([(x2 + (a - 24) * 120, y + (57 - b) * 120) for a, b in _DAUGAVA], w=2.4, color=MG)
+    f.add("</g>")
+    for nm, lo, la in (("Ogre", 24.6, 56.82), ("Koknese", 25.43, 56.64)):
+        f.circ(x2 + (lo - 24) * 120, y + (57 - la) * 120, 2, fill=K, sw=1)
+        f.text(x2 + (lo - 24) * 120 + 4, y + (57 - la) * 120 - 4, nm, anchor="start", size=10.5)
+    f.text(x2 + w - 5, y + 12, "Rīgas līcis (jūra) ↑", anchor="end", size=10.5, italic=True)
+    f.text(x2 + w - 5, y + h - 6, "Daugava", anchor="end", size=10.5, italic=True)
+    f.circ(x2 + 0.1 * 120, y + (57 - 56.95) * 120, 2.2, fill=K, sw=1)
+    f.text(x2 + 0.1 * 120 + 14, y + (57 - 56.95) * 120 + 4, "Rīga", anchor="start", size=10.5)
+    for i in range(1, 24):
+        f.line(x2 + w * i / 24, y, x2 + w * i / 24, y + h, w=0.4, color=G)
+        f.line(x2, y + h * i / 24, x2 + w, y + h * i / 24, w=0.4, color=G)
+    cw, ch = w / 24, h / 24
+    f.rect(x2 + cw, y + ch, cw, ch, fill="none", rx=0, sw=2.2)
+    f.line(x2 + 1.5 * cw, y + 2 * ch + 2, x2 + 1.5 * cw, y + 26, w=1)
+    f.text(x2 + 1.5 * cw, y + 38, "bw", size=11, bold=True)
+    f.text(x2 + w / 2, y + h + 32, "2° × 1° = 24 × 24 apakškvadrāti", size=11)
+    f.text(x2 + w / 2, y + h + 50, "garums a → x (uz austrumiem)", size=11, italic=True)
+    f.text(x2 + w / 2, y + h + 65, "platums a → x (uz ziemeļiem)", size=11, italic=True)
+    for i, c in enumerate("abcdefghijklmnopqrstuvwx"):
+        f.text(x2 + w * (i + 0.5) / 24, y + h + 12, c, size=9.5, bold=(c == "b"))
+        if i % 2 == 0:
+            f.text(x2 - 4, y + h * (23.5 - i) / 24 + 3, c, anchor="end", size=9.5, bold=(c == "w"))
+    # savienojumi
+    f.arrow(x + w * 0.3, y + h * 0.5, x2 - 15, y + h * 0.5, dash="4 3")
+    f.arrow(x2 + w + 4, y + h / 2, 568, y + h / 2)
+    # 3. rezultāts
+    f.text(668, 28, "3. Apakškvadrāts: bw", bold=True, size=14)
+    f.text(668, y + 50, "KO26bw", size=28, bold=True)
+    f.text(668, y + 74, "(Rīga)", size=12, italic=True)
+    for k, t in enumerate(("KO — lauks, 20° × 10°", "26 — kvadrāts, 2° × 1°", "bw — apakškvadrāts, 5′ × 2,5′")):
+        f.text(575, y + h + 20 + 17 * k, t, anchor="start", size=10.5)
+    f.save("atteli/05-2-lokatora-veidosanas.svg", "Lokatora veidošanās: lauks, kvadrāts, apakškvadrāts")
+
+
+# Vienkāršotas kontinentu kontūras (garums, platums), uzzīmētas pašu spēkiem šai grāmatai;
+# neviens ārējs datu kopums vai karte nav izmantota.
+_LAND = [
+    [(-168, 66), (-156, 71), (-141, 70), (-125, 70), (-110, 68), (-95, 72), (-85, 69), (-82, 63), (-93, 59),
+     (-82, 55), (-78, 52), (-78, 60), (-70, 59), (-62, 57), (-56, 52), (-60, 47), (-66, 44), (-70, 42),
+     (-75, 38), (-81, 31), (-80, 26), (-83, 29), (-89, 30), (-97, 27), (-97, 22), (-91, 19), (-87, 21),
+     (-88, 16), (-83, 15), (-83, 10), (-78, 8), (-80, 7), (-85, 10), (-92, 14), (-97, 16), (-105, 20),
+     (-110, 24), (-112, 29), (-115, 30), (-117, 33), (-121, 35), (-124, 40), (-124, 48), (-130, 54),
+     (-138, 59), (-150, 60), (-158, 57), (-165, 60)],
+    [(-55, 60), (-45, 60), (-20, 70), (-20, 80), (-40, 83), (-65, 80), (-72, 77), (-55, 70)],
+    [(-78, 8), (-72, 12), (-62, 10), (-52, 5), (-50, 0), (-40, -3), (-35, -6), (-39, -15), (-41, -22),
+     (-48, -26), (-53, -34), (-58, -38), (-65, -41), (-66, -47), (-69, -52), (-72, -54), (-75, -48),
+     (-73, -38), (-71, -30), (-70, -18), (-76, -14), (-81, -6), (-80, 0), (-78, 3)],
+    [(-9, 37), (-9, 43), (-1, 44), (-4, 48), (2, 51), (8, 54), (9, 57), (14, 54), (21, 55), (24, 58),
+     (30, 60), (30, 66), (35, 66), (45, 68), (60, 69), (70, 73), (80, 73), (100, 77), (115, 74),
+     (140, 72), (160, 70), (180, 69), (180, 65), (170, 60), (162, 58), (156, 51), (150, 59), (140, 55),
+     (135, 43), (130, 42), (127, 39), (129, 35), (126, 35), (122, 40), (121, 31), (120, 23), (108, 21),
+     (106, 10), (100, 13), (103, 2), (98, 8), (98, 16), (92, 22), (86, 20), (80, 15), (77, 8), (73, 17),
+     (68, 24), (57, 25), (57, 27), (50, 30), (48, 29), (52, 24), (56, 26), (59, 22), (52, 16), (43, 13),
+     (39, 22), (35, 28), (34, 31), (36, 36), (28, 37), (26, 40), (23, 40), (20, 40), (16, 38), (12, 42),
+     (8, 44), (3, 43), (-1, 37)],
+    [(5, 58), (5, 62), (15, 69), (25, 71), (30, 70), (28, 66), (25, 65), (22, 63), (17, 60), (18, 59),
+     (12, 56), (8, 58)],
+    [(-17, 21), (-10, 30), (-6, 36), (10, 37), (11, 33), (20, 31), (32, 31), (34, 28), (38, 19), (43, 12),
+     (51, 12), (41, -2), (40, -15), (35, -24), (32, -29), (27, -34), (20, -35), (17, -30), (12, -17),
+     (13, -6), (9, 3), (5, 5), (-8, 4), (-13, 8), (-17, 14)],
+    [(114, -22), (122, -18), (130, -12), (137, -12), (142, -11), (146, -19), (153, -26), (150, -37),
+     (141, -38), (135, -35), (130, -32), (115, -34), (113, -26)],
+    [(-5, 50), (1, 51), (0, 54), (-2, 57), (-5, 58), (-6, 55), (-3, 54)],
+    [(-24, 64), (-14, 64), (-14, 66), (-23, 66)],
+    [(130, 31), (135, 34), (141, 38), (142, 43), (140, 41), (133, 35)],
+    [(44, -25), (47, -25), (50, -15), (49, -12), (44, -17)],
+]
+
+
+def f05_2():
+    f = Fig(760, 430)
+    s, x0, y0 = 1.95, 42, 52
+    mx = lambda lon: x0 + (lon + 180) * s
+    my = lambda lat: y0 + (90 - lat) * s
+    f.text(380, 24, "Pasaules karte, sadalīta 18 × 18 laukos (shematiska)", bold=True, size=14)
+    f.rect(x0, y0, 360 * s, 180 * s, rx=0, sw=2)
+    for poly in _LAND:
+        f.pl([(mx(a), my(b)) for a, b in poly], close=True, fill=LG, w=0.9, color=MG)
+    for i in range(1, 18):
+        f.line(x0 + 20 * s * i, y0, x0 + 20 * s * i, y0 + 180 * s, w=0.6, color=MG)
+        f.line(x0, y0 + 10 * s * i, x0 + 360 * s, y0 + 10 * s * i, w=0.6, color=MG)
+    for i, c in enumerate("ABCDEFGHIJKLMNOPQR"):
+        f.text(x0 + 20 * s * (i + 0.5), y0 - 8, c, size=11, bold=(c == "K"))
+        f.text(x0 - 8, y0 + 180 * s - 10 * s * (i + 0.5) + 4, c, anchor="end", size=11, bold=(c == "O"))
+    # lauks KO: 20°–40° E, 50°–60° N
+    f.rect(mx(20), my(60), 20 * s, 10 * s, fill="none", rx=0, sw=3)
+    f.circ(mx(24.1), my(56.95), 3, fill=K, sw=1)
+    bx, by = mx(-58), my(40)
+    f.rect(bx, by, 92, 34, fill="white", rx=4, sw=1.6)
+    f.text(bx + 46, by + 15, "KO", bold=True, size=14)
+    f.text(bx + 46, by + 28, "Latvija, Rīga", size=10)
+    f.arrow(bx + 92, by + 12, mx(20) - 3, my(50) - 4, w=1.2)
+    f.text(380, y0 + 180 * s + 26, "Pirmais burts — garums no 180° W (A) uz austrumiem, otrais — platums no 90° S (A) uz ziemeļiem.",
+           size=11, italic=True)
+    f.text(380, y0 + 180 * s + 44, "Katrs lauks ir 20° plats un 10° augsts.", size=11, italic=True)
+    f.save("atteli/05-1-lokatoru-karte.svg", "Pasaules karte ar lokatora laukiem")
+
+
+ALL = [f05_1, f05_2, f14_1, f14_2, f14_3, f14_4, f15_1, f15_2, f15_3, f16_1, f17_1]

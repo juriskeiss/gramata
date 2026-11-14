@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="760" height="430" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<title>Pasaules karte ar lokatora laukiem</title>
+<rect x="0" y="0" width="760" height="430" fill="white"/>
+<text x="380.0" y="24.0" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Pasaules karte, sadalīta 18 × 18 laukos (shematiska)</text>
+<rect x="42.0" y="52.0" width="702.0" height="351.0" rx="0" fill="white" stroke="#111111" stroke-width="2"/>
+<polygon points="65.4,98.8 88.8,89.0 118.0,91.0 149.2,91.0 178.5,94.9 207.8,87.1 227.2,92.9 233.1,104.7 211.7,112.4 233.1,120.2 240.9,126.1 240.9,110.5 256.5,112.4 272.1,116.3 283.8,126.1 276.0,135.8 264.3,141.7 256.5,145.6 246.8,153.4 235.0,167.1 237.0,176.8 231.2,170.9 219.4,169.0 203.8,174.8 203.8,184.6 215.5,190.4 223.3,186.5 221.4,196.3 231.2,198.2 231.2,208.0 240.9,211.9 237.0,213.8 227.2,208.0 213.6,200.2 203.8,196.3 188.2,188.5 178.5,180.7 174.6,170.9 168.8,169.0 164.8,163.1 157.1,159.2 151.2,149.5 151.2,133.9 139.5,122.2 123.9,112.4 100.5,110.5 84.9,116.3 71.2,110.5" fill="#ececec" stroke="#9a9a9a" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="285.8,110.5 305.2,110.5 354.0,91.0 354.0,71.5 315.0,65.7 266.2,71.5 252.6,77.3 285.8,91.0" fill="#ececec" stroke="#9a9a9a" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="240.9,211.9 252.6,204.1 272.1,208.0 291.6,217.8 295.5,227.5 315.0,233.3 324.8,239.2 316.9,256.8 313.1,270.4 299.4,278.2 289.6,293.8 279.9,301.6 266.2,307.4 264.3,319.1 258.4,328.9 252.6,332.8 246.8,321.1 250.7,301.6 254.5,286.0 256.5,262.6 244.8,254.8 235.0,239.2 237.0,227.5 240.9,221.7" fill="#ececec" stroke="#9a9a9a" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="375.4,155.3 375.4,143.6 391.1,141.7 385.2,133.9 396.9,128.1 408.6,122.2 410.6,116.3 420.3,122.2 433.9,120.2 439.8,114.4 451.5,110.5 451.5,98.8 461.2,98.8 480.8,94.9 510.0,92.9 529.5,85.2 549.0,85.2 588.0,77.3 617.2,83.2 666.0,87.1 705.0,91.0 744.0,92.9 744.0,100.8 724.5,110.5 708.9,114.4 697.2,128.1 685.5,112.4 666.0,120.2 656.2,143.6 646.5,145.6 640.6,151.4 644.5,159.2 638.7,159.2 630.9,149.5 628.9,167.1 627.0,182.7 603.6,186.5 599.7,208.0 588.0,202.2 593.9,223.6 584.1,211.9 584.1,196.3 572.4,184.6 560.7,188.5 549.0,198.2 543.1,211.9 535.3,194.3 525.6,180.7 504.1,178.8 504.1,174.8 490.5,169.0 486.6,170.9 494.4,180.7 502.2,176.8 508.1,184.6 494.4,196.3 476.8,202.2 469.1,184.6 461.2,172.9 459.3,167.1 463.2,157.3 447.6,155.3 443.7,149.5 437.8,149.5 432.0,149.5 424.2,153.4 416.4,145.6 408.6,141.7 398.8,143.6 391.1,155.3" fill="#ececec" stroke="#9a9a9a" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="402.8,114.4 402.8,106.6 422.2,92.9 441.8,89.0 451.5,91.0 447.6,98.8 441.8,100.8 435.9,104.7 426.1,110.5 428.1,112.4 416.4,118.3 408.6,114.4" fill="#ececec" stroke="#9a9a9a" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="359.8,186.5 373.5,169.0 381.3,157.3 412.5,155.3 414.4,163.1 432.0,167.1 455.4,167.1 459.3,172.9 467.1,190.4 476.8,204.1 492.4,204.1 472.9,231.4 471.0,256.8 461.2,274.3 455.4,284.0 445.6,293.8 432.0,295.8 426.1,286.0 416.4,260.6 418.3,239.2 410.6,221.7 402.8,217.8 377.4,219.7 367.6,211.9 359.8,200.2" fill="#ececec" stroke="#9a9a9a" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="615.3,270.4 630.9,262.6 646.5,250.9 660.1,250.9 669.9,248.9 677.7,264.5 691.4,278.2 685.5,299.6 667.9,301.6 656.2,295.8 646.5,289.9 617.2,293.8 613.4,278.2" fill="#ececec" stroke="#9a9a9a" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="383.2,130.0 394.9,128.1 393.0,122.2 389.1,116.3 383.2,114.4 381.3,120.2 387.1,122.2" fill="#ececec" stroke="#9a9a9a" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="346.2,102.7 365.7,102.7 365.7,98.8 348.1,98.8" fill="#ececec" stroke="#9a9a9a" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="646.5,167.1 656.2,161.2 667.9,153.4 669.9,143.6 666.0,147.6 652.4,159.2" fill="#ececec" stroke="#9a9a9a" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="478.8,276.2 484.6,276.2 490.5,256.8 488.6,250.9 478.8,260.6" fill="#ececec" stroke="#9a9a9a" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="81.0" y1="52.0" x2="81.0" y2="403.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="42.0" y1="71.5" x2="744.0" y2="71.5" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="120.0" y1="52.0" x2="120.0" y2="403.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="42.0" y1="91.0" x2="744.0" y2="91.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="159.0" y1="52.0" x2="159.0" y2="403.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="42.0" y1="110.5" x2="744.0" y2="110.5" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="198.0" y1="52.0" x2="198.0" y2="403.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="42.0" y1="130.0" x2="744.0" y2="130.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="237.0" y1="52.0" x2="237.0" y2="403.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="42.0" y1="149.5" x2="744.0" y2="149.5" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="276.0" y1="52.0" x2="276.0" y2="403.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="42.0" y1="169.0" x2="744.0" y2="169.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="315.0" y1="52.0" x2="315.0" y2="403.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="42.0" y1="188.5" x2="744.0" y2="188.5" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="354.0" y1="52.0" x2="354.0" y2="403.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="42.0" y1="208.0" x2="744.0" y2="208.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="393.0" y1="52.0" x2="393.0" y2="403.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="42.0" y1="227.5" x2="744.0" y2="227.5" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="432.0" y1="52.0" x2="432.0" y2="403.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="42.0" y1="247.0" x2="744.0" y2="247.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="471.0" y1="52.0" x2="471.0" y2="403.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="42.0" y1="266.5" x2="744.0" y2="266.5" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="510.0" y1="52.0" x2="510.0" y2="403.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="42.0" y1="286.0" x2="744.0" y2="286.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="549.0" y1="52.0" x2="549.0" y2="403.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="42.0" y1="305.5" x2="744.0" y2="305.5" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="588.0" y1="52.0" x2="588.0" y2="403.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="42.0" y1="325.0" x2="744.0" y2="325.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="627.0" y1="52.0" x2="627.0" y2="403.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="42.0" y1="344.5" x2="744.0" y2="344.5" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="666.0" y1="52.0" x2="666.0" y2="403.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="42.0" y1="364.0" x2="744.0" y2="364.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="705.0" y1="52.0" x2="705.0" y2="403.0" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<line x1="42.0" y1="383.5" x2="744.0" y2="383.5" stroke="#9a9a9a" stroke-width="0.6" stroke-linecap="round"/>
+<text x="61.5" y="44.0" text-anchor="middle" font-size="11" fill="#111111">A</text>
+<text x="34.0" y="397.2" text-anchor="end" font-size="11" fill="#111111">A</text>
+<text x="100.5" y="44.0" text-anchor="middle" font-size="11" fill="#111111">B</text>
+<text x="34.0" y="377.8" text-anchor="end" font-size="11" fill="#111111">B</text>
+<text x="139.5" y="44.0" text-anchor="middle" font-size="11" fill="#111111">C</text>
+<text x="34.0" y="358.2" text-anchor="end" font-size="11" fill="#111111">C</text>
+<text x="178.5" y="44.0" text-anchor="middle" font-size="11" fill="#111111">D</text>
+<text x="34.0" y="338.8" text-anchor="end" font-size="11" fill="#111111">D</text>
+<text x="217.5" y="44.0" text-anchor="middle" font-size="11" fill="#111111">E</text>
+<text x="34.0" y="319.2" text-anchor="end" font-size="11" fill="#111111">E</text>
+<text x="256.5" y="44.0" text-anchor="middle" font-size="11" fill="#111111">F</text>
+<text x="34.0" y="299.8" text-anchor="end" font-size="11" fill="#111111">F</text>
+<text x="295.5" y="44.0" text-anchor="middle" font-size="11" fill="#111111">G</text>
+<text x="34.0" y="280.2" text-anchor="end" font-size="11" fill="#111111">G</text>
+<text x="334.5" y="44.0" text-anchor="middle" font-size="11" fill="#111111">H</text>
+<text x="34.0" y="260.8" text-anchor="end" font-size="11" fill="#111111">H</text>
+<text x="373.5" y="44.0" text-anchor="middle" font-size="11" fill="#111111">I</text>
+<text x="34.0" y="241.2" text-anchor="end" font-size="11" fill="#111111">I</text>
+<text x="412.5" y="44.0" text-anchor="middle" font-size="11" fill="#111111">J</text>
+<text x="34.0" y="221.8" text-anchor="end" font-size="11" fill="#111111">J</text>
+<text x="451.5" y="44.0" text-anchor="middle" font-size="11" fill="#111111" font-weight="bold">K</text>
+<text x="34.0" y="202.2" text-anchor="end" font-size="11" fill="#111111">K</text>
+<text x="490.5" y="44.0" text-anchor="middle" font-size="11" fill="#111111">L</text>
+<text x="34.0" y="182.8" text-anchor="end" font-size="11" fill="#111111">L</text>
+<text x="529.5" y="44.0" text-anchor="middle" font-size="11" fill="#111111">M</text>
+<text x="34.0" y="163.2" text-anchor="end" font-size="11" fill="#111111">M</text>
+<text x="568.5" y="44.0" text-anchor="middle" font-size="11" fill="#111111">N</text>
+<text x="34.0" y="143.8" text-anchor="end" font-size="11" fill="#111111">N</text>
+<text x="607.5" y="44.0" text-anchor="middle" font-size="11" fill="#111111">O</text>
+<text x="34.0" y="124.2" text-anchor="end" font-size="11" fill="#111111" font-weight="bold">O</text>
+<text x="646.5" y="44.0" text-anchor="middle" font-size="11" fill="#111111">P</text>
+<text x="34.0" y="104.8" text-anchor="end" font-size="11" fill="#111111">P</text>
+<text x="685.5" y="44.0" text-anchor="middle" font-size="11" fill="#111111">Q</text>
+<text x="34.0" y="85.2" text-anchor="end" font-size="11" fill="#111111">Q</text>
+<text x="724.5" y="44.0" text-anchor="middle" font-size="11" fill="#111111">R</text>
+<text x="34.0" y="65.8" text-anchor="end" font-size="11" fill="#111111">R</text>
+<rect x="432.0" y="110.5" width="39.0" height="19.5" rx="0" fill="none" stroke="#111111" stroke-width="3"/>
+<circle cx="440.0" cy="116.4" r="3.0" fill="#111111" stroke="#111111" stroke-width="1"/>
+<rect x="279.9" y="149.5" width="92.0" height="34.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="325.9" y="164.5" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">KO</text>
+<text x="325.9" y="177.5" text-anchor="middle" font-size="10" fill="#111111">Latvija, Rīga</text>
+<line x1="371.9" y1="161.5" x2="424.4" y2="128.9" stroke="#111111" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="429.0,126.0 424.0,133.5 420.1,127.2" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="380.0" y="429.0" text-anchor="middle" font-size="11" fill="#111111" font-style="italic">Pirmais burts — garums no 180° W (A) uz austrumiem, otrais — platums no 90° S (A) uz ziemeļiem.</text>
+<text x="380.0" y="447.0" text-anchor="middle" font-size="11" fill="#111111" font-style="italic">Katrs lauks ir 20° plats un 10° augsts.</text>
+</svg>

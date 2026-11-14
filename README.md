@@ -41,7 +41,7 @@ gramata/
 ├── avoti.md               avotu saraksts ar lietošanas tiesību statusu
 ├── nodalas/               viena nodaļa = viens fails
 ├── pielikumi/             A–J pielikumi (vēl nav)
-├── atteli/                39 zīmējumi SVG formātā (ģenerēti ar riki/zim/)
+├── atteli/                41 zīmējums SVG formātā (ģenerēti ar riki/zim/)
 ├── riki/zim/              zīmējumu pirmkods (Python)
 ├── riki/priekssatijums.py uzbūvē HTML un PDF priekšskatījumu
 ├── izvade/                uzbūvētie priekšskatījumi (nav pirmavots)
