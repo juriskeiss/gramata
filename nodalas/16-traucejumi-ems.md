@@ -74,10 +74,10 @@ diode detektoruztvērējā.
 
 Lai traucējumu novērstu, jāzina, pa kuru ceļu tas iekļūst. Ceļi darbojas abos
 virzienos: pa tiem pašiem ceļiem tavs signāls nonāk kaimiņa ierīcēs, bet
-saules paneļu invertoru, barošanas bloku, kondicionieru, siltumsūkņu un LED
-lampu troksnis — tavā uztvērējā (16.8. apakšnodaļa).
+saules paneļu invertoru, barošanas bloku, kondicionieru, siltumsūkņu, LED
+lampu, mirgojošu lampiņu un bojātu elektrolīniju troksnis — tavā uztvērējā (16.8. apakšnodaļa).
 
-![16.1. attēls. Traucējumi iet abos virzienos: raidītāja signāls var traucēt sadzīves ierīcēm, bet sadzīves elektronikas troksnis — uztvērējam.](../atteli/16-1-traucejumu-celi.svg)
+![16.1. attēls. Traucējumi iet abos virzienos: raidītāja signāls var traucēt sadzīves ierīcēm, bet elektroierīču un elektrolīniju troksnis — uztvērējam.](../atteli/16-1-traucejumu-celi.svg)
 
 | Ceļš | Kā izpaužas | Kā pārbaudīt |
 | --- | --- | --- |
@@ -205,6 +205,8 @@ trokšņus — par QRN (5. nodaļa).
 | Kondicionieri, siltumsūkņi | Troksnis, kamēr darbojas kompresors; mainās līdz ar tā ātrumu |
 | Datu pārraide pa elektrotīklu | Plats troksnis lielā daļā īsviļņu |
 | Elektriskais gans | Regulāri klikšķi reizi sekundē |
+| Mirgojošas dekoratīvās lampiņas | Troksnis vai klikšķi mirgošanas ritmā |
+| Bojāta elektrolīnija, netīrs vai ieplaisājis izolators | Sprakšķi un dūkoņa, stiprāka mitrā laikā; dzirdama plašā apkārtnē |
 | Elektromotori, vecas sadzīves ierīces | Sprakšķi, kamēr ierīce strādā |
 
 **Kā atrast avotu savās mājās:**

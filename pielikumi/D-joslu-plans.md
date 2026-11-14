@@ -88,12 +88,3 @@ Atkārtotāju nobīde 2 m diapazonā ir 600 kHz: atkārtotājs, kas raida
 
 Valsts joslu plāns var būt sīkāks; Latvijas atkārtotāju frekvences skaties
 LRAL vietnē.
-
-## Biežāk lietotās frekvences
-
-| Kam | 80 m | 40 m | 15 m | 10 m | 2 m |
-| --- | --- | --- | --- | --- | --- |
-| FT8 | 3,573 MHz | 7,074 MHz | 21,074 MHz | 28,074 MHz | 144,174 MHz |
-| SSB izsaukums | — | — | — | — | 144,300 MHz |
-| FM izsaukums | — | — | — | 29,600 MHz | 145,500 MHz |
-| YL apaļais galds | 3,677 MHz (sestdienās 9.00) | — | — | — | — |

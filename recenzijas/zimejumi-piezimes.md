@@ -152,3 +152,8 @@ Ievietojot jaunos zīmējumus, pārnumurēti: 5.1.→5.2., 5.2.→5.3., 5.3.→5
   joslu plānu (spēkā no 2020-10-16; jaunāka HF versija nav pieņemta) un VHF
   rokasgrāmatu 10.03 (2026-02). Segmentu robežas sakrīt vienkāršotā veidā;
   sīkāks plāns ir D pielikumā.
+
+- [x] **16.1.** (2026-11-14) Troksnis vairs nav zīmēts pie saules paneļiem:
+  avots ir invertors. Pievienotas mirgojošas lampiņas uz kaimiņa jumta un
+  dzirksteļojoša elektrolīnija; dzintara bulta pa gaisu sākas pie
+  elektrolīnijas. Leģendā: "elektroierīču un elektrolīniju troksnis".
