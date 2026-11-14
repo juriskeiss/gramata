@@ -13,9 +13,9 @@ Grāmatā šis fails neieiet.
 
 ## 3. nodaļa
 
-- [ ] **Noteikumu nodaļu robežas (3.2. tabula).** Punktu diapazoni pa
-  nodaļām (piemēram, "Eksāmeni 7.–15.", "Radiostacijas un atļaujas 16.–31.")
-  ir aptuveni; jāsalīdzina ar noteikumu satura rādītāju.
+- [ ] **Noteikumu uzbūve (3.2.).** Aprakstā par noteikumu secību (eksāmeni →
+  atļaujas → izsaukuma signāli → radiosakari → lietošana → traucējumi → īpaši
+  gadījumi) jāsalīdzina ar noteikumu satura rādītāju.
 - [ ] **39. punkts, šifrēšana.** Noteikumos ir izņēmums tālvadības komandām;
   tekstā tas nav minēts, jo B kategorijas eksāmenam, šķiet, nav vajadzīgs.
   Jāizlemj, vai pieminēt.
