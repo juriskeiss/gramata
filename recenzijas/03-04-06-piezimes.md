@@ -16,16 +16,20 @@ Grāmatā šis fails neieiet.
 - [ ] **Noteikumu uzbūve (3.2.).** Aprakstā par noteikumu secību (eksāmeni →
   atļaujas → izsaukuma signāli → radiosakari → lietošana → traucējumi → īpaši
   gadījumi) jāsalīdzina ar noteikumu satura rādītāju.
-- [ ] **39. punkts, šifrēšana.** Noteikumos ir izņēmums tālvadības komandām;
-  tekstā tas nav minēts, jo B kategorijas eksāmenam, šķiet, nav vajadzīgs.
-  Jāizlemj, vai pieminēt.
-- [ ] **40. punkts.** Formulējums par svešu ziņojumu neizpaušanu jāpārbauda:
-  divi kopsavilkumi to atstāstīja nedaudz atšķirīgi.
+- [x] **39. punkts, šifrēšana.** Tālvadības komandu izņēmums tekstā ir
+  pieminēts (pārbaudīts pret likumi.lv tekstu 2026-11-15).
+- [x] **40. punkts.** Formulējums pārbaudīts pret likumi.lv tekstu.
 - [ ] **45. punkts** (aizliegti sakari ar valstīm, kuru administrācijas
   iebilst) tekstā nav iekļauts; jāizlemj, vai vajag.
-- [ ] **70. punkts, svešas stacijas lietošana.** Nav skaidrs, ar kuru
-  izsaukuma signālu viesis raida — savu vai stacijas īpašnieka. Tekstā par
-  to apzināti nekas nav teikts; jāprecizē un jāpieraksta.
+- [x] **70. punkts, svešas stacijas lietošana.** Noteikumi skaidri nosaka, ka
+  viesis raida ar savu izsaukuma signālu; tekstā pierakstīts.
+- [ ] **"SIA" pret "valsts akciju sabiedrība".** Grāmatā ir "SIA
+  Elektroniskie sakari" (uzņēmuma forma ir mainījusies); likumi.lv MK 257
+  tekstā joprojām ir "valsts akciju sabiedrība". Tas ir apzināti.
+- [ ] **Mūsu skaidrojumi.** Teikums, ka ES "uzrauga", kā noteikumi tiek
+  pildīti, un "CQ nav neadresēts raidījums" nav MK 257 tekstā.
+- [ ] **Sporta raidītāji (XIII nodaļa, 90.–92. punkts)** nodaļā nav
+  iekļauti; jāizlemj, vai vajag.
 - [ ] **ITU Radionoteikumu 25. pants** ("Padziļināti") pievienots no
   vispārzināmām ziņām, nav pārbaudīts pret avotu.
 - [ ] **Reģionu apraksts.** "Eiropa, Āfrika, Tuvie Austrumi" ir no slaida;

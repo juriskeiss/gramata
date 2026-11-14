@@ -97,15 +97,16 @@ punkts) [1].
 ## 3.4. Ko drīkst runāt un ar ko
 
 Radioamatieru sakaru pamatā ir atklātība. Ziņojumi ir atklāti: drīkst
-lietot Q kodus un darba saīsinājumus, bet šifrēt nedrīkst (39. punkts).
+lietot Q kodus un darba saīsinājumus, bet šifrēt nedrīkst; izņēmums ir tikai
+tālvadības komandas uz izplatījuma staciju (39. punkts).
 Līdzīgi ar svešiem ziņojumiem: ja nejauši uztver ziņojumu, kas nav
 radioamatieru, to nedrīkst pierakstīt, publicēt vai izpaust (40. punkts) [1].
 
 Sakari atļauti tikai ar citiem radioamatieriem (41. punkts). Izņēmums ir
-ārkārtas gadījumi: ar citu dienestu drīkst sazināties, ja **apdraudēta cilvēka
-dzīvība** vai notiek valsts vadīta glābšanas operācija vai tās mācības
-(42. punkts). Par
-šādu sakaru **trīs darbdienu laikā** jāziņo ES (43. punkts) [1].
+ārkārtas gadījumi: ar citu dienestu drīkst sazināties, ja **cilvēka dzīvībai
+draud tiešas briesmas** (vai jānovērš draudošas briesmas), kā arī valsts
+pārvaldes iestāžu vadītās glābšanas operācijās vai to mācībās (42. punkts).
+Par šādu sakaru **trīs darbdienu laikā** jāziņo ES (43. punkts) [1].
 
 > **Uzmanību!** Ja esi sazinājies ar cita dienesta staciju ārkārtas situācijā,
 > ar to viss nebeidzas: trīs darbdienu laikā ES jāpaziņo, ar ko, kad, kurā
@@ -117,9 +118,12 @@ aizliegts (46. punkts) [1].
 
 Raidījumam parasti jābūt adresētam. Neadresēti raidījumi ir aizliegti ar
 dažiem izņēmumiem (47. punkts); neadresēts ir raidījums, kas nav domāts
-konkrētam korespondentam. Atļauta ir antenas un raidītāja regulēšana ar
-mazāko iespējamo jaudu, vēlams uz slodzes ekvivalenta, kā arī radiobākas,
-mērījumi, informatīvi biļeteni un mācību raidījumi [1]. CQ nav neadresēts
+konkrētam korespondentam. Atļauta ir antenas regulēšana ar iespējami
+mazu jaudu (arī tad jānosauc izsaukuma signāls; raidītāja pārbaudei un
+regulēšanai lieto antenas ekvivalentu), kā arī radiobākas un mērījumi. Visiem
+radioamatieriem adresētu informatīvu biļetenu vai mācību raidījumu drīkst
+pārraidīt tikai starptautiski atzītas Latvijas radioamatieru organizācijas
+(LRAL) radiostacija [1]. CQ nav neadresēts
 raidījums: tas ir izsaukums, uz kuru gaida atbildi.
 
 Katrs sakars jāidentificē: izsaukuma signāls jānosauc sakara sākumā, beigās un
@@ -134,8 +138,8 @@ Visbeidzot jāievēro IARU ētikas principi un vispārpieņemtās uzvedības nor
 Noteikumu 53.–61. punkts nosaka, kā stacija jālieto. Jāievēro IARU joslu
 plāni, un jālieto mazākā jauda, ar kuru sakars vēl iespējams (53. punkts).
 Ja raidītājs spēj pārsniegt atļauto jaudu, tam jābūt izejas jaudas mērītājam
-(54. punkts) [1]. **Atkārtotājus** drīkst lietot tikai joslās virs **29 MHz**
-(56. punkts) [1].
+(54. punkts) [1]. **Atkārtotājus** drīkst uzstādīt un lietot tikai joslās virs
+**29 MHz**, kurās radioamatieru dienestam ir primārs statuss (56. punkts) [1].
 
 Stacijai jābūt tīrai un drošai. Spriegums uz antenām un **fīderiem** (līnijām,
 kas pārvada augstfrekvences signālu starp staciju un antenu) nedrīkst
@@ -155,11 +159,18 @@ punkts). ES var noteikt papildu ierobežojumus (61. punkts) [1].
 ## 3.6. Kad stacija traucē
 
 Radioamatierim jānodrošina, ka viņa stacija nerada kaitīgus traucējumus
-(62.–63. punkts). Ja traucējumi tomēr rodas, noteikumi paredz kārtību
-(64. punkts) [1]. Vispirms radioamatieris pilnveido savu staciju, līdz
-traucējumi novērsti. Ja vaina ir traucētajā uztvērējā, to novērš uztvērēja
-īpašnieks. Par papildu pasākumiem abas puses vienojas, bet, ja vienoties
-neizdodas, ierobežojumus nosaka ES.
+(62.–63. punkts). Ja traucējumi tomēr rodas, ko darīt, atkarīgs
+no cēloņa (64. punkts) [1]:
+
+- ja traucē tavas stacijas raidījumi, tu savu staciju pilnveido, kamēr
+  traucējumi ir novērsti vai samazināti līdz pieļaujamam līmenim;
+- ja traucējumi rodas tāpēc, ka traucētais uztvērējs ir bojāts vai netiek
+  pareizi lietots, trūkumus novērš uztvērēja īpašnieks;
+- ja traucētā aparatūra ir nepietiekami traucējumnoturīga, abas puses
+  vienojas par papildu pasākumiem (piemēram, filtriem vai antenas
+  pārvietošanu);
+- ja vienoties neizdodas, pasākumus nosaka ES, un tā var ierobežot jaudu,
+  joslas un izstarojuma klases.
 
 > **Uzmanību!** Ja tava stacija traucē navigācijas vai drošības dienestiem,
 > raidīšana jāpārtrauc **nekavējoties** un to drīkst atsākt tikai pēc cēloņa
@@ -175,7 +186,8 @@ lidlauka teritorijas robežas (66. punkts). Stacijas uz kuģošanas līdzekļiem
 Latvijas ūdeņos uzskata par mobilām (67. punkts) [1].
 
 **Svešas stacijas lietošana.** Stacijas īpašnieks drīkst atļaut to lietot citam
-radioamatierim, kuram ir derīga atļauja (70. punkts) [1].
+radioamatierim, kuram ir derīga atļauja. Viesis raida ar savu izsaukuma
+signālu un ar tādiem parametriem, kas atbilst viņa atļaujai (70. punkts) [1].
 
 **Apmācība.** A kategorijas radioamatieris drīkst savā uzraudzībā ļaut raidīt
 cilvēkam, kurš vēl mācās. Apmācībā lieto B kategorijas joslas un jaudas
@@ -194,14 +206,16 @@ pietiek zināt šo faktu.
 - Radioamatierus Latvijā regulē MK noteikumi Nr. 257; uzrauga
   SIA "Elektroniskie sakari".
 - Atļauja: līdz 5 gadiem; par izmaiņām jāpaziņo 30 dienu laikā.
-- Ziņojumi ir atklāti; šifrēt aizliegts; atļauti Q kodi un saīsinājumi.
+- Ziņojumi ir atklāti; šifrēt aizliegts (izņemot tālvadības komandas);
+  atļauti Q kodi un saīsinājumi.
 - Sakari ar citiem dienestiem tikai dzīvības glābšanai un glābšanas
   operācijās; jāziņo ES 3 darbdienu laikā.
 - Identificēšanās: sākumā, beigās, vismaz reizi 10 minūtēs.
 - 42 V — lielākais spriegums uz antenām un fīderiem.
 - 1 % — lielākā ārpusjoslas izstarojumu kopējā jauda.
 - 100 m — tuvāk lidostai mobilo staciju lietot nedrīkst.
-- Atkārtotāji tikai virs 29 MHz.
+- Atkārtotāji tikai joslās virs 29 MHz, kurās radioamatieru dienestam ir
+  primārs statuss.
 - Traucējot drošības dienestiem, raidīšana jāpārtrauc nekavējoties.
 - No kuģa un gaisa kuģa drīkst raidīt tikai A kategorija.
 
@@ -267,7 +281,7 @@ tev un kas — kaimiņam.
     - A. Ja šī stacija izsauc pirmā
     - B. Ja tas notiek naktī
     - C. Nekad
-    - D. Ja apdraudēta cilvēka dzīvība vai notiek valsts vadīta glābšanas operācija
+    - D. Ja cilvēka dzīvībai draud tiešas briesmas vai notiek valsts pārvaldes iestāžu vadīta glābšanas operācija
 8. Cik ilgā laikā pēc sakara ar cita dienesta staciju par to jāinformē SIA "Elektroniskie sakari"?
     - A. Nekavējoties pa radio
     - B. Trīs darbdienu laikā
