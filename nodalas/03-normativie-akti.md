@@ -123,7 +123,7 @@ mazu jaudu (arī tad jānosauc izsaukuma signāls; raidītāja pārbaudei un
 regulēšanai lieto antenas ekvivalentu), kā arī radiobākas un mērījumi. Visiem
 radioamatieriem adresētu informatīvu biļetenu vai mācību raidījumu drīkst
 pārraidīt tikai starptautiski atzītas Latvijas radioamatieru organizācijas
-(LRAL) radiostacija [1]. CQ nav neadresēts
+radiostacija; Latvijā tāda ir LRAL [1]. CQ nav neadresēts
 raidījums: tas ir izsaukums, uz kuru gaida atbildi.
 
 Katrs sakars jāidentificē: izsaukuma signāls jānosauc sakara sākumā, beigās un

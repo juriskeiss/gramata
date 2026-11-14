@@ -28,6 +28,9 @@ Grāmatā šis fails neieiet.
   tekstā joprojām ir "valsts akciju sabiedrība". Tas ir apzināti.
 - [ ] **Mūsu skaidrojumi.** Teikums, ka ES "uzrauga", kā noteikumi tiek
   pildīti, un "CQ nav neadresēts raidījums" nav MK 257 tekstā.
+- [ ] **47.4. punkts.** Noteikumos nav minēta LRAL, tikai "starptautiski atzīta
+  Latvijas radioamatieru organizācija"; "Latvijā tāda ir LRAL" ir mūsu
+  skaidrojums.
 - [ ] **Sporta raidītāji (XIII nodaļa, 90.–92. punkts)** nodaļā nav
   iekļauti; jāizlemj, vai vajag.
 - [ ] **ITU Radionoteikumu 25. pants** ("Padziļināti") pievienots no
