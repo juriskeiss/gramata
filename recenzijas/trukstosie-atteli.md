@@ -1,7 +1,7 @@
 # Trūkstošie attēli
 
 Šis fails grāmatā neiet. Tajā uzskaitīti attēli, kuru grāmatā vēl nav, bet kas
-palīdzētu mācīties. Pašlaik grāmatā ir 69 zīmējumi, un visi tekstā minētie
+palīdzētu mācīties. Pašlaik grāmatā ir 74 zīmējumi, un visi tekstā minētie
 faili mapē `atteli/` ir uzzīmēti. Visi A un B prioritātes zīmējumi ir uzzīmēti
 (atzīmēti ar ✓); atlikuši tikai C prioritātes materiāli.
 
@@ -38,7 +38,7 @@ stilā kā pārējos.
 | 17 | 5.4. Atrašanās vieta | ✓ Lokatora uzbūve (5.1. attēls) | Lauks, kvadrāts, apakškvadrāts (KO26..) kā tīkls bez kartes pamatnes | B |
 | 18 | 5.6. Žurnāls un QSL | ✓ QSL kartītes paraugs (5.4. attēls) | Izdomāta kartīte YL3ABC ar obligātajiem laukiem | B |
 | 19 | 2.2. Septiņi soļi | — Ceļš līdz licencei (nav vajadzīgs: ideja saprotama no teksta) | Septiņi soļi kā plūsmas shēma no mācībām līdz pirmajam QSO | B |
-| 20 | 3.1. Kas regulē | ✓ Normatīvo aktu līmeņi (3.1. attēls) | ITU un CEPT → Latvijas likums → MK noteikumi → VAS ES prasības | B |
+| 20 | 3.1. Kas regulē | ✓ Normatīvo aktu līmeņi (3.1. attēls) | ITU un CEPT → Latvijas likums → MK noteikumi → SIA "Elektroniskie sakari" prasības | B |
 | 21 | 6.2. Joslu plāns | ✓ 40 m un 2 m joslu plāns (6.2. un 6.4. attēls) | Tāds pats zīmējums kā 6.1. attēls 80 m diapazonam | B |
 
 ## Fotogrāfijas un ārēji materiāli

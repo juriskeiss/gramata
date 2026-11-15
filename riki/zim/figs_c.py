@@ -261,7 +261,7 @@ def _noise(f, x, y, ang=0.0, n=3, color=None):
 
 
 def f16_1():
-    f = Fig(900, 500)
+    f = Fig(1010, 500)
     yb = 322
     _groundline(f, 20, 885, yb)
     # --- radioamatiera māja ---
@@ -286,9 +286,20 @@ def f16_1():
         y1 = 140 + (x1 - 680) * 60 / 140
         f.pl([(x0, y0 - 6), (x1, y1 - 6), (x1, y1 - 22), (x0, y0 - 22)], close=True,
              fill=BLUE_T, color=BLUE, w=1.3)
-    f.text(800, 128, "saules paneļi", size=11, italic=True)
+    f.text(790, 124, "saules paneļi", size=11, italic=True)
+    f.pl([(790, 186), (790, 224)], w=1.2)                     # paneļu vads uz invertoru
     f.box(772, 236, 72, 24, "Invertors", size=11)
-    _noise(f, 772, 222, ang=110)
+    _noise(f, 740, 236, ang=170, n=2)
+    # ziemassvētku lampiņas gar jumta kreiso slīpni
+    lc = [RED, GREEN, AMBER, BLUE]
+    xs_l = [552 + i * 13 for i in range(9)]
+    pts = [(x, 200 - (x - 540) * 60 / 140 + 4 + (4 if i % 2 else 0)) for i, x in enumerate(xs_l)]
+    f.pl(pts, w=0.9)
+    for i, (x, y) in enumerate(pts):
+        f.circ(x, y + 3, 3.4, fill=lc[i % 4], color=lc[i % 4], sw=0.8)
+    f.mtext(428, 252, "mirgojošas\nlampiņas", size=10, italic=True)
+    f.line(456, 242, 546, 200, w=0.8, color=MG)
+    _noise(f, 548, 186, ang=140, n=2)
     # TV antena
     xt = 588
     f.line(xt, 180, xt, 96, w=2)
@@ -313,12 +324,25 @@ def f16_1():
         f.line(857, 297, 857 + 12 * math.cos(aa), 297 + 12 * math.sin(aa), w=1.2)
     f.mtext(857, 344, "kondicionieris,\nsiltumsūknis", size=10, italic=True)
     _noise(f, 857, 270, ang=100)
+    # dzirksteļojoša elektrolīnija
+    xp = 950
+    f.line(xp, yb, xp, 92, w=3)
+    f.line(xp - 26, 104, xp + 26, 104, w=2.4)
+    for dx in (-20, 20):
+        f.rect(xp + dx - 3, 92, 6, 12, fill="white", sw=1.2)
+    f.path(f"M {xp - 20} 92 Q 900 120 822 196", w=1.4)          # pievads mājai
+    f.line(xp + 20, 92, 1005, 86, w=1.4)
+    # dzirkstele pie izolatora
+    f.pl([(xp - 26, 86), (xp - 32, 78), (xp - 25, 76), (xp - 34, 64)], w=1.8, color=AMBER)
+    f.pl([(xp - 14, 86), (xp - 8, 76), (xp - 15, 74), (xp - 6, 62)], w=1.8, color=AMBER)
+    _noise(f, xp - 20, 70, ang=150)
+    f.mtext(xp, 344, "dzirksteļojoša\nelektrolīnija", size=10, italic=True)
     # --- elektrotīkls ---
     f.pl([(100, 299), (100, 380), (768, 380), (768, 302)], w=1.6, dash="2 4")
     f.text(225, 395, "elektrotīkls", size=11, italic=True)
     # --- ceļi: sarkans — raidītāja signāls, dzintara — troksnis ---
     f.arrow(338, 62, xt - 22, 98, w=2.2, color=RED)                                  # 1 →
-    _qarrow(f, (735, 150), (560, 18), (342, 50), AMBER, w=2.2)                       # 1 ←
+    _qarrow(f, (918, 58), (640, 2), (342, 50), AMBER, w=2.2)                         # 1 ←
     f.arrow(336, 68, 664, 264, w=1.8, color=RED, dash="7 4")                          # 3 →
     f.arrow(336, 66, 588, 264, w=1.8, color=RED, dash="2 4")                          # 4 →
     f.arrow(350, 372, 520, 372, w=2.2, color=RED)                                     # 2 →
@@ -333,7 +357,7 @@ def f16_1():
     f.line(60, 428, 96, 428, w=2.4, color=RED)
     f.text(104, 432, "raidītāja signāls traucē sadzīves ierīcēm", anchor="start", size=12)
     f.line(480, 428, 516, 428, w=2.4, color=AMBER)
-    f.text(524, 432, "sadzīves elektronikas troksnis traucē uztvērējam", anchor="start", size=12)
+    f.text(524, 432, "elektroierīču un elektrolīniju troksnis traucē uztvērējam", anchor="start", size=12)
     leg = ["1 — pa gaisu, caur antenām", "2 — pa elektrotīkla vadiem",
            "3 — pa pieslēgtajiem vadiem un kabeļa apvalku", "4 — tieši caur ierīces korpusu"]
     for i, t in enumerate(leg):

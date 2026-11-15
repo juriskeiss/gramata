@@ -8,12 +8,15 @@ kopienā.
 **Eksāmena programma:** šī nodaļa eksāmenā netiek prasīta.
 **Lasīšanas laiks:** ap 1 stundu.
 
-## Šajā nodaļā
+## Pēc šīs nodaļas tu pratīsi
 
-- trīs soļi: reģistrējies, aprīkojies, iesaisties;
-- kā izvēlēties žurnāla programmu un pirmo transīveru;
-- kādu antenu būvēt vispirms;
-- kādos virzienos hobijs var attīstīties.
+- pieprasīt radiostacijas atļauju un zināt, kas jāizdara pirms pirmā
+  raidījuma;
+- izvēlēties žurnāla programmu, pirmo transīveru un barošanas avotu;
+- izvēlēties un uzbūvēt pirmo antenu;
+- sagatavoties pirmajam sakaram;
+- atrast savu vietu radioamatieru kopienā un izvēlēties, kurā virzienā
+  attīstīt hobiju.
 
 ## 19.1. Pirmais solis: atļauja un izsaukuma signāls
 
@@ -183,7 +186,7 @@ Tev ir atļauja, stacija un antena. Atliek nospiest taustiņu.
 1. Paklausies diapazonu vismaz dažas minūtes.
 2. Sākumā atbildi uz cita CQ — tas ir vieglāk nekā saukt pašam.
 3. Noliec priekšā lapu ar savu izsaukuma signālu fonētiski, vārdu un QTH
-   (J pielikums).
+   (H pielikums).
 4. Pasaki, ka tas ir tavs pirmais sakars. Otrā galā gandrīz vienmēr būs
    cilvēks, kurš atceras savējo.
 5. Ieraksti sakaru žurnālā.

@@ -194,7 +194,7 @@ labu un vienu sliktu uzvedības piemēru.
 
 1. Kas izstrādā radioamatieru joslu plānus?
     - A. ITU
-    - B. "Elektroniskie sakari"
+    - B. SIA "Elektroniskie sakari"
     - C. IARU
     - D. Katrs radioamatieris pats
 2. Kāpēc Latvijas radioamatierim IARU joslu plāns ir obligāts?
@@ -291,5 +291,5 @@ izsaukums pareizajā brīdī.
    lral.lv.
 5. DX uzvedības kodekss (DX Code of Conduct). Izmantots tikai kā norāde;
    teksts nav pārņemts.
-6. Radioamatiera ētika un darba procedūras. lral.lv/files/ETIKA_latb-YL.pdf.
+6. Radioamatieru ētika un ētera procedūras. J. Devoldere ON4UN, M. Demeuleneere ON4WW; tulkojis J. O. Vanags YL3AD. 3. izdevums, 2009. lral.lv/oldwww/files/ETIKA_latb-YL.pdf.
    Izmantots tikai kā norāde tālākai lasīšanai.

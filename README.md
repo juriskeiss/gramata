@@ -45,8 +45,10 @@ gramata/
 ├── pateicibas.md          pateicības lapa: materiālu autori un redaktori
 ├── video-saites.md        video lekciju saites QR kodiem
 ├── nodalas/               viena nodaļa = viens fails
-├── pielikumi/             A–J pielikumi (vēl nav)
-├── atteli/                69 zīmējumi SVG formātā (ģenerēti ar riki/zim/)
+├── pielikumi/             A–H pielikumi: formulas, alfabēts un Q kodi, joslas,
+│                          joslu plāns, skaitļu lapa, saites, vārdnīca,
+│                          lapa pirmajam QSO
+├── atteli/                74 zīmējumi SVG formātā (ģenerēti ar riki/zim/)
 ├── riki/zim/              zīmējumu pirmkods (Python)
 ├── riki/makets.py         uzbūvē grāmatas maketu (HTML un PDF)
 ├── riki/dizains/          maketa stils, Pandoc filtrs, ikonas, LRAL zīme

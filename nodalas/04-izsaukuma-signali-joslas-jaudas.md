@@ -17,7 +17,7 @@ kurās frekvencēs un ar kādu jaudu drīkst raidīt B kategorijas stacija.
 
 ## 4.1. Latvijas izsaukuma signāla uzbūve
 
-Izsaukuma signālus piešķir "Elektroniskie sakari" (ES). Pamata izsaukuma
+Izsaukuma signālus piešķir SIA "Elektroniskie sakari" (ES). Pamata izsaukuma
 signāls sastāv no prefiksa **YL**, viena cipara un sufiksa. Sufiksa garums
 rāda stacijas kategoriju (32.–33. punkts) [1].
 
@@ -89,7 +89,7 @@ var ņemt līdzi [1], [2].
 Viesojoties citā valstī, savam izsaukuma signālam priekšā liek šīs valsts
 prefiksu un slīpsvītru:
 
-- Latvijas B kategorijas stacija Lietuvā: **LY/YL3ABC**;
+- Latvijas stacija Lietuvā: **LY/YL2AB**;
 - Lietuvas stacija Latvijā: **YL/LY1AB** (75. punkts) [1].
 
 Ārvalsts radioamatierim pēc pieprasījuma jāuzrāda atļauja un personu
@@ -207,7 +207,7 @@ stacijas. Katrai nosaki:
 
 - Sufiksa garums rāda kategoriju: 2, 3 vai 4 burti.
 - Papildzīme aiz slīpsvītras pasaka, kur stacija atrodas.
-- Ārvalstīs priekšā liek viesvalsts prefiksu: LY/YL3ABC.
+- Ārvalstīs priekšā liek viesvalsts prefiksu: LY/YL2AB.
 - B kategorijai ir astoņi diapazoni no 80 m līdz 23 cm.
 - Lielākā jauda ir 100 W īsviļņos un 6 m, mazāka augstākās frekvencēs.
 - 40 m diapazonā B kategorijai tikai CW un ciparu darba veidi.

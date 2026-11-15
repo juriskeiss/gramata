@@ -226,7 +226,7 @@ Katram QSO ir četras daļas [1]:
 > pārraides beigās, un nekad nenokavēsi.
 
 > **Praktisks padoms.** Pirmajam QSO uzraksti uz lapas savu vārdu un QTH
-> fonētiski un noliec blakus transīveram (J pielikumā ir gatavs paraugs).
+> fonētiski un noliec blakus transīveram (H pielikumā ir gatavs paraugs).
 > Uztraukumā aizmirstas pat paša vārds.
 
 ## 5.6. Split, žurnāls un QSL
@@ -485,5 +485,5 @@ frekvencē, traucē visiem.
    eksaminācijas apliecību un radioamatieru radiostacijas atļauju saņemšanas
    kārtība, kā arī radioamatieru radiostaciju lietošanas kārtība".
    <https://likumi.lv/ta/id/342127>
-3. Radioamatiera ētika un darba procedūras. lral.lv/files/ETIKA_latb-YL.pdf.
+3. Radioamatieru ētika un ētera procedūras. J. Devoldere ON4UN, M. Demeuleneere ON4WW; tulkojis J. O. Vanags YL3AD. 3. izdevums, 2009. lral.lv/oldwww/files/ETIKA_latb-YL.pdf.
    Izmantots tikai kā norāde tālākai lasīšanai.

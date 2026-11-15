@@ -79,7 +79,7 @@ Hobijam ir arī praktiska puse [1]:
 
 **Izsaukuma signāls** ir radioamatiera oficiālais vārds ēterā. Tas ir unikāls:
 pasaulē nav divu radioamatieru ar vienādu izsaukuma signālu. To piešķir valsts
-atbildīgā iestāde; Latvijā tie ir "Elektroniskie sakari" (ES) [1].
+atbildīgā iestāde; Latvijā tie ir SIA "Elektroniskie sakari" (ES) [1].
 
 Izsaukuma signāls sastāv no divām daļām:
 
@@ -163,7 +163,7 @@ Jaudas pastiprinātājs ir papildu iekārta, kas iesācējam nav vajadzīga.
   tehniskie pētījumi; bez materiālas ieinteresētības.
 - Aizliegts: komerciāla izmantošana, apraide, šifrēšana, anonīmi raidījumi,
   traucējumi citiem dienestiem, darbs ārpus atļautajām frekvencēm un jaudām.
-- Latvijas prefikss ir YL; izsaukuma signālus piešķir "Elektroniskie sakari".
+- Latvijas prefikss ir YL; izsaukuma signālus piešķir SIA "Elektroniskie sakari".
 - QSO ir radiosakars; QSL ir sakara apstiprinājums.
 
 ## Pamēģini pats
@@ -172,9 +172,17 @@ Jaudas pastiprinātājs ir papildu iekārta, kas iesācējam nav vajadzīga.
 "amateur radio prefix list" un noskaidro, no kurām valstīm ir stacijas
 JY5IB, 9A3B, OH2XX, SP5ABC un K4A.
 
-**2. Paklausies ēteru (15 minūtes).** Atver websdr.venta.lv:8901, izvēlies
-80 m vai 40 m diapazonu un sameklē vienu balss sakaru un vienu telegrāfa
-signālu. Pieraksti:
+**2. Paklausies ēteru (15 minūtes).** Atver kādu no tuvākajiem WebSDR
+uztvērējiem:
+
+- websdr.venta.lv:8901 (Ventspils);
+- websdr.virac.eu (Ventspils, VIRAC);
+- es4o.erau.ee (Igaunija).
+
+Izvēlies 40 m vai 20 m diapazonu un sameklē vienu balss
+sakaru un vienu telegrāfa signālu. Šajos diapazonos dzirdamas stacijas no
+visas Eiropas un tālākām zemēm. 20 m diapazonā B kategorija raidīt nedrīkst,
+bet klausīties drīkst ikviens. Pieraksti:
 
 - [ ] vienu izsaukuma signālu, ko izdevās saklausīt;
 - [ ] kurā frekvencē tas bija;
@@ -218,7 +226,7 @@ signālu. Pieraksti:
     - D. ES
 5. Kas Latvijā piešķir radioamatieru izsaukuma signālus?
     - A. Latvijas Radioamatieru līga
-    - B. "Elektroniskie sakari"
+    - B. SIA "Elektroniskie sakari"
     - C. Starptautiskā Telesakaru savienība (ITU)
     - D. Radioamatieris izvēlas pats
 6. Kas ir QSO?
