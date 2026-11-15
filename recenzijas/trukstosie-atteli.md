@@ -35,8 +35,8 @@ stilā kā pārējos.
 | 14 | 14.1. Radiofrekvenču spektrs | ✓ Spektra dalījums (14.1. attēls) | LF, MF, HF, VHF, UHF un tajos B kategorijas diapazoni | A |
 | 15 | 14.7. Izplatīšanās VHF un UHF | ✓ Radiohorizonts (14.7. attēls) | Divas antenas dažādos augstumos un tiešās redzamības attālums | B |
 | 16 | 14.4. Saule nosaka visu | ✓ Saules aktivitātes cikls (14.5. attēls, shematiski) | Saules plankumu skaita līkne aptuveni 11 gadu ciklā; datiem jāpārbauda lietošanas atļauja (piemēram, SILSO) | B |
-| 17 | 5.4. Atrašanās vieta | ✓ Pasaules karte ar laukiem (5.1. attēls) un lokatora veidošanās ar kartes pamatni (5.2. attēls) | Aizstāj agrāko tīkla variantu `05-1-lokators.svg` (tas vairs nav nodaļā) | B |
-| 18 | 5.6. Žurnāls un QSL | ✓ QSL kartītes paraugs (5.5. attēls) | Izdomāta kartīte YL3ABC ar obligātajiem laukiem | B |
+| 17 | 5.4. Atrašanās vieta | ✓ Lokatora uzbūve ar kartes pamatni (5.1. attēls) | Lauks KO, kvadrāts 26, apakškvadrāts bw; pasaules karte izņemta kā lieka detalizācija | B |
+| 18 | 5.6. Žurnāls un QSL | ✓ QSL kartītes paraugs (5.4. attēls) | Izdomāta kartīte YL3ABC ar obligātajiem laukiem | B |
 | 19 | 2.2. Septiņi soļi | — Ceļš līdz licencei (nav vajadzīgs: ideja saprotama no teksta) | Septiņi soļi kā plūsmas shēma no mācībām līdz pirmajam QSO | B |
 | 20 | 3.1. Kas regulē | ✓ Normatīvo aktu līmeņi (3.1. attēls) | ITU un CEPT → Latvijas likums → MK noteikumi → SIA "Elektroniskie sakari" prasības | B |
 | 21 | 6.2. Joslu plāns | ✓ 40 m un 2 m joslu plāns (6.2. un 6.4. attēls) | Tāds pats zīmējums kā 6.1. attēls 80 m diapazonam | B |

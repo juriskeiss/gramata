@@ -19,7 +19,7 @@ Vietas, kas jāpārbauda cilvēkam ar ētera pieredzi. Grāmatā šis fails neie
   10 minūšu prasība, šifrēšanas aizliegums, sakari ar citiem dienestiem.
 - [ ] **C kategorijas atzīme.** Apakšnodaļas vēl nav atzīmētas; to var izdarīt
   pēc ES FM operatora programmas salīdzināšanas.
-- [ ] **Zīmējumi.** Vajadzīgi četri: QSO četras daļas, split režīms uz
-  frekvenču ass, atkārtotāja darbība, lokatoru karte ar KO26.
-- [ ] **Lokators (5.4.).** Zīmējumi 5.1. un 5.2. ir gatavi. Jāpārbauda Rīgas
-  lokators KO26bw un tas, vai eksāmenā jautā lokatora uzbūvi.
+- [x] **Zīmējumi.** Visi pieci gatavi: lokatora uzbūve, QSO četras daļas,
+  split režīms, QSL kartīte, atkārtotāja darbība.
+- [ ] **Lokators (5.4.).** Apraksts saīsināts līdz "kas ir lokators": eksāmenā
+  jāzina jēdziens, nevis aprēķina metode. Jāpārbauda Rīgas lokators KO26bw.
