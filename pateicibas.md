@@ -17,11 +17,10 @@ atklāti. Paldies:
 
 ## Redaktori
 
-Grāmatu rediģējuši un pārbaudījuši:
-
 ::: {.redaktori}
 - Arvis, **YL3MS**
 - Viesturs, **YL2SM**
 - Andris, **YL2FD**
 - Valts, **YL3OI**
+- Vieta Tavam izsaukma signālam **YL ...**
 :::
