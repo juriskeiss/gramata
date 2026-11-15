@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 124" width="250" height="124" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<title>Pārveidošana no decimālā uz bināro: dalīšana ar 2</title>
+<rect x="0" y="0" width="250" height="124" fill="white"/>
+<text x="46.0" y="22.0" text-anchor="end" font-size="15" fill="#111111">11</text>
+<text x="56.0" y="22.0" text-anchor="start" font-size="15" fill="#111111">: 2 =</text>
+<text x="122.0" y="22.0" text-anchor="end" font-size="15" fill="#111111">5</text>
+<text x="140.0" y="22.0" text-anchor="start" font-size="13" fill="#9a9a9a">atl.</text>
+<text x="176.0" y="22.0" text-anchor="start" font-size="16" fill="#73281e" font-weight="bold">1</text>
+<text x="46.0" y="48.0" text-anchor="end" font-size="15" fill="#111111">5</text>
+<text x="56.0" y="48.0" text-anchor="start" font-size="15" fill="#111111">: 2 =</text>
+<text x="122.0" y="48.0" text-anchor="end" font-size="15" fill="#111111">2</text>
+<text x="140.0" y="48.0" text-anchor="start" font-size="13" fill="#9a9a9a">atl.</text>
+<text x="176.0" y="48.0" text-anchor="start" font-size="16" fill="#73281e" font-weight="bold">1</text>
+<text x="46.0" y="74.0" text-anchor="end" font-size="15" fill="#111111">2</text>
+<text x="56.0" y="74.0" text-anchor="start" font-size="15" fill="#111111">: 2 =</text>
+<text x="122.0" y="74.0" text-anchor="end" font-size="15" fill="#111111">1</text>
+<text x="140.0" y="74.0" text-anchor="start" font-size="13" fill="#9a9a9a">atl.</text>
+<text x="176.0" y="74.0" text-anchor="start" font-size="16" fill="#73281e" font-weight="bold">0</text>
+<text x="46.0" y="100.0" text-anchor="end" font-size="15" fill="#111111">1</text>
+<text x="56.0" y="100.0" text-anchor="start" font-size="15" fill="#111111">: 2 =</text>
+<text x="122.0" y="100.0" text-anchor="end" font-size="15" fill="#111111">0</text>
+<text x="140.0" y="100.0" text-anchor="start" font-size="13" fill="#9a9a9a">atl.</text>
+<text x="176.0" y="100.0" text-anchor="start" font-size="16" fill="#73281e" font-weight="bold">1</text>
+<line x1="214.0" y1="95.0" x2="214.0" y2="22.4" stroke="#73281e" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="214.0,17.0 217.7,25.2 210.3,25.2" fill="#73281e" stroke="#73281e" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

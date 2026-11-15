@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 62" width="300" height="62" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<title>Rezistoru virknes slēgums</title>
+<rect x="0" y="0" width="300" height="62" fill="white"/>
+<line x1="20.0" y1="36.0" x2="88.0" y2="36.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="88.0" y="28.0" width="44.0" height="16.0" rx="0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="110.0" y="22.0" text-anchor="middle" font-size="13" fill="#111111" font-style="italic">R₁</text>
+<line x1="132.0" y1="36.0" x2="168.0" y2="36.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="168.0" y="28.0" width="44.0" height="16.0" rx="0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="190.0" y="22.0" text-anchor="middle" font-size="13" fill="#111111" font-style="italic">R₂</text>
+<line x1="212.0" y1="36.0" x2="280.0" y2="36.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+</svg>

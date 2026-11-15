@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 86" width="210" height="86" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<title>Loģiskais elements UN (AND)</title>
+<rect x="0" y="0" width="210" height="86" fill="white"/>
+<path d="M 70 13 L 100 13 A 30 30 0 0 1 100 73 L 70 73 Z" fill="white" stroke="#111111" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="36.0" y1="27.0" x2="70.0" y2="27.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<text x="32.0" y="32.0" text-anchor="end" font-size="12" fill="#111111" font-style="italic">A</text>
+<line x1="36.0" y1="59.0" x2="70.0" y2="59.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<text x="32.0" y="64.0" text-anchor="end" font-size="12" fill="#111111" font-style="italic">B</text>
+<line x1="130.0" y1="43.0" x2="170.0" y2="43.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<text x="174.0" y="48.0" text-anchor="start" font-size="12" fill="#111111" font-style="italic">Y</text>
+</svg>

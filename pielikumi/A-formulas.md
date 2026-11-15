@@ -1,124 +1,298 @@
 # A pielikums. Formulu lapa
 
-Eksāmenā vajadzīgās formulas, mērvienības un tabulas vienuviet. Lapa
-atbilst LRAL bezmaksas kursa formulu lapai.
+Eksāmenā vajadzīgās formulas, mērvienības un tabulas vienuviet. Lapas saturs
+un secība atbilst LRAL bezmaksas kursa formulu lapai, ko izveidojis Matīss
+YL3RZ; šeit mainīts tikai noformējums.
 
-## Oma likums un jauda
+::: fl-poras
+::: fl-kol
 
-| Formula | Ko aprēķina |
+## 1. Pretestība (rezistori)
+
+**Virknes slēgums:**
+
+![](../atteli/A-1-rezistori-virkne.svg){.fl-att}
+
+$$R_{kop} = R_1 + R_2 + \cdots + R_n \quad \text{[Ω]}$$
+
+**Paralēlais slēgums:**
+
+![](../atteli/A-1-rezistori-paralela.svg){.fl-att}
+
+$$\frac{1}{R_{kop}} = \frac{1}{R_1} + \frac{1}{R_2} + \cdots + \frac{1}{R_n} \quad \text{[Ω]}$$
+
+Diviem rezistoriem: $R_{kop} = \dfrac{R_1 \cdot R_2}{R_1 + R_2}$ [Ω]
+
+::: fl-apz
+| $R_{kop}$, $R_1$, $R_2$ — pretestība [Ω]
+:::
+
+## 2. Kapacitāte (kondensatori)
+
+**Virknes slēgums:**
+
+![](../atteli/A-2-kondensatori-virkne.svg){.fl-att}
+
+$$\frac{1}{C_{kop}} = \frac{1}{C_1} + \frac{1}{C_2} + \cdots + \frac{1}{C_n} \quad \text{[F]}$$
+
+**Paralēlais slēgums:**
+
+![](../atteli/A-2-kondensatori-paralela.svg){.fl-att}
+
+$$C_{kop} = C_1 + C_2 + \cdots + C_n \quad \text{[F]}$$
+
+::: fl-apz
+| $C_{kop}$, $C_1$, $C_2$ — kapacitāte [F]
+:::
+
+:::
+::: fl-kol
+
+## 3. Jauda un Oma likums
+
+![](../atteli/A-3-oma-likuma-ritenis.svg){.fl-att .fl-ritenis}
+
+::: fl-apz
+| $P$ — jauda [W]
+| $E$ — spriegums [V]
+| $I$ — strāva [A]
+| $R$ — pretestība [Ω]
+:::
+
+## 4. Maiņstrāva un līdzstrāva
+
+**Efektīvā vērtība (RMS):**
+
+$$U_{RMS} = \frac{U_{max}}{\sqrt{2}} \approx U_{max} \cdot \text{0,707} \quad \text{[V]}$$
+
+$$U_{max} = U_{RMS} \cdot \sqrt{2} \approx U_{RMS} \cdot \text{1,414} \quad \text{[V]}$$
+
+$$U_{p\text{-}p} = 2 \cdot U_{max} \quad \text{[V]}$$
+
+::: fl-apz
+| $U_{RMS}$ — efektīvais spriegums [V]
+| $U_{max}$ — amplitūdas spriegums [V]
+| $U_{p\text{-}p}$ — spriegums no smailes līdz smailei [V]
+:::
+
+:::
+:::
+
+::: fl-pilna
+
+## Metriskie prefiksi un decibeli (dB)
+
+::: fl-prefiksi
+::: fl-tab1
+
+| Prefikss | $10^n$ | Skaitlis | Piemērs |
+| --- | --- | --- | --- |
+| tera (T) | $10^{12}$ | 1 000 000 000 000 | 1 TΩ |
+| giga (G) | $10^{9}$ | 1 000 000 000 | 1 GHz |
+| mega (M) | $10^{6}$ | 1 000 000 | 1 MΩ |
+| kilo (k) | $10^{3}$ | 1 000 | 1 kΩ |
+| hecto (h) | $10^{2}$ | 100 | 1 hF |
+| deka (da) | $10^{1}$ | 10 | 1 daV |
+| deci (d) | $10^{-1}$ | 0,1 | 1 dV |
+| centi (c) | $10^{-2}$ | 0,01 | 1 cm |
+| mili (m) | $10^{-3}$ | 0,001 | 1 mA |
+| mikro (µ) | $10^{-6}$ | 0,000001 | 1 µF |
+| nano (n) | $10^{-9}$ | 0,000000001 | 1 nF |
+| piko (p) | $10^{-12}$ | 0,000000000001 | 1 pF |
+
+:::
+::: fl-tab2
+
+| dB | Jauda (×) |
 | --- | --- |
-| $U = I \cdot R$ | Spriegums |
-| $I = U / R$ | Strāva |
-| $R = U / I$ | Pretestība |
-| $P = U \cdot I$ | Jauda |
-| $P = I^2 \cdot R$ | Jauda, ja zināma strāva un pretestība |
-| $P = U^2 / R$ | Jauda, ja zināms spriegums un pretestība |
+| 1 dB | 1,26 |
+| 2 dB | 1,58 |
+| 3 dB | 2,0 |
+| 4 dB | 2,51 |
+| 6 dB | 3,98 |
+| 8 dB | 6,31 |
+| 10 dB | 10 |
+| 15 dB | 31,6 |
+| 20 dB | 100 |
+| 25 dB | 316 |
+| 30 dB | 1000 |
+| 40 dB | 10000 |
 
-$U$ — spriegums [V], $I$ — strāva [A], $R$ — pretestība [Ω], $P$ — jauda [W].
+:::
+::: fl-db
 
-## Rezistori, kondensatori un spoles
+$$P_{dB} = 10 \cdot \lg\left(\frac{P}{P_{ref}}\right) \quad \text{[dB]}$$
 
-| | Virknes slēgums | Paralēlais slēgums |
+$$U_{dB} = 20 \cdot \lg\left(\frac{U}{U_{ref}}\right) \quad \text{[dB]}$$
+
+::: fl-apz
+| $P$ — jauda [W]
+| $U$ — spriegums [V]
+| $P_{ref}$, $U_{ref}$ — atskaites līmeņi
+:::
+
+:::
+:::
+:::
+
+::: fl-poras
+::: fl-kol
+
+## 5. Rezonējošā frekvence
+
+**Rezonanses frekvence:**
+
+$$f = \frac{1}{2\pi\sqrt{LC}} \quad \text{[Hz]}$$
+
+**Reaktīvā pretestība:**
+
+$$X_C = \frac{1}{2\pi f C}\ \text{[Ω]} \qquad X_L = 2\pi f L\ \text{[Ω]}$$
+
+::: fl-apz
+| $f$ — rezonanses frekvence [Hz]
+| $X_C$ — kapacitatīvā pretestība [Ω]
+| $X_L$ — induktīvā pretestība [Ω]
+| $L$ — induktivitāte [H]
+| $C$ — kapacitāte [F]
+| $\pi$ ≈ 3,14159
+:::
+
+## 6. Frekvence un viļņa garums
+
+**Viļņa garums un frekvence**
+
+$$f = \frac{c}{\lambda}\ \text{[Hz]} \qquad \lambda\,\text{[m]} = \frac{300}{f\,\text{[MHz]}}$$
+
+**Periods un frekvence**
+
+$$f = \frac{1}{T}\ \text{[Hz]} \qquad T = \frac{1}{f}\ \text{[s]}$$
+
+::: fl-apz
+| $\lambda$ — viļņa garums [m]
+| $T$ — periods [s]
+| $f$ — frekvence [Hz, MHz]
+| $c$ — gaismas ātrums $\approx 3 \cdot 10^8$ [m/s]
+:::
+
+:::
+::: fl-kol
+
+## 7. Sin/cos maiņspriegums
+
+$$u\text{(}t\text{)} = U_{max} \cdot \sin\text{(}\omega t + \phi\text{)}$$
+
+$$u\text{(}t\text{)} = U_{max} \cdot \cos\text{(}\omega t + \phi\text{)}$$
+
+$$\omega = 2\pi f$$
+
+::: fl-apz
+| $u\text{(}t\text{)}$ — mom. spriegums [V]
+| $U_{max}$ — amplitūda [V]
+| $\omega$ — leņķ. frekvence [rad/s]
+| $T$ — periods [s]
+:::
+
+## 8. Kirhofa likumi
+
+**KCL (strāvu likums):** mezglā ieplūstošo un izplūstošo strāvu summa ir nulle.
+
+$$\sum I_{ie} = \sum I_{iz} \quad \text{[A]}$$
+
+**KVL (spriegumu likums):** kontūra sprieguma kritumu summa ir vienāda ar avota spriegumu.
+
+$$\sum U = 0 \quad \text{[V]}$$
+
+![](../atteli/A-8-kirhofs.svg){.fl-att}
+
+:::
+:::
+
+::: fl-pilna
+
+## 9. Loģiskās shēmas
+
+::: fl-tris
+::: fl-vien
+
+**UN (AND)**
+
+![](../atteli/A-9-un.svg){.fl-att .fl-varti}
+
+| A | B | Y |
 | --- | --- | --- |
-| Rezistori | $R = R_1 + R_2 + \dots$ | $\frac{1}{R} = \frac{1}{R_1} + \frac{1}{R_2} + \dots$ |
-| Kondensatori | $\frac{1}{C} = \frac{1}{C_1} + \frac{1}{C_2} + \dots$ | $C = C_1 + C_2 + \dots$ |
-| Spoles | $L = L_1 + L_2 + \dots$ | $\frac{1}{L} = \frac{1}{L_1} + \frac{1}{L_2} + \dots$ |
+| 0 | 0 | 0 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 |
 
-Diviem rezistoriem paralēli: $R = \frac{R_1 \cdot R_2}{R_1 + R_2}$.
+:::
+::: fl-vien
 
-> **Atceries:** kondensatori slēgumos uzvedas pretēji rezistoriem un spolēm.
+**VAI (OR)**
 
-## Maiņstrāva
+![](../atteli/A-9-vai.svg){.fl-att .fl-varti}
 
-| Formula | Ko nozīmē |
+| A | B | Y |
+| --- | --- | --- |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 1 |
+
+:::
+::: fl-vien
+
+**NE (NOT)**
+
+![](../atteli/A-9-ne.svg){.fl-att .fl-varti}
+
+| A | Y |
 | --- | --- |
-| $U_{RMS} = U_{max} / \sqrt{2} \approx 0{,}707 \cdot U_{max}$ | Efektīvā vērtība no amplitūdas |
-| $U_{max} = U_{RMS} \cdot \sqrt{2} \approx 1{,}414 \cdot U_{RMS}$ | Amplitūda no efektīvās vērtības |
-| $U_{p\text{-}p} = 2 \cdot U_{max}$ | Spriegums no smailes līdz smailei |
-| $f = 1 / T$, $T = 1 / f$ | Frekvence un periods |
-| $\omega = 2 \pi f$ | Leņķiskā frekvence |
-| $u(t) = U_{max} \cdot \sin(\omega t + \varphi)$ | Momentānais spriegums |
+| 0 | 1 |
+| 1 | 0 |
 
-## Reaktīvā pretestība un rezonanse
+:::
+:::
+:::
 
-| Formula | Ko nozīmē |
+::: fl-pilna
+
+## 10. Binārā sistēma
+
+::: fl-tris
+::: fl-vien
+
+**Binārais → decimālais**
+
+Saskaita $2^n$ pozīcijas ar 1:
+
+$1011_2 = 1 \cdot 2^3 + 0 \cdot 2^2 + 1 \cdot 2^1 + 1 \cdot 2^0$
+
+$8 + 0 + 2 + 1 = \mathbf{11_{10}}$
+
+:::
+::: fl-vien
+
+**Pakāpes**
+
+| | |
 | --- | --- |
-| $X_C = \frac{1}{2 \pi f C}$ | Kondensatora pretestība; frekvencei augot, samazinās |
-| $X_L = 2 \pi f L$ | Spoles pretestība; frekvencei augot, pieaug |
-| $f = \frac{1}{2 \pi \sqrt{L C}}$ | LC kontūra rezonanses frekvence |
+| $2^0 = 1$ | $2^4 = 16$ |
+| $2^1 = 2$ | $2^5 = 32$ |
+| $2^2 = 4$ | $2^6 = 64$ |
+| $2^3 = 8$ | $2^7 = 128$ |
 
-$f$ — frekvence [Hz], $C$ — kapacitāte [F], $L$ — induktivitāte [H],
-$\pi \approx 3{,}14$.
+:::
+::: fl-vien
 
-## Viļņa garums un antenas
+**Decimālais → binārais**
 
-| Formula | Ko nozīmē |
-| --- | --- |
-| $\lambda = c / f$, $c \approx 3 \cdot 10^8$ m/s | Viļņa garums |
-| $\lambda\,[\text{m}] = 300 / f\,[\text{MHz}]$ | Ērtā forma |
-| $L\,[\text{m}] \approx 142{,}5 / f\,[\text{MHz}]$ | Pusviļņa dipola garums |
+Dala ar 2, raksta atlikumus; rezultātu lasa no apakšas uz augšu:
 
-## Transformators
+![](../atteli/A-10-dalisana-ar-2.svg){.fl-att}
 
-$$\frac{U_2}{U_1} = \frac{N_2}{N_1}$$
+:::
+:::
+:::
 
-$N_1$, $N_2$ — vijumu skaits primārajā un sekundārajā tinumā.
-
-## Kirhofa likumi
-
-- **Strāvu likums:** mezglā ieplūstošo strāvu summa ir vienāda ar izplūstošo
-  strāvu summu.
-- **Spriegumu likums:** slēgtā kontūrā sprieguma kritumu summa ir vienāda ar
-  avota spriegumu.
-
-## Decibeli
-
-$$P_{dB} = 10 \cdot \lg \frac{P}{P_{ref}} \qquad U_{dB} = 20 \cdot \lg \frac{U}{U_{ref}}$$
-
-| dB | Jaudas attiecība | dB | Jaudas attiecība |
-| --- | --- | --- | --- |
-| 1 | 1,26 | 10 | 10 |
-| 2 | 1,58 | 15 | 31,6 |
-| 3 | 2 | 20 | 100 |
-| 4 | 2,51 | 25 | 316 |
-| 6 | 4 | 30 | 1000 |
-| 8 | 6,31 | 40 | 10 000 |
-
-Viena S vienība ir 6 dB. Virknē slēgtu pakāpju decibelus saskaita.
-
-## Metriskie prefiksi
-
-| Prefikss | Apzīmējums | Reizinātājs | Piemērs |
-| --- | --- | --- | --- |
-| tera | T | $10^{12}$ | 1 TΩ |
-| giga | G | $10^{9}$ | 1 GHz |
-| mega | M | $10^{6}$ | 1 MΩ |
-| kilo | k | $10^{3}$ | 1 kΩ |
-| mili | m | $10^{-3}$ | 1 mA |
-| mikro | µ | $10^{-6}$ | 1 µF |
-| nano | n | $10^{-9}$ | 1 nF |
-| piko | p | $10^{-12}$ | 1 pF |
-
-## Loģiskie elementi
-
-| A | B | UN (AND) | VAI (OR) |
-| --- | --- | --- | --- |
-| 0 | 0 | 0 | 0 |
-| 0 | 1 | 0 | 1 |
-| 1 | 0 | 0 | 1 |
-| 1 | 1 | 1 | 1 |
-
-NE (NOT) pārvērš ieeju pretējā: 0 → 1, 1 → 0.
-
-## Binārā sistēma
-
-**No binārā uz decimālo:** saskaita divnieka pakāpes tajās pozīcijās, kur ir
-1. Piemērs: $1011_2 = 8 + 0 + 2 + 1 = 11_{10}$.
-
-**No decimālā uz bināro:** dala ar 2 un pieraksta atlikumus; rezultātu lasa no
-apakšas uz augšu. Piemērs: 11 : 2 = 5 (atl. 1), 5 : 2 = 2 (atl. 1),
-2 : 2 = 1 (atl. 0), 1 : 2 = 0 (atl. 1) → $1011_2$.
-
-| $2^0$ | $2^1$ | $2^2$ | $2^3$ | $2^4$ | $2^5$ | $2^6$ | $2^7$ |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 2 | 4 | 8 | 16 | 32 | 64 | 128 |
+*© 2026 Matīss YL3RZ*

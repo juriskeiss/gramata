@@ -346,3 +346,43 @@ ul.task-list { list-style: none; padding-left: 0; }
 /* Laužana */
 h2 + p, h2 + table, h2 + ul, h2 + ol { break-before: avoid; }
 .lodzins + .lodzins { margin-top: 2.4mm; }
+
+/* ------------------------------------------- A pielikums: formulu lapa */
+/* Izkārtojums atbilst YL3RZ formulu lapai: divas kolonnas (1.–8.), pilna platuma
+   tabulas, trīs kolonnas (9., 10.). Viss ir tikai noformējums; saturs ir A-formulas.md. */
+.fl-poras { display: grid; grid-template-columns: 1fr 1fr; gap: 0 9mm; break-inside: avoid; }
+.fl-tris { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 7mm; align-items: start; }
+.fl-pilna { break-inside: avoid; }
+.fl-kol, .fl-vien { min-width: 0; }
+h2.fl-virsraksts {
+  font-size: 11.5pt; margin: 5mm 0 2mm; padding-bottom: 1mm;
+  border-bottom: .3mm solid var(--akcents-linija);
+}
+.fl-poras > .fl-kol:first-child > h2.fl-virsraksts:first-child,
+.fl-poras > .fl-kol > h2.fl-virsraksts:first-child { margin-top: 3mm; }
+.fl-pilna > h2.fl-virsraksts { margin-top: 5mm; }
+.pielikums-A .nodala-teksts p { margin: 0 0 1.4mm; }
+.pielikums-A .nodala-teksts p strong:only-child { color: var(--tinte); }
+.pielikums-A math[display="block"] { margin: 1.4mm auto; font-size: 1.02em; }
+.fl-att { display: block; margin: 1mm auto 1.5mm; max-width: 100%; height: auto; }
+.fl-ritenis { max-width: 84mm; margin-top: 2mm; }
+.fl-varti { max-width: 38mm; }
+.fl-apz {
+  border-left: .7mm solid var(--akcents); padding-left: 2.6mm; margin: 1.6mm 0 3mm;
+  font-size: 8.6pt; line-height: 1.45; color: var(--tinte);
+}
+.fl-apz .line-block, .fl-apz p { margin: 0; }
+.fl-prefiksi { display: grid; grid-template-columns: 1.7fr .8fr 1fr; gap: 0 7mm; align-items: start; }
+.fl-prefiksi table { margin: 1.6mm 0 0; font-size: 8.2pt; }
+.fl-prefiksi td { padding-top: .7mm; padding-bottom: .7mm; }
+.fl-tab1 td:nth-child(2), .fl-tab1 th:nth-child(2) { text-align: center; }
+.fl-tab1 td:nth-child(3) { text-align: right; font-variant-numeric: tabular-nums; }
+.fl-tab2 td:nth-child(2) { text-align: right; }
+.fl-db { padding-top: 6mm; }
+.fl-tris table { font-size: 8.6pt; margin: 1.5mm auto 0; width: auto; min-width: 26mm; }
+.fl-tris table td, .fl-tris table th { text-align: center; padding: .9mm 3mm; }
+.fl-tris table td:first-child { font-weight: 400; }
+.fl-vien > p:first-child { margin-bottom: 1.2mm; }
+.fl-vien > p:first-child strong { font-size: 9.4pt; color: var(--akcents); }
+.fl-vien > p:first-child { text-align: center; }
+.pielikums-A .fl-pilna + p em { display: block; margin-top: 4mm; font-size: 7.6pt; color: var(--pelēks); }

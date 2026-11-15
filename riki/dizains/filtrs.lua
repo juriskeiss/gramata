@@ -143,6 +143,41 @@ local function quiz_list(ol)
   return pandoc.Div({ ol }, pandoc.Attr("", { "jautajumu-saraksts" }, st))
 end
 
+-- ------------------------------------------- formulu lapas izkārtojums (A pielikums)
+-- Kolonnu bloki ir Div ar klasi fl-*; to iekšienē virsrakstus un attēlus apstrādā šeit,
+-- jo galvenais cikls iet tikai pa augšējo līmeni.
+local function is_fl(b)
+  if b.t ~= "Div" then return false end
+  for _, c in ipairs(b.classes) do
+    if c:match("^fl%-") then return true end
+  end
+  return false
+end
+
+local function fl_fix(d)
+  return d:walk({
+    Header = function(h)
+      local text = stringify(h)
+      local num, title = text:match("^(%d+%.)%s*(.*)$")
+      local inner
+      if num then
+        inner = '<span class="kicker">' .. esc(num) .. '</span><span class="v-teksts">' .. esc(title) .. '</span>'
+      else
+        inner = '<span class="v-teksts">' .. esc(text) .. '</span>'
+      end
+      return pandoc.RawBlock("html", '<h2 class="fl-virsraksts">' .. inner .. '</h2>')
+    end,
+    Image = function(img)
+      local f = io.open(img.src, "r")
+      if not f then return nil end
+      f:close()
+      local abs = pandoc.path.normalize(pandoc.path.join({ pandoc.system.get_working_directory(), img.src }))
+      local cls = table.concat(img.classes, " ")
+      return pandoc.RawInline("html", '<img class="' .. esc(cls) .. '" src="file://' .. esc(abs) .. '" alt="">')
+    end,
+  })
+end
+
 -- -------------------------------------------------------- dokuments
 function Pandoc(doc)
   local blocks = doc.blocks
@@ -256,6 +291,7 @@ function Pandoc(doc)
       local nb = b
       if b.t == "BlockQuote" then nb = callout(b) or b end
       if b.t == "Figure" then nb = figure_fix(b) or b end
+      if is_fl(b) then nb = fl_fix(b) end
       if section and section.classes:includes("jautajumi") and b.t == "OrderedList" then
         nb = quiz_list(b)
       end

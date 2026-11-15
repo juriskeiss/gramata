@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 122" width="300" height="122" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<title>Kondensatoru paralēlais slēgums</title>
+<rect x="0" y="0" width="300" height="122" fill="white"/>
+<line x1="20.0" y1="62.0" x2="90.0" y2="62.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="210.0" y1="62.0" x2="280.0" y2="62.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="90.0" y1="62.0" x2="90.0" y2="38.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="210.0" y1="62.0" x2="210.0" y2="38.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="90.0" y1="38.0" x2="146.0" y2="38.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="154.0" y1="38.0" x2="210.0" y2="38.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="146.0" y1="26.0" x2="146.0" y2="50.0" stroke="#111111" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="154.0" y1="26.0" x2="154.0" y2="50.0" stroke="#111111" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="90.0" y1="62.0" x2="90.0" y2="86.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="210.0" y1="62.0" x2="210.0" y2="86.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="90.0" y1="86.0" x2="146.0" y2="86.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="154.0" y1="86.0" x2="210.0" y2="86.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="146.0" y1="74.0" x2="146.0" y2="98.0" stroke="#111111" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="154.0" y1="74.0" x2="154.0" y2="98.0" stroke="#111111" stroke-width="2.2" stroke-linecap="round"/>
+<text x="150.0" y="20.0" text-anchor="middle" font-size="13" fill="#111111" font-style="italic">C₁</text>
+<text x="150.0" y="116.0" text-anchor="middle" font-size="13" fill="#111111" font-style="italic">C₂</text>
+<circle cx="90.0" cy="62.0" r="3.0" fill="#111111" stroke="#111111" stroke-width="1.6"/>
+<circle cx="210.0" cy="62.0" r="3.0" fill="#111111" stroke="#111111" stroke-width="1.6"/>
+</svg>

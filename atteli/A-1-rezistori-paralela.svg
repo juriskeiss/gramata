@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 122" width="300" height="122" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<title>Rezistoru paralēlais slēgums</title>
+<rect x="0" y="0" width="300" height="122" fill="white"/>
+<line x1="20.0" y1="61.0" x2="90.0" y2="61.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="210.0" y1="61.0" x2="280.0" y2="61.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="90.0" y1="61.0" x2="90.0" y2="34.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="210.0" y1="61.0" x2="210.0" y2="34.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="90.0" y1="34.0" x2="128.0" y2="34.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="172.0" y1="34.0" x2="210.0" y2="34.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="128.0" y="26.0" width="44.0" height="16.0" rx="0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="150.0" y="20.0" text-anchor="middle" font-size="13" fill="#111111" font-style="italic">R₁</text>
+<line x1="90.0" y1="61.0" x2="90.0" y2="88.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="210.0" y1="61.0" x2="210.0" y2="88.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="90.0" y1="88.0" x2="128.0" y2="88.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="172.0" y1="88.0" x2="210.0" y2="88.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="128.0" y="80.0" width="44.0" height="16.0" rx="0" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="150.0" y="112.0" text-anchor="middle" font-size="13" fill="#111111" font-style="italic">R₂</text>
+<circle cx="90.0" cy="61.0" r="3.0" fill="#111111" stroke="#111111" stroke-width="1.6"/>
+<circle cx="210.0" cy="61.0" r="3.0" fill="#111111" stroke="#111111" stroke-width="1.6"/>
+</svg>

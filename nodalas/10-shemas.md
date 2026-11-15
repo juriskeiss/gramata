@@ -263,6 +263,10 @@ pozīcija no labās puses ir divnieka pakāpe: 1, 2, 4, 8, 16 un tā tālāk [2]
 > 2. Saskaita tās, kur ir 1: 8 + 0 + 2 + 1.
 > 3. Atbilde: 11.
 
+Pārveidošanu abos virzienos — binārais skaitlis uz decimālo un decimālais uz
+bināro (dalot ar 2) — vari atrast arī A pielikuma 10. sadaļā "Binārā sistēma",
+kopā ar divnieka pakāpju tabulu.
+
 ## Eksāmenā jāzina
 
 - Rezonanses frekvence: f = 1 / (2π√LC). Palielinot L vai C, frekvence
