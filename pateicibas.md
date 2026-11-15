@@ -22,5 +22,6 @@ atklāti. Paldies:
 - Viesturs, **YL2SM**
 - Andris, **YL2FD**
 - Valts, **YL3OI**
-- Vieta Tavam izsaukma signālam **YL ...**
+- Gunārs, **YL2GD**
+- Vieta Tavam izsaukuma signālam **YL ...**
 :::

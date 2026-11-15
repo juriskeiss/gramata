@@ -18,7 +18,7 @@ PDF ir tikai no tiem uzbūvēts rezultāts un ar roku netiek labots.
 | 4 | Izsaukuma signāli, joslas un jaudas | `nodalas/04-izsaukuma-signali-joslas-jaudas.md` | Melnraksts |
 | 5 | Radiosakaru prakse | `nodalas/05-radiosakaru-prakse.md` | Melnraksts (paraugnodaļa) |
 | 6 | Joslu plāni un ētera kultūra | `nodalas/06-joslu-plani-etera-kultura.md` | Melnraksts |
-| 7 | Elektrības pamati | `nodalas/07-elektribas-pamati.md` | Melnraksts |
+| 7 | Elektronikas pamati | `nodalas/07-elektronikas-pamati.md` | Melnraksts |
 | 8 | Radioviļņi, signāli un modulācija | `nodalas/08-radiovilni-signali-modulacija.md` | Melnraksts |
 | 9 | Elektronikas komponenti | `nodalas/09-komponenti.md` | Melnraksts |
 | 10 | Shēmas | `nodalas/10-shemas.md` | Melnraksts |

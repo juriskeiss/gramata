@@ -45,7 +45,7 @@ nedēļās.
 | 1 | 1., 2. | Ievads; kā notiek eksāmens |
 | 2 | 3., 4. | Noteikumi, izsaukuma signāli, joslas |
 | 3 | 5., 6. | Radiosakaru prakse, joslu plāni |
-| 4 | 7. | Elektrības pamati |
+| 4 | 7. | Elektronikas pamati |
 | 5 | 8. | Radioviļņi un modulācija |
 | 6 | 9., 10. | Komponenti un shēmas |
 | 7 | 11., 12. | Uztvērēji un raidītāji |

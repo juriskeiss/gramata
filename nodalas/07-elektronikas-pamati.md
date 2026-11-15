@@ -1,4 +1,4 @@
-# 7. nodaļa. Elektrības pamati
+# 7. nodaļa. Elektronikas pamati
 
 Šī nodaļa iemāca trīs lielumus, uz kuriem balstās visa radiotehnika, — strāvu,
 spriegumu un pretestību — un divas formulas, ar kurām atrisināma liela daļa

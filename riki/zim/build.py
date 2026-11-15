@@ -16,7 +16,7 @@ os.chdir(ROOT)
 os.makedirs("atteli", exist_ok=True)
 
 count = 0
-for mod in ("figs_a", "figs_b", "figs_c", "figs_d", "figs_e", "figs_f", "figs_g", "figs_h", "figs_i"):
+for mod in ("figs_a", "figs_b", "figs_c", "figs_d", "figs_e", "figs_f", "figs_g", "figs_h", "figs_i", "figs_j"):
     try:
         m = importlib.import_module(mod)
     except ModuleNotFoundError:

@@ -32,5 +32,11 @@ ar [1] vai [2], jāpārbauda.
   veidi minēti 10. nodarbības slaidā; apraksti ir no vispārzināmām ziņām.
 - [ ] **Novērošanas rīki (14.8.)** nosaukti vispārīgi, bez konkrētām
   vietnēm; ja LRAL iesaka konkrētas, tās var pievienot.
-- [ ] **16. jautājums.** Attālums Liepāja–Daugavpils "ap 400 km" ir aptuvens.
+- [ ] **18. jautājums.** Attālums Liepāja–Daugavpils "ap 400 km" ir aptuvens.
 - [ ] **Aprēķini** (radio horizonts) pārbaudīti ar roku.
+- [ ] **Vairāki lēcieni un 6 m izplatīšanās (Valta YL3OI komentārs).**
+  Pievienota apakšnodaļa "Vairāki lēcieni" (14.3.) un "6 m diapazons: starp
+  HF un VHF" (14.7.) ar 14.8. attēlu: Es (arī vairāki lēcieni), F2, TEP un
+  to kombinācijas. Lēcienu garumi, attālumi no Latvijas, TEP laiks un
+  FT8 frekvence 50,313 MHz ir no vispārzināmām ziņām; jāpārbauda Valtam.
+  Pievienoti jautājumi 16 un 17; atvērtie jautājumi pārnumurēti uz 18 un 19.
