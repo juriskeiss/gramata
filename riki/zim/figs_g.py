@@ -39,44 +39,6 @@ def f03_1():
     f.save("atteli/03-1-normativo-aktu-limeni.svg", "Kas regulē radioamatierus un kas tos pārstāv")
 
 
-# ------------------------------------------------------------------ 5.1.
-def f05_1():
-    f = Fig(800, 320)
-    letters = "ABCDEFGHIJKLMNOPQR"
-    # 1. lauks KO: 20° × 10°, sadalīts 10 × 10 kvadrātos
-    x0, y0, W, H = 40, 70, 260, 160
-    f.text(x0 + W / 2, 30, "Lauks KO", size=14, bold=True)
-    f.text(x0 + W / 2, 48, "20° garumā × 10° platumā", size=11, italic=True)
-    f.rect(x0, y0, W, H, rx=0, fill="white", sw=1.6)
-    for i in range(1, 10):
-        f.line(x0 + W * i / 10, y0, x0 + W * i / 10, y0 + H, w=0.6, color=MG)
-        f.line(x0, y0 + H * i / 10, x0 + W, y0 + H * i / 10, w=0.6, color=MG)
-    for i in range(10):
-        f.text(x0 + W * (i + 0.5) / 10, y0 + H + 16, str(i), size=10)
-        f.text(x0 - 8, y0 + H - H * (i + 0.5) / 10 + 4, str(i), anchor="end", size=10)
-    cx0, cy0 = x0 + W * 2 / 10, y0 + H - H * 7 / 10      # KO26: 2. kolonna, 6. rinda no apakšas
-    f.rect(cx0, cy0, W / 10, H / 10, rx=0, fill=BRICK, color=BRICK, sw=1)
-    f.text(x0 + W / 2, y0 + H + 36, "1. cipars — austrumu virzienā, 2. — ziemeļu", size=10, italic=True)
-    # 2. kvadrāts KO26: 2° × 1°, sadalīts 24 × 24 apakškvadrātos
-    x1, y1, W1, H1 = 420, 70, 300, 150
-    f.text(x1 + W1 / 2, 30, "Kvadrāts KO26", size=14, bold=True, color=BRICK)
-    f.text(x1 + W1 / 2, 48, "2° × 1°, Latvijas centrālā daļa", size=11, italic=True)
-    f.line(cx0 + W / 10, cy0, x1, y1, w=0.8, color=BRICK, dash="3 3")
-    f.line(cx0 + W / 10, cy0 + H / 10, x1, y1 + H1, w=0.8, color=BRICK, dash="3 3")
-    f.rect(x1, y1, W1, H1, rx=0, fill=BRICK_T, color=BRICK, sw=1.6)
-    for i in range(1, 24):
-        f.line(x1 + W1 * i / 24, y1, x1 + W1 * i / 24, y1 + H1, w=0.4, color="#c9a9a4")
-        f.line(x1, y1 + H1 * i / 24, x1 + W1, y1 + H1 * i / 24, w=0.4, color="#c9a9a4")
-    sx, sy = 9, 14
-    f.rect(x1 + W1 * sx / 24, y1 + H1 - H1 * (sy + 1) / 24, W1 / 24, H1 / 24, rx=0, fill=BRICK, color=BRICK, sw=0.5)
-    f.text(x1, y1 + H1 + 16, "a", size=10); f.text(x1 + W1, y1 + H1 + 16, "x", size=10)
-    f.text(x1 - 8, y1 + H1, "a", anchor="end", size=10); f.text(x1 - 8, y1 + 8, "x", anchor="end", size=10)
-    f.mtext(x1 + W1 / 2, y1 + H1 + 44, "apakškvadrāts KO26xx: 5′ × 2,5′ (ap 5 × 5 km)\nburti a–x: austrumu un ziemeļu virzienā",
-            size=11)
-    f.mtext(x0 + W / 2, 300, "KO — lauks, 26 — kvadrāts, xx — apakškvadrāts", size=12, bold=True)
-    f.save("atteli/05-1-lokators.svg", "WW lokatora uzbūve")
-
-
 # ------------------------------------------------------------------ 5.4.
 def f05_4():
     f = Fig(760, 380)
@@ -366,4 +328,4 @@ def f17_4():
     f.save("atteli/17-4-zibens.svg", "Antenas aizsardzība pret zibeni")
 
 
-ALL = [f03_1, f05_1, f05_4, f06_2, f06_4, f07_3, f08_2, f10_5, f14_5, f14_7, f17_1, f17_4]
+ALL = [f03_1, f05_4, f06_2, f06_4, f07_3, f08_2, f10_5, f14_5, f14_7, f17_1, f17_4]

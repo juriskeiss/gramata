@@ -36,7 +36,7 @@ skaidrots plašāk.
 | Jutība | Sensitivity | Vājākais signāls, ko uztvērējs vēl uztver (11.) |
 | Kapacitāte | Capacitance | Kondensatora spēja uzkrāt lādiņu; mērvienība F (9.) |
 | Koaksiālais kabelis | Coaxial cable | Nesimetriska pārvades līnija ar centrālo vadu un ekrānu (13.) |
-| Lokators | Locator | Maidenhead burtu un ciparu kods vietai uz kartes (5.) |
+| Lokators | Locator | Maidenhead burtu un ciparu kods vietai uz kartes: lauks, kvadrāts, apakškvadrāts, piemēram, KO26bw (5.) |
 | LSB, USB | Lower / upper sideband | Apakšējā un augšējā sānjosla (6., 8.) |
 | Mirusī zona | Skip zone | Apgabals, kuru nesasniedz ne zemes, ne telpas vilnis (14.) |
 | Modulācija | Modulation | Informācijas uzlikšana nesējam (8.) |
