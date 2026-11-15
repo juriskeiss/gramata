@@ -1,7 +1,7 @@
 # Trūkstošie attēli
 
 Šis fails grāmatā neiet. Tajā uzskaitīti attēli, kuru grāmatā vēl nav, bet kas
-palīdzētu mācīties. Pašlaik grāmatā ir 69 zīmējumi, un visi tekstā minētie
+palīdzētu mācīties. Pašlaik grāmatā ir 74 zīmējumi, un visi tekstā minētie
 faili mapē `atteli/` ir uzzīmēti. Visi A un B prioritātes zīmējumi ir uzzīmēti
 (atzīmēti ar ✓); atlikuši tikai C prioritātes materiāli.
 

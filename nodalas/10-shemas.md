@@ -67,7 +67,23 @@ ka kondensators labāk laiž augstas frekvences, bet spole — zemas [1].
 | Joslas filtrs | BPF (band pass) | Noteiktu frekvenču joslu | Visu zem un virs tās |
 | Sprostfiltrs | BSF (band stop) | Visu pārējo | Noteiktu frekvenču joslu |
 
-![10.2. attēls. Četru filtru veidu caurlaidības līknes.](../atteli/10-2-filtri.svg)
+Filtru uzbūve izriet no šīs īpašības [1]:
+
+- **LPF:** spole signāla ceļā (zemas frekvences laiž, augstas aiztur) un
+  kondensators pret zemi (augstās frekvences novada uz zemi).
+- **HPF:** otrādi — kondensators signāla ceļā un spole pret zemi.
+- **BPF:** kontūrs, noskaņots uz joslas vidu. Paralēlo kontūru liek pret
+  zemi (rezonansē tam ir liela pretestība, un signāls netiek novadīts), virknes
+  kontūru — signāla ceļā (rezonansē tam ir maza pretestība).
+- **BSF:** tieši pretēji — virknes kontūrs pret zemi novada rezonanses
+  frekvenci uz zemi, paralēlais kontūrs signāla ceļā to aiztur.
+
+![10.2. attēls. Zemo un augsto frekvenču filtrs: shēma un raksturlīkne.](../atteli/10-2-lpf-hpf.svg)
+
+![10.3. attēls. Joslas filtrs un sprostfiltrs: shēmas un raksturlīknes.](../atteli/10-3-bpf-bsf.svg)
+
+Raksturlīkne rāda, kāds spriegums U nonāk filtra izejā atkarībā no
+frekvences f.
 
 **Robežfrekvence** ir vieta, kur filtrs sāk aizturēt. Reāls filtrs nenogriež
 asi: aiz robežfrekvences vājinājums pieaug pakāpeniski.
@@ -98,11 +114,15 @@ Starp tiem ir barošanas bloks, kas sastāv no četrām pakāpēm.
 | 3. Gludinātājs | Izlīdzina pulsācijas | Liels elektrolītiskais kondensators |
 | 4. Stabilizators | Notur nemainīgu izejas spriegumu | Zenera diode, tranzistors vai mikroshēma |
 
-![10.3. attēls. Barošanas bloka blokshēma.](../atteli/10-3-barosanas-bloks.svg)
+![10.4. attēls. Barošanas bloka blokshēma.](../atteli/10-4-barosanas-bloks.svg)
 
 **Taisngriezis** izmanto diodes īpašību vadīt vienā virzienā. Viena diode
 laiž cauri tikai pusi no maiņstrāvas perioda. Četras diodes, saslēgtas
 **diožu tiltā**, izmanto abus pusperiodus, un pulsācijas ir mazākas [1].
+Vienā pusperiodā strāva iet caur D1 un D4, otrā — caur D2 un D3, bet caur
+slodzi tā vienmēr plūst vienā virzienā.
+
+![10.5. attēls. Taisngriezis ar diožu tiltu.](../atteli/10-5-diozu-tilts.svg)
 
 **Gludināšanas kondensators** uzlādējas sprieguma maksimumos un atdod
 enerģiju starp tiem, tā aizpildot "bedres".
@@ -110,7 +130,13 @@ enerģiju starp tiem, tā aizpildot "bedres".
 **Sprieguma stabilizators** nodrošina nemainīgu izejas spriegumu arī tad,
 kad mainās ieejas spriegums vai slodze. Ieejas spriegumam jābūt lielākam par
 izejas. Vienkāršākā stabilizatora galvenais elements ir Zenera diode
-(stabilitrons) [1].
+(stabilitrons) [1]. Tā caur rezistoru Rv tiek pieslēgta pretējā virzienā un
+notur uz sevis nemainīgu spriegumu Uz. Ja slodzei vajag lielāku strāvu,
+pievieno tranzistoru: Zenera diode nosaka tā bāzes spriegumu, un izejā ir
+par aptuveni 0,7 V mazāk. Vienkāršākais stabilizators var būt arī bez
+tranzistora.
+
+![10.6. attēls. Sprieguma stabilizators ar Zenera diodi un tranzistoru.](../atteli/10-6-stabilizators.svg)
 
 > **Uzmanību!** Barošanas blokā ir tīkla spriegums, un gludināšanas
 > kondensatori saglabā lādiņu arī pēc atvienošanas no rozetes. Neatver
@@ -125,7 +151,7 @@ vieglāki, bet slikti uzbūvēti rada radiotraucējumus (16. nodaļa).
 tāds pats signāls kā ieejā, tikai lielāks. Cik reižu lielāks, pasaka
 **pastiprinājums**, ko parasti izsaka decibelos [1].
 
-![10.4. attēls. Pastiprinātājs: darbība un pakāpe ar tranzistoru.](../atteli/10-4-pastiprinatajs.svg)
+![10.7. attēls. Pastiprinātājs: darbība un pakāpe ar tranzistoru.](../atteli/10-7-pastiprinatajs.svg)
 
 | Veids | Ko pastiprina | Kur lieto |
 | --- | --- | --- |
@@ -133,6 +159,12 @@ tāds pats signāls kā ieejā, tikai lielāks. Cik reižu lielāks, pasaka
 | Rezonanses (joslas) | Šauru joslu ap kontūra rezonanses frekvenci | Uztvērēja ieeja, raidītāja pakāpes |
 | Zemfrekvences | Skaņas frekvences | Mikrofona un skaļruņa pastiprinātāji |
 | Jaudas | Signālu līdz antenai vajadzīgajai jaudai | Raidītāja gala pakāpe |
+
+Platjoslas un rezonanses pastiprinātājs atšķiras ar to, kas ir tranzistora
+kolektora ķēdē: rezistors pastiprina visas frekvences vienādi, bet LC kontūrs —
+tikai savu rezonanses frekvenci [1].
+
+![10.8. attēls. Platjoslas un rezonanses pastiprinātājs.](../atteli/10-8-pastiprinataju-veidi.svg)
 
 > **Piemērs.** Pastiprinātāja pastiprinājums ir 10 dB. Ieejā padod 5 W. Kāda
 > ir izejas jauda?
@@ -157,7 +189,7 @@ pastiprinātājs, kura izejas signāla daļa padota atpakaļ uz ieeju, un
 frekvenci nosaka kontūrs vai kvarca rezonators. Svarīgākie parametri ir
 izejas frekvence un tās stabilitāte [1].
 
-![10.5. attēls. Ģenerators: pastiprinātājs ar atgriezenisko saiti.](../atteli/10-5-generators.svg)
+![10.9. attēls. Ģenerators: pastiprinātājs ar atgriezenisko saiti.](../atteli/10-9-generators.svg)
 
 | Veids | Saīsinājums | Īpašība |
 | --- | --- | --- |
@@ -165,6 +197,14 @@ izejas frekvence un tās stabilitāte [1].
 | Kvarca ģenerators | XO | Viena, ļoti stabila frekvence |
 | Ar spriegumu vadāms ģenerators | VCO | Frekvenci maina ar spriegumu; lieto sintezatoros |
 | Multivibrators | — | Ģenerē taisnstūra impulsus |
+
+**Multivibrators** ir ģenerators bez kontūra. Divi tranzistori ar krustenisku
+saiti caur kondensatoriem pārmaiņus atveras un aizveras, un izejā rodas
+**taisnstūra impulsi**. Impulsu frekvenci nosaka kondensatori un bāzes
+rezistori. Multivibratorus izmanto impulsu ģenerēšanai, piemēram, digitālajās
+ierīcēs [1].
+
+![10.10. attēls. Multivibrators.](../atteli/10-10-multivibrators.svg)
 
 Raidītāja frekvences stabilitāte ir atkarīga no ģeneratora. Nestabils
 ģenerators "peld": signāls lēnām aizslīd prom, un korespondentam jāskaņojas
@@ -179,7 +219,7 @@ $$f_{izejā} = f_1 + f_2 \quad \text{un} \quad f_1 - f_2$$
 
 Aiz jaucēja liek joslas filtru, kas izvēlas vienu no abām.
 
-![10.6. attēls. Jaucējs: izejā ir summa un starpība; filtrs izvēlas vienu.](../atteli/10-6-jaucejs.svg)
+![10.11. attēls. Jaucējs: izejā ir summa un starpība; filtrs izvēlas vienu.](../atteli/10-11-jaucejs.svg)
 
 > **Piemērs.** Jaucējam padod 9 MHz un 2 MHz signālus. Kādas frekvences ir
 > izejā?
@@ -201,7 +241,7 @@ nesēja [1].
 Ciparu tehnikā signālam ir tikai divi stāvokļi: 0 un 1. **Loģiskie elementi**
 no vienas vai divām ieejām veido izeju pēc noteikta likuma [2].
 
-![10.7. attēls. Loģisko elementu UN, VAI un NE apzīmējumi.](../atteli/10-7-logiskie-elementi.svg)
+![10.12. attēls. Loģisko elementu UN, VAI un NE apzīmējumi.](../atteli/10-12-logiskie-elementi.svg)
 
 | A | B | UN (AND) | VAI (OR) |
 | --- | --- | --- | --- |

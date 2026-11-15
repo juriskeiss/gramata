@@ -193,7 +193,7 @@ def f10_5():
     f.text(330, 290, "kontūrs vai kvarcs nosaka frekvenci", size=11, italic=True, color=GREEN)
     f.arrow(330, 40, 330, 98, w=1.6, color=AMBER)
     f.text(330, 30, "barošana (līdzspriegums)", size=11, color=AMBER)
-    f.save("atteli/10-5-generators.svg", "Ģenerators: pastiprinātājs ar atgriezenisko saiti")
+    f.save("atteli/10-9-generators.svg", "Ģenerators: pastiprinātājs ar atgriezenisko saiti")
 
 
 # ------------------------------------------------------------------ 14.5.

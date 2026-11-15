@@ -20,7 +20,8 @@ atklāti. Paldies:
 Grāmatu rediģējuši un pārbaudījuši:
 
 ::: {.redaktori}
-<!-- TODO: katram redaktoram viena rinda, piemēram:
-- Vārds Uzvārds, **YL3XXX**
--->
+- Arvis, **YL3MS**
+- Viesturs, **YL2SM**
+- Andris, **YL2FD**
+- Valts, **YL3OI**
 :::
