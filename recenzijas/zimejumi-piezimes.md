@@ -157,3 +157,13 @@ Ievietojot jaunos zīmējumus, pārnumurēti: 5.1.→5.2., 5.2.→5.3., 5.3.→5
   avots ir invertors. Pievienotas mirgojošas lampiņas uz kaimiņa jumta un
   dzirksteļojoša elektrolīnija; dzintara bulta pa gaisu sākas pie
   elektrolīnijas. Leģendā: "elektroierīču un elektrolīniju troksnis".
+
+### 10. nodaļas pamatshēmas pēc 7. nodarbības slaidiem (2026-11-15)
+
+- [x] Pievienotas visas slaidos (2.–10. slaids) apskatītās pamatshēmas:
+  10.2. LPF un HPF, 10.3. BPF un BSF (katram divi slēguma varianti) ar
+  raksturlīknēm slaidu krāsās (sarkana U ass, zaļa f ass, zila līkne),
+  10.5. diožu tilts, 10.6. stabilizators ar Zenera diodi un tranzistoru,
+  10.8. platjoslas un rezonanses pastiprinātājs, 10.10. multivibrators.
+- [x] Pārnumurēti: 10.3.→10.4., 10.4.→10.7., 10.5.→10.9., 10.6.→10.11.,
+  10.7.→10.12.; vecais 10.2. (tikai līknes) aizstāts.

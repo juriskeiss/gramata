@@ -471,8 +471,8 @@ def f10_3():
     for cx, c in zip(xs, caps):
         f.mtext(cx, 20, c, size=10)
     f.w = xs[-1] + 70
-    f.save("atteli/10-3-barosanas-bloks.svg", "Barošanas bloka blokshēma")
+    f.save("atteli/10-4-barosanas-bloks.svg", "Barošanas bloka blokshēma")
 
 
 ALL = [f07_1, f07_2, f07_3, f08_1, f08_2, f08_3, f09_1, f09_2, f09_3, f09_4, f09_5, f09_6, f09_7,
-       f10_1, f10_2, f10_3]
+       f10_1, f10_3]
