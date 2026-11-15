@@ -16,26 +16,27 @@ eksāmena juridiskajā daļā.
 - nosaukt galvenos radiostacijas lietošanas nosacījumus un to skaitļus;
 - rīkoties pareizi, ja tava stacija rada traucējumus.
 
-## 3.1. Kas regulē radioamatierus
+## 3.1. Kas nosaka noteikumus
 
-Radioviļņi nepazīst valstu robežu, tāpēc noteikumi veidojas trīs līmeņos [1], [2].
-
-| Līmenis | Organizācija | Ko dara | Vai lēmumi ir saistoši |
-| --- | --- | --- | --- |
-| Pasaule | ITU — Starptautiskā Telesakaru savienība, ANO aģentūra | Sadala frekvenču spektru starp dienestiem, nosaka Radionoteikumus | Jā, valstīm |
-| Eiropa | CEPT — Eiropas Pasta un telesakaru administrāciju konference | Saskaņo eksāmenu programmas un atļauju atzīšanu starp valstīm | Netieši: valstis ieteikumus ievieš savos noteikumos |
-| Latvija | Ministru kabinets; SIA "Elektroniskie sakari" (ES) | MK noteikumi Nr. 257; ES rīko eksāmenus, izsniedz atļaujas, piešķir izsaukuma signālus, uzrauga | Jā, katram radioamatierim |
+Radioviļņi nepazīst valstu robežu, tāpēc noteikumi veidojas trīs līmeņos
+[1], [2]. Pasaules līmenī frekvenču spektru starp dienestiem sadala **ITU**,
+Starptautiskā Telesakaru savienība, kas ir ANO aģentūra. Tā izstrādā
+Radionoteikumus, un valstīm tie ir saistoši. Eiropā darbojas **CEPT**,
+Eiropas Pasta un telesakaru administrāciju konference. Tā saskaņo eksāmenu
+programmas un atļauju atzīšanu starp valstīm; tās ieteikumi nav tieši
+saistoši, bet valstis tos ievieš savos noteikumos. Latvijā noteikumus izdod
+Ministru kabinets, bet ikdienas darbu veic SIA "Elektroniskie sakari" (ES):
+tā rīko eksāmenus, izsniedz atļaujas, piešķir izsaukuma signālus un uzrauga,
+kā noteikumi tiek pildīti. Šie noteikumi ir saistoši katram radioamatierim.
 
 ![3.1. attēls. Kas regulē radioamatierus un kas tos pārstāv.](../atteli/03-1-normativo-aktu-limeni.svg)
 
-Līdzās regulatoriem darbojas radioamatieru pašu organizācijas [2]:
-
-- **IARU** — Starptautiskā Radioamatieru savienība. Pārstāv radioamatierus
-  pie ITU, izstrādā joslu plānus un ētikas ieteikumus. Regulēšanas pilnvaru
-  tai nav.
-- **LRAL** — Latvijas Radioamatieru līga. Latvijas nacionālā organizācija un
-  IARU biedre; pārstāv Latvijas radioamatierus valsts iestādēs un
-  starptautiski.
+Līdzās regulatoriem darbojas radioamatieru pašu organizācijas [2]. **IARU**,
+Starptautiskā Radioamatieru savienība, pārstāv radioamatierus pie ITU un
+izstrādā joslu plānus un ētikas ieteikumus, bet regulēšanas pilnvaru tai nav.
+**LRAL**, Latvijas Radioamatieru līga, ir Latvijas nacionālā organizācija un
+IARU biedre; tā pārstāv Latvijas radioamatierus valsts iestādēs un
+starptautiski.
 
 ITU un IARU pasauli dala trīs reģionos. Latvija ir **1. reģionā** kopā ar
 Eiropu, Āfriku un Tuvajiem Austrumiem [2].
@@ -45,117 +46,108 @@ Eiropu, Āfriku un Tuvajiem Austrumiem [2].
 
 ## 3.2. MK noteikumi Nr. 257
 
-Pilnais nosaukums ir "Radioamatieru eksaminācijas apliecību un radioamatieru
-radiostacijas atļauju saņemšanas kārtība, kā arī radioamatieru radiostaciju
-lietošanas kārtība". Noteikumi pieņemti 2023. gada 23. maijā [1].
+Latvijas radioamatieru galvenais dokuments ir Ministru kabineta 2023. gada
+23. maija noteikumi Nr. 257 "Radioamatieru eksaminācijas apliecību un
+radioamatieru radiostacijas atļauju saņemšanas kārtība, kā arī radioamatieru
+radiostaciju lietošanas kārtība" [1]. Eksāmena juridiskie jautājumi ir
+sastādīti tieši pēc tiem.
 
-| Noteikumu nodaļa | Punkti | Par ko | Kur grāmatā |
-| --- | --- | --- | --- |
-| Vispārīgie jautājumi, termini | 1.–6. | Definīcijas, atļautās joslas | 3.3. |
-| Eksāmeni | 7.–15. | Pieteikšanās, norise, apliecības | 2. nodaļa |
-| Radiostacijas un atļaujas | 16.–31. | Iedalījums, atbildība, termiņi | 3.4. |
-| Izsaukuma signāli | 32.–38. | Uzbūve, papildzīmes | 4. nodaļa |
-| Radiosakari | 39.–52. | Ko drīkst raidīt, identificēšanās | 3.5. |
-| Lietošanas nosacījumi | 53.–61. | Jauda, izstarojumi, drošība | 3.6. |
-| Radiotraucējumi | 62.–65. | Rīcība traucējumu gadījumā | 3.7. |
-| Mobilās un pārnēsājamās stacijas | 66.–68. | Kur drīkst lietot | 3.8. |
-| Citas stacijas lietošana, apmācība | 69.–72. | Kas drīkst raidīt no svešas stacijas | 3.8. |
-| Ārvalstu radioamatieri | 73.–76. | CEPT un NOVICE atļaujas | 4. nodaļa |
-| Kuģi un gaisa kuģi | 77.–89. | Tikai A kategorijai | 3.8. |
-| Pielikumi | 1.–6. | Joslas un jaudas, blakusizstarojumi, apliecību veidlapas | 4. nodaļa, C pielikums |
+Noteikumi seko tam ceļam, ko tu pats ej. Vispirms tie skaidro, kā nokārtot
+eksāmenu un saņemt atļauju, tad — kā veidojas izsaukuma signāls. Pēc tam
+nāk tas, kas vajadzīgs ikdienā: ko drīkst raidīt, kā lietot staciju un ko
+darīt, ja tā traucē citiem. Beigās ir īpaši gadījumi: ārvalstu radioamatieri,
+kuģi un gaisa kuģi. Šī nodaļa iet tādā pašā secībā; eksāmenus skaidro 2. nodaļa,
+izsaukuma signālus — 4. nodaļa. Punktu numurus rakstu iekavās, lai tekstu
+vari atrast oriģinālā.
 
 > **Praktisks padoms.** Izlasi noteikumus vienreiz pilnībā vietnē likumi.lv.
-> Tās ir apmēram 15 lappuses, un eksāmena juridiskie jautājumi ir sastādīti
-> tieši pēc šī teksta.
+> Tās ir apmēram 15 lappuses, un tad nodaļa kļūs vēl skaidrāka.
 
-## 3.3. Svarīgākās definīcijas
+## 3.3. Tava atļauja
 
-Noteikumu 2. punkts definē terminus. Eksāmenā biežāk vajadzīgie [1]:
+Noteikumos svarīgi atšķirt divus dokumentus. **Radioamatieris** ir fiziska
+persona, kas nokārtojusi eksāmenu un saņēmusi **eksaminācijas apliecību**; tā
+apliecina kvalifikāciju. Taču ar apliecību vien raidīt nedrīkst: vajag arī
+**radiostacijas atļauju**, tas ir, tiesības lietot **radiostaciju**
+(raidītāju un uztvērēju kopumu ar papildiekārtām) ar konkrētu izsaukuma
+signālu [1].
 
-| Termins | Nozīme |
-| --- | --- |
-| Radioamatieris | Fiziska persona, kas nokārtojusi eksāmenu un saņēmusi eksaminācijas apliecību |
-| Radiostacija | Raidītāju un uztvērēju kopums ar papildiekārtām |
-| Eksaminācijas apliecība | Dokuments, kas apliecina kvalifikāciju |
-| Radiostacijas atļauja | Tiesības lietot radiostaciju ar konkrētu izsaukuma signālu |
-| Atkārtotājs | Neapkalpojama stacija, kas uztverto signālu raida tālāk citā frekvencē |
-| Radiobāka | Pastāvīgi raidoša stacija radioviļņu izplatīšanās novērošanai |
-| Fīders | Līnija, kas pārvada augstfrekvences signālu starp staciju un antenu |
-| QSL kartīte | Apliecinājums par notikušu radiosakaru |
-| CEPT atļauja | Atļauja pēc CEPT ieteikuma T/R 61-01; atbilst A kategorijai |
-| NOVICE atļauja | Atļauja pēc ieteikuma ECC/REC (05)06; atbilst B kategorijai |
+Par atļauju jāzina trīs lietas. Radiostaciju drīkst lietot tikai ar derīgu
+atļauju (29. punkts). Atļauju izsniedz uz laiku līdz **pieciem gadiem** (30.
+punkts). Ja mainās personas dati, kontaktadrese vai stacijas atrašanās vieta,
+par to jāpaziņo ES **30 dienu laikā** (31. punkts) [1].
 
-## 3.4. Radiostacijas un atļaujas
+Radiostacijas iedala trīs veidos (16. punkts). Pēc lietošanas tās ir
+**individuālās** un **koplietošanas** (kluba) stacijas; pēc darbības —
+**apkalpojamās** un **neapkalpojamās**; pēc kategorijas — A, B un C.
+Neapkalpojamas ir, piemēram, **atkārtotājs**, kas uztverto signālu raida tālāk
+citā frekvencē, un **radiobāka**, kas pastāvīgi raida radioviļņu izplatīšanās
+novērošanai [1].
 
-Radiostacijas iedala trīs veidos (16. punkts) [1]:
+No stacijas veida ir atkarīgs, kas par to atbild. Individuālajai stacijai
+atbild īpašnieks, kuram izsniegta atļauja (20. punkts). Koplietošanas un
+neapkalpojamajai stacijai atbild atbildīgā persona ar HAREC apliecību vai
+A kategorijas atļauju (21. un 22. punkts) [1].
 
-- pēc lietošanas: **individuālās** un **koplietošanas** (kluba) stacijas;
-- pēc darbības: **apkalpojamās** un **neapkalpojamās** (atkārtotāji, bākas);
-- pēc kategorijas: **A, B un C**.
+Ārvalstu radioamatieriem noteikumi paredz CEPT atļauju (pēc ieteikuma
+T/R 61-01; tā atbilst A kategorijai) un NOVICE atļauju (pēc ieteikuma
+ECC/REC (05)06; tā atbilst B kategorijai). Par tām sīkāk 4. nodaļā (73.–76.
+punkts) [1].
 
-Kas par ko atbild:
+## 3.4. Ko drīkst runāt un ar ko
 
-| Stacija | Kas atbild | Punkts |
-| --- | --- | --- |
-| Individuālā | Īpašnieks, kuram izsniegta atļauja | 20. |
-| Koplietošanas | Atbildīgā persona ar HAREC apliecību vai A kategorijas atļauju | 21. |
-| Neapkalpojamā | Atbildīgā persona ar HAREC apliecību vai A kategorijas atļauju | 22. |
+Radioamatieru sakaru pamatā ir atklātība. Ziņojumi ir atklāti: drīkst
+lietot Q kodus un darba saīsinājumus, bet šifrēt nedrīkst; izņēmums ir tikai
+tālvadības komandas uz izplatījuma staciju (39. punkts).
+Līdzīgi ar svešiem ziņojumiem: ja nejauši uztver ziņojumu, kas nav
+radioamatieru, to nedrīkst pierakstīt, publicēt vai izpaust (40. punkts) [1].
 
-Trīs noteikumi par atļauju, kas jāzina no galvas [1]:
-
-- radiostaciju drīkst lietot tikai ar derīgu atļauju (29. punkts);
-- atļauju izsniedz uz laiku līdz **pieciem gadiem** (30. punkts);
-- ja mainās personas dati, kontaktadrese vai stacijas atrašanās vieta, par to
-  jāpaziņo ES **30 dienu laikā** (31. punkts).
-
-## 3.5. Ko drīkst un ko nedrīkst raidīt
-
-Radioamatieru sakaru pamatā ir atklātība. Noteikumu 39.–52. punkts nosaka [1]:
-
-| Noteikums | Punkts |
-| --- | --- |
-| Ziņojumi ir atklāti; drīkst lietot Q kodus un darba saīsinājumus. Šifrēt nedrīkst | 39. |
-| Nejauši uztvertus svešus ziņojumus, kas nav radioamatieru, nedrīkst pierakstīt, publicēt vai izpaust | 40. |
-| Sakari atļauti tikai ar citiem radioamatieriem | 41. |
-| Ar citiem dienestiem drīkst sazināties, ja apdraudēta dzīvība vai notiek valsts vadīta glābšanas operācija vai tās mācības | 42. |
-| Par šādu sakaru **trīs darbdienu laikā** jāziņo ES | 43. |
-| Saturs: tehniskas ziņas, eksperimenti, īsas personiskas piezīmes | 44. |
-| Aizliegts raidīt nepatiesu vai maldinošu informāciju | 46. |
-| Neadresēti raidījumi ir aizliegti, ar dažiem izņēmumiem | 47. |
-| Izsaukuma signāls jānosauc sakara sākumā, beigās un vismaz reizi **10 minūtēs** | 48. |
-| Prombūtnē raidītājs nedrīkst ieslēgties pats, un to nedrīkst lietot citas personas | 51. |
-| Jāievēro IARU ētikas principi un vispārpieņemtās uzvedības normas | 52. |
-
-Neadresēts raidījums ir tāds, kas nav domāts konkrētam korespondentam.
-Izņēmumi, kad tas atļauts (47. punkts) [1]:
-
-- antenas un raidītāja regulēšana ar mazāko iespējamo jaudu, vēlams uz slodzes
-  ekvivalenta;
-- radiobākas;
-- mērījumi;
-- informatīvi biļeteni un mācību raidījumi.
-
-CQ nav neadresēts raidījums: tas ir izsaukums, uz kuru gaida atbildi.
+Sakari atļauti tikai ar citiem radioamatieriem (41. punkts). Izņēmums ir
+ārkārtas gadījumi: ar citu dienestu drīkst sazināties, ja **cilvēka dzīvībai
+draud tiešas briesmas** (vai jānovērš draudošas briesmas), kā arī valsts
+pārvaldes iestāžu vadītās glābšanas operācijās vai to mācībās (42. punkts).
+Par šādu sakaru **trīs darbdienu laikā** jāziņo ES (43. punkts) [1].
 
 > **Uzmanību!** Ja esi sazinājies ar cita dienesta staciju ārkārtas situācijā,
 > ar to viss nebeidzas: trīs darbdienu laikā ES jāpaziņo, ar ko, kad, kurā
 > frekvencē un par ko runāji [1]. Tāpēc ārkārtas sakaru vienmēr pieraksti.
 
-## 3.6. Radiostacijas lietošanas nosacījumi
+Runāt drīkst par tehniskām ziņām, eksperimentiem un īsām personiskām
+piezīmēm (44. punkts). Nepatiesu vai maldinošu informāciju raidīt ir
+aizliegts (46. punkts) [1].
 
-Noteikumu 53.–61. punkts nosaka, kā stacija jālieto [1].
+Raidījumam parasti jābūt adresētam. Neadresēti raidījumi ir aizliegti ar
+dažiem izņēmumiem (47. punkts); neadresēts ir raidījums, kas nav domāts
+konkrētam korespondentam. Atļauta ir antenas regulēšana ar iespējami
+mazu jaudu (arī tad jānosauc izsaukuma signāls; raidītāja pārbaudei un
+regulēšanai lieto antenas ekvivalentu), kā arī radiobākas un mērījumi. Visiem
+radioamatieriem adresētu informatīvu biļetenu vai mācību raidījumu drīkst
+pārraidīt tikai starptautiski atzītas Latvijas radioamatieru organizācijas
+radiostacija; Latvijā tāda ir LRAL [1]. CQ nav neadresēts
+raidījums: tas ir izsaukums, uz kuru gaida atbildi.
 
-| Prasība | Skaitlis | Punkts |
-| --- | --- | --- |
-| Jāievēro IARU joslu plāni | — | 53. |
-| Jālieto mazākā jauda, ar kuru sakars iespējams | — | 53. |
-| Spriegums uz antenām un fīderiem | ne vairāk kā **42 V** | 53. |
-| Ja raidītājs spēj pārsniegt atļauto jaudu, tam jābūt izejas jaudas mērītājam | — | 54. |
-| Atkārtotājus drīkst lietot tikai joslās | virs **29 MHz** | 56. |
-| Ārpusjoslas izstarojumu kopējā jauda | ne vairāk kā **1 %** no izstarotās jaudas | 57. |
-| Stacija nedrīkst apdraudēt cilvēkus, īpašumu un vidi | — | 58. |
-| Spriegumu vadošās daļas jānosedz; antenai nedrīkst būt iespējams nejauši pieskarties | — | 59.–60. |
-| ES var noteikt papildu ierobežojumus | — | 61. |
+Katrs sakars jāidentificē: izsaukuma signāls jānosauc sakara sākumā, beigās un
+vismaz reizi **10 minūtēs** (48. punkts). Kad pie stacijas neesi, raidītājs
+nedrīkst ieslēgties pats, un to nedrīkst lietot citas personas (51. punkts).
+Visbeidzot jāievēro IARU ētikas principi un vispārpieņemtās uzvedības normas
+(52. punkts) [1]. Notikušu sakaru apliecina **QSL kartīte**; par to vairāk
+5. nodaļā.
+
+## 3.5. Kā lietot staciju
+
+Noteikumu 53.–61. punkts nosaka, kā stacija jālieto. Jāievēro IARU joslu
+plāni, un jālieto mazākā jauda, ar kuru sakars vēl iespējams (53. punkts).
+Ja raidītājs spēj pārsniegt atļauto jaudu, tam jābūt izejas jaudas mērītājam
+(54. punkts) [1]. **Atkārtotājus** drīkst uzstādīt un lietot tikai joslās virs
+**29 MHz**, kurās radioamatieru dienestam ir primārs statuss (56. punkts) [1].
+
+Stacijai jābūt tīrai un drošai. Spriegums uz antenām un **fīderiem** (līnijām,
+kas pārvada augstfrekvences signālu starp staciju un antenu) nedrīkst
+pārsniegt **42 V** (53. punkts). Ārpusjoslas izstarojumu kopējā jauda drīkst
+būt ne vairāk kā **1 %** no izstarotās jaudas (57. punkts). Stacija nedrīkst
+apdraudēt cilvēkus, īpašumu un vidi (58. punkts); spriegumu vadošās daļas
+jānosedz, un antenai nedrīkst būt iespējams nejauši pieskarties (59.–60.
+punkts). ES var noteikt papildu ierobežojumus (61. punkts) [1].
 
 > **Piemērs.** Tu raidi ar 100 W. Cik liela drīkst būt ārpusjoslas izstarojumu
 > kopējā jauda?
@@ -164,16 +156,21 @@ Noteikumu 53.–61. punkts nosaka, kā stacija jālieto [1].
 > 2. 100 W × 0,01 = 1 W.
 > 3. Ārpus atļautās joslas kopā drīkst nonākt ne vairāk kā 1 W.
 
-## 3.7. Radiotraucējumi
+## 3.6. Kad stacija traucē
 
 Radioamatierim jānodrošina, ka viņa stacija nerada kaitīgus traucējumus
-(62.–63. punkts). Ja traucējumi tomēr rodas, noteikumi paredz kārtību
-(64. punkts) [1]:
+(62.–63. punkts). Ja traucējumi tomēr rodas, ko darīt, atkarīgs
+no cēloņa (64. punkts) [1]:
 
-1. radioamatieris pilnveido savu staciju, līdz traucējumi novērsti;
-2. ja vaina ir traucētajā uztvērējā, to novērš uztvērēja īpašnieks;
-3. par papildu pasākumiem abas puses vienojas;
-4. ja vienoties neizdodas, ierobežojumus nosaka ES.
+- ja traucē tavas stacijas raidījumi, tu savu staciju pilnveido, kamēr
+  traucējumi ir novērsti vai samazināti līdz pieļaujamam līmenim;
+- ja traucējumi rodas tāpēc, ka traucētais uztvērējs ir bojāts vai netiek
+  pareizi lietots, trūkumus novērš uztvērēja īpašnieks;
+- ja traucētā aparatūra ir nepietiekami traucējumnoturīga, abas puses
+  vienojas par papildu pasākumiem (piemēram, filtriem vai antenas
+  pārvietošanu);
+- ja vienoties neizdodas, pasākumus nosaka ES, un tā var ierobežot jaudu,
+  joslas un izstarojuma klases.
 
 > **Uzmanību!** Ja tava stacija traucē navigācijas vai drošības dienestiem,
 > raidīšana jāpārtrauc **nekavējoties** un to drīkst atsākt tikai pēc cēloņa
@@ -181,7 +178,7 @@ Radioamatierim jānodrošina, ka viņa stacija nerada kaitīgus traucējumus
 
 Kā traucējumus atrast un novērst tehniski, māca 16. nodaļa.
 
-## 3.8. Īpašas situācijas
+## 3.7. Īpašas situācijas
 
 **Mobilās un pārnēsājamās stacijas.** Tās drīkst lietot visā Latvijā, izņemot
 vietas, kur raidīšana aizliegta, un tuvāk par **100 m** no lidostas vai
@@ -189,7 +186,8 @@ lidlauka teritorijas robežas (66. punkts). Stacijas uz kuģošanas līdzekļiem
 Latvijas ūdeņos uzskata par mobilām (67. punkts) [1].
 
 **Svešas stacijas lietošana.** Stacijas īpašnieks drīkst atļaut to lietot citam
-radioamatierim, kuram ir derīga atļauja (70. punkts) [1].
+radioamatierim, kuram ir derīga atļauja. Viesis raida ar savu izsaukuma
+signālu un ar tādiem parametriem, kas atbilst viņa atļaujai (70. punkts) [1].
 
 **Apmācība.** A kategorijas radioamatieris drīkst savā uzraudzībā ļaut raidīt
 cilvēkam, kurš vēl mācās. Apmācībā lieto B kategorijas joslas un jaudas
@@ -208,14 +206,16 @@ pietiek zināt šo faktu.
 - Radioamatierus Latvijā regulē MK noteikumi Nr. 257; uzrauga
   SIA "Elektroniskie sakari".
 - Atļauja: līdz 5 gadiem; par izmaiņām jāpaziņo 30 dienu laikā.
-- Ziņojumi ir atklāti; šifrēt aizliegts; atļauti Q kodi un saīsinājumi.
+- Ziņojumi ir atklāti; šifrēt aizliegts (izņemot tālvadības komandas);
+  atļauti Q kodi un saīsinājumi.
 - Sakari ar citiem dienestiem tikai dzīvības glābšanai un glābšanas
   operācijās; jāziņo ES 3 darbdienu laikā.
 - Identificēšanās: sākumā, beigās, vismaz reizi 10 minūtēs.
 - 42 V — lielākais spriegums uz antenām un fīderiem.
 - 1 % — lielākā ārpusjoslas izstarojumu kopējā jauda.
 - 100 m — tuvāk lidostai mobilo staciju lietot nedrīkst.
-- Atkārtotāji tikai virs 29 MHz.
+- Atkārtotāji tikai joslās virs 29 MHz, kurās radioamatieru dienestam ir
+  primārs statuss.
 - Traucējot drošības dienestiem, raidīšana jāpārtrauc nekavējoties.
 - No kuģa un gaisa kuģa drīkst raidīt tikai A kategorija.
 
@@ -281,7 +281,7 @@ tev un kas — kaimiņam.
     - A. Ja šī stacija izsauc pirmā
     - B. Ja tas notiek naktī
     - C. Nekad
-    - D. Ja apdraudēta cilvēka dzīvība vai notiek valsts vadīta glābšanas operācija
+    - D. Ja cilvēka dzīvībai draud tiešas briesmas vai notiek valsts pārvaldes iestāžu vadīta glābšanas operācija
 8. Cik ilgā laikā pēc sakara ar cita dienesta staciju par to jāinformē SIA "Elektroniskie sakari"?
     - A. Nekavējoties pa radio
     - B. Trīs darbdienu laikā
