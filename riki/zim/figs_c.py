@@ -389,7 +389,7 @@ def f17_1():
     f.text(210, 208, "zemējuma kopne", size=12, italic=True)
     f.line(120, 188, 120, 236, w=2)
     f.ground(120, 236, stem=12)
-    f.text(140, 262, "zemētājs, ne vairāk kā 4 Ω", anchor="start", size=12)
+    f.text(140, 262, "dabīgais zemētājs: ne vairāk kā 4 Ω", anchor="start", size=12)
     # nepareizi
     f.text(610, 24, "✗ Nepareizi: virknē, viena caur otru", bold=True, size=13, color=RED)
     xs = [490, 610, 730]

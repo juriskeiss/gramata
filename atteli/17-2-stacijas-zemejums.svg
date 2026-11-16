@@ -20,7 +20,7 @@
 <line x1="108.0" y1="248.0" x2="132.0" y2="248.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
 <line x1="112.0" y1="253.0" x2="128.0" y2="253.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
 <line x1="116.0" y1="258.0" x2="124.0" y2="258.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
-<text x="140.0" y="262.0" text-anchor="start" font-size="12" fill="#111111">zemētājs, ne vairāk kā 4 Ω</text>
+<text x="140.0" y="262.0" text-anchor="start" font-size="12" fill="#111111">dabīgais zemētājs: ne vairāk kā 4 Ω</text>
 <text x="610.0" y="24.0" text-anchor="middle" font-size="13" fill="#b42318" font-weight="bold">✗ Nepareizi: virknē, viena caur otru</text>
 <rect x="440.0" y="56.0" width="100.0" height="48.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
 <text x="490.0" y="84.3" text-anchor="middle" font-size="12" fill="#111111">Transīvers</text>

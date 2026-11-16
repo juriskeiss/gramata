@@ -110,7 +110,7 @@ diviem — 50 %.
 
 - **"nedrīkst", "aizliegts", "nav"** — jautā par izņēmumu, nevis noteikumu;
 - **"mazākais" un "lielākais"** — 0,75 mm² ir mazākais šķērsgriezums, 4 Ω ir
-  lielākā pretestība;
+  lielākā dabīgā zemētāja pretestība;
 - **mērvienības** — atbilde var būt pareiza skaitļos, bet nepareizā
   vienībā (kHz un MHz, mA un A);
 - **"visi minētie"** — ja divi varianti noteikti ir pareizi, pareizā
@@ -222,7 +222,7 @@ Atzīmē, ko vari izdarīt bez grāmatas.
 **Drošība**
 
 - [ ] Nosaukt bīstamās strāvas vērtības.
-- [ ] Pateikt zemējuma pretestības robežu un aizliegtos zemētājus.
+- [ ] Pateikt dabīgo zemētāju pretestības robežu un aizliegtos zemētājus.
 - [ ] Nosaukt spriegumus bīstamām telpām.
 - [ ] Pateikt, ar ko dzēš elektroiekārtas.
 

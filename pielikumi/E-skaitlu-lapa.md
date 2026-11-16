@@ -67,12 +67,14 @@ nedēļās (18. nodaļa). Iekavās — nodaļa, kurā skaitlis skaidrots.
 | 5–25 mA | Satverošā strāva (17.) |
 | 50–80 mA | Dzīvībai bīstama strāva (17.) |
 | 100 mA | Ļoti augsts nāves risks (17.) |
-| 4 Ω | Lielākā zemējuma pretestība (17.) |
-| 0,75 mm² / 1,5 mm² | Vara vads tīklam / zemējuma vads (17.) |
+| 4 Ω | Lielākā pretestība, ar kādu dabīgo zemētāju izmanto vispirms (17.) |
+| 0,75 mm² / 1,5 mm² | Mazākais vara šķērsgriezums: kabelis pārnesamiem patērētājiem / zemējuma vads (17.) |
 | 2,5 m | Zemējuma pievada nosegums gar sienu (17.) |
 | 0,5 MΩ / 2 MΩ | Izolācijas pretestība / ar dubultizolāciju (17.) |
-| 42 V / 12 V | Telpas ar paaugstinātu bīstamību / sevišķi bīstamas (17.) |
+| 42 V | Pārnesamie instrumenti telpās bez paaugstinātas un ar paaugstinātu bīstamību (17.) |
+| 12 V | Pārnesamie instrumenti sevišķi bīstamās telpās — vienīgais atļautais spriegums (17.) |
 | 75 %, 30 °C | Mitruma un temperatūras robeža paaugstinātai bīstamībai (17.) |
-| 5 m | Pieslienamo kāpņu lielākais garums (17.) |
-| 7 m — 2 cilvēki, virs 8 m — 6 cilvēki | Masta uzstādīšana (17.) |
+| 5 m | Trepju (pieslienamo kāpņu) lielākais garums (17.) |
+| 1,3 m | Augstums, virs kura darbā ar trepēm vajag drošības jostu (17.) |
+| 2 cilvēki / 6 cilvēki | Masta pacelšana: vismaz / mastam, kas garāks par 8 m (17.) |
 | 112 | Ārkārtas tālrunis (5., 17.) |

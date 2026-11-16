@@ -13,8 +13,8 @@ ar konkrētiem skaitļiem, kas jāzina no galvas.
 - nosaukt, cik liela strāva cilvēkam ir bīstama;
 - rīkoties, ja cilvēks cietis no elektriskās strāvas;
 - izvēlēties vadus un ierīkot zemējumu atbilstoši prasībām;
-- atpazīt telpas ar paaugstinātu elektrobīstamību un zināt tajās pieļaujamo
-  spriegumu;
+- atpazīt telpas ar paaugstinātu elektrobīstamību un sevišķi bīstamas telpas
+  un zināt, kādu spriegumu tajās lieto pārnesamiem elektroinstrumentiem;
 - nosaukt aizsarglīdzekļus darbam ar iekārtām līdz 1000 V;
 - droši uzstādīt mastu un antenu.
 
@@ -68,101 +68,123 @@ secībā [1]:
 ## 17.3. Vadi un zemējums
 
 **Vadu šķērsgriezums.** Par tievs vads sakarst un var aizdegties.
-Minimālās prasības [1]:
+Minimālās prasības [3]:
 
 | Kam | Mazākais vara vada šķērsgriezums |
 | --- | --- |
-| Aparatūras un pārvietojamu patērētāju pieslēgšanai elektrotīklam | 0,75 mm² |
-| Zemējuma vadam | 1,5 mm² |
+| Tīkla pievadauklas sadzīves patērētājiem | 0,35 mm² |
+| Kabeļi pārnesamiem un pārvietojamiem patērētājiem | 0,75 mm² |
+| Zemējuma vads | 1,5 mm², turklāt ne tievāks par iekārtas barošanas vadu |
 
 **Zemējums** savieno iekārtu metāla korpusus ar zemi. Ja izolācija sabojājas
 un korpuss nonāk zem sprieguma, strāva aizplūst pa zemējumu, nevis caur
 cilvēku, un nostrādā drošinātājs.
 
-Prasības zemējumam [1]:
+Prasības zemējumam [3]:
 
-- katrai iekārtai ir **atsevišķs savienojums** ar zemējumu — iekārtas
+- katras iekārtas korpusu ar zemējumu savieno **atsevišķi** — iekārtas
   nesaslēdz virknē vienu caur otru;
-- zemējuma pretestība nedrīkst pārsniegt **4 Ω**;
-- vispirms izmanto **dabīgos zemētājus**, ja to pretestība nepārsniedz 4 Ω.
+- zemējuma vadu pie kopnes pievieno ar **skrūvju savienojumu**; tikai
+  pielodēt nedrīkst;
+- vispirms izmanto **dabīgos zemētājus**, ja to pretestība nepārsniedz
+  **4 Ω**.
 
 | Dabīgie zemētāji — drīkst | Aizliegts izmantot |
 | --- | --- |
-| Zemē ierakti ūdens cauruļvadi | Gāzes caurules |
+| Zemē ierakti ūdensvada cauruļvadi | Gāzes cauruļvadus |
 | Artēzisko aku ārējās caurules | Degvielas cauruļvadus |
-| Ēku dzelzsbetona un metāla konstrukcijas, kas saskaras ar zemi | Apkures radiatorus |
-| | Zemē ieraktu kabeļu svina čaulas |
-| | Alumīnija kabeļu apvalkus |
+| Ēku dzelzsbetona un metāla konstrukcijas, kas saskaras ar zemi | Alumīnija kabeļu apvalkus |
+| Zemē ieraktu kabeļu svina apvalki | |
 
 Ja zemējuma maģistrāle atrodas ārpus ēkas, pievads gar ēkas sienu vai stabu
 jānosedz ar metāla cauruli vai leņķdzelzi līdz **2,5 m** augstumam no
-zemes [1].
+zemes [3].
 
 ![17.2. attēls. Stacijas zemējums.](../atteli/17-2-stacijas-zemejums.svg)
 
-> **Atceries:** četri — zemējuma pretestība ne vairāk kā 4 Ω.
-> Gāze, apkure, kabeļu apvalki — nekad.
+> **Atceries:** četri — dabīgo zemētāju izmanto, ja tā pretestība nav lielāka
+> par 4 Ω. Gāzes un degvielas caurules, alumīnija kabeļu apvalki — nekad.
 
 ## 17.4. Instrumenti un aizsarglīdzekļi
 
 **Elektroinstrumentu izolācija.** Izolācijas pretestībai starp strāvu
-vadošajām daļām un korpusu jābūt [1]:
+vadošajām daļām un korpusu jābūt [3]:
 
 | Instruments | Izolācijas pretestība |
 | --- | --- |
 | Parasts elektroinstruments | ne mazāk kā 0,5 MΩ |
 | Instruments ar dubultizolāciju | ne mazāk kā 2 MΩ |
 
-**Aizsarglīdzekļi** iekārtās līdz 1000 V iedalās divās grupās [1].
+**Aizsarglīdzekļi** iekārtās līdz 1000 V iedalās divās grupās [3].
 
 | Pamataizsarglīdzekļi | Papildu aizsarglīdzekļi |
 | --- | --- |
 | Izolējošās stangas | Dielektriskās kalošas |
-| Izolējošās mērknaibles | Dielektriskie paklāji |
+| Izolējošās knaibles un mērknaibles | Dielektriskie paklāji |
 | Sprieguma indikatori | Pārnesamie zemējumi |
 | Dielektriskie cimdi | Izolējošie paliktņi un uzmavas |
-| Montāžas instrumenti ar izolētiem rokturiem | Norobežojumi un sētiņas |
-| | Drošības plakāti un zīmes |
+| Montāžas instrumenti ar izolētiem rokturiem | Norobežojošie tilti un sētiņas |
+| | Drošības tehnikas plakāti un zīmes |
 
 Pamataizsarglīdzekļi iztur iekārtas darba spriegumu, un ar tiem drīkst
 pieskarties spriegumam pakļautām daļām. Papildu līdzekļi vieni paši
-neaizsargā; tos lieto kopā ar pamatlīdzekļiem.
+neaizsargā; tos lieto kopā ar pamatlīdzekļiem. Izņēmums: dielektriskās
+kalošas ir pamataizsarglīdzeklis pret soļu spriegumu līdz 1 kV [3].
+
+Sprieguma indikatoru pirms lietošanas pārbauda vietā, kur spriegums noteikti
+ir. Kontrollampas sprieguma pārbaudei lietot kategoriski aizliegts [3].
 
 ## 17.5. Telpu elektrobīstamība
 
 Tā pati iekārta sausā istabā un mitrā pagrabā nav vienlīdz bīstama. Telpas
 iedala pēc elektrobīstamības, un no tā atkarīgs, kādu spriegumu drīkst lietot
-pārnēsājamiem instrumentiem un lampām [1].
+pārnesamiem elektroinstrumentiem [3].
 
-| Telpas veids | Pazīmes | Lielākais spriegums instrumentiem un lampām |
+| Telpas veids | Pazīmes |
+| --- | --- |
+| **Ar paaugstinātu bīstamību** | Vismaz viena pazīme: relatīvais mitrums ilgstoši virs 75 %; strāvu vadoši putekļi; strāvu vadoša grīda (metāla, klona, dzelzsbetona, ķieģeļu u. c.); temperatūra ilgstoši virs 30 °C; iespēja vienlaikus pieskarties zemētām metāla konstrukcijām un elektroiekārtas metāla korpusam |
+| **Sevišķi bīstama** | Relatīvais mitrums tuvu 100 % (griesti, sienas, grīda un priekšmeti klāti ar mitrumu); ķīmiski aktīva vide; divas vai vairākas paaugstinātas bīstamības pazīmes vienlaikus |
+| **Bez elektrobīstamības** | Nav nevienas no šīm pazīmēm |
+
+Spriegums pārnesamiem elektroinstrumentiem [3]:
+
+| Spriegums | Kur lieto | Nosacījumi |
 | --- | --- | --- |
-| **Ar paaugstinātu bīstamību** | Viena no pazīmēm: relatīvais mitrums ilgstoši virs 75 %; strāvu vadoši putekļi; strāvu vadoša grīda (metāla, klona, dzelzsbetona, ķieģeļu); temperatūra ilgstoši virs 30 °C; iespēja vienlaikus pieskarties zemētām metāla konstrukcijām un iekārtas korpusam | **42 V** |
-| **Sevišķi bīstama** | Relatīvais mitrums tuvu 100 % (griesti, sienas un grīda klāti ar mitrumu); ķīmiski aktīva vide; divas vai vairākas paaugstinātas bīstamības pazīmes vienlaikus | **12 V** |
+| **42 V** | Telpās bez paaugstinātas bīstamības un telpās ar paaugstinātu bīstamību | Individuālie aizsardzības līdzekļi nav jālieto, korpuss nav jāzemē |
+| **220 V** | Telpās ar paaugstinātu bīstamību | Korpuss jāzemē (izņemot instrumentus ar dubultizolāciju), un jālieto individuālie aizsardzības līdzekļi |
+| **12 V** | Sevišķi bīstamās telpās | Vienīgais atļautais spriegums: 220 V instrumentus lietot aizliegts. Korpusu zemēt nav obligāti, bet jāstrādā ar individuālajiem aizsardzības līdzekļiem |
 
-> **Piemērs.** Garāžā ir betona grīda un metāla plaukti, pie kuriem pieslēgts
-> zemējums. Kāda tā ir telpa?
+> **Uzmanību!** 42 V un 12 V nav savstarpēji aizstājami. Telpa, kas ir tikai
+> mitra vai tikai ar vadošu grīdu, ir telpa ar paaugstinātu bīstamību, un tajā
+> der 42 V. Ja abas pazīmes ir vienlaikus, telpa ir sevišķi bīstama, un
+> drīkst lietot tikai 12 V.
+
+> **Piemērs.** Garāžā ir dzelzsbetona grīda un metāla plaukti, pie kuriem
+> pieslēgts zemējums. Kāda tā ir telpa?
 >
-> 1. Betona grīda vada strāvu — viena pazīme.
+> 1. Dzelzsbetona grīda vada strāvu — viena pazīme.
 > 2. Var vienlaikus pieskarties zemētam plauktam un iekārtas korpusam — otra
 >    pazīme.
-> 3. Divas pazīmes vienlaikus: sevišķi bīstama telpa; pārnēsājamiem
->    instrumentiem un lampām ne vairāk kā 12 V.
+> 3. Divas pazīmes vienlaikus: sevišķi bīstama telpa. 220 V instrumentus
+>    lietot aizliegts; drīkst tikai 12 V, strādājot ar individuālajiem
+>    aizsardzības līdzekļiem.
 
 Skaitlis 42 V parādās arī MK noteikumos: stacijas barošanas spriegums uz
-antenām un fīderiem nedrīkst pārsniegt 42 V [2].
+antenām un fīderiem nedrīkst pārsniegt 42 V [2, 53.9. apakšpunkts].
 
 ## 17.6. Ugunsdrošība
 
-Elektroiekārtas, kas ir zem sprieguma, drīkst dzēst tikai ar līdzekli, kas
-nevada strāvu [1].
+Katrā radioamatieru stacijā jābūt ogļskābās gāzes (CO₂) ugunsdzēšamajam
+aparātam. Putu ugunsdzēšamos aparātus elektroiekārtu dzēšanai lietot
+aizliegts. Aparātu pārbauda reizi gadā, to nosverot [3].
 
 | Atļauts | Aizliegts |
 | --- | --- |
-| Ogļskābās gāzes (CO₂) ugunsdzēšamais aparāts | Ūdens |
-| | Putu ugunsdzēšamais aparāts |
+| Ogļskābās gāzes (CO₂) ugunsdzēšamais aparāts | Putu ugunsdzēšamais aparāts |
 
-Ūdens un putas vada strāvu: dzēsējs pats nonāk zem sprieguma. Ja iespējams,
-vispirms atslēdz spriegumu.
+Putas vada strāvu: dzēsējs pats nonāk zem sprieguma. Tā paša iemesla dēļ
+iekārtu, kas ir zem sprieguma, nedzēš ar ūdeni. Ja iespējams, vispirms
+atslēdz spriegumu.
 
 > **Praktisks padoms.** Stacijas barošanu ierīko tā, lai visu varētu atslēgt
 > ar vienu slēdzi, kas ir viegli aizsniedzams un zināms arī ģimenes
@@ -173,18 +195,26 @@ vispirms atslēdz spriegumu.
 Lielākā daļa smago negadījumu radioamatieru vidū notiek nevis pie
 transīvera, bet uz jumta.
 
-**Stiprināšana.** Antenas, mastus un atsaites drīkst stiprināt tikai pie
-ēkas nesošajām konstrukcijām [1]. Skursteņi, ventilācijas šahtas, margas un
-jumta segums tam neder.
+**Stiprināšana.** Masta atsaites drīkst stiprināt tikai pie jumta nesošajām
+konstrukcijām vai pie speciāli sienās iemūrētiem enkuriem. Pie skursteņiem,
+televīzijas antenu mastiem, radiotranslācijas traversām un karnīzēm atsaites
+stiprināt kategoriski aizliegts. Atsaites nedrīkst saskarties ar
+elektrolīniju, telefona un citiem vadiem. Bīstamā zona ap mastu ir **1/3**
+masta augstuma [3].
 
-**Cilvēku skaits masta pacelšanai** [1]:
+**Cilvēku skaits masta pacelšanai** [3]:
 
-| Masta garums | Mazākais cilvēku skaits |
+| Masts | Mazākais cilvēku skaits |
 | --- | --- |
-| 7 m | 2 |
-| Vairāk nekā 8 m | 6 |
+| Jebkurš masts | 2 |
+| Garāks par 8 m | 6 |
 
-**Pieslienamās kāpnes** nedrīkst būt garākas par **5 m** [1].
+**Trepes (pieslienamās kāpnes)** [3]:
+
+- nedrīkst būt garākas par **5 m**;
+- bez īpašiem drošības pasākumiem drīkst strādāt līdz **1,3 m** augstumam;
+  augstāk jālieto drošības josta;
+- ar trepēm strādā **divatā**.
 
 > **Uzmanību!** Nekad neceļ mastu un nevelc antenas vadu elektrolīniju
 > tuvumā. Mastam krītot vai vadam atsitoties pret gaisvadu līniju, spriegums
@@ -233,20 +263,34 @@ Barošanas vadā pie akumulatora vienmēr liec drošinātāju.
   100 mA — ļoti augsts nāves risks.
 - Elektrotrauma: atslēgt spriegumu; ja nevar — atraut ar izolējošu
   priekšmetu; zvanīt 112; elpināšana un sirds masāža.
-- Vara vads pieslēgšanai tīklam: ne mazāk kā 0,75 mm². Zemējuma vads:
-  1,5 mm².
-- Zemējuma pretestība: ne vairāk kā 4 Ω.
-- Aizliegtie zemētāji: gāzes caurules, apkures radiatori, kabeļu svina
-  čaulas, alumīnija kabeļu apvalki.
+- Vara vads: kabelim pārnesamiem un pārvietojamiem patērētājiem ne mazāk kā
+  0,75 mm²; sadzīves patērētāju tīkla pievadauklai 0,35 mm². Zemējuma vads:
+  ne mazāk kā 1,5 mm² un ne tievāks par barošanas vadu.
+- Dabīgos zemētājus izmanto vispirms, ja to pretestība nepārsniedz 4 Ω.
+- Aizliegtie zemētāji: gāzes un degvielas cauruļvadi, alumīnija kabeļu
+  apvalki. Zemē ieraktu kabeļu svina apvalki ir atļauts dabīgais zemētājs.
 - Zemējuma pievada nosegums gar sienu: līdz 2,5 m.
 - Izolācijas pretestība: 0,5 MΩ parastam instrumentam, 2 MΩ ar
   dubultizolāciju.
-- Telpas ar paaugstinātu bīstamību: 42 V. Sevišķi bīstamas telpas: 12 V.
+- Pārnesamie instrumenti, 42 V: telpās bez paaugstinātas bīstamības un ar
+  paaugstinātu bīstamību; aizsardzības līdzekļi un korpusa zemēšana nav
+  vajadzīgi.
+- Pārnesamie instrumenti, 220 V telpā ar paaugstinātu bīstamību: tikai ar
+  zemētu korpusu (vai dubultizolāciju) un individuālajiem aizsardzības
+  līdzekļiem.
+- Pārnesamie instrumenti, 12 V: vienīgais atļautais spriegums sevišķi
+  bīstamās telpās; jāstrādā ar individuālajiem aizsardzības līdzekļiem.
+- Sevišķi bīstama telpa: mitrums tuvu 100 %, ķīmiski aktīva vide vai divas
+  paaugstinātas bīstamības pazīmes vienlaikus.
 - Mitruma robeža: 75 %; temperatūras robeža: 30 °C.
-- Elektroiekārtas dzēš ar CO₂; ar ūdeni un putām — aizliegts.
-- Masts 7 m — 2 cilvēki; virs 8 m — 6 cilvēki.
-- Pieslienamās kāpnes: ne garākas par 5 m.
-- Antenas un mastus stiprina tikai pie nesošajām konstrukcijām.
+- Stacijā jābūt CO₂ ugunsdzēšamajam aparātam; putu aparātus elektroiekārtām
+  lietot aizliegts. Aparātu pārbauda reizi gadā, nosverot.
+- Masta pacelšana: vismaz 2 cilvēki; masts garāks par 8 m — vismaz 6.
+- Trepes: ne garākas par 5 m; virs 1,3 m ar drošības jostu; strādā divatā.
+- Atsaites stiprina tikai pie jumta nesošajām konstrukcijām vai sienās
+  iemūrētiem enkuriem; pie skursteņiem, TV antenu mastiem, translācijas
+  traversām un karnīzēm — kategoriski aizliegts.
+- Bīstamā zona ap mastu: 1/3 masta augstuma.
 
 ## Pamēģini pats
 
@@ -269,9 +313,12 @@ un pārbaudi, vai antenas kabeli tiešām var viegli atvienot.
 
 - Bīstama ir strāva caur ķermeni; jau 100 mA var nogalināt.
 - Vispirms atslēdz spriegumu, tad palīdzi cietušajam; sargā arī sevi.
-- Katrai iekārtai savs zemējuma vads; pretestība līdz 4 Ω; gāzes un apkures
-  caurules nekad.
-- Mitrās un vadošās telpās pārnēsājamiem instrumentiem 42 V vai 12 V.
+- Katrai iekārtai savs zemējuma vads; dabīgais zemētājs der, ja tā pretestība
+  nepārsniedz 4 Ω; gāzes un degvielas caurules nekad.
+- Telpā ar paaugstinātu bīstamību (viena pazīme, piemēram, mitrums virs 75 %
+  vai vadoša grīda) pārnesamiem instrumentiem der 42 V.
+- Sevišķi bīstamā telpā (mitrums tuvu 100 %, ķīmiski aktīva vide vai divas
+  pazīmes vienlaikus) pārnesamiem instrumentiem drīkst lietot tikai 12 V.
 - Degošu elektroiekārtu dzēš ar CO₂.
 - Mastu ceļ vairāki cilvēki, tālu no elektrolīnijām, un stiprina pie
   nesošajām konstrukcijām.
@@ -299,12 +346,12 @@ un pārbaudi, vai antenas kabeli tiešām var viegli atvienot.
     - B. Aplej ar ūdeni
     - C. Gaida mediķus
     - D. Atrauj ar izolējošu priekšmetu
-5. Kāds ir mazākais pieļaujamais vara vada šķērsgriezums aparatūras pieslēgšanai elektrotīklam?
-    - A. 0,5 mm²
+5. Kāds ir mazākais pieļaujamais vara dzīslas šķērsgriezums kabelim, ar ko pieslēdz pārnesamu vai pārvietojamu patērētāju?
+    - A. 0,35 mm²
     - B. 0,75 mm²
     - C. 1,5 mm²
     - D. 2,5 mm²
-6. Kāda ir lielākā pieļaujamā zemējuma pretestība elektroiekārtām?
+6. Līdz kādai pretestībai dabīgos zemētājus izmanto vispirms?
     - A. 0,5 Ω
     - B. 10 Ω
     - C. 4 Ω
@@ -312,7 +359,7 @@ un pārbaudi, vai antenas kabeli tiešām var viegli atvienot.
 7. Ko drīkst izmantot kā dabīgo zemētāju?
     - A. Zemē ieraktu ūdens cauruļvadu
     - B. Gāzes cauruli
-    - C. Apkures radiatoru
+    - C. Degvielas cauruļvadu
     - D. Alumīnija kabeļa apvalku
 8. Līdz kādam augstumam no zemes jānosedz zemējuma pievads gar ēkas sienu?
     - A. 0,5 m
@@ -324,12 +371,12 @@ un pārbaudi, vai antenas kabeli tiešām var viegli atvienot.
     - B. Ne mazāk kā 4 Ω
     - C. Ne vairāk kā 0,5 MΩ
     - D. Ne mazāk kā 100 kΩ
-10. Kāds lielākais spriegums pieļaujams pārnēsājamiem instrumentiem un lampām telpās ar paaugstinātu elektrobīstamību?
-    - A. 230 V
+10. Ar kādu spriegumu pārnesamu elektroinstrumentu telpā ar paaugstinātu elektrobīstamību drīkst lietot bez individuālajiem aizsardzības līdzekļiem un korpusa zemēšanas?
+    - A. 220 V
     - B. 42 V
     - C. 12 V
     - D. 127 V
-11. Kāds lielākais spriegums pieļaujams pārnēsājamiem instrumentiem un lampām sevišķi bīstamās telpās?
+11. Kādu spriegumu drīkst lietot pārnesamiem elektroinstrumentiem sevišķi bīstamās telpās?
     - A. 42 V
     - B. 24 V
     - C. 12 V
@@ -348,22 +395,22 @@ un pārbaudi, vai antenas kabeli tiešām var viegli atvienot.
     - A. Dielektriskās kalošas un paklāji
     - B. Dielektriskie cimdi, sprieguma indikatori, instrumenti ar izolētiem rokturiem
     - C. Drošības plakāti un zīmes
-    - D. Norobežojumi un sētiņas
+    - D. Norobežojošie tilti un sētiņas
 15. Cik cilvēku vismaz vajadzīgs, lai paceltu mastu, kas garāks par 8 m?
     - A. 2
     - B. 3
     - C. 6
     - D. 4
-16. Cik garas drīkst būt pieslienamās kāpnes?
+16. Cik garas drīkst būt trepes (pieslienamās kāpnes)?
     - A. Ne garākas par 3 m
     - B. Ne garākas par 7 m
     - C. Ne garākas par 10 m
     - D. Ne garākas par 5 m
-17. Pie kā drīkst stiprināt antenas, mastus un atsaites?
-    - A. Tikai pie ēkas nesošajām konstrukcijām
+17. Pie kā drīkst stiprināt masta atsaites?
+    - A. Tikai pie jumta nesošajām konstrukcijām vai sienās iemūrētiem enkuriem
     - B. Pie skursteņa
-    - C. Pie jumta margām
-    - D. Pie jebkuras izturīgas vietas
+    - C. Pie televīzijas antenas masta
+    - D. Pie karnīzes
 
 **Atvērtie jautājumi**
 
@@ -379,19 +426,19 @@ un pārbaudi, vai antenas kabeli tiešām var viegli atvienot.
 | 2 | C | 100 mA; jau 50–80 mA ir dzīvībai bīstami. |
 | 3 | A | Kamēr spriegums nav atslēgts, apdraudēts ir arī glābējs. |
 | 4 | D | Ar sausu, strāvu nevadošu priekšmetu. |
-| 5 | B | 0,75 mm²; zemējuma vadam 1,5 mm². |
-| 6 | C | 4 Ω. |
-| 7 | A | Gāzes caurules, radiatorus un kabeļu apvalkus izmantot aizliegts. |
+| 5 | B | 0,75 mm²; sadzīves patērētāju pievadauklai 0,35 mm², zemējuma vadam 1,5 mm². |
+| 6 | C | Dabīgo zemētāju izmanto, ja tā pretestība nepārsniedz 4 Ω. |
+| 7 | A | Gāzes un degvielas cauruļvadus un alumīnija kabeļu apvalkus izmantot aizliegts. |
 | 8 | D | 2,5 m, ar metāla cauruli vai leņķdzelzi. |
 | 9 | A | 0,5 MΩ; ar dubultizolāciju 2 MΩ. |
-| 10 | B | 42 V. |
-| 11 | C | 12 V. |
+| 10 | B | 42 V; 220 V instrumentam vajag zemētu korpusu un aizsardzības līdzekļus. |
+| 11 | C | Tikai 12 V; 220 V instrumentus lietot aizliegts. |
 | 12 | D | 75 %; tuvu 100 % telpa jau ir sevišķi bīstama. |
-| 13 | A | CO₂ nevada strāvu; ūdens un putas vada. |
-| 14 | B | Kalošas, paklāji, plakāti un norobežojumi ir papildu aizsarglīdzekļi. |
+| 13 | A | CO₂ nevada strāvu; putu aparātus elektroiekārtām lietot aizliegts. |
+| 14 | B | Pārējie ir papildu aizsarglīdzekļi; kalošas ir pamatlīdzeklis tikai pret soļu spriegumu. |
 | 15 | C | Seši cilvēki. |
 | 16 | D | 5 m. |
-| 17 | A | Skurstenis un margas nav nesošās konstrukcijas. |
+| 17 | A | Pie skursteņiem, TV antenu mastiem, translācijas traversām un karnīzēm — kategoriski aizliegts. |
 
 Atvērtie jautājumi: astoņpadsmitajā jāpiemin, ka ūdens vada strāvu un
 dzēsējs nonāk zem sprieguma. Deviņpadsmitajā jābūt: attālums līdz
@@ -415,4 +462,7 @@ vismaz seši cilvēki, piemēroti laikapstākļi, zemējums un zibens aizsardzī
 1. LRAL bezmaksas kurss 2026, 3. nodarbība "Drošības jautājumi
    radioamatieriem", prezentācija un video lekcija. lral.lv.
 2. Ministru kabineta 2023. gada 23. maija noteikumi Nr. 257, 53. un
-   58.–60. punkts. <https://likumi.lv/ta/id/342127> (skatīts 2026-11-12).
+   58.–60. punkts. <https://likumi.lv/ta/id/342127> (skatīts 2026-11-16).
+3. SIA "Elektroniskie sakari". Palīgmateriāls radioamatieriem drošības
+   tehnikā. <https://www.esakari.lv/lv/radioamatieru-eksamens>
+   (skatīts 2026-11-16).
