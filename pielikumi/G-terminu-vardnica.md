@@ -23,7 +23,8 @@ skaidrots plašāk.
 | DX | DX | Tāla stacija vai tāls sakars (5.) |
 | Efektīvā vērtība | RMS value | Maiņsprieguma vērtība, kas dod tādu pašu jaudu kā līdzspriegums (7.) |
 | Elektromagnētiskā saderība (EMS) | EMC | Iekārtu spēja darboties blakus, savstarpēji netraucējot (16.) |
-| Ferīts | Ferrite | Materiāls, kas aiztur augstfrekvences strāvas pa vada ārpusi (16.) |
+| Ferīta gredzens | Ferrite toroid, ferrite ring | Gredzenveida ferīta serde. Uz tā tin balunus, ununus un droseles; caur gredzenu vairākas reizes izvērts kabelis slāpē traucējumus, jo gredzens aiztur strāvas pa vada ārpusi. Tam pašam nolūkam lieto arī citu formu ferītus: uz kabeļa uzspiežamas uzmavas un stieņus (13., 16.) |
+| Ferīts | Ferrite | Magnētisks materiāls, no kura izgatavo dažādu formu serdes augstfrekvences spolēm, transformatoriem un droselēm. Sarunvalodā par ferītu sauc arī ferīta gredzenu vai gatavu droseli (13., 16.) |
 | Fīders | Feeder | Līnija, kas pārvada signālu starp staciju un antenu (3., 13.) |
 | Frekvences modulācija (FM) | Frequency modulation | Informācija maina nesēja frekvenci (8.) |
 | Galotnes jauda (pX) | Peak envelope power, PEP | Raidītāja jauda signāla maksimumos (4.) |

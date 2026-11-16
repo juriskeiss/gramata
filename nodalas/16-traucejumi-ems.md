@@ -14,7 +14,8 @@ ja tomēr traucē, un kā atrast trokšņus, kas traucē tev.
 - atšķirt traucējumus, kuru cēlonis ir raidītājā, no tiem, kuru cēlonis ir
   traucētajā ierīcē;
 - nosaukt ceļus, pa kuriem traucējums nonāk ierīcē;
-- izvēlēties pareizo līdzekli: filtru, ferītu, balunu vai zemējumu;
+- izvēlēties pareizo līdzekli: filtru, ferīta gredzenu, balunu vai
+  zemējumu;
 - rīkoties saskaņā ar MK noteikumiem, ja saņem sūdzību;
 - atrast trokšņu avotu savās mājās.
 
@@ -49,7 +50,7 @@ dažādi iemesli.
 | Tipiski | Harmonikas, pārmodulācija, parazītiskās svārstības | Lēts uztvērējs, vāji ekranēti vadi, antenas pastiprinātājs |
 | Pazīme | Traucē konkrētā frekvencē vai kanālā | Traucē visos kanālos; reaģē arī ierīces bez uztvērēja |
 | Kur novērš | Pie raidītāja | Pie traucētās ierīces |
-| Līdzeklis | Zemo frekvenču filtrs, pareiza regulēšana | Augsto frekvenču filtrs, ferīti, labāki kabeļi |
+| Līdzeklis | Zemo frekvenču filtrs, pareiza regulēšana | Augsto frekvenču filtrs, ferīta gredzeni, labāki kabeļi |
 
 **Cēlonis raidītājā.** 12. nodaļā redzējām, ka raidītājs bez darba
 frekvences izstaro arī harmonikas. Ja harmonika trāpa frekvencē, kurā strādā
@@ -105,20 +106,20 @@ ja pieskaras kabelim.
 | **Antenas novietojums** | Pēc iespējas tālāk no mājām un vadiem, augstāk | Visi veidi |
 | **Mazāka jauda** | — | Visi veidi |
 
-Ferītu lieto tā: vadu vairākas reizes izver caur gredzenu, pēc iespējas tuvu
-traucētajai ierīcei. Signālam vada iekšpusē tas netraucē, bet strāvai pa vada
-ārpusi rada lielu pretestību.
+Ferīta gredzenu lieto tā: vadu vairākas reizes izver caur to, pēc iespējas
+tuvu traucētajai ierīcei. Ferīta uzmavu vienkārši uzspiež uz vada. Signālam
+vada iekšpusē tas netraucē, bet strāvai pa vada ārpusi rada lielu pretestību.
 
-![16.2. attēls. Kur liek filtrus un ferītus.](../atteli/16-2-filtri-un-feriti.svg)
+![16.2. attēls. Kur liek filtrus un ferīta uzmavas.](../atteli/16-2-filtri-un-feriti.svg)
 
 > **Praktisks padoms.** Lētākais un ātrākais līdzeklis ir samazināt jaudu.
 > Noteikumi prasa lietot mazāko jaudu, ar kuru sakars iespējams [1]. No
 > 100 W uz 25 W ir tikai viena S vienība korespondentam, bet traucējums
 > kaimiņam samazinās četras reizes.
 
-> **Uzmanību!** Nekad neatver un nepārbūvē svešu ierīci. Filtrus un ferītus
-> liek ārpusē, uz vadiem un ieejām, un tikai ar īpašnieka piekrišanu.
-> Par iejaukšanos svešā tehnikā atbildība pāriet uz tevi.
+> **Uzmanību!** Nekad neatver un nepārbūvē svešu ierīci. Filtrus un ferīta
+> gredzenus liek ārpusē, uz vadiem un ieejām, un tikai ar īpašnieka
+> piekrišanu. Par iejaukšanos svešā tehnikā atbildība pāriet uz tevi.
 
 ## 16.5. Kā meklēt cēloni
 
@@ -232,7 +233,7 @@ tuvāk avotam, jo stiprāks troksnis.
 - Harmonikas aiztur zemo frekvenču filtrs raidītāja izejā.
 - Īsviļņu raidītāja pamatsignālu televizora ieejā aiztur augsto frekvenču
   filtrs.
-- Ferīti aiztur strāvas pa vadu ārpusi.
+- Ferīta gredzeni un uzmavas uz vadiem aiztur strāvas pa vadu ārpusi.
 - Traucējumu gadījumā radioamatieris pilnveido savu staciju; ja cēlonis ir
   uztvērējā, to novērš uztvērēja īpašnieks; strīdu izšķir ES.
 - Traucējot navigācijas vai drošības dienestiem — raidīšana jāpārtrauc
@@ -264,7 +265,7 @@ atnāk ar sūdzību par traucējumiem televizorā.
 - Saderībai ir divas puses: izstarojumi un noturība.
 - Vispirms jānoskaidro, vai cēlonis ir raidītājā vai traucētajā ierīcē.
 - Harmonikas novērš pie raidītāja ar zemo frekvenču filtru.
-- Pārslodzi novērš pie ierīces: augsto frekvenču filtrs, ferīti.
+- Pārslodzi novērš pie ierīces: augsto frekvenču filtrs, ferīta gredzeni.
 - Strāvu uz kabeļa apvalka novērš baluns.
 - Mazāka jauda samazina visus traucējumus uzreiz.
 - Noteikumi nosaka kārtību: vispirms radioamatieris, tad uztvērēja
@@ -356,7 +357,7 @@ atnāk ar sūdzību par traucējumiem televizorā.
 | 3 | C | Televīzijas signāli ir augstāki par īsviļņiem; HPF īsviļņus aiztur. |
 | 4 | D | 5 · 21,3 = 106,5 MHz; pārējās ir zem 87,5 MHz. |
 | 5 | A | Skaļruņi nav uztvērējs; signāls iekļūst pa vadiem. |
-| 6 | B | Ferīts rada lielu pretestību strāvai pa vada ārpusi. |
+| 6 | B | Ferīta gredzens rada lielu pretestību strāvai pa vada ārpusi. |
 | 7 | C | Slodzes ekvivalents neizstaro, tātad signāls iet citu ceļu. |
 | 8 | D | 64. punkts. |
 | 9 | A | 65. punkts: nekavējoties. |
@@ -367,9 +368,9 @@ atnāk ar sūdzību par traucējumiem televizorā.
 
 Atvērtie jautājumi: četrpadsmitajā "visos kanālos" norāda uz pārslodzi, nevis
 harmoniku; secība — pārbaude savās mājās, jaudas samazināšana, slodzes
-ekvivalents, augsto frekvenču filtrs un ferīti pie televizora, baluns un
-antenas novietojums savā pusē. Piecpadsmitajā jāpiemin strāva uz kabeļa
-apvalka, kas izstaro mājas iekšpusē.
+ekvivalents, augsto frekvenču filtrs un ferīta gredzeni pie televizora,
+baluns un antenas novietojums savā pusē. Piecpadsmitajā jāpiemin strāva uz
+kabeļa apvalka, kas izstaro mājas iekšpusē.
 
 ## Padziļināti
 
