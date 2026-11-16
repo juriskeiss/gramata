@@ -32,19 +32,19 @@ def f14_1():
     # tiešais vilnis
     D = _pt(cx, cy, R + 36, aD)
     f.arrow(T[0], T[1], D[0], D[1], w=2, color=AMBER)
-    f.ltext((T[0] + D[0]) / 2 - 6, (T[1] + D[1]) / 2 - 9, "tiešais vilnis", anchor="start", size=11, color=AMBER, bold=True)
+    f.text(D[0] + 8, D[1] - 2, "tiešais vilnis", anchor="start", size=11, color=AMBER, bold=True)
     # zemes vilnis
     gw = arcpts(cx, cy, R + 9, aT + 0.012, 0.02, n=40)
     f.pl(gw[:-2], dash="6 4", w=2, color=GREEN)
     f.arrow(gw[-4][0], gw[-4][1], gw[-1][0], gw[-1][1], w=2, color=GREEN)
-    x, y = _pt(cx, cy, R + 26, -0.08)
+    x, y = _pt(cx, cy, R + 26, -0.03)
     f.text(x, y, "zemes vilnis", size=12, color=GREEN, bold=True)
     # telpas vilnis
     I = _pt(cx, cy, R + 153, 0.0)
     Rx = _pt(cx, cy, R + 36, aR)
     f.line(T[0], T[1], I[0], I[1], w=2, color=RED)
     f.arrow(I[0], I[1], Rx[0], Rx[1], w=2, color=RED)
-    f.text(I[0] + 150, I[1] + 62, "telpas vilnis", size=12, color=RED, bold=True)
+    f.text(I[0] + 168, I[1] + 46, "telpas vilnis", size=12, color=RED, bold=True)
     f.save("atteli/14-2-izplatisanas-veidi.svg", "Trīs radioviļņu izplatīšanās veidi")
 
 
@@ -206,7 +206,17 @@ def f15_3():
     f.text(190, 24, "Osciloskops", bold=True, size=14)
     x, y, w, h = 50, 44, 280, 190
     _grid(f, x, y, w, h)
-    f.sine(x, y + h / 2, w, 62, 2.5, w=2.4, color=GREEN)
+    dx, dy = w / 8, h / 6
+    f.sine(x, y + h / 2, w, 2 * dy, 2, w=2.4, color=GREEN)
+    # periods: no smailes līdz smailei laikā — 4 iedaļas
+    f.darrow(x + dx, y + 0.5 * dy, x + 5 * dx, y + 0.5 * dy, color=BLUE)
+    f.ltext(x + 3 * dx, y + 0.5 * dy + 4, "periods: 4 iedaļas", size=10, color=BLUE)
+    # augstums: no zemākā līdz augstākajam punktam — 4 iedaļas
+    f.darrow(x + w + 12, y + dy, x + w + 12, y + 5 * dy, color=BLUE)
+    f.line(x + w, y + dy, x + w + 16, y + dy, w=0.7, dash="2 3", color=BLUE)
+    f.line(x + w, y + 5 * dy, x + w + 16, y + 5 * dy, w=0.7, dash="2 3", color=BLUE)
+    f.text(x + w + 20, y + h / 2 - 2, "4", anchor="start", size=10, color=BLUE)
+    f.text(x + w + 20, y + h / 2 + 10, "ied.", anchor="start", size=10, color=BLUE)
     f.text(190, y + h + 22, "laiks →", size=12, italic=True)
     f.text(190, y + h + 44, "rāda signāla formu: amplitūdu un periodu", size=11)
     f.text(x - 10, y + h / 2 + 4, "U", anchor="end", size=12, italic=True)
@@ -314,7 +324,7 @@ def f16_1():
     # LED lampa
     f.line(682, 200, 682, 218, w=1.2)
     f.circ(682, 226, 8, fill=AMBER_T, color=K, sw=1.2)
-    f.text(698, 230, "LED", anchor="start", size=10)
+    f.text(682, 247, "LED", size=10)
     _noise(f, 676, 220, ang=150, n=2)
     # kondicionieris / siltumsūknis ārā
     f.rect(832, 274, 50, 46, rx=3, fill="white")

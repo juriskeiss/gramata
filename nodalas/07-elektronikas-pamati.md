@@ -27,9 +27,9 @@ Elektrību vieglāk saprast, salīdzinot ar ūdeni caurulē.
 | **Strāva** | I | ampērs (A) | Cik daudz ūdens izplūst sekundē |
 | **Pretestība** | R | oms (Ω) | Cik šaura ir caurule |
 
-**Strāva** ir elektrisko lādiņu plūsma vadītājā. **Spriegums** ir spēks, kas
-šo plūsmu rada; tas vienmēr ir starp diviem punktiem, piemēram, starp
-akumulatora spailēm. **Pretestība** rāda, cik stipri vadītājs vai detaļa
+**Strāva** ir elektrisko lādiņu plūsma vadītājā. **Spriegums** ir potenciālu
+starpība starp diviem punktiem, piemēram, starp akumulatora spailēm; tā liek
+lādiņiem plūst. **Pretestība** rāda, cik stipri vadītājs vai detaļa
 strāvai pretojas [1].
 
 No salīdzinājuma uzreiz redzams galvenais: lielāks spiediens dod lielāku

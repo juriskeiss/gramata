@@ -237,7 +237,7 @@ def f10_6():
     yt, yg = 80, 280
     # ieeja
     _term(f, 60, yt); _term(f, 60, yg)
-    f.text(52, yt + 5, "+Uᵢₑ", anchor="end", size=12)
+    f.rich(52, yt + 5, [("+U", 0), ("ie", 1)], anchor="end", size=12)
     f.line(60, yt, 232, yt)
     # tranzistors virknē (pagriezts): bāze uz leju
     cx, cy = 260, 98
@@ -256,19 +256,20 @@ def f10_6():
     # Zenera diode: katods augšā
     _diode_seg(f, (260, yg), (260, 170), kind="zener")
     f.text(278, 230, "Dz", size=12, italic=True, anchor="start")
-    f.arrow(222, 262, 222, 186, w=1.4, color=BLUE, head=7)
-    f.text(214, 228, "U_Z".replace("_Z", "z"), anchor="end", size=12, color=BLUE)
+    f.arrow(222, 186, 222, 262, w=1.4, color=BLUE, head=7)
+    f.rich(214, 228, [("U", 0), ("z", 1)], anchor="end", size=12, color=BLUE)
     # izeja un slodze
     _dot(f, 420, yt); _dot(f, 420, yg)
     _term(f, 470, yt); _term(f, 470, yg)
-    f.text(478, yt + 5, "+Uᵢz", anchor="start", size=12)
+    f.rich(478, yt + 5, [("+U", 0), ("iz", 1)], anchor="start", size=12)
     _res_v(f, 420, yt, yg, label="slodze")
     f.arrow(380, 96, 380, 264, w=1.4, color=BLUE, head=7)
-    f.text(372, 186, "Uᵢz", anchor="end", size=12, color=BLUE)
+    f.rich(372, 186, [("U", 0), ("iz", 1)], anchor="end", size=12, color=BLUE)
     # zeme
     f.line(60, yg, 470, yg)
     _dot(f, 260, yg)
-    f.mtext(320, 318, "Uᵢz ≈ Uz − 0,7 V: izejas spriegumu nosaka Zenera diode", size=11, italic=True)
+    f.rich(320, 322, [("U", 0), ("iz", 1), (" ≈ U", 0), ("z", 1),
+                      (" − 0,7 V: izejas spriegumu nosaka Zenera diode", 0)], size=11, italic=True)
     f.save("atteli/10-6-stabilizators.svg", "Sprieguma stabilizators ar Zenera diodi un tranzistoru")
 
 

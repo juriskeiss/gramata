@@ -27,7 +27,7 @@ to, ko tu dzirdi; pastiprinātājs palīdz tikai raidīšanā.
 
 | Parametrs | Ko nozīmē |
 | --- | --- |
-| **Rezonanses frekvence** | Frekvence, kurā antenas garums atbilst viļņa garumam |
+| **Rezonanses frekvence** | Frekvence, kurā antenas ieejas pretestība ir tīri aktīva (reaktīvās daļas nav). Vienkāršām antenām tas ir tad, kad garums atbilst viļņa garumam: dipolam — ap pusi, vertikālajai antenai — ap ceturtdaļu viļņa garuma |
 | **Ieejas pretestība** | Pretestība, ko antena rāda pievada pieslēgvietā |
 | **Virziendarbība** | Kuros virzienos antena izstaro vairāk, kuros mazāk |
 | **Pastiprinājums** | Cik reižu spēcīgāk antena izstaro galvenajā virzienā, salīdzinot ar atskaites antenu |
@@ -72,8 +72,8 @@ antena [1].
 | Starojums | Vislielākais perpendikulāri vadam; galu virzienā gandrīz nekāds |
 | Polarizācija | Horizontāla, ja dipols karājas horizontāli |
 
-**Garuma aprēķins.** Vilnis vadā izplatās nedaudz lēnāk nekā gaisā, tāpēc
-īsts dipols ir īsāks par pusi no viļņa garuma. To ņem vērā ar
+**Garuma aprēķins.** Vada resnuma un galu kapacitātes dēļ īsts dipols
+rezonē, būdams nedaudz īsāks par pusi no viļņa garuma. To ņem vērā ar
 **saīsināšanas koeficientu** 0,95 [1]:
 
 $$L = \frac{\lambda}{2} \cdot 0{,}95 = \frac{300}{2 \cdot f} \cdot 0{,}95 \qquad L\,[\text{m}] \approx \frac{142{,}5}{f\,[\text{MHz}]}$$

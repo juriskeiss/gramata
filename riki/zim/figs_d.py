@@ -163,15 +163,15 @@ def f05_3():
     f.pl([(250, yg), (390, 168), (530, yg)], close=True, fill=GREEN_T, w=1.4, color=GREEN)
     f.line(390, 168, 390, 92, w=3)
     f.antenna(390, 92, h=30)
-    f.box(470, 80, 110, 30, "atkārtotājs", size=12)
+    f.box(390, 38, 110, 26, "atkārtotājs", size=12)
     for x, lab in ((90, "stacija A"), (690, "stacija B")):
         f.rect(x - 9, yg - 40, 18, 36, fill="white", rx=3)
         f.line(x, yg - 40, x, yg - 66, w=2)
         f.text(x, yg + 22, lab, size=12, bold=True)
     f.arrow(96, yg - 70, 378, 76, w=2.0, color=BLUE)
-    f.ltext(200, 140, "A raida 145,050 MHz", size=12, color=BLUE, bold=True)
+    f.text(196, 136, "A raida 145,050 MHz", anchor="end", size=12, color=BLUE, bold=True)
     f.arrow(402, 76, 684, yg - 70, w=2.0, color=RED)
-    f.ltext(580, 140, "atkārtotājs raida 145,650 MHz", size=12, color=RED, bold=True)
+    f.mtext(588, 128, "atkārtotājs raida\n145,650 MHz", anchor="start", size=12, color=RED, bold=True)
     # tiešais ceļš, aizsegts
     f.line(100, yg - 58, 322, yg - 58, dash="5 4", w=1.2)
     f.text(330, yg - 52, "×", size=18, bold=True)
@@ -263,18 +263,18 @@ def f13_6():
     # Yagi
     cx, cy = 500, 175
     f.text(570, 24, "Yagi (skats no augšas)", size=14, bold=True)
-    for r in (60, 120, 170):
+    for r in (42, 84, 125):
         f.circ(cx, cy, r, fill="none", sw=0.6, color=MG, dash="3 4")
     front = lambda a: max(0.0, math.cos(a)) ** 4
     back = lambda a: 0.16 * max(0.0, -math.cos(a)) ** 6
     side = lambda a: 0.05
-    _polar(f, cx, cy, 170, lambda a: max(front(a), back(a), side(a)))
+    _polar(f, cx, cy, 125, lambda a: max(front(a), back(a), side(a)))
     for dx, L in ((-16, 40), (0, 34), (16, 28)):
         f.line(cx + dx, cy - L / 2, cx + dx, cy + L / 2, w=2.4)
     f.line(cx - 16, cy, cx + 16, cy, w=1.4, color=MG)
-    f.arrow(cx + 180, cy, cx + 250, cy, w=2.4, head=12)
-    f.text(cx + 215, cy - 14, "galvenais", size=11, italic=True)
-    f.text(cx + 215, cy + 26, "virziens", size=11, italic=True)
+    f.arrow(cx + 140, cy, cx + 215, cy, w=2.4, head=12)
+    f.text(cx + 178, cy - 14, "galvenais", size=11, italic=True)
+    f.text(cx + 178, cy + 26, "virziens", size=11, italic=True)
     f.text(cx - 40, cy + 54, "aizmugurē", anchor="end", size=11, italic=True)
     f.text(cx - 40, cy + 68, "vājš", anchor="end", size=11, italic=True)
     f.text(590, 316, "starojums koncentrēts vienā virzienā", size=12)

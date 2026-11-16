@@ -27,33 +27,38 @@
 <rect x="40.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#1a1a1a" stroke="#111111" stroke-width="0.8"/>
 <text x="66.0" y="248.0" text-anchor="middle" font-size="13" fill="white" font-weight="bold">0</text>
 <text x="66.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">melna</text>
-<rect x="102.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#7a4a1e" stroke="#111111" stroke-width="0.8"/>
-<text x="128.0" y="248.0" text-anchor="middle" font-size="13" fill="white" font-weight="bold">1</text>
-<text x="128.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">brūna</text>
-<rect x="164.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#c62828" stroke="#111111" stroke-width="0.8"/>
-<text x="190.0" y="248.0" text-anchor="middle" font-size="13" fill="white" font-weight="bold">2</text>
-<text x="190.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">sarkana</text>
-<rect x="226.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#ef7d16" stroke="#111111" stroke-width="0.8"/>
-<text x="252.0" y="248.0" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">3</text>
-<text x="252.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">oranža</text>
-<rect x="288.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#f2c40f" stroke="#111111" stroke-width="0.8"/>
-<text x="314.0" y="248.0" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">4</text>
-<text x="314.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">dzeltena</text>
-<rect x="350.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#2e8b3e" stroke="#111111" stroke-width="0.8"/>
-<text x="376.0" y="248.0" text-anchor="middle" font-size="13" fill="white" font-weight="bold">5</text>
-<text x="376.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">zaļa</text>
-<rect x="412.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#1f5fbf" stroke="#111111" stroke-width="0.8"/>
-<text x="438.0" y="248.0" text-anchor="middle" font-size="13" fill="white" font-weight="bold">6</text>
-<text x="438.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">zila</text>
-<rect x="474.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#7b3fa0" stroke="#111111" stroke-width="0.8"/>
-<text x="500.0" y="248.0" text-anchor="middle" font-size="13" fill="white" font-weight="bold">7</text>
-<text x="500.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">violeta</text>
-<rect x="536.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#8a8a8a" stroke="#111111" stroke-width="0.8"/>
-<text x="562.0" y="248.0" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">8</text>
-<text x="562.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">pelēka</text>
-<rect x="598.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#ffffff" stroke="#111111" stroke-width="0.8"/>
-<text x="624.0" y="248.0" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">9</text>
-<text x="624.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">balta</text>
-<rect x="668.0" y="232.0" width="22.0" height="22.0" rx="2" fill="#c9a227" stroke="#111111" stroke-width="0.8"/>
-<text x="679.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">zelta</text>
+<rect x="97.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#7a4a1e" stroke="#111111" stroke-width="0.8"/>
+<text x="123.0" y="248.0" text-anchor="middle" font-size="13" fill="white" font-weight="bold">1</text>
+<text x="123.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">brūna</text>
+<rect x="154.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#c62828" stroke="#111111" stroke-width="0.8"/>
+<text x="180.0" y="248.0" text-anchor="middle" font-size="13" fill="white" font-weight="bold">2</text>
+<text x="180.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">sarkana</text>
+<rect x="211.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#ef7d16" stroke="#111111" stroke-width="0.8"/>
+<text x="237.0" y="248.0" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">3</text>
+<text x="237.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">oranža</text>
+<rect x="268.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#f2c40f" stroke="#111111" stroke-width="0.8"/>
+<text x="294.0" y="248.0" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">4</text>
+<text x="294.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">dzeltena</text>
+<rect x="325.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#2e8b3e" stroke="#111111" stroke-width="0.8"/>
+<text x="351.0" y="248.0" text-anchor="middle" font-size="13" fill="white" font-weight="bold">5</text>
+<text x="351.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">zaļa</text>
+<rect x="382.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#1f5fbf" stroke="#111111" stroke-width="0.8"/>
+<text x="408.0" y="248.0" text-anchor="middle" font-size="13" fill="white" font-weight="bold">6</text>
+<text x="408.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">zila</text>
+<rect x="439.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#7b3fa0" stroke="#111111" stroke-width="0.8"/>
+<text x="465.0" y="248.0" text-anchor="middle" font-size="13" fill="white" font-weight="bold">7</text>
+<text x="465.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">violeta</text>
+<rect x="496.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#8a8a8a" stroke="#111111" stroke-width="0.8"/>
+<text x="522.0" y="248.0" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">8</text>
+<text x="522.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">pelēka</text>
+<rect x="553.0" y="232.0" width="52.0" height="22.0" rx="2" fill="#ffffff" stroke="#111111" stroke-width="0.8"/>
+<text x="579.0" y="248.0" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">9</text>
+<text x="579.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">balta</text>
+<text x="620.0" y="216.0" text-anchor="start" font-size="12" fill="#111111" font-weight="bold">Pielaide:</text>
+<rect x="620.0" y="232.0" width="40.0" height="22.0" rx="2" fill="#c9a227" stroke="#111111" stroke-width="0.8"/>
+<text x="640.0" y="248.0" text-anchor="middle" font-size="10" fill="#111111" font-weight="bold">±5 %</text>
+<text x="640.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">zelta</text>
+<rect x="670.0" y="232.0" width="40.0" height="22.0" rx="2" fill="#bdbdbd" stroke="#111111" stroke-width="0.8"/>
+<text x="690.0" y="248.0" text-anchor="middle" font-size="10" fill="#111111" font-weight="bold">±10 %</text>
+<text x="690.0" y="272.0" text-anchor="middle" font-size="10" fill="#111111">sudraba</text>
 </svg>

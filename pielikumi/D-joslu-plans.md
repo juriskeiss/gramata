@@ -63,8 +63,8 @@ darba veidi; 2700 Hz — visi darba veidi, arī SSB.
 | 144,110–144,150 | CW un ciparu darba veidi, arī atstarošana no Mēness (EME) |
 | 144,150–144,400 | CW, SSB, ciparu darba veidi; 144,300 — SSB izsaukuma frekvence |
 | 144,400–144,490 | Tikai radiobākas |
-| 144,500–144,794 | Visi veidi; 144,800 — APRS |
-| 144,794–144,9625 | Ciparu sakari |
+| 144,500–144,794 | Visi veidi |
+| 144,794–144,9625 | Ciparu sakari; 144,800 — APRS |
 | 144,975–145,194 | Atkārtotāju ieejas |
 | 145,194–145,206 | Kosmosa sakari |
 | 145,206–145,5625 | FM un ciparu balss; 145,500 — FM izsaukuma frekvence |

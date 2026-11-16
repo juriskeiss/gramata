@@ -111,7 +111,8 @@ var apiet visu zemeslodi.
 - **Zems izstarošanas leņķis dod garāku lēcienu**, tātad mazāk lēcienu.
   Tāpēc tāliem sakariem vajag antenu ar zemu izstarošanas leņķi (13. nodaļa).
 - **Lēcienus var kombinēt.** Pirmais lēciens var būt no sporādiskā E, otrais
-  no F slāņa; to īpaši bieži novēro 6 m diapazonā (14.7., 14.8. attēls).
+  no F slāņa; to īpaši bieži novēro 6 m diapazonā (14.7. apakšnodaļa,
+  14.8. attēls).
 
 ### Mirusī zona un feidings
 

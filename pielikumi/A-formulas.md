@@ -2,7 +2,7 @@
 
 Eksāmenā vajadzīgās formulas, mērvienības un tabulas vienuviet. Lapas saturs
 un secība atbilst LRAL bezmaksas kursa formulu lapai, ko izveidojis Matīss
-YL3RZ; šeit mainīts tikai noformējums.
+YL3RZ; šeit mainīts noformējums un precizēts Kirhofa likumu formulējums.
 
 ::: fl-poras
 ::: fl-kol
@@ -194,11 +194,11 @@ $$\omega = 2\pi f$$
 
 ## 8. Kirhofa likumi
 
-**KCL (strāvu likums):** mezglā ieplūstošo un izplūstošo strāvu summa ir nulle.
+**KCL (strāvu likums):** mezglā ieplūstošo strāvu summa ir vienāda ar izplūstošo strāvu summu.
 
 $$\sum I_{ie} = \sum I_{iz} \quad \text{[A]}$$
 
-**KVL (spriegumu likums):** kontūra sprieguma kritumu summa ir vienāda ar avota spriegumu.
+**KVL (spriegumu likums):** noslēgtā kontūrā visu spriegumu algebriskā summa ir nulle — avotu spriegumu summa ir vienāda ar sprieguma kritumu summu.
 
 $$\sum U = 0 \quad \text{[V]}$$
 

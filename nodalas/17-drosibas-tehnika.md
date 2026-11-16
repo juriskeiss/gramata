@@ -148,8 +148,8 @@ pārnēsājamiem instrumentiem un lampām [1].
 > 3. Divas pazīmes vienlaikus: sevišķi bīstama telpa; pārnēsājamiem
 >    instrumentiem un lampām ne vairāk kā 12 V.
 
-Skaitlis 42 V parādās arī MK noteikumos: spriegums uz antenām un fīderiem
-nedrīkst pārsniegt 42 V [2].
+Skaitlis 42 V parādās arī MK noteikumos: stacijas barošanas spriegums uz
+antenām un fīderiem nedrīkst pārsniegt 42 V [2].
 
 ## 17.6. Ugunsdrošība
 

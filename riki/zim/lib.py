@@ -93,6 +93,27 @@ class Fig:
         self.add(f'<rect x="{x0:.1f}" y="{y - size:.1f}" width="{w:.1f}" height="{size + 5:.1f}" fill="white" stroke="none"/>')
         self.text(x, y, t, anchor=anchor, size=size, italic=italic, bold=bold, color=color)
 
+    def rich(self, x, y, parts, anchor="middle", size=12, italic=False, bold=False, color=K, bg=False):
+        """Teksts ar apakšindeksiem. parts: [(teksts, vai_indekss), ...], piemēram [("U", 0), ("max", 1)]."""
+        ss = size * 0.72
+        if bg:
+            w = sum(len(t) * (ss if s else size) * CW for t, s in parts) + 6
+            x0 = x - w / 2 if anchor == "middle" else (x - 3 if anchor == "start" else x - w + 3)
+            self.add(f'<rect x="{x0:.1f}" y="{y - size:.1f}" width="{w:.1f}" height="{size + 7:.1f}" '
+                     f'fill="white" stroke="none"/>')
+        st = (' font-weight="bold"' if bold else "") + (' font-style="italic"' if italic else "")
+        out, low = [], False
+        for t, s in parts:
+            dy = 0.0
+            if s and not low:
+                dy = size * 0.28
+            elif not s and low:
+                dy = -size * 0.28
+            low = bool(s)
+            out.append(f'<tspan dy="{dy:.1f}" font-size="{ss if s else size:.1f}">{escape(t)}</tspan>')
+        self.add(f'<text x="{x:.1f}" y="{y:.1f}" text-anchor="{anchor}" font-size="{size}" xml:space="preserve" '
+                 f'fill="{color}"{st}>{"".join(out)}</text>')
+
     def mtext(self, cx, cy, label, size=13, bold=False, anchor="middle", lh=1.25, color=K, italic=False):
         lines = label.split("\n")
         y0 = cy - (len(lines) - 1) * size * lh / 2 + size * 0.36

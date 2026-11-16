@@ -37,7 +37,7 @@ Statusi: `Jāpārbauda` → `Tikai atsaucei` / `Atļauts (pamatojums)` / `Atļau
 
 ## Zīmējumi
 
-Visi 74 zīmējumi mapē `atteli/` ir oriģināli: tie uzzīmēti ar kodu
+Visi 85 zīmējumi mapē `atteli/` ir oriģināli: tie uzzīmēti ar kodu
 (`riki/zim/`) šīs grāmatas vajadzībām, izmantojot mākslīgā intelekta modeli
 Claude Fable 5.2 (Anthropic), un nav pārņemti ne no kursa slaidiem, ne no
 citiem avotiem. Tie tiek izdoti ar grāmatas licenci CC BY-NC-SA 4.0.

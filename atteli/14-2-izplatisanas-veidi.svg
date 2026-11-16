@@ -13,14 +13,13 @@
 <text x="682.0" y="322.3" text-anchor="middle" font-size="11" fill="#111111" font-style="italic">uztvērējs</text>
 <line x1="60.5" y1="267.2" x2="169.3" y2="237.1" stroke="#b45309" stroke-width="2" stroke-linecap="round"/>
 <polygon points="174.5,235.7 167.5,241.4 165.6,234.3" fill="#b45309" stroke="#b45309" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="108.5" y="231.4" width="98.4" height="16.0" fill="white" stroke="none"/>
-<text x="111.5" y="242.4" text-anchor="start" font-size="11" fill="#b45309" font-weight="bold">tiešais vilnis</text>
+<text x="182.5" y="233.7" text-anchor="start" font-size="11" fill="#b45309" font-weight="bold">tiešais vilnis</text>
 <polyline points="80.2,289.1 87.9,286.6 95.6,284.1 103.3,281.8 111.1,279.5 118.9,277.2 126.7,275.1 134.5,272.9 142.4,270.9 150.2,268.9 158.1,267.0 166.0,265.2 173.9,263.4 181.8,261.7 189.8,260.1 197.7,258.5 205.7,257.0 213.6,255.5 221.6,254.2 229.6,252.9 237.6,251.6 245.7,250.5 253.7,249.4 261.7,248.3 269.8,247.4 277.8,246.5 285.9,245.6 293.9,244.9 302.0,244.2 310.1,243.6 318.2,243.0 326.3,242.5 334.4,242.1 342.5,241.7 350.6,241.5 358.7,241.2 366.8,241.1 374.9,241.0 383.0,241.0" fill="none" stroke="#2f7a4b" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round" stroke-linecap="round"/>
 <line x1="374.9" y1="241.0" x2="393.8" y2="241.2" stroke="#2f7a4b" stroke-width="2" stroke-linecap="round"/>
 <polygon points="399.2,241.2 390.9,244.8 391.0,237.5" fill="#2f7a4b" stroke="#2f7a4b" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
-<text x="302.0" y="227.1" text-anchor="middle" font-size="12" fill="#2f7a4b" font-weight="bold">zemes vilnis</text>
+<text x="350.7" y="224.4" text-anchor="middle" font-size="12" fill="#2f7a4b" font-weight="bold">zemes vilnis</text>
 <line x1="60.5" y1="267.2" x2="380.0" y2="97.0" stroke="#b42318" stroke-width="2" stroke-linecap="round"/>
 <line x1="380.0" y1="97.0" x2="694.7" y2="264.7" stroke="#b42318" stroke-width="2" stroke-linecap="round"/>
 <polygon points="699.5,267.2 690.5,266.6 694.0,260.1" fill="#b42318" stroke="#b42318" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
-<text x="530.0" y="159.0" text-anchor="middle" font-size="12" fill="#b42318" font-weight="bold">telpas vilnis</text>
+<text x="548.0" y="143.0" text-anchor="middle" font-size="12" fill="#b42318" font-weight="bold">telpas vilnis</text>
 </svg>

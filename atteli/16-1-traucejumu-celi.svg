@@ -120,7 +120,7 @@
 <polyline points="723.5,273.0 721.9,266.4 717.3,271.4 715.6,264.8 711.1,269.9 709.4,263.3 704.9,268.3" fill="none" stroke="#b45309" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
 <line x1="682.0" y1="200.0" x2="682.0" y2="218.0" stroke="#111111" stroke-width="1.2" stroke-linecap="round"/>
 <circle cx="682.0" cy="226.0" r="8.0" fill="#fbebd3" stroke="#111111" stroke-width="1.2"/>
-<text x="698.0" y="230.0" text-anchor="start" font-size="10" fill="#111111">LED</text>
+<text x="682.0" y="247.0" text-anchor="middle" font-size="10" fill="#111111">LED</text>
 <polyline points="668.3,216.3 670.4,209.9 663.8,211.7 665.9,205.3 659.4,207.1 661.5,200.7 654.9,202.5" fill="none" stroke="#b45309" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
 <polyline points="667.5,221.0 665.9,214.4 661.3,219.4 659.6,212.8 655.1,217.9 653.4,211.3 648.9,216.3" fill="none" stroke="#b45309" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
 <rect x="832.0" y="274.0" width="50.0" height="46.0" rx="3" fill="white" stroke="#111111" stroke-width="1.6"/>

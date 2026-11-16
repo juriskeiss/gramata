@@ -135,7 +135,7 @@ Sakarus pierāda ar QSL kartītēm vai elektroniskiem apstiprinājumiem. Tāpēc
 
 ## 2.7. Kā mācīties ar šo grāmatu
 
-Grāmatas sākumā ir mācību plāns 10 nedēļām. Trīs ieteikumi, kas der
+Mācību plāns 10 nedēļām ir 18.2. apakšnodaļā. Trīs ieteikumi, kas der
 jebkuram plānam:
 
 - **Maz, bet regulāri.** Pusstunda katru dienu dod vairāk nekā četras

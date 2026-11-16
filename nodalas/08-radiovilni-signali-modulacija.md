@@ -175,8 +175,8 @@ rēķināt, attiecības izsaka **decibelos** (dB) [1], [2]:
 
 $$P_{dB} = 10 \cdot \lg\frac{P}{P_{ref}} \qquad U_{dB} = 20 \cdot \lg\frac{U}{U_{ref}}$$
 
-Decibeli nav mērvienība, bet attiecība: tie pasaka, cik reižu viens lielums
-ir lielāks par otru. Eksāmenam pietiek ar četrām vērtībām:
+Decibels ir logaritmiska vienība, kas izsaka divu lielumu attiecību, nevis
+pašu lielumu: tas pasaka, cik reižu viens lielums ir lielāks par otru. Eksāmenam pietiek ar četrām vērtībām:
 
 | dB | Jauda mainās | Kā iegaumēt |
 | --- | --- | --- |

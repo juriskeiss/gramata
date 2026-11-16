@@ -71,18 +71,18 @@ def f07_3():
     # Umax
     xp = x0 + W / 8
     f.darrow(xp, y0, xp, y0 - A)
-    f.ltext(xp + 8, y0 - 10, "Umax", anchor="start", size=12, italic=True)
+    f.rich(xp, y0 - A - 8, [("U", 0), ("max", 1)], anchor="middle", size=12, italic=True)
     # URMS
     yr = y0 - 0.707 * A
     f.line(x0, yr, x0 + W, yr, dash="5 4", w=1.1)
-    f.text(x0 + W + 4, yr + 4, "URMS", anchor="start", size=12, italic=True)
+    f.rich(x0 + W + 4, yr + 4, [("U", 0), ("RMS", 1)], anchor="start", size=12, italic=True)
     # Up-p
     xq = x0 + W * 5 / 8 + 36
     f.line(x0 + W * 5 / 8, y0 - A, xq + 6, y0 - A, w=0.8, dash="2 3")
     f.line(x0 + W * 7 / 8, y0 + A, xq - 30, y0 + A, w=0.8, dash="2 3")
     xs = x0 + W * 6 / 8
     f.darrow(xs, y0 - A, xs, y0 + A)
-    f.ltext(xs + 8, y0 + 40, "Up-p", anchor="start", size=12, italic=True)
+    f.rich(xs - 8, y0 + 52, [("U", 0), ("p-p", 1)], anchor="end", size=12, italic=True)
     # periods
     yt = y0 + A + 22
     f.darrow(x0 + W / 8, yt, x0 + W * 5 / 8, yt)
@@ -214,12 +214,17 @@ def f09_1():
     y = 232
     f.text(40, y - 16, "Cipari:", anchor="start", size=12, bold=True)
     for i, (name, c) in enumerate(RES_COLORS):
-        x = 40 + i * 62
+        x = 40 + i * 57
         f.rect(x, y, 52, 22, fill=c, rx=2, sw=0.8)
         f.text(x + 26, y + 16, str(i), size=13, bold=True, color=("white" if i in (0, 1, 2, 5, 6, 7) else K))
         f.text(x + 26, y + 40, name, size=10)
-    f.rect(668, y, 22, 22, fill=GOLD, rx=2, sw=0.8)
-    f.text(679, y + 40, "zelta", size=10)
+    f.text(620, y - 16, "Pielaide:", anchor="start", size=12, bold=True)
+    f.rect(620, y, 40, 22, fill=GOLD, rx=2, sw=0.8)
+    f.text(640, y + 16, "±5 %", size=10, bold=True)
+    f.text(640, y + 40, "zelta", size=10)
+    f.rect(670, y, 40, 22, fill="#bdbdbd", rx=2, sw=0.8)
+    f.text(690, y + 16, "±10 %", size=10, bold=True)
+    f.text(690, y + 40, "sudraba", size=10)
     f.save("atteli/09-1-rezistors.svg", "Rezistora apzīmējums un krāsu kods")
 
 

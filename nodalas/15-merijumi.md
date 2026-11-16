@@ -165,19 +165,20 @@ būvētājam tā ir otrā svarīgākā mērierīce pēc multimetra.
 
 No osciloskopa attēla var nolasīt periodu un aprēķināt frekvenci.
 
-> **Piemērs.** Osciloskopā viens pilns signāla periods aizņem 4 iedaļas.
+> **Piemērs.** Osciloskopā (15.4. attēls) viens pilns signāla periods aizņem
+> 4 iedaļas.
 > Laika skala ir 0,5 ms uz iedaļu. Kāda ir signāla frekvence?
 >
 > 1. Periods: T = 4 · 0,5 ms = 2 ms = 0,002 s.
 > 2. Frekvence: f = 1 / T = 1 / 0,002 = 500 Hz.
 
 > **Piemērs.** Tajā pašā attēlā signāls no zemākā līdz augstākajam punktam
-> aizņem 6 iedaļas, sprieguma skala ir 2 V uz iedaļu. Kāda ir amplitūda un
+> aizņem 4 iedaļas, sprieguma skala ir 2 V uz iedaļu. Kāda ir amplitūda un
 > efektīvā vērtība?
 >
-> 1. No smailes līdz smailei: 6 · 2 V = 12 V.
-> 2. Amplitūda ir puse: 6 V.
-> 3. Efektīvā vērtība: 0,707 · 6 ≈ 4,2 V.
+> 1. No smailes līdz smailei: 4 · 2 V = 8 V.
+> 2. Amplitūda ir puse: 4 V.
+> 3. Efektīvā vērtība: 0,707 · 4 ≈ 2,8 V.
 
 Radioamatierim nav jāpērk spektra analizators: SDR uztvērēja ūdenskrituma
 attēls parāda to pašu — signāla platumu un to, kas ir blakus.

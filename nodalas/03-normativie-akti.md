@@ -65,8 +65,8 @@ grāmatā.
 
 | Noteikumu nodaļa | Punkti | Par ko | Kur grāmatā |
 | --- | --- | --- | --- |
-| Vispārīgie jautājumi, termini | 1.–6. | Definīcijas, atļautās joslas | 3.3. |
-| Eksāmeni | 7.–15. | Pieteikšanās, norise, apliecības | 2. nodaļa |
+| Vispārīgie jautājumi, termini | 1.–4. | Definīcijas, atļautās joslas | 3.3. |
+| Eksāmeni | 5.–15. | Pieteikšanās, norise, apliecības | 2. nodaļa |
 | Radiostacijas un atļaujas | 16.–31. | Iedalījums, atbildība, termiņi | 3.4. |
 | Izsaukuma signāli | 32.–38. | Uzbūve, papildzīmes | 4. nodaļa |
 | Radiosakari | 39.–52. | Ko drīkst raidīt, identificēšanās | 3.5. |
@@ -183,7 +183,7 @@ tīrai un drošai.
 | --- | --- | --- |
 | Jāievēro IARU joslu plāni | — | 53. |
 | Jālieto mazākā jauda, ar kuru sakars iespējams | — | 53. |
-| Spriegums uz antenām un fīderiem | ne vairāk kā **42 V** | 53. |
+| Stacijas barošanas spriegums uz antenām un fīderiem (piemēram, antenas pastiprinātāja barošana pa kabeli); uz augstfrekvences spriegumu tas neattiecas | ne vairāk kā **42 V** | 53. |
 | Ja raidītājs spēj pārsniegt atļauto jaudu, tam jābūt izejas jaudas mērītājam | — | 54. |
 | Atkārtotājus drīkst uzstādīt un lietot tikai joslās, kurās radioamatieru dienestam ir primārs statuss | virs **29 MHz** | 56. |
 | Ārpusjoslas izstarojumu kopējā jauda | ne vairāk kā **1 %** no izstarotās jaudas | 57. |
@@ -254,7 +254,7 @@ pēc rīkotāja pieprasījuma izsniedz ES (90.–92. punkts) [1].
 - Sakari ar citiem dienestiem tikai dzīvības glābšanai un glābšanas
   operācijās; jāziņo ES 3 darbdienu laikā.
 - Identificēšanās: sākumā, beigās, vismaz reizi 10 minūtēs.
-- 42 V — lielākais spriegums uz antenām un fīderiem.
+- 42 V — lielākais stacijas barošanas spriegums uz antenām un fīderiem.
 - 1 % — lielākā ārpusjoslas izstarojumu kopējā jauda.
 - 100 m — tuvāk lidostai mobilo staciju lietot nedrīkst.
 - Atkārtotāji tikai joslās virs 29 MHz, kurās radioamatieru dienestam ir
@@ -330,7 +330,7 @@ tev un kas — kaimiņam.
     - B. Trīs darbdienu laikā
     - C. 30 dienu laikā
     - D. Nav jāinformē
-9. Kāds lielākais spriegums pieļaujams uz antenām un fīderiem?
+9. Kāds lielākais stacijas barošanas spriegums pieļaujams uz antenām un fīderiem?
     - A. 12 V
     - B. 24 V
     - C. 42 V
@@ -379,7 +379,7 @@ tev un kas — kaimiņam.
 | 6 | A | 39. punkts: ziņojumi ir atklāti, Q kodi un saīsinājumi ir atļauti. |
 | 7 | D | 42. punkts. |
 | 8 | B | 43. punkts. |
-| 9 | C | 53. punkts: 42 V. |
+| 9 | C | 53. punkts: barošanas spriegums uz antenām un fīderiem — ne vairāk kā 42 V. |
 | 10 | A | 1 % no 50 W ir 0,5 W. |
 | 11 | D | 65. punkts: nekavējoties, līdz cēloņa novēršanai. |
 | 12 | A | 66. punkts. |

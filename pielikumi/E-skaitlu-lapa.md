@@ -16,7 +16,7 @@ nedēļās (18. nodaļa). Iekavās — nodaļa, kurā skaitlis skaidrots.
 | 30 dienas | Termiņš, kurā paziņot par datu vai adreses maiņu (3.) |
 | 3 darbdienas | Termiņš, kurā ziņot par sakaru ar cita dienesta staciju (3.) |
 | 10 minūtes | Izsaukuma signāls jānosauc vismaz tik bieži (3., 5.) |
-| 42 V | Lielākais spriegums uz antenām un fīderiem (3.) |
+| 42 V | Lielākais stacijas barošanas spriegums uz antenām un fīderiem (3.) |
 | 1 % | Lielākā ārpusjoslas izstarojumu kopējā jauda (3., 16.) |
 | 100 m | Tuvāk lidostai mobilo staciju lietot nedrīkst (3.) |
 | 29 MHz | Atkārtotāji tikai virs šīs frekvences (3.) |

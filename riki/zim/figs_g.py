@@ -91,8 +91,8 @@ def f06_2():
     f.text(fx(7200), yb2 + 40, "kHz", anchor="end", size=11, italic=True)
     xd = fx(7050)
     f.line(xd, yb2 + 26, xd, 178, w=0.9, color=AMBER)
-    f.ltext(xd, 192, "šaurjoslas un ciparu darba veidi", size=11, color=AMBER, bold=True)
     xf = fx(7074)
+    f.ltext(xf - 12, 192, "šaurjoslas un ciparu darba veidi", anchor="end", size=11, color=AMBER, bold=True)
     f.line(xf, yb2 + 26, xf, 214, dash="2 3", w=1, color=AMBER)
     f.text(xf, 230, "FT8 7074 kHz", size=11, italic=True, color=AMBER)
     f.mtext(fx(7140), 262, "SSB B kategorijai 40 m diapazonā nav atļauts", size=12, bold=True)
@@ -234,8 +234,10 @@ def f14_7():
     f.pl(arc, w=1.8, color=GREEN)
     def surf(a):
         return cx + R * math.sin(a), cy - R * math.cos(a)
-    a1, a2 = -0.46, 0.46
     h1, h2 = 90, 45
+    th1 = math.acos(R / (R + h1)); th2 = math.acos(R / (R + h2))
+    a1 = -0.44
+    a2 = a1 + th1 + th2   # abu antenu stari pieskaras Zemei vienā punktā
     (x1, y1), (x2, y2) = surf(a1), surf(a2)
     t1 = (x1 + h1 * math.sin(a1), y1 - h1 * math.cos(a1))
     t2 = (x2 + h2 * math.sin(a2), y2 - h2 * math.cos(a2))
@@ -243,15 +245,12 @@ def f14_7():
     f.text(t1[0], t1[1] - 10, "h₁ = 16 m", size=12, bold=True)
     f.text(t2[0], t2[1] - 10, "h₂ = 4 m", size=12, bold=True)
     # pieskares punkti
-    th1 = math.acos(R / (R + h1)); th2 = math.acos(R / (R + h2))
-    p1 = surf(a1 + th1); p2 = surf(a2 - th2)
-    f.line(*t1, *p1, w=1.6, color=BLUE, dash="6 4")
-    f.line(*t2, *p2, w=1.6, color=BLUE, dash="6 4")
-    for p in (p1, p2):
-        f.circ(p[0], p[1], 3.5, fill=BLUE, color=BLUE)
+    p1 = p2 = surf(a1 + th1)
+    f.line(*t1, *t2, w=1.6, color=BLUE, dash="6 4")
+    f.circ(p1[0], p1[1], 3.5, fill=BLUE, color=BLUE)
     f.text((t1[0] + p1[0]) / 2, (t1[1] + p1[1]) / 2 - 12, "d₁", size=13, italic=True, color=BLUE)
     f.text((t2[0] + p2[0]) / 2, (t2[1] + p2[1]) / 2 - 12, "d₂", size=13, italic=True, color=BLUE)
-    f.text(cx + 40, 110, "radio horizonts", size=11, italic=True, color=BLUE)
+    f.text(p1[0], p1[1] - 12, "radio horizonts", size=11, italic=True, color=BLUE)
     f.mtext(cx, 40, "d ≈ 4,12 · (√h₁ + √h₂) = 4,12 · (4 + 2) ≈ 25 km", size=14, bold=True)
     f.text(cx, 64, "augstāka antena redz tālāk; jauda šeit nepalīdz", size=11, italic=True)
     f.save("atteli/14-7-radiohorizonts.svg", "Radio horizonts VHF un UHF sakariem")
