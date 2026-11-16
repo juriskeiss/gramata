@@ -32,6 +32,7 @@ skaidrots plašāk.
 | Heterodīns | Local oscillator | Uztvērēja ģenerators, ar kuru to noskaņo (11.) |
 | Izotropā antena | Isotropic antenna | Teorētiska antena, kas izstaro vienādi visos virzienos; 0 dBi (13.) |
 | Izsaukuma signāls | Call sign | Stacijas unikālais vārds ēterā (1., 4.) |
+| Izstarojuma klase | Emission class | Trīs zīmju apzīmējums darba veidam, piemēram, A1A — CW, J3E — SSB, F3E — FM (8.) |
 | Jaucējs | Mixer | Bloks, kura izejā ir ieejas frekvenču summa un starpība (10., 11.) |
 | Joslu plāns | Band plan | Diapazona sadalījums pa darba veidiem (6.) |
 | Jutība | Sensitivity | Vājākais signāls, ko uztvērējs vēl uztver (11.) |

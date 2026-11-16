@@ -51,6 +51,7 @@ nedēļās (18. nodaļa). Iekavās — nodaļa, kurā skaitlis skaidrots.
 | 3 dB = × 2; 10 dB = × 10 | Jaudas attiecības (8.) |
 | 6 dB | Viena S vienība (8.) |
 | 2,4–3 kHz | SSB signāla platums (8.) |
+| A1A, J3E, F3E | Izstarojuma klases: CW, SSB, FM (8.) |
 | 73 Ω, 2,15 dBi | Dipola pretestība un pastiprinājums (13.) |
 | 142,5 / f | Pusviļņa dipola garums metros (13.) |
 | 50 Ω, 75 Ω | Koaksiālā kabeļa raksturpretestība (13.) |

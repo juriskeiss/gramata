@@ -14,6 +14,7 @@ jaudas.
 - pārrēķināt frekvenci viļņa garumā un otrādi, kā arī periodu frekvencē;
 - izskaidrot, ar ko atšķiras AM, FM, SSB un CW;
 - salīdzināt šo darba veidu joslas platumu;
+- atpazīt izstarojuma klašu apzīmējumus A1A, A3E, J3E un F3E;
 - rēķināt ar decibeliem un S vienībām.
 
 ## 8.1. Kas ir radiovilnis
@@ -167,6 +168,32 @@ tad, kad balss sen pazudusi troksnī.
 > un paplašina signālu ārpus tam paredzētās joslas. Citi to dzird kā
 > sprakšķus blakus frekvencēs. Seko transīvera ALC rādījumam.
 
+**Izstarojuma klases.** Noteikumos un atļaujās darba veidu pieraksta ar trīs
+zīmju apzīmējumu — izstarojuma klasi. Apzīmējumu sistēmu nosaka
+Starptautiskā Telesakaru savienība (ITU) [3].
+
+| Zīme | Ko rāda | Biežākās vērtības |
+| --- | --- | --- |
+| Pirmā (burts) | Modulācijas veids | A — amplitūdas modulācija ar abām sānjoslām; J — viena sānjosla bez nesēja; F — frekvences modulācija; G — fāzes modulācija |
+| Otrā (cipars) | Modulējošā signāla veids | 1 — ciparu signāls bez apakšnesēja; 2 — ciparu signāls ar apakšnesēju; 3 — analogs signāls |
+| Trešā (burts) | Informācijas veids | A — telegrāfija uztveršanai ar ausi; B — telegrāfija automātiskai uztveršanai; D — dati; E — telefonija (balss) |
+
+| Klase | Darba veids |
+| --- | --- |
+| A1A | Telegrāfs (CW) |
+| A3E | AM telefonija |
+| J3E | SSB telefonija |
+| F3E | FM telefonija |
+| G3E | Fāzes modulācijas telefonija; ēterā skan tāpat kā FM |
+| F1B | RTTY |
+
+> **Atceries:** A1A — CW, J3E — SSB, F3E — FM. Pēdējais burts E vienmēr
+> nozīmē balsi.
+
+> **C kategorijai.** C kategorijas stacijām atļautas tikai izstarojuma klases
+> F3E, G3E un FXW (noteikumu 3. pielikums) [4]. FXW ir frekvences modulācija
+> ar jauktu saturu, piemēram, ciparu balsi un datiem.
+
 ## 8.7. Decibeli
 
 Jaudas radiotehnikā atšķiras miljoniem reižu: raidītājs atdod 100 W, bet
@@ -228,6 +255,7 @@ parasti dod vairāk nekā pastiprinātājs, un tā palīdz arī uztveršanā.
 - AM maina amplitūdu, FM — frekvenci, PM — fāzi.
 - SSB: viena sānjosla, nesējs nomākts, joslas platums 2,4–3 kHz.
 - FM aizņem visplatāko joslu; CW — visšaurāko.
+- Izstarojuma klases: A1A — CW, A3E — AM, J3E — SSB, F3E — FM.
 - 3 dB = jauda × 2; 6 dB = × 4; 10 dB = × 10; 20 dB = × 100.
 - Viena S vienība = 6 dB.
 - Otrā harmonika ir divreiz augstāka frekvence par pamatfrekvenci.
@@ -259,6 +287,7 @@ LSB uz USB. Pieraksti, kas notiek ar balsi.
 - Polarizāciju nosaka antenas novietojums.
 - Modulācija uzliek informāciju uz nesēja: AM maina amplitūdu, FM frekvenci.
 - SSB ir AM bez nesēja un vienas sānjoslas; tā ir efektīva un šaura.
+- Izstarojuma klase ir trīs zīmju apzīmējums darba veidam: A1A, J3E, F3E.
 - Decibeli izsaka attiecību: 3 dB dubulto jaudu, 10 dB to desmitkāršo.
 - S vienība ir 6 dB; lai iegūtu vienu S vienību, jauda jāčetrkāršo.
 
@@ -339,12 +368,22 @@ LSB uz USB. Pieraksti, kas notiek ar balsi.
     - B. 2,350 MHz
     - C. 28,200 MHz
     - D. 21,150 MHz
+16. Kura izstarojuma klase atbilst SSB telefonijai?
+    - A. A3E
+    - B. F3E
+    - C. J3E
+    - D. A1A
+17. Ko apzīmē izstarojuma klase A1A?
+    - A. Telegrāfu (CW)
+    - B. FM telefoniju
+    - C. SSB telefoniju
+    - D. RTTY
 
 **Atvērtie jautājumi**
 
-16. Paskaidro, kāpēc ar SSB pie tās pašas raidītāja jaudas var sazināties
+18. Paskaidro, kāpēc ar SSB pie tās pašas raidītāja jaudas var sazināties
     tālāk nekā ar AM.
-17. Kabelim ir 3 dB zudumi, antenai — 6 dB pastiprinājums. Raidītājs atdod
+19. Kabelim ir 3 dB zudumi, antenai — 6 dB pastiprinājums. Raidītājs atdod
     50 W. Kādai jaudai tas ir līdzvērtīgi antenas galvenajā virzienā?
     Parādi aprēķinu.
 
@@ -367,10 +406,12 @@ LSB uz USB. Pieraksti, kas notiek ar balsi.
 | 13 | C | 100 / 10 = 10 reizes = 10 dB. |
 | 14 | A | Viena S vienība ir 6 dB, tātad jauda × 4: 25 · 4 = 100 W. |
 | 15 | D | Trešā harmonika: 3 · 7,050 = 21,150 MHz. Tā trāpa 15 m diapazonā. |
+| 16 | C | J — viena sānjosla bez nesēja, 3 — analogs signāls, E — telefonija. |
+| 17 | A | A1A ir telegrāfija uztveršanai ar ausi, tātad CW. |
 
-Atvērtie jautājumi: sešpadsmitajā jāpiemin, ka SSB neraida nesēju un otru
+Atvērtie jautājumi: astoņpadsmitajā jāpiemin, ka SSB neraida nesēju un otru
 sānjoslu, tāpēc visa jauda ir informācijā un uztvērējs var lietot šaurāku
-filtru. Septiņpadsmitajā: −3 dB + 6 dB = +3 dB, tātad 50 W · 2 = 100 W.
+filtru. Deviņpadsmitajā: −3 dB + 6 dB = +3 dB, tātad 50 W · 2 = 100 W.
 
 ## Padziļināti
 
@@ -389,3 +430,8 @@ filtru. Septiņpadsmitajā: −3 dB + 6 dB = +3 dB, tātad 50 W · 2 = 100 W.
    lauka un radio teorija", prezentācija un video lekcija. lral.lv.
 2. Radioamatieru formulu lapa. Matīss YL3RZ, 2026. Izmantota kā formulu
    pārbaudes avots; teksts un zīmējumi nav pārņemti.
+3. Starptautiskā Telesakaru savienība (ITU). Radionoteikumi (Radio
+   Regulations), 1. pielikums "Izstarojumu klasifikācija un nepieciešamie
+   joslas platumi".
+4. Ministru kabineta 2023. gada 23. maija noteikumi Nr. 257, 3. pielikums.
+   <https://likumi.lv/ta/id/342127>

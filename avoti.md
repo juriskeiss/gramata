@@ -34,6 +34,7 @@ Statusi: `Jāpārbauda` → `Tikai atsaucei` / `Atļauts (pamatojums)` / `Atļau
 | 11 | Tīmekļa resursi | IARU 1. reģiona HF joslu plāns | iaru-r1.org | Jāpārbauda; līdz tam tikai kā faktu avots | nav atvērts |
 | 13 | Tīmekļa resursi | DX uzvedības kodekss (DX Code of Conduct); sākotnējais autors Randy Johnson W6SJ (SK) ar DX Code of Conduct komiteju | dx-code.org | Autors atļāvis kodeksu brīvi kopēt; grāmatā teksts nav pārņemts, izklāstīts saviem vārdiem | 2026-11-13 (autora ziņas) |
 | 12 | LRAL kursa materiāli | Radioamatieru formulu lapa, Matīss YL3RZ, 2026 | kursa materiāli | Atļauja saņemta (2026-11-13): autors atļauj izmantot grāmatā; A pielikums veidots pēc formulu lapas | 2026-11-12 |
+| 14 | Normatīvie akti | ITU Radionoteikumi (Radio Regulations), 1. pielikums — izstarojumu klasifikācija (A1A, J3E, F3E u. c.) | itu.int | Tikai kā faktu avots (apzīmējumu sistēma); teksts nav pārņemts | nav atvērts |
 
 ## Zīmējumi
 
