@@ -19,6 +19,9 @@ eksāmena juridiskajā daļā.
 ## 3.1. Kas regulē radioamatierus
 
 Radioviļņi nepazīst valstu robežu, tāpēc noteikumi veidojas trīs līmeņos [1], [2].
+Latvijā noteikumus izdod Ministru kabinets, bet ikdienas darbu veic
+SIA "Elektroniskie sakari" (ES): tā rīko eksāmenus, izsniedz atļaujas, piešķir
+izsaukuma signālus un uzrauga, kā noteikumi tiek pildīti.
 
 | Līmenis | Organizācija | Ko dara | Vai lēmumi ir saistoši |
 | --- | --- | --- | --- |
@@ -53,6 +56,13 @@ Noteikumu tekstā iestāde vēl saukta par valsts akciju sabiedrību
 "Elektroniskie sakari". Tagad tā ir SIA "Elektroniskie sakari", un grāmatā
 lietots pašreizējais nosaukums.
 
+Noteikumi seko tam ceļam, ko tu pats ej. Vispirms tie skaidro, kā nokārtot
+eksāmenu un saņemt atļauju, tad — kā veidojas izsaukuma signāls. Pēc tam
+nāk tas, kas vajadzīgs ikdienā: ko drīkst raidīt, kā lietot staciju un ko
+darīt, ja tā traucē citiem. Beigās ir īpaši gadījumi: ārvalstu radioamatieri,
+kuģi un gaisa kuģi. Tabula rāda, kur katra tēma atrodama noteikumos un šajā
+grāmatā.
+
 | Noteikumu nodaļa | Punkti | Par ko | Kur grāmatā |
 | --- | --- | --- | --- |
 | Vispārīgie jautājumi, termini | 1.–6. | Definīcijas, atļautās joslas | 3.3. |
@@ -74,6 +84,13 @@ lietots pašreizējais nosaukums.
 > tieši pēc šī teksta.
 
 ## 3.3. Svarīgākās definīcijas
+
+Noteikumos svarīgi atšķirt divus dokumentus. **Radioamatieris** ir fiziska
+persona, kas nokārtojusi eksāmenu un saņēmusi **eksaminācijas apliecību**; tā
+apliecina kvalifikāciju. Taču ar apliecību vien raidīt nedrīkst: vajag arī
+**radiostacijas atļauju**, tas ir, tiesības lietot **radiostaciju**
+(raidītāju un uztvērēju kopumu ar papildiekārtām) ar konkrētu izsaukuma
+signālu [1].
 
 Noteikumu 2. punkts definē terminus. Eksāmenā biežāk vajadzīgie [1]:
 
@@ -98,7 +115,7 @@ Radiostacijas iedala trīs veidos (16. punkts) [1]:
 - pēc darbības: **apkalpojamās** un **neapkalpojamās** (atkārtotāji, bākas);
 - pēc kategorijas: **A, B un C**.
 
-Kas par ko atbild:
+No stacijas veida ir atkarīgs, kas par to atbild:
 
 | Stacija | Kas atbild | Punkts |
 | --- | --- | --- |
@@ -115,7 +132,14 @@ Trīs noteikumi par atļauju, kas jāzina no galvas [1]:
 
 ## 3.5. Ko drīkst un ko nedrīkst raidīt
 
-Radioamatieru sakaru pamatā ir atklātība. Noteikumu 39.–52. punkts nosaka [1]:
+Radioamatieru sakaru pamatā ir atklātība. Sakari atļauti tikai ar citiem
+radioamatieriem (41. punkts). Izņēmums ir ārkārtas gadījumi: ar citu dienestu
+drīkst sazināties, ja **cilvēka dzīvībai draud tiešas briesmas** (vai jānovērš
+draudošas briesmas), kā arī valsts pārvaldes iestāžu vadītās glābšanas
+operācijās vai to mācībās (42. punkts). Par šādu sakaru **trīs darbdienu
+laikā** jāziņo ES (43. punkts) [1].
+
+Visus šīs daļas noteikumus kopā rāda tabula (39.–52. punkts) [1]:
 
 | Noteikums | Punkts |
 | --- | --- |
@@ -132,7 +156,8 @@ Radioamatieru sakaru pamatā ir atklātība. Noteikumu 39.–52. punkts nosaka [
 | Prombūtnē raidītājs nedrīkst ieslēgties pats, un to nedrīkst lietot citas personas | 51. |
 | Jāievēro IARU ētikas principi un vispārpieņemtās uzvedības normas | 52. |
 
-Neadresēts raidījums ir tāds, kas nav domāts konkrētam korespondentam.
+Raidījumam parasti jābūt adresētam. Neadresēts raidījums ir tāds, kas nav
+domāts konkrētam korespondentam.
 Izņēmumi, kad tas atļauts (47. punkts) [1]:
 
 - antenas regulēšana ar iespējami mazu jaudu, nosaucot izsaukuma signālu
@@ -151,7 +176,8 @@ CQ nav neadresēts raidījums: tas ir izsaukums, uz kuru gaida atbildi.
 
 ## 3.6. Radiostacijas lietošanas nosacījumi
 
-Noteikumu 53.–61. punkts nosaka, kā stacija jālieto [1].
+Noteikumu 53.–61. punkts nosaka, kā stacija jālieto [1]. Stacijai jābūt
+tīrai un drošai.
 
 | Prasība | Skaitlis | Punkts |
 | --- | --- | --- |

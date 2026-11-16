@@ -39,6 +39,11 @@ Grāmatā šis fails neieiet.
   56., 64., 70. punkts) pārnesti esošajās tabulās un sarakstos; nodaļas
   pārrakstīšana plūstošā tekstā nav pārņemta. 64. punkts tagad ir tabula
   "Cēlonis | Kas rīkojas un kā".
+- [ ] **Kompromisa variants (zars "nodala-3-kompromiss").** 3.1.–3.6. sadaļā
+  pirms tabulām ielikti Arvja teikumi kā ievadi; teikumi pārņemti veseli,
+  bez saīsināšanas. Tie ir noteikumu atstāsts, nevis burtiski citāti; ja
+  kādu vietu grib dot pēdiņās kā citātu, tā jānokopē no likumi.lv.
+  Jāizlemj Jurim un Arvim, vai šo variantu pārņemt main zarā.
 - [ ] **ITU Radionoteikumu 25. pants** ("Padziļināti") pievienots no
   vispārzināmām ziņām, nav pārbaudīts pret avotu.
 - [ ] **Reģionu apraksts.** "Eiropa, Āfrika, Tuvie Austrumi" ir no slaida;
