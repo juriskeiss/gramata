@@ -16,16 +16,29 @@ Grāmatā šis fails neieiet.
 - [ ] **Noteikumu nodaļu robežas (3.2. tabula).** Punktu diapazoni pa
   nodaļām (piemēram, "Eksāmeni 7.–15.", "Radiostacijas un atļaujas 16.–31.")
   ir aptuveni; jāsalīdzina ar noteikumu satura rādītāju.
-- [ ] **39. punkts, šifrēšana.** Noteikumos ir izņēmums tālvadības komandām;
-  tekstā tas nav minēts, jo B kategorijas eksāmenam, šķiet, nav vajadzīgs.
-  Jāizlemj, vai pieminēt.
-- [ ] **40. punkts.** Formulējums par svešu ziņojumu neizpaušanu jāpārbauda:
-  divi kopsavilkumi to atstāstīja nedaudz atšķirīgi.
-- [ ] **45. punkts** (aizliegti sakari ar valstīm, kuru administrācijas
-  iebilst) tekstā nav iekļauts; jāizlemj, vai vajag.
-- [ ] **70. punkts, svešas stacijas lietošana.** Nav skaidrs, ar kuru
-  izsaukuma signālu viesis raida — savu vai stacijas īpašnieka. Tekstā par
-  to apzināti nekas nav teikts; jāprecizē un jāpieraksta.
+- [x] **39. punkts, šifrēšana.** Tālvadības komandu izņēmums tekstā ir
+  pieminēts (pārbaudīts pret likumi.lv tekstu 2026-11-15).
+- [x] **40. punkts.** Formulējums pārbaudīts pret likumi.lv tekstu.
+- [x] **45. punkts** (aizliegti sakari ar valstīm, kuru administrācijas
+  iebilst) pievienots kā rinda 3.5. tabulā (2026-11-16).
+- [x] **70. punkts, svešas stacijas lietošana.** Noteikumi skaidri nosaka, ka
+  viesis raida ar savu izsaukuma signālu; tekstā pierakstīts.
+- [x] **"SIA" pret "valsts akciju sabiedrība".** Grāmatā ir "SIA
+  Elektroniskie sakari" (uzņēmuma forma ir mainījusies); likumi.lv MK 257
+  tekstā joprojām ir "valsts akciju sabiedrība". Tas ir apzināti; 3.2.
+  sadaļā pievienots paskaidrojums (2026-11-16).
+- [ ] **Mūsu skaidrojumi.** Teikums, ka ES "uzrauga", kā noteikumi tiek
+  pildīti, un "CQ nav neadresēts raidījums" nav MK 257 tekstā.
+- [ ] **47.4. punkts.** Noteikumos nav minēta LRAL, tikai "starptautiski atzīta
+  Latvijas radioamatieru organizācija"; "Latvijā tāda ir LRAL" ir mūsu
+  skaidrojums.
+- [x] **Sporta raidītāji (XIII nodaļa, 90.–92. punkts)** pieminēti vienā
+  rindkopā 3.8. sadaļā un 3.2. tabulā (2026-11-16). Jāpārbauda, vai tie
+  parādās eksāmena jautājumos; ja nē, rindkopu var izņemt.
+- [x] **PR "nodala-3-plusosa" (Arvis YL3MS).** Faktu labojumi (39., 42., 47.,
+  56., 64., 70. punkts) pārnesti esošajās tabulās un sarakstos; nodaļas
+  pārrakstīšana plūstošā tekstā nav pārņemta. 64. punkts tagad ir tabula
+  "Cēlonis | Kas rīkojas un kā".
 - [ ] **ITU Radionoteikumu 25. pants** ("Padziļināti") pievienots no
   vispārzināmām ziņām, nav pārbaudīts pret avotu.
 - [ ] **Reģionu apraksts.** "Eiropa, Āfrika, Tuvie Austrumi" ir no slaida;
