@@ -129,7 +129,7 @@ Radioamatieri sazinās ne tikai ar balsi [1].
 | Balss, FM | Frekvences modulācija | VHF un UHF, vietējiem sakariem un atkārtotājiem |
 | Telegrāfs, CW | Morzes kods | Visos diapazonos; ļoti efektīvs ar mazu jaudu |
 | Ciparu darba veidi (ciparu režīmi) | FT8, FT4, RTTY, PSK31 — signālu raida un atšifrē dators | Visos diapazonos; darbojas arī ar ļoti vājiem signāliem |
-| Datu sakari | Winlink, VarAC — e-pasts un ziņas pa radio | Ārkārtas sakaros, ekspedīcijās |
+| Datu sakari | JS8, VarAC, Winlink — e-pasts un ziņas pa radio | Ārkārtas sakaros, ekspedīcijās |
 | Satelītu sakari | Sakari caur amatieru satelītiem | VHF un UHF |
 | EME | Signālu atstaro no Mēness | VHF un augstāk; lielām antenām |
 
