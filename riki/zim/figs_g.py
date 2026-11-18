@@ -147,29 +147,84 @@ def f07_3():
 
 # ------------------------------------------------------------------ 8.2.
 def f08_2():
-    f = Fig(780, 345)
-    x0, W = 70, 640
-    f.sine(x0, 70, W, 26, 2, w=2.2, color=BLUE)
-    f.text(x0 - 10, 75, "zemāka f", anchor="end", size=11, color=BLUE)
-    f.darrow(x0, 112, x0 + W / 2, 112, color=BLUE)
-    f.text(x0 + W / 4, 130, "λ — garš vilnis", size=12, bold=True, color=BLUE)
-    f.sine(x0, 175, W, 26, 6, w=2.2, color=RED)
-    f.text(x0 - 10, 180, "augstāka f", anchor="end", size=11, color=RED)
-    f.darrow(x0, 216, x0 + W / 6, 216, color=RED)
-    f.text(x0 + W / 12 + 20, 234, "λ — īss vilnis", anchor="start", size=12, bold=True, color=RED)
-    f.mtext(x0 + W * 0.72, 232, "λ [m] = 300 / f [MHz]", size=15, bold=True)
-    # diapazoni
-    y = 290
-    f.line(x0, y, x0 + W, y, w=1.2)
-    bands = [("80 m", "3,5 MHz"), ("40 m", "7 MHz"), ("15 m", "21 MHz"), ("10 m", "28 MHz"),
-             ("2 m", "145 MHz"), ("70 cm", "435 MHz")]
-    for i, (b, fr) in enumerate(bands):
-        x = x0 + 30 + i * (W - 60) / 5
-        f.circ(x, y, 4, fill=BRICK, color=BRICK)
-        f.text(x, y - 10, b, size=12, bold=True, color=BRICK)
-        f.text(x, y + 20, fr, size=11)
-    f.text(x0 + W, y + 40, "frekvence aug, vilnis kļūst īsāks →", anchor="end", size=10, italic=True)
-    f.save("atteli/08-2-vilna-garums.svg", "Viļņa garums un frekvence")
+    """Viļņa garums mērogā (A) un pusviļņa dipola elektriskais un fiziskais garums (B)."""
+    f = Fig(780, 510)
+    s = 12.0                      # pikseļi uz metru (abās daļās viens mērogs)
+    x0 = 120
+    span = 50 * s                 # 0…50 m
+
+    # ---------- A. Viļņa garums ----------
+    f.text(20, 24, "A. Viļņa garums — attālums starp diviem blakus maksimumiem",
+           anchor="start", size=13, bold=True)
+    for fr, band, yc, col in ((7, "40 m diapazons", 82, BLUE), (14, "20 m diapazons", 172, RED)):
+        lam = 300 / fr
+        lp = lam * s
+        f.sine(x0, yc, span, 24, span / lp, phase=math.pi / 2, w=2.2, n=600, color=col)
+        f.text(x0 - 14, yc - 2, f"{fr} MHz", anchor="end", size=13, bold=True, color=col)
+        f.text(x0 - 14, yc + 14, band, anchor="end", size=10, color=MG)
+        yd = yc + 40
+        for xc in (x0, x0 + lp):
+            f.circ(xc, yc - 24, 3.5, fill=col, color=col)
+            f.line(xc, yc - 20, xc, yd + 4, dash="3 3", w=1, color=col)
+        f.darrow(x0, yd, x0 + lp, yd, color=col)
+        f.ltext(x0 + lp / 2, yd + 5, f"λ ≈ {lam:.0f} m", size=12, bold=True, color=col)
+    f.text(x0 + span, 236, "frekvence 2 × augstāka → vilnis 2 × īsāks",
+           anchor="end", size=11, italic=True)
+    # mērogs metros
+    yr = 262
+    f.line(x0, yr, x0 + span, yr, w=1.2)
+    for m in range(0, 51, 10):
+        x = x0 + m * s
+        f.line(x, yr - 5, x, yr + 5, w=1.2)
+        f.text(x, yr + 20, f"{m} m" if m == 50 else str(m), size=11)
+    for m in range(5, 50, 10):
+        f.line(x0 + m * s, yr - 3, x0 + m * s, yr + 3, w=1)
+
+    # ---------- B. Antenas garums ----------
+    f.line(20, 300, 760, 300, w=0.7, color=MG)
+    f.text(20, 326, "B. Pusviļņa dipols 7 MHz frekvencei", anchor="start", size=13, bold=True)
+    half = 300 / 7 / 2 * s        # λ/2 pikseļos
+    xa = x0
+    xb = xa + half
+    cx = (xa + xb) / 2
+    yw = 382
+    # puse viļņa (tas pats 7 MHz vilnis, tikai puse no tā)
+    f.sine(xa, yw, half, 26, 0.5, w=2.2, n=200, color=BLUE)
+    f.text(cx, yw - 34, "puse viļņa", size=11, italic=True, color=BLUE)
+    # elektriskais garums
+    ye = yw + 22
+    for x in (xa, xb):
+        f.line(x, yw, x, 486, dash="3 3", w=1, color=BLUE)
+    f.darrow(xa, ye, xb, ye, color=BLUE)
+    f.ltext(cx, ye + 5, "λ/2 ≈ 21,4 m", size=12, bold=True, color=BLUE)
+    # dipola vads (fiziskais garums = 0,95 · λ/2)
+    phys = 0.95 * half
+    yd = 470
+    gap = 5
+    f.line(cx - phys / 2, yd, cx - gap, yd, w=3.2)
+    f.line(cx + gap, yd, cx + phys / 2, yd, w=3.2)
+    for x in (cx - gap, cx + gap):
+        f.circ(x, yd, 2.6, fill=K)
+    for x in (cx - phys / 2, cx + phys / 2):
+        f.circ(x, yd, 3.2, fill="white")
+    f.line(cx - gap, yd, cx - 2, yd + 16, w=1.4)
+    f.line(cx + gap, yd, cx + 2, yd + 16, w=1.4)
+    f.line(cx, yd + 16, cx, yd + 26, w=2.4)
+    f.text(cx + 8, yd + 30, "pievads", anchor="start", size=10, color=MG)
+    # fiziskais garums
+    yp = yd - 24
+    for x in (cx - phys / 2, cx + phys / 2):
+        f.line(x, yd - 4, x, yp - 4, w=1, color=K)
+    f.darrow(cx - phys / 2, yp, cx + phys / 2, yp, color=K)
+    f.ltext(cx, yp + 5, "vads ≈ 20,3 m", size=12, bold=True)
+    # skaidrojumi pa labi
+    xt = xb + 40
+    f.text(xt, ye - 4, "Elektriskais garums", anchor="start", size=12, bold=True, color=BLUE)
+    f.text(xt, ye + 12, "cik viļņa garumu antenā ietilpst: λ/2", anchor="start", size=11)
+    f.text(xt, yp + 2, "Fiziskais garums", anchor="start", size=12, bold=True)
+    f.text(xt, yp + 18, "vada garums metros, ko nomēra ar mērlenti;", anchor="start", size=11)
+    f.text(xt, yp + 34, "ap 5 % īsāks: L ≈ 0,95 · λ/2", anchor="start", size=11)
+    f.save("atteli/08-2-vilna-garums.svg", "Viļņa garums; antenas elektriskais un fiziskais garums")
 
 
 # ------------------------------------------------------------------ 10.5.

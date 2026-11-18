@@ -69,7 +69,7 @@ viļņa garums metros [2]:
 
 $$\lambda\,[\text{m}] = \frac{300}{f\,[\text{MHz}]} \qquad f\,[\text{MHz}] = \frac{300}{\lambda\,[\text{m}]}$$
 
-![8.2. attēls. Viļņa garums un frekvence: jo augstāka frekvence, jo īsāks vilnis.](../atteli/08-2-vilna-garums.svg)
+![8.2. attēls. A — viļņa garums 7 MHz un 14 MHz frekvencē vienā mērogā. B — pusviļņa dipola elektriskais un fiziskais garums.](../atteli/08-2-vilna-garums.svg)
 
 > **Piemērs.** Kāds ir viļņa garums frekvencē 3,7 MHz?
 >
@@ -92,10 +92,28 @@ Diapazonu nosaukumi ir noapaļoti viļņa garumi:
 | 2 m | 145 MHz | 2,07 m |
 | 70 cm | 435 MHz | 0,69 m |
 
-> **Praktisks padoms.** Viļņa garums nosaka antenas izmēru. Vienkāršākā
-> antena, pusviļņa dipols, ir apmēram puse no viļņa garuma: 80 m diapazonam
-> ap 40 m, 2 m diapazonam ap 1 m. Tāpēc īsviļņu antenai vajag pagalmu, bet
-> 2 m diapazona antena ietilpst uz balkona. Vairāk 13. nodaļā.
+**Antenas elektriskais un fiziskais garums.** Antenas izmēru nosaka viļņa
+garums. Runājot par antenas garumu, jāšķir divi lielumi:
+
+| Lielums | Ko tas rāda | Mērvienība | Dipols 7 MHz |
+| --- | --- | --- | --- |
+| Elektriskais garums | Kāda daļa no viļņa garuma ietilpst antenā | Viļņa garuma daļas: λ/2, λ/4 | λ/2 |
+| Fiziskais garums | Cik garš ir vads, ko nomēra ar mērlenti | Metri | ≈ 20,3 m |
+
+Nosaukumi "pusviļņa dipols" un "ceturtdaļviļņa vertikālā antena" norāda
+elektrisko garumu. Fiziskais garums ir ap 5 % mazāks par aprēķināto
+λ/2, jo to ietekmē vada resnums un galu kapacitāte. To ņem vērā ar
+saīsināšanas koeficientu 0,95 (13. nodaļa).
+
+> **Piemērs.** Cik garš vads vajadzīgs pusviļņa dipolam 7 MHz frekvencē?
+>
+> 1. Viļņa garums: λ = 300 / 7 ≈ 42,9 m.
+> 2. Elektriskais garums λ/2: 42,9 / 2 ≈ 21,4 m.
+> 3. Fiziskais garums: 21,4 · 0,95 ≈ 20,3 m.
+
+> **Praktisks padoms.** 80 m diapazona dipola vads ir ap 38 m garš, bet
+> 2 m diapazona dipols — mazāk par 1 m. Tāpēc īsviļņu antenai vajag
+> pagalmu, bet 2 m diapazona antena ietilpst uz balkona. Vairāk 13. nodaļā.
 
 ## 8.4. Polarizācija
 
@@ -250,6 +268,8 @@ parasti dod vairāk nekā pastiprinātājs, un tā palīdz arī uztveršanā.
 - Radioviļņu ātrums: 300 000 km/s (3 · 10⁸ m/s).
 - f = 1 / T; T = 1 / f.
 - λ [m] = 300 / f [MHz].
+- Antenas elektriskais garums ir izteikts viļņa garumos (λ/2), fiziskais — metros;
+  pusviļņa dipola vads ir ap 5 % īsāks par λ/2.
 - Polarizāciju nosaka elektriskā lauka virziens; vertikāla antena dod
   vertikālu polarizāciju.
 - AM maina amplitūdu, FM — frekvenci, PM — fāzi.
@@ -263,8 +283,8 @@ parasti dod vairāk nekā pastiprinātājs, un tā palīdz arī uztveršanā.
 ## Pamēģini pats
 
 **1. Aprēķini savus diapazonus (10 minūtes).** Katrai B kategorijas joslai
-aprēķini viļņa garumu joslas apakšējā un augšējā malā. Cik garš būtu
-pusviļņa dipols 21,2 MHz frekvencei?
+aprēķini viļņa garumu joslas apakšējā un augšējā malā. Cik garš vads
+(fiziskais garums) vajadzīgs pusviļņa dipolam 21,2 MHz frekvencei?
 
 **2. Ieraugi modulāciju (20 minūtes).** Atver WebSDR ar "ūdenskrituma"
 (waterfall) attēlu un atrodi pa vienam signālam no katra veida. Salīdzini to
@@ -284,6 +304,7 @@ LSB uz USB. Pieraksti, kas notiek ar balsi.
   gaismas ātrumu.
 - Frekvence un periods ir apgriezti lielumi.
 - Viļņa garums metros ir 300, dalīts ar frekvenci megahercos.
+- Elektriskais garums ir antenas garums viļņa garumos, fiziskais — vada garums metros.
 - Polarizāciju nosaka antenas novietojums.
 - Modulācija uzliek informāciju uz nesēja: AM maina amplitūdu, FM frekvenci.
 - SSB ir AM bez nesēja un vienas sānjoslas; tā ir efektīva un šaura.

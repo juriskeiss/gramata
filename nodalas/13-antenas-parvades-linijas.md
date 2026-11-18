@@ -58,9 +58,9 @@ Pārrēķins ir vienkāršs: dBi = dBd + 2,15.
 
 ## 13.3. Pusviļņa dipols
 
-**Dipols** ir divi vienāda garuma vadi, kam pievads pieslēgts vidū. Kopā tie
-ir pusi viļņa gari. Tā ir vienkāršākā rezonanses antena un lieliska pirmā
-antena [1].
+**Dipols** ir divi vienāda garuma vadi, kam pievads pieslēgts vidū. Dipola
+elektriskais garums ir puse viļņa garuma (λ/2); vads ir nedaudz īsāks. Tā
+ir vienkāršākā rezonanses antena un lieliska pirmā antena [1].
 
 ![13.1. attēls. Pusviļņa dipols.](../atteli/13-1-dipols.svg)
 
