@@ -297,7 +297,7 @@ kondensatoru paralēli un atrodi frekvenci, kurā spriegums uz kontūra ir
 lielākais. Salīdzini ar aprēķinu pēc formulas.
 
 **3. Apskati barošanas bloku.** Atrodi internetā jebkura lineārā 13,8 V
-barošanas bloka shēmu un sameklē tajā četras pakāpes no 10.3. tabulas.
+barošanas bloka shēmu un sameklē tajā četras pakāpes no 10.3. apakšnodaļas tabulas.
 
 ## Kopsavilkums
 

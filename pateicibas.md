@@ -5,11 +5,12 @@ atklāti. Paldies:
   lektoriem **YL2GD, YL3MS, YL3RZ, YL3OF, YL3AQS** un **YL3QT**;
 - **Jurijam Baltinam, YL2DX** (SK), grāmatas "Radioamatierisms un amatieru
   radiosakaru prakse jautājumos un atbildēs" autoram;
-- **John Devoldere, ON4UN**, un **Mark Demeuleneere, ON4WW**, rokasgrāmatas
+- **Džonam Devolderem (John Devoldere), ON4UN**, un **Markam Demelenērem
+  (Mark Demeuleneere), ON4WW**, rokasgrāmatas
   "Radioamatieru ētika un ētera procedūras" autoriem, un **Jānim Oskaram
   Vanagam, YL3AD**, tās tulkotājam latviešu valodā;
 - **Andrim Bruņeniekam, YL2FD**, vietnes hamradio.lv autoram;
-- **Randy Johnson, W6SJ** (SK), DX uzvedības kodeksa (DX Code of Conduct)
+- **Rendijam Džonsonam (Randy Johnson), W6SJ** (SK), DX uzvedības kodeksa (DX Code of Conduct)
   sākotnējam autoram;
 - **IARU 1. reģiona** joslu plāna sagatavotājiem;
 - **SIA "Elektroniskie sakari"**, radioamatieru eksāmena materiālu

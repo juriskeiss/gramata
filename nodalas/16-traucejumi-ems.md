@@ -136,7 +136,7 @@ pieraksti.
    pa elektrotīklu vai no paša raidītāja, nevis no antenas.
 5. **Aprēķini harmonikas.** Pārbaudi, vai kāda no tām sakrīt ar traucēto
    frekvenci.
-6. **Pārbaudi ceļu** pie traucētās ierīces pēc 16.3. tabulas.
+6. **Pārbaudi ceļu** pie traucētās ierīces pēc 16.3. apakšnodaļas tabulas.
 7. **Liec līdzekli** atbilstoši atrastajam cēlonim un pārbaudi vēlreiz.
 
 > **Piemērs.** Kaimiņa datora skaļruņos dzirdama tava balss, kad raidi SSB

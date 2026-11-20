@@ -304,7 +304,7 @@ Katru reizi pieraksti:
 - [ ] no kurām valstīm tās ir;
 - [ ] kurā diapazonā ir vairāk trokšņu.
 
-Salīdzini ar 14.5. tabulu.
+Salīdzini ar 14.5. apakšnodaļas tabulu.
 
 **2. Atrodi mirušo zonu (15 minūtes).** Dienā 15 m diapazonā pieraksti desmit
 dzirdēto staciju valstis. Kura ir tuvākā? Cik tālu tā ir no uztvērēja?

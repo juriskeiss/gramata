@@ -108,7 +108,8 @@ radioamatieru eksāmenu.
 
 Nokārtojot eksāmenu, tu saņem **Iesācēja radioamatiera eksaminācijas
 apliecību** [2]. Tā apliecina zināšanas, bet raidīt vēl neļauj. Lai raidītu,
-vajadzīga **radiostacijas atļauja**.
+vajadzīga **radiostacijas atļauja**. Sarunvalodā radiostacijas atļauju bieži
+sauc par licenci.
 
 | Dokuments | Ko tas apliecina | Kā to iegūst |
 | --- | --- | --- |

@@ -65,6 +65,14 @@ Ciparu darba veidiem ir vispārpieņemtas frekvences, kur satiekas visi.
 FT8 frekvences B kategorijas diapazonos ir 3,573 MHz, 7,074 MHz, 21,074 MHz
 un 28,074 MHz.
 
+**2 m diapazonā** jāatceras trīs lietas [4]:
+
+- 145,500 MHz ir FM izsaukuma frekvence: tajā izsauc un pāriet uz citu;
+- atkārtotāju frekvences nelieto tiešiem sakariem;
+- diapazona apakšējā daļa ir vāju signālu sakariem (CW, SSB), tur FM neraida.
+
+![6.3. attēls. 2 m diapazons: vienkāršots joslu plāns.](../atteli/06-3-2m-josla.svg)
+
 ## 6.3. SSB sānjoslas izvēle
 
 SSB signālam ir divi varianti, un katrā diapazonā visi lieto vienu un to pašu, lai
@@ -75,18 +83,10 @@ saprastos:
 | Zem 10 MHz (80 m, 40 m) | LSB — apakšējā |
 | Virs 10 MHz (15 m, 10 m, VHF un UHF) | USB — augšējā |
 
-![6.3. attēls. LSB un USB signāls pret noskaņoto frekvenci.](../atteli/06-3-lsb-usb.svg)
+![6.4. attēls. LSB un USB signāls pret noskaņoto frekvenci.](../atteli/06-4-lsb-usb.svg)
 
 Ja balss skan kā nesaprotama murmulēšana, visticamāk, esi izvēlējies nepareizo
 sānjoslu.
-
-**2 m diapazonā** jāatceras trīs lietas [4]:
-
-- 145,500 MHz ir FM izsaukuma frekvence: tajā izsauc un pāriet uz citu;
-- atkārtotāju frekvences nelieto tiešiem sakariem;
-- diapazona apakšējā daļa ir vāju signālu sakariem (CW, SSB), tur FM neraida.
-
-![6.4. attēls. 2 m diapazons: vienkāršots joslu plāns.](../atteli/06-4-2m-josla.svg)
 
 ## 6.4. Ētikas pamatprincipi
 
@@ -173,7 +173,7 @@ pārskati 80 m diapazonu no 3500 līdz 3800 kHz. Atzīmē uz lapas:
 - [ ] kur ir ciparu darba veidu signāli (raksturīga čirkstēšana ap 3573 kHz);
 - [ ] kur sākas balss sakari.
 
-Salīdzini ar 6.2. tabulu.
+Salīdzini ar 6.2. apakšnodaļas tabulu.
 
 **2. Noklausies pile-up (15 minūtes).** DX klasterī (piemēram, meklējot
 "DX cluster") atrodi retu staciju un paklausies, kā to sauc. Pieraksti vienu

@@ -233,7 +233,7 @@ def f06_2():
         f.darrow(a, y + 26, b, y + 26)
         f.text((a + b) / 2, y + 44, "≈ 3 kHz", size=12)
     f.line(390, 30, 390, 230, dash="3 5", w=1, color=MG)
-    f.save("atteli/06-3-lsb-usb.svg", "LSB un USB signāls pret noskaņoto frekvenci")
+    f.save("atteli/06-4-lsb-usb.svg", "LSB un USB signāls pret noskaņoto frekvenci")
 
 
 def _polar(f, cx, cy, R, rfun, n=360):

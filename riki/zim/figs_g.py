@@ -151,7 +151,7 @@ def f06_4():
     for m, t, y, c in marks:
         f.line(fx(m), yb2 + 26, fx(m), y - 14, dash="2 3", w=1, color=c)
         f.text(fx(m), y, t, size=11, bold=(c == GREEN), color=c, anchor="end" if m > 145.4 else "middle")
-    f.save("atteli/06-4-2m-josla.svg", "2 m diapazons: vienkāršots joslu plāns")
+    f.save("atteli/06-3-2m-josla.svg", "2 m diapazons: vienkāršots joslu plāns")
 
 
 # ------------------------------------------------------------------ 7.3.

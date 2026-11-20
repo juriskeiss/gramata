@@ -111,10 +111,11 @@ sānjoslas. To dara ar filtra metodi [1].
 | 2 | SSB atbalsta ģenerators | Nemainīga frekvence, piemēram, 9 MHz |
 | 3 | Balansēts jaucējs (balansa modulators) | Abas sānjoslas, nesējs nomākts |
 | 4 | SSB filtrs | Viena sānjosla; otru filtrs aiztur |
-| 5 | Diapazonu jaucējs ar diapazonu VFO | SSB signāls, pārnests uz darba frekvenci |
-| 6 | Diapazonu joslas filtri | Tikai vajadzīgā jaucēja izejas frekvence |
-| 7 | Pastiprinātāji un lineārais izejas pastiprinātājs | Tas pats signāls ar pilnu jaudu |
-| 8 | Zemo frekvenču filtrs | Signāls bez harmonikām |
+| 5 | Pastiprinātājs | Pastiprināta viena sānjosla |
+| 6 | Diapazonu jaucējs ar diapazonu VFO | SSB signāls, pārnests uz darba frekvenci |
+| 7 | Diapazonu joslas filtri | Tikai vajadzīgā jaucēja izejas frekvence |
+| 8 | Pastiprinātāji un lineārais izejas pastiprinātājs | Tas pats signāls ar pilnu jaudu |
+| 9 | Zemo frekvenču filtrs | Signāls bez harmonikām |
 
 Divi bloki ir jauni:
 
@@ -234,7 +235,7 @@ stāsta 16. nodaļa.
 ## Pamēģini pats
 
 **1. Saliec blokshēmu (15 minūtes).** Uz atsevišķām lapiņām uzraksti SSB
-raidītāja astoņus blokus, sajauc un saliec pareizā secībā. Tad pie katra
+raidītāja deviņus blokus, sajauc un saliec pareizā secībā. Tad pie katra
 pasaki skaļi, kas ir tā izejā.
 
 **2. Ieraugi pārmodulāciju (15 minūtes).** WebSDR ūdenskrituma attēlā

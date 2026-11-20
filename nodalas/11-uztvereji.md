@@ -226,7 +226,7 @@ pieslēgts internetam. Arī lielākā daļa mūsdienu transīveru iekšpusē ir 
 
 **1. Uzzīmē no galvas (10 minūtes).** Aizver grāmatu un uzzīmē
 superheterodīna blokshēmu ar visiem septiņiem blokiem. Pie katra pieraksti
-vienu vārdu, ko tas dara. Salīdzini ar 11.4. tabulu.
+vienu vārdu, ko tas dara. Salīdzini ar 11.4. apakšnodaļas tabulu.
 
 **2. Izmēģini filtrus (15 minūtes).** WebSDR uztvērējā noskaņojies uz SSB
 sakaru un maini filtra platumu:

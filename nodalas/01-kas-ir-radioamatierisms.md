@@ -259,7 +259,7 @@ bet klausīties drīkst ikviens. Pieraksti:
 
 11. Nosauc trīs lietas, ko radioamatieris ēterā nedara, un vienai no tām
     paskaidro, kāpēc šāds aizliegums ir vajadzīgs.
-12. Kurš sakaru veids no 1.6. tabulas tevi interesē visvairāk un kāpēc?
+12. Kurš sakaru veids no 1.6. apakšnodaļas tabulas tevi interesē visvairāk un kāpēc?
 
 ## Atbildes
 
