@@ -190,19 +190,20 @@ vērtības [1].
 >
 > 1. Virknē saskaita: 12 + 9 = 21 mH.
 
-**Savstarpējā induktivitāte.** Ja spoles atrodas tuvu, vienas spoles
-magnētiskais lauks šķērso otru. Šo saiti raksturo **savstarpējā
-induktivitāte** M; to arī mēra henrijos. Virknes slēgumā [1]:
+**Savstarpējā induktivitāte.** Ja spoles atrodas tuvu, daļa vienas spoles
+magnētiskās plūsmas iet cauri otrai spolei — spoles ir **induktīvi
+saistītas**. Šo saiti raksturo **savstarpējā induktivitāte** M; to arī mēra
+henrijos. Virknes slēgumā [1]:
 
 $$L_{kop} = L_1 + L_2 \pm 2M$$
 
 Zīme atkarīga no tā, kā tinumi saslēgti (9.5. attēls). Shēmās tinuma sākumu
 apzīmē ar **punktu**:
 
-- strāva abās spolēs ieplūst pa punktoto galu — lauki pastiprina viens otru,
-  **+2M**;
-- vienā spolē pa punktoto, otrā pa nepunktoto galu — lauki vājina viens otru,
-  **−2M**.
+- strāva abās spolēs ieplūst pa punktoto galu — **saskaņotais slēgums**,
+  magnētiskās plūsmas saskaitās, **+2M**;
+- vienā spolē pa punktoto, otrā pa nepunktoto galu — **pretslēgums**,
+  magnētiskās plūsmas atņemas, **−2M**.
 
 ![9.5. attēls. Savstarpējā induktivitāte: divas virknē slēgtas spoles ar saskaņotiem un pretējiem tinumiem.](../atteli/09-5-savstarpeja-induktivitate.svg)
 

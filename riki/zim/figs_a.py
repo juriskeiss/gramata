@@ -302,8 +302,8 @@ def _subtext(f, cx, y, parts, size=14, bold=False, italic=False):
 def f09_5m():
     """9.5. attēls: savstarpējā induktivitāte, divas virknē slēgtas spoles."""
     f = Fig(780, 300)
-    panels = [(200, "(a) Lauki pastiprina viens otru", False, "+"),
-              (580, "(b) Lauki vājina viens otru", True, "−")]
+    panels = [(200, "(a) Saskaņotais slēgums", False, "+"),
+              (580, "(b) Pretslēgums", True, "−")]
     y = 130
     for cx, title, opposite, formula in panels:
         f.text(cx, 28, title, size=14, bold=True)
@@ -322,17 +322,14 @@ def f09_5m():
         f.circ(x1 - h1 + 2, y - 14, 3.5, fill=K)
         dx2 = (x2 + h2 - 2) if opposite else (x2 - h2 + 2)
         f.circ(dx2, y - 14, 3.5, fill=K)
-        # savstarpējā induktivitāte
-        f.darrow(x1, y - 46, x2, y - 46, w=1.2)
-        f.text(cx, y - 54, "M", italic=True, size=15, bold=True)
-        # magnētiskā lauka virziens
+        # magnētiskās plūsmas virziens
         yb = y + 62
         f.arrow(x1 - h1, yb, x1 + h1, yb, w=2.2, color=BLUE)
         if opposite:
             f.arrow(x2 + h2, yb, x2 - h2, yb, w=2.2, color=BLUE)
         else:
             f.arrow(x2 - h2, yb, x2 + h2, yb, w=2.2, color=BLUE)
-        f.text(cx, yb + 24, "magnētiskais lauks", size=11, italic=True, color=BLUE)
+        f.text(cx, yb + 24, "magnētiskās plūsmas saskaitās" if not opposite else "magnētiskās plūsmas atņemas", size=11, italic=True, color=BLUE)
         _subtext(f, cx, 270, [("L", 0), ("kop", 1), (" = ", 0), ("L", 0), ("1", 1), (" + ", 0), ("L", 0), ("2", 1),
                              (f" {formula} ", 0), ("2M", 0)],
                  size=15, bold=True)

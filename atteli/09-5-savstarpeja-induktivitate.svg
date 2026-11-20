@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 300" width="780" height="300" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
 <title>Savstarpējā induktivitāte: virknē slēgtas spoles ar saskaņotiem un pretējiem tinumiem</title>
 <rect x="0" y="0" width="780" height="300" fill="white"/>
-<text x="200.0" y="28.0" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">(a) Lauki pastiprina viens otru</text>
+<text x="200.0" y="28.0" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">(a) Saskaņotais slēgums</text>
 <path d="M 112.0 130.0 a 7 7 0 0 1 14 0 a 7 7 0 0 1 14 0 a 7 7 0 0 1 14 0 a 7 7 0 0 1 14 0 " fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M 232.0 130.0 a 7 7 0 0 1 14 0 a 7 7 0 0 1 14 0 a 7 7 0 0 1 14 0 a 7 7 0 0 1 14 0 " fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="40.0" y1="130.0" x2="112.0" y2="130.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
@@ -18,16 +18,11 @@
 <text x="261.2" y="167.5" text-anchor="start" font-size="9.799999999999999" fill="#111111" font-style="italic">2</text>
 <circle cx="114.0" cy="116.0" r="3.5" fill="#111111" stroke="#111111" stroke-width="1.6"/>
 <circle cx="234.0" cy="116.0" r="3.5" fill="#111111" stroke="#111111" stroke-width="1.6"/>
-<line x1="140.0" y1="84.0" x2="255.8" y2="84.0" stroke="#111111" stroke-width="1.2" stroke-linecap="round"/>
-<polygon points="260.0,84.0 253.6,86.9 253.6,81.1" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
-<line x1="260.0" y1="84.0" x2="144.2" y2="84.0" stroke="#111111" stroke-width="1.2" stroke-linecap="round"/>
-<polygon points="140.0,84.0 146.4,81.1 146.4,86.9" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
-<text x="200.0" y="76.0" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold" font-style="italic">M</text>
 <line x1="112.0" y1="192.0" x2="162.6" y2="192.0" stroke="#1e5aa8" stroke-width="2.2" stroke-linecap="round"/>
 <polygon points="168.0,192.0 159.8,195.7 159.8,188.3" fill="#1e5aa8" stroke="#1e5aa8" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
 <line x1="232.0" y1="192.0" x2="282.6" y2="192.0" stroke="#1e5aa8" stroke-width="2.2" stroke-linecap="round"/>
 <polygon points="288.0,192.0 279.8,195.7 279.8,188.3" fill="#1e5aa8" stroke="#1e5aa8" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
-<text x="200.0" y="216.0" text-anchor="middle" font-size="11" fill="#1e5aa8" font-style="italic">magnētiskais lauks</text>
+<text x="200.0" y="216.0" text-anchor="middle" font-size="11" fill="#1e5aa8" font-style="italic">magnētiskās plūsmas saskaitās</text>
 <text x="133.0" y="270.0" text-anchor="start" font-size="15" fill="#111111" font-weight="bold">L</text>
 <text x="142.3" y="273.8" text-anchor="start" font-size="10.5" fill="#111111" font-weight="bold">kop</text>
 <text x="166.4" y="270.0" text-anchor="start" font-size="15" fill="#111111" font-weight="bold">=</text>
@@ -38,7 +33,7 @@
 <text x="223.6" y="273.8" text-anchor="start" font-size="10.5" fill="#111111" font-weight="bold">2</text>
 <text x="234.6" y="270.0" text-anchor="start" font-size="15" fill="#111111" font-weight="bold">+</text>
 <text x="248.4" y="270.0" text-anchor="start" font-size="15" fill="#111111" font-weight="bold">2M</text>
-<text x="580.0" y="28.0" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">(b) Lauki vājina viens otru</text>
+<text x="580.0" y="28.0" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">(b) Pretslēgums</text>
 <path d="M 492.0 130.0 a 7 7 0 0 1 14 0 a 7 7 0 0 1 14 0 a 7 7 0 0 1 14 0 a 7 7 0 0 1 14 0 " fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M 612.0 130.0 a 7 7 0 0 1 14 0 a 7 7 0 0 1 14 0 a 7 7 0 0 1 14 0 a 7 7 0 0 1 14 0 " fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="420.0" y1="130.0" x2="492.0" y2="130.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
@@ -55,16 +50,11 @@
 <text x="641.2" y="167.5" text-anchor="start" font-size="9.799999999999999" fill="#111111" font-style="italic">2</text>
 <circle cx="494.0" cy="116.0" r="3.5" fill="#111111" stroke="#111111" stroke-width="1.6"/>
 <circle cx="666.0" cy="116.0" r="3.5" fill="#111111" stroke="#111111" stroke-width="1.6"/>
-<line x1="520.0" y1="84.0" x2="635.8" y2="84.0" stroke="#111111" stroke-width="1.2" stroke-linecap="round"/>
-<polygon points="640.0,84.0 633.6,86.9 633.6,81.1" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
-<line x1="640.0" y1="84.0" x2="524.2" y2="84.0" stroke="#111111" stroke-width="1.2" stroke-linecap="round"/>
-<polygon points="520.0,84.0 526.4,81.1 526.4,86.9" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
-<text x="580.0" y="76.0" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold" font-style="italic">M</text>
 <line x1="492.0" y1="192.0" x2="542.6" y2="192.0" stroke="#1e5aa8" stroke-width="2.2" stroke-linecap="round"/>
 <polygon points="548.0,192.0 539.8,195.7 539.8,188.3" fill="#1e5aa8" stroke="#1e5aa8" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
 <line x1="668.0" y1="192.0" x2="617.4" y2="192.0" stroke="#1e5aa8" stroke-width="2.2" stroke-linecap="round"/>
 <polygon points="612.0,192.0 620.2,188.3 620.2,195.7" fill="#1e5aa8" stroke="#1e5aa8" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
-<text x="580.0" y="216.0" text-anchor="middle" font-size="11" fill="#1e5aa8" font-style="italic">magnētiskais lauks</text>
+<text x="580.0" y="216.0" text-anchor="middle" font-size="11" fill="#1e5aa8" font-style="italic">magnētiskās plūsmas atņemas</text>
 <text x="513.0" y="270.0" text-anchor="start" font-size="15" fill="#111111" font-weight="bold">L</text>
 <text x="522.3" y="273.8" text-anchor="start" font-size="10.5" fill="#111111" font-weight="bold">kop</text>
 <text x="546.4" y="270.0" text-anchor="start" font-size="15" fill="#111111" font-weight="bold">=</text>

@@ -59,7 +59,7 @@ skaidrots plašāk.
 | Rezonanse | Resonance | Stāvoklis, kurā X_L = X_C (10.) |
 | RST | RST | Signāla ziņojums: saprotamība, stiprums, tonis (5.) |
 | S metrs | S meter | Signāla stipruma mērītājs uztvērējā (5., 11.) |
-| Savstarpējā induktivitāte | Mutual inductance, M | Divu tuvu spoļu magnētiskā saite; virknē L_kop = L1 + L2 ± 2M (9.) |
+| Savstarpējā induktivitāte | Mutual inductance, M | Lielums, kas raksturo induktīvi saistītu spoļu saiti: daļa vienas spoles magnētiskās plūsmas iet cauri otrai; virknē L_kop = L1 + L2 ± 2M (+ saskaņotajā slēgumā, − pretslēgumā) (9.) |
 | SDR | Software defined radio | Radio, kurā signālu apstrādā programma (11.) |
 | Selektivitāte | Selectivity | Spēja atdalīt vajadzīgo signālu no blakus esošajiem (11.) |
 | Slodzes ekvivalents | Dummy load | 50 Ω rezistors, kas aizstāj antenu un neizstaro (15.) |
