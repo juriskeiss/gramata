@@ -17,7 +17,6 @@ import html
 import re
 import subprocess
 import sys
-from datetime import date
 from pathlib import Path
 
 SAKNE = Path(__file__).resolve().parent.parent
@@ -32,6 +31,8 @@ from qr import qr_svg  # noqa: E402
 
 GRAMATA = "No nulles līdz izsaukuma signālam"
 APAKSV = "Mācību grāmata radioamatiera B kategorijai"
+VERSIJA = "0.1"            # izdotās versijas numurs; pirms nākamās izdošanas palielina
+IZDOTS = "20.11.2026."     # versijas izdošanas datums
 _LOGO = DIZ / "lral-logo.png"
 if not _LOGO.exists() and _LOGO.with_suffix(".png.b64").exists():
     # projektā zīme glabājas kā base64 teksts; atjauno PNG pirms būvēšanas
@@ -170,7 +171,7 @@ def tituls() -> str:
   <div class="svitra"></div>
   <div class="kolofons">
     <div><b>Izdevējs</b><p>Latvijas Radioamatieru līga (LRAL), lral.lv</p></div>
-    <div><b>Versija</b><p>Melnraksts, {date.today().strftime("%d.%m.%Y.")}</p></div>
+    <div><b>Versija</b><p>{VERSIJA}, {IZDOTS}</p></div>
     <div><b>Licence</b><p>CC BY-NC-SA 4.0. Grāmatu drīkst lietot, pielāgot un uzlabot, ja norāda
       autoru, nelieto komerciāliem mērķiem un savu versiju izdod ar to pašu licenci.</p></div>
     <div><b>Mākslīgā intelekta izmantošana</b><p>Grāmatas sagatavošanā izmantots mākslīgā

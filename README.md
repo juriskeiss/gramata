@@ -89,7 +89,17 @@ Rezultāts ir `izvade/gramata.pdf`.
 
 Grāmatas nosaukums un apakšvirsraksts ir `riki/makets.py` (konstantes
 `GRAMATA` un `APAKSV`); no tiem tiek ņemts titullapas, lapu kājenes un PDF
-nosaukums.
+nosaukums. Versijas numurs un izdošanas datums titullapā ir konstantes
+`VERSIJA` un `IZDOTS` tajā pašā failā.
+
+## Versijas
+
+| Versija | Datums | Saturs |
+| --- | --- | --- |
+| 0.1 | 20.11.2026. | Pirmā pilnā versija: 19 nodaļas, A–H pielikums, pateicības; pēc YL2FD, YL2GD, YL3MS, YL3OI un YL2SM recenzijām un divām pilnām pārbaudēm. Git birka `v0.1`, PDF — `no-nulles-lidz-izsaukuma-signalam.pdf`. |
+
+Izdodot jaunu versiju: palielina `VERSIJA`, ieraksta `IZDOTS`, papildina šo
+tabulu, uzbūvē PDF, veic commit un pieliek birku `vX.Y`.
 
 ## Kā labot
 
