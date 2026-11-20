@@ -10,8 +10,8 @@
 <text x="210.0" y="91.8" text-anchor="middle" font-size="12" fill="#111111">bloks</text>
 <line x1="210.0" y1="104.0" x2="210.0" y2="176.0" stroke="#2f7a4b" stroke-width="2.4" stroke-linecap="round"/>
 <rect x="288.0" y="56.0" width="104.0" height="48.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
-<text x="340.0" y="76.8" text-anchor="middle" font-size="12" fill="#111111">Antenu</text>
-<text x="340.0" y="91.8" text-anchor="middle" font-size="12" fill="#111111">skaņotājs</text>
+<text x="340.0" y="76.8" text-anchor="middle" font-size="12" fill="#111111">Antenas</text>
+<text x="340.0" y="91.8" text-anchor="middle" font-size="12" fill="#111111">salāgotājs</text>
 <line x1="340.0" y1="104.0" x2="340.0" y2="176.0" stroke="#2f7a4b" stroke-width="2.4" stroke-linecap="round"/>
 <rect x="40.0" y="176.0" width="340.0" height="12.0" rx="2" fill="#c47a3a" stroke="#7a4316" stroke-width="1.6"/>
 <text x="210.0" y="208.0" text-anchor="middle" font-size="12" fill="#111111" font-style="italic">zemējuma kopne</text>
@@ -28,8 +28,8 @@
 <text x="610.0" y="76.8" text-anchor="middle" font-size="12" fill="#111111">Barošanas</text>
 <text x="610.0" y="91.8" text-anchor="middle" font-size="12" fill="#111111">bloks</text>
 <rect x="680.0" y="56.0" width="100.0" height="48.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
-<text x="730.0" y="76.8" text-anchor="middle" font-size="12" fill="#111111">Antenu</text>
-<text x="730.0" y="91.8" text-anchor="middle" font-size="12" fill="#111111">skaņotājs</text>
+<text x="730.0" y="76.8" text-anchor="middle" font-size="12" fill="#111111">Antenas</text>
+<text x="730.0" y="91.8" text-anchor="middle" font-size="12" fill="#111111">salāgotājs</text>
 <path d="M 490 104 C 490 140, 610 140, 610 104" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M 610 104 C 610 140, 730 140, 730 104" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="730.0" y1="104.0" x2="730.0" y2="190.0" stroke="#111111" stroke-width="2" stroke-linecap="round"/>

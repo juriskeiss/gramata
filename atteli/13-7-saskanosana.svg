@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
-<title>SWR mērītāja, antenas skaņotāja un baluna vieta stacijā</title>
+<title>SWR mērītāja, antenas salāgotāja un baluna vieta stacijā</title>
 <rect x="0" y="0" width="800" height="300" fill="white"/>
 <rect x="28.0" y="144.0" width="104.0" height="52.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
 <text x="80.0" y="174.3" text-anchor="middle" font-size="12" fill="#111111">Transīvers</text>
@@ -8,7 +8,7 @@
 <text x="210.0" y="181.8" text-anchor="middle" font-size="12" fill="#111111">mērītājs</text>
 <rect x="293.0" y="144.0" width="104.0" height="52.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
 <text x="345.0" y="166.8" text-anchor="middle" font-size="12" fill="#111111">Antenas</text>
-<text x="345.0" y="181.8" text-anchor="middle" font-size="12" fill="#111111">skaņotājs</text>
+<text x="345.0" y="181.8" text-anchor="middle" font-size="12" fill="#111111">salāgotājs</text>
 <line x1="132.0" y1="170.0" x2="152.6" y2="170.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
 <polygon points="158.0,170.0 149.8,173.7 149.8,166.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
 <line x1="262.0" y1="170.0" x2="287.6" y2="170.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
@@ -27,7 +27,7 @@
 <text x="212.0" y="256.8" text-anchor="middle" font-size="11" fill="#2f7a4b">raidītājs dod pilnu jaudu</text>
 <polyline points="397.0,216.0 397.0,224.0 606.0,224.0 606.0,216.0" fill="none" stroke="#b45309" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
 <text x="505.0" y="243.1" text-anchor="middle" font-size="11" fill="#b45309">stāvviļņi un zudumi kabelī paliek —</text>
-<text x="505.0" y="256.8" text-anchor="middle" font-size="11" fill="#b45309">skaņotājs antenu nelabo</text>
+<text x="505.0" y="256.8" text-anchor="middle" font-size="11" fill="#b45309">salāgotājs antenu nelabo</text>
 <text x="730.0" y="165.1" text-anchor="middle" font-size="10" fill="#111111" font-style="italic">neļauj strāvai</text>
 <text x="730.0" y="177.6" text-anchor="middle" font-size="10" fill="#111111" font-style="italic">plūst pa kabeļa</text>
 <text x="730.0" y="190.1" text-anchor="middle" font-size="10" fill="#111111" font-style="italic">apvalka ārpusi</text>

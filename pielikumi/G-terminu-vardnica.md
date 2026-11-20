@@ -7,10 +7,11 @@ skaidrots plašāk.
 | --- | --- | --- |
 | AGC | Automatic gain control | Automātiskā pastiprinājuma regulēšana uztvērējā (11.) |
 | Amplitūdas modulācija (AM) | Amplitude modulation | Informācija maina nesēja amplitūdu (8.) |
-| Antenu skaņotājs | Antenna tuner, ATU | Ierīce, kas saskaņo antenas pretestību ar raidītāju (13.) |
+| Antenas salāgotājs | Antenna tuner, ATU | Ierīce, kas salāgo antenas sistēmas pretestību ar raidītāja izejas pretestību, parasti 50 Ω (13.) |
 | Apliecība | Certificate | Dokuments par nokārtotu eksāmenu; raidīt vēl neļauj (2.) |
 | Atkārtotājs | Repeater | Neapkalpojama stacija, kas signālu uztver un tūlīt raida citā frekvencē (5.) |
 | Atļauja | Licence | Tiesības lietot radiostaciju ar konkrētu izsaukuma signālu (2., 3.) |
+| Atstarojums (jonosfērā) | Hop | Signāla ceļš no Zemes līdz jonosfērai un atpakaļ; no F slāņa līdz 3000–4000 km (14.) |
 | Baluns | Balun | Savieno simetrisku antenu ar nesimetrisku kabeli (13.) |
 | Blakusizstarojums | Spurious emission | Nevēlams izstarojums ārpus vajadzīgās joslas (4., 12.) |
 | CW | Continuous wave | Telegrāfs ar Morzes kodu (8.) |
@@ -40,6 +41,7 @@ skaidrots plašāk.
 | Koaksiālais kabelis | Coaxial cable | Nesimetriska pārvades līnija ar centrālo vadu un ekrānu (13.) |
 | Lokators | Locator | Maidenhead burtu un ciparu kods vietai uz kartes: lauks, kvadrāts, apakškvadrāts, piemēram, KO26bw (5.) |
 | LSB, USB | Lower / upper sideband | Apakšējā un augšējā sānjosla (6., 8.) |
+| Maiņkondensators | Variable capacitor | Kondensators, kura kapacitāti var mainīt; lieto kontūros un antenu salāgotājos (9.) |
 | Mirusī zona | Skip zone | Apgabals, kuru nesasniedz ne zemes, ne telpas vilnis (14.) |
 | Modulācija | Modulation | Informācijas uzlikšana nesējam (8.) |
 | Nesējs | Carrier | Augstfrekvences signāls, kas nes informāciju (8.) |
@@ -57,6 +59,7 @@ skaidrots plašāk.
 | Rezonanse | Resonance | Stāvoklis, kurā X_L = X_C (10.) |
 | RST | RST | Signāla ziņojums: saprotamība, stiprums, tonis (5.) |
 | S metrs | S meter | Signāla stipruma mērītājs uztvērējā (5., 11.) |
+| Savstarpējā induktivitāte | Mutual inductance, M | Divu tuvu spoļu magnētiskā saite; virknē L_kop = L1 + L2 ± 2M (9.) |
 | SDR | Software defined radio | Radio, kurā signālu apstrādā programma (11.) |
 | Selektivitāte | Selectivity | Spēja atdalīt vajadzīgo signālu no blakus esošajiem (11.) |
 | Slodzes ekvivalents | Dummy load | 50 Ω rezistors, kas aizstāj antenu un neizstaro (15.) |

@@ -41,28 +41,56 @@ def f03_1():
 
 # ------------------------------------------------------------------ 5.4.
 def f05_4():
-    f = Fig(760, 380)
-    f.rect(40, 20, 680, 340, rx=10, fill="white", sw=1.6)
-    f.rect(40, 20, 680, 80, rx=10, fill=BRICK_T, sw=0, color=BRICK_T)
-    f.line(40, 100, 720, 100, w=1, color=BRICK)
-    f.text(70, 76, "YL3ABC", anchor="start", size=40, bold=True, color=BRICK)
-    f.mtext(560, 60, "Operatore Anna · Rīga, Latvija\nWW lokators KO26 · ITU 29 · CQ 15", size=12)
-    f.text(70, 136, "Apstiprinu sakaru ar  ON3DXY", anchor="start", size=15, bold=True)
-    heads = ["Datums", "UTC", "MHz", "Veids", "RST"]
-    vals = ["2026-03-14", "14:32", "21,285", "SSB", "59"]
-    xs = [70, 230, 340, 460, 570, 690]
-    y = 170
-    f.rect(60, y - 4, 640, 64, rx=0, fill="none", sw=1.2)
-    for i, (h, v) in enumerate(zip(heads, vals)):
-        f.text((xs[i] + xs[i + 1]) / 2 - 6, y + 18, h, size=12, bold=True, color="#555")
-        f.text((xs[i] + xs[i + 1]) / 2 - 6, y + 48, v, size=15)
+    # Kartīte 140 × 90 mm (IARU), mērogs 5 vienības = 1 mm
+    f = Fig(760, 500)
+    X0, Y0, W, H = 30, 15, 700, 450
+    f.rect(X0, Y0, W, H, rx=8, fill="white", sw=1.6)
+    # galva: izsaukuma signāls un valsts
+    f.rect(X0, Y0, W, 110, rx=8, fill=BRICK_T, sw=0, color=BRICK_T)
+    f.rect(X0, Y0 + 100, W, 10, rx=0, fill=BRICK_T, sw=0, color=BRICK_T)
+    f.line(X0, Y0 + 110, X0 + W, Y0 + 110, w=1, color=BRICK)
+    f.text(60, 82, "YL3ABC", anchor="start", size=48, bold=True, color=BRICK)
+    f.text(62, 110, "LATVIA", anchor="start", size=15, bold=True)
+    # To Radio lodziņš
+    f.rect(470, 38, 230, 64, rx=0, fill="white", sw=1.2)
+    f.text(482, 56, "TO RADIO", anchor="start", size=10, bold=True, color="#555")
+    f.text(585, 90, "ON3DXY", size=26, bold=True)
+    # stacijas dati
+    f.text(60, 152, "Op. Anna · Riga", anchor="start", size=13)
+    f.text(60, 174, "Locator KO26bw · ITU Zone 29 · CQ Zone 15", anchor="start", size=13)
+    # sakara dati
+    f.text(60, 210, "Confirming our QSO", anchor="start", size=15, bold=True)
+    heads = ["Day", "Month", "Year", "UTC", "MHz", "2-way", "RST"]
+    vals = ["14", "MAR", "2026", "14:32", "21.285", "SSB", "59"]
+    widths = [70, 85, 85, 95, 110, 95, 100]
+    x, y, hh, vh = 60, 222, 28, 44
+    f.rect(x, y, sum(widths), hh + vh, rx=0, fill="none", sw=1.2)
+    f.rect(x, y, sum(widths), hh, rx=0, fill="#f7f7f8", sw=0, color="#f7f7f8")
+    f.rect(x, y, sum(widths), hh + vh, rx=0, fill="none", sw=1.2)
+    f.line(x, y + hh, x + sum(widths), y + hh, w=1)
+    for i, (h, v, w) in enumerate(zip(heads, vals, widths)):
         if i:
-            f.line(xs[i] - 8, y - 4, xs[i] - 8, y + 60, w=1)
-    f.line(60, y + 26, 700, y + 26, w=1)
-    f.text(70, 270, "☐ PSE QSL   ☒ TNX QSL", anchor="start", size=13)
-    f.text(70, 300, "Transīvers 100 W, dipols", anchor="start", size=12, italic=True)
-    f.text(690, 300, "73!", anchor="end", size=22, bold=True, color=BRICK)
-    f.text(380, 345, "Parauga kartīte 5.5. un 5.6. apakšnodaļas piemēram; stacija ir izdomāta", size=11, italic=True, color="#555")
+            f.line(x, y, x, y + hh + vh, w=1)
+        f.text(x + w / 2, y + 19, h, size=12, bold=True, color="#555")
+        f.text(x + w / 2, y + hh + 30, v, size=17)
+        x += w
+    # pieprasījums un ceļš: rūtiņas zīmētas, nevis ar ☐/☒ rakstzīmēm
+    def tick(x, y, label, on, anchor_end=False):
+        f.rect(x, y - 13, 14, 14, rx=0, fill="white", sw=1.2)
+        if on:
+            f.line(x + 2, y - 11, x + 12, y - 1, w=1.6)
+            f.line(x + 12, y - 11, x + 2, y - 1, w=1.6)
+        f.text(x + 22, y, label, anchor="start", size=14)
+    tick(60, 332, "PSE QSL", False)
+    tick(190, 332, "TNX QSL", True)
+    tick(480, 332, "via Bureau", True)
+    tick(620, 332, "Direct", False)
+    f.text(60, 366, "Rig: 100 W · Ant: Dipole", anchor="start", size=13, italic=True)
+    f.text(700, 370, "73!", anchor="end", size=26, bold=True, color=BRICK)
+    f.text(700, 392, "Op. Anna", anchor="end", size=12, italic=True)
+    # apakšējā josla (~12 mm) paliek tukša maršruta norādēm
+    f.text(380, 490, "Parauga kartīte (140 × 90 mm) 5.5. un 5.6. apakšnodaļas piemēram; stacija ir izdomāta",
+           size=11, italic=True, color="#555")
     f.save("atteli/05-4-qsl-kartite.svg", "QSL kartītes paraugs")
 
 

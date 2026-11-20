@@ -168,7 +168,7 @@ def f10_6():
 def f13_7():
     f = Fig(800, 300)
     y = 170
-    boxes = [(80, "Transīvers"), (210, "SWR\nmērītājs"), (345, "Antenas\nskaņotājs")]
+    boxes = [(80, "Transīvers"), (210, "SWR\nmērītājs"), (345, "Antenas\nsalāgotājs")]
     for cx, t in boxes:
         f.box(cx, y, 104, 52, t, size=12)
     f.arrow(132, y, 158, y); f.arrow(262, y, 293, y)
@@ -187,10 +187,10 @@ def f13_7():
     f.mtext(212, y + 76, "transīvers redz 50 Ω: SWR ≈ 1:1,\nraidītājs dod pilnu jaudu", size=11,
             color=GREEN)
     f.pl([(397, y + 46), (397, y + 54), (xb - 34, y + 54), (xb - 34, y + 46)], w=1.6, color=AMBER)
-    f.mtext(505, y + 76, "stāvviļņi un zudumi kabelī paliek —\nskaņotājs antenu nelabo", size=11,
+    f.mtext(505, y + 76, "stāvviļņi un zudumi kabelī paliek —\nsalāgotājs antenu nelabo", size=11,
             color=AMBER)
     f.mtext(xb + 90, y + 4, "neļauj strāvai\nplūst pa kabeļa\napvalka ārpusi", size=10, italic=True)
-    f.save("atteli/13-7-saskanosana.svg", "SWR mērītāja, antenas skaņotāja un baluna vieta stacijā")
+    f.save("atteli/13-7-saskanosana.svg", "SWR mērītāja, antenas salāgotāja un baluna vieta stacijā")
 
 
 # ------------------------------------------------------------------ 14.1.

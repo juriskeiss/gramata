@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 500" width="780" height="500" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
-<title>Vairāki lēcieni: HF no F slāņa, 6 m no sporādiskā E un F2</title>
+<title>Vairākkārtēja atstarošanās: HF no F slāņa, 6 m no sporādiskā E un F2</title>
 <rect x="0" y="0" width="780" height="500" fill="white"/>
-<text x="30.0" y="22.0" text-anchor="start" font-size="14" fill="#111111" font-weight="bold">HF: divi lēcieni no F slāņa</text>
+<text x="30.0" y="22.0" text-anchor="start" font-size="14" fill="#111111" font-weight="bold">HF: divi atstarojumi no F slāņa</text>
 <rect x="30.0" y="38.0" width="720.0" height="22.0" rx="0" fill="#dde8f6" stroke="#1e5aa8" stroke-width="0.6"/>
 <text x="742.0" y="54.0" text-anchor="end" font-size="12" fill="#1e5aa8" font-weight="bold">F slānis</text>
 <line x1="30.0" y1="180.0" x2="750.0" y2="180.0" stroke="#111111" stroke-width="1.8" stroke-linecap="round"/>
@@ -66,9 +66,9 @@
 <rect x="334.3" y="151.0" width="131.4" height="16.0" fill="white" stroke="none"/>
 <text x="400.0" y="162.0" text-anchor="middle" font-size="11" fill="#111111" font-style="italic">atstarojas no Zemes</text>
 <polyline points="60.0,197.0 60.0,202.0 400.0,202.0 400.0,197.0" fill="none" stroke="#111111" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round"/>
-<text x="230.0" y="218.0" text-anchor="middle" font-size="11.5" fill="#111111">1. lēciens: līdz 3000–4000 km</text>
+<text x="230.0" y="218.0" text-anchor="middle" font-size="11.5" fill="#111111">1. atstarojums: līdz 3000–4000 km</text>
 <polyline points="400.0,197.0 400.0,202.0 740.0,202.0 740.0,197.0" fill="none" stroke="#111111" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round"/>
-<text x="570.0" y="218.0" text-anchor="middle" font-size="11.5" fill="#111111">2. lēciens</text>
+<text x="570.0" y="218.0" text-anchor="middle" font-size="11.5" fill="#111111">2. atstarojums</text>
 <text x="30.0" y="262.0" text-anchor="start" font-size="14" fill="#111111" font-weight="bold">6 m: sporādiskais E, arī kopā ar F2</text>
 <rect x="30.0" y="278.0" width="720.0" height="20.0" rx="0" fill="white" stroke="#1e5aa8" stroke-width="1" stroke-dasharray="5 4"/>
 <text x="742.0" y="293.0" text-anchor="end" font-size="11" fill="#1e5aa8">F2 slānis (Saules maksimuma gados)</text>
@@ -142,5 +142,5 @@
 <text x="500.0" y="412.0" text-anchor="start" font-size="12" fill="#b42318" font-weight="bold">Es + Es</text>
 <text x="690.0" y="340.0" text-anchor="start" font-size="12" fill="#2f7a4b" font-weight="bold">Es + F2</text>
 <polyline points="60.0,469.0 60.0,474.0 320.0,474.0 320.0,469.0" fill="none" stroke="#111111" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round"/>
-<text x="190.0" y="490.0" text-anchor="middle" font-size="11.5" fill="#111111">Es lēciens: līdz ~2000 km</text>
+<text x="190.0" y="490.0" text-anchor="middle" font-size="11.5" fill="#111111">Es atstarojums: līdz ~2000 km</text>
 </svg>

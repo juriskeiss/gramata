@@ -378,7 +378,7 @@ def f16_1():
 
 def f17_1():
     f = Fig(800, 320)
-    labs = ["Transīvers", "Barošanas\nbloks", "Antenu\nskaņotājs"]
+    labs = ["Transīvers", "Barošanas\nbloks", "Antenas\nsalāgotājs"]
     # pareizi
     f.text(210, 24, "✓ Pareizi: katrai iekārtai savs vads", bold=True, size=13, color=GREEN)
     xs = [80, 210, 340]

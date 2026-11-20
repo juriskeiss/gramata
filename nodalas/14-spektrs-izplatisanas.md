@@ -82,8 +82,8 @@ signālus, pirms tie sasniedz F slāni. Pēc saulrieta D slānis dažu minūšu
 laikā izzūd, un zemie diapazoni "atveras". Tāpēc 80 m ir nakts diapazons [1].
 
 **F slānis** ir visaugstāk, tāpēc atstarošanās no tā dod vislielāko
-attālumu: vienā lēcienā līdz apmēram 3000–4000 km. Tālākiem sakariem
-vajag vairākus lēcienus (skat. zemāk).
+attālumu: ar vienu atstarojumu līdz apmēram 3000–4000 km. Tālākiem
+sakariem vajag vairākus atstarojumus (skat. zemāk).
 
 **Augstākas frekvences iet cauri.** Jo augstāka frekvence, jo stiprākai
 jābūt jonizācijai, lai vilni atstarotu. Augstāko frekvenci, ko jonosfēra
@@ -91,27 +91,29 @@ konkrētā ceļā vēl atstaro, sauc par **MUF** (maximum usable frequency).
 Virs MUF signāls aiziet kosmosā. Tāpēc 2 m un 70 cm signāli no jonosfēras
 parasti neatstarojas, un tāpēc ar satelītiem sazinās tieši šajos diapazonos.
 
-### Vairāki lēcieni
+### Vairākkārtēja atstarošanās
 
-Ceļu no Zemes līdz jonosfērai un atpakaļ uz Zemi sauc par **lēcienu** (hop).
-Ja korespondents ir tālāk par vienu lēcienu, signāls nolaižas, atstarojas no
-Zemes virsmas un atkal paceļas uz jonosfēru. Ar vairākiem lēcieniem signāls
+Ceļu no Zemes līdz jonosfērai un atpakaļ uz Zemi sauc par vienu **atstarojumu** (angliski
+hop).
+Ja korespondents ir tālāk, nekā sasniedz viens atstarojums, signāls nolaižas, atstarojas no
+Zemes virsmas un atkal paceļas uz jonosfēru. Ar vairākiem atstarojumiem signāls
 var apiet visu zemeslodi.
 
-| Atstarojošais slānis | Viens lēciens, aptuveni | Piemērs no Latvijas |
+| Atstarojošais slānis | Viens atstarojums, aptuveni | Piemērs no Latvijas |
 | --- | --- | --- |
-| **F slānis** | līdz 3000–4000 km | Spānija (ap 3000 km) — viens lēciens; ASV austrumkrasts (ap 7000 km) un Japāna (ap 8000 km) — divi vai trīs |
+| **F slānis** | līdz 3000–4000 km | Spānija (ap 3000 km) — viens atstarojums; ASV austrumkrasts (ap 7000 km) un Japāna (ap 8000 km) — divi vai trīs atstarojumi |
 | **E slānis**, arī sporādiskais E | līdz 2000 km | Itālija vai Balkāni vasarā 10 m un 6 m diapazonā |
 
-- **Katrs lēciens vājina signālu.** Daļa enerģijas zūd, atstarojoties no
-  Zemes, un dienā signāls katrā lēcienā divreiz šķērso absorbējošo D slāni.
-  Jo mazāk lēcienu, jo stiprāks signāls.
+- **Katrs atstarojums vājina signālu.** Daļa enerģijas zūd, atstarojoties no
+  Zemes, un dienā signāls katrā atstarojumā divreiz šķērso absorbējošo D slāni.
+  Jo mazāk atstarojumu, jo stiprāks signāls.
 - **Jūra atstaro labāk** nekā sauszeme vai mežs, tāpēc ceļš pāri okeānam
   bieži ir labāks par ceļu pāri kontinentam.
-- **Zems izstarošanas leņķis dod garāku lēcienu**, tātad mazāk lēcienu.
+- **Zems izstarošanas leņķis dod tālāku atstarojumu**, tātad atstarojumu
+  vajag mazāk.
   Tāpēc tāliem sakariem vajag antenu ar zemu izstarošanas leņķi (13. nodaļa).
-- **Lēcienus var kombinēt.** Pirmais lēciens var būt no sporādiskā E, otrais
-  no F slāņa; to īpaši bieži novēro 6 m diapazonā (14.7. apakšnodaļa,
+- **Atstarojumus var kombinēt.** Pirmais atstarojums var būt no sporādiskā E,
+  otrais — no F slāņa; to īpaši bieži novēro 6 m diapazonā (14.7. apakšnodaļa,
   14.8. attēls).
 
 ### Mirusī zona un feidings
@@ -160,7 +162,7 @@ vaina var nebūt tavā antenā.
 | **40 m** | Baltija un Eiropa | Eiropa un tālie sakari | B kategorijai tikai CW un ciparu darba veidi |
 | **15 m** | Tālā Eiropa un citi kontinenti | Parasti slēgts | Dienas diapazons; atkarīgs no Saules aktivitātes |
 | **10 m** | Maksimuma gados visa pasaule; minimuma gados bieži kluss | Slēgts | Vasarā sporādiskais E dod Eiropu |
-| **6 m** | Vietējie sakari; vasarā sporādiskais E, arī vairāki lēcieni | Vietējie sakari; vasaras vakaros arī Es | Gan HF, gan VHF iezīmes (14.7.); "maģiskais diapazons" — atveras negaidīti |
+| **6 m** | Vietējie sakari; vasarā sporādiskais E, arī vairāki atstarojumi | Vietējie sakari; vasaras vakaros arī Es | Gan HF, gan VHF iezīmes (14.7.); "maģiskais diapazons" — atveras negaidīti |
 | **2 m** | Tiešā redzamība, atkārtotāji | Tas pats | Tropo apstākļos simtiem kilometru |
 | **70 cm** | Tiešā redzamība, atkārtotāji | Tas pats | Labāk iziet cauri ēkām; lielāki kabeļa zudumi |
 
@@ -223,7 +225,7 @@ Dažreiz VHF un UHF signāli aiziet daudz tālāk par horizontu:
 | Veids | Kas notiek | Kad |
 | --- | --- | --- |
 | **Tropo** | Siltā un aukstā gaisa slāņu robeža noliec vai vada viļņus | Stabils augsta spiediena laiks, rudens rīti; simtiem kilometru |
-| **Sporādiskais E** (Es) | E slānī rodas blīvi jonizēti mākoņi | Maijs–augusts; 6 m un 10 m, retāk 2 m; viens lēciens 1000–2000 km, ar vairākiem lēcieniem tālāk |
+| **Sporādiskais E** (Es) | E slānī rodas blīvi jonizēti mākoņi | Maijs–augusts; 6 m un 10 m, retāk 2 m; viens atstarojums 1000–2000 km, ar vairākiem atstarojumiem tālāk |
 | **Aurora** | Atstarošanās no polārblāzmas | Ģeomagnētisko vētru laikā; signāls skan šņācoši |
 | **Meteori** | Atstarošanās no meteoru pēdām | Sekundes; ciparu darba veidiem |
 | **EME** | Atstarošanās no Mēness | Lielām antenām un jutīgiem uztvērējiem |
@@ -237,17 +239,17 @@ atstaro, un diapazons pēkšņi uzvedas kā īsviļņu diapazons.
 
 | Izplatīšanās veids | Kad | Attālums |
 | --- | --- | --- |
-| **Sporādiskais E** (Es) — galvenais | Maijs–augusts, dienā un vakarā; īsāk arī ziemas vidū | Viens lēciens 1000–2000 km; ar vairākiem Es lēcieniem 3000 km un tālāk |
+| **Sporādiskais E** (Es) — galvenais | Maijs–augusts, dienā un vakarā; īsāk arī ziemas vidū | Viens atstarojums 1000–2000 km; ar vairākiem Es atstarojumiem 3000 km un tālāk |
 | **F2** | Tikai Saules maksimuma gados, galvenokārt rudens un ziemas dienās, kad MUF pārsniedz 50 MHz | Citi kontinenti, tāpat kā 10 m |
 | **TEP** (transekvatoriālā izplatīšanās) | Saules maksimuma gados, ap pavasara un rudens ekvinokciju, pēcpusdienā un vakarā | Pāri ekvatoram, apmēram 5000–8000 km |
 | Tropo, aurora, meteori | Tāpat kā 2 m diapazonā (tabula augstāk) | Simtiem līdz 2000 km |
 
-![14.8. attēls. Vairāki lēcieni: HF no F slāņa, 6 m no sporādiskā E un kopā ar F2.](../atteli/14-8-vairaki-lecieni.svg)
+![14.8. attēls. Vairākkārtēja atstarošanās: HF no F slāņa, 6 m no sporādiskā E un kopā ar F2.](../atteli/14-8-vairaki-lecieni.svg)
 
 Šie veidi bieži **kombinējas**. Signāls var atstaroties no viena Es mākoņa,
-nolaisties un atstaroties no nākamā (Es + Es), vai pēc Es lēciena turpināt
+nolaisties un atstaroties no nākamā (Es + Es), vai pēc atstarojuma no Es turpināt
 ceļu caur F2 slāni (Es + F2). Latvija atrodas tālu no ekvatora, tāpēc TEP
-no šejienes parasti sasniedz kopā ar Es lēcienu līdz Dienvideiropai.
+no šejienes parasti sasniedz kopā ar Es atstarojumu līdz Dienvideiropai.
 
 > **Praktisks padoms.** Ja vasarā 10 m diapazonā pēkšņi skan stipri
 > signāli no 1000–2000 km attāluma, pārbaudi arī 6 m: sporādiskā E
@@ -282,10 +284,10 @@ Izplatīšanos nevar droši paredzēt, bet to var novērot.
 - Mirusī zona: apgabals starp zemes viļņa beigām un telpas viļņa
   nolaišanās vietu.
 - Feidings (QSB): signāla stipruma svārstības.
-- Viens F slāņa lēciens — līdz 3000–4000 km, E slāņa — līdz 2000 km.
-  Tālākiem sakariem vajag vairākus lēcienus; katrs vājina signālu.
+- Viens atstarojums no F slāņa — līdz 3000–4000 km, no E slāņa — līdz
+  2000 km. Tālākiem sakariem vajag vairākus atstarojumus; katrs vājina signālu.
 - 6 m diapazonam ir gan HF, gan VHF iezīmes. Galvenā tālā izplatīšanās ir
-  sporādiskais E (vasarā, iespējami vairāki lēcieni); retāk F2 un TEP, kas
+  sporādiskais E (vasarā, iespējami vairāki atstarojumi); retāk F2 un TEP, kas
   var kombinēties ar Es.
 - NVIS: antena zemu, signāls gandrīz vertikāli; reģionāli sakari, 80 m.
 - VHF un UHF izplatās tiešās redzamības robežās; attālumu nosaka antenu
@@ -321,7 +323,7 @@ tuvākajam atkārtotājam, ja zini tā augstumu.
 - D slānis dienā absorbē zemos diapazonus; F slānis nodrošina tālos sakarus.
 - Zemie diapazoni strādā naktī, augstie — dienā.
 - Starp zemes vilni un telpas vilni ir mirusī zona.
-- Tālos sakarus veido vairāki lēcieni; katrs lēciens vājina signālu.
+- Tālos sakarus veido vairāki atstarojumi; katrs atstarojums vājina signālu.
 - 6 m vasarā atver sporādiskais E, Saules maksimumā arī F2 un TEP.
 - NVIS ar zemu antenu 80 m diapazonā nosedz visu Latviju.
 - VHF un UHF sakaru attālumu nosaka antenu augstums.
@@ -403,7 +405,7 @@ tuvākajam atkārtotājam, ja zini tā augstumu.
     - B. Harmonikas
     - C. Deviācija
     - D. Spoguļkanāls
-16. Cik tālu aptuveni sasniedz viens lēciens no F slāņa?
+16. Cik tālu aptuveni sasniedz viens atstarojums no F slāņa?
     - A. 300–400 km
     - B. 3000–4000 km
     - C. 30 000 km
@@ -431,7 +433,7 @@ tuvākajam atkārtotājam, ja zini tā augstumu.
 | 4 | B | λ = 300 / f: lielāka frekvence, īsāks vilnis. |
 | 5 | C | Jonosfēra atstaro īsviļņus atpakaļ uz Zemi. |
 | 6 | A | D slānis absorbē; naktī tas izzūd. |
-| 7 | D | F slānis ir visaugstāk, tāpēc lēciens ir visgarākais. |
+| 7 | D | F slānis ir visaugstāk, tāpēc atstarojums sniedzas vistālāk. |
 | 8 | B | Naktī nav D slāņa, kas absorbē 80 m signālus. |
 | 9 | C | Augstajām frekvencēm vajag stipru jonizāciju, kas ir dienā. |
 | 10 | D | Apmēram 11 gadi starp diviem maksimumiem. |
@@ -440,8 +442,8 @@ tuvākajam atkārtotājam, ja zini tā augstumu.
 | 13 | C | VHF un UHF izplatās tiešās redzamības robežās. |
 | 14 | D | 4,12 · (10 + 2) ≈ 49 km. |
 | 15 | A | Feidings; Q kodos QSB. |
-| 16 | B | F slānis ir augstu, tāpēc lēciens ir garš; tālāk vajag vairākus lēcienus. |
-| 17 | C | Es mākoņi vasarā atstaro 50 MHz; viens lēciens 1000–2000 km. |
+| 16 | B | F slānis ir augstu, tāpēc viens atstarojums sniedzas tālu; tālāk vajag vairākus atstarojumus. |
+| 17 | C | Es mākoņi vasarā atstaro 50 MHz; viens atstarojums 1000–2000 km. |
 
 Atvērtie jautājumi: astoņpadsmitajā atbilde ir 80 m — attālums ir ap 400 km,
 naktī D slāņa nav, un ar zemu dipolu (NVIS) signāls nosedz visu Latviju;

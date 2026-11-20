@@ -98,7 +98,7 @@ Pirms pirkšanas izlem, kur strādāsi: mājās vai dabā [1].
 | --- | --- | --- |
 | Jauda | 100 W — tieši B kategorijas robeža īsviļņos | 5–20 W |
 | Kas svarīgi | Visi HF diapazoni; SSB, CW un ciparu darba veidi; pieslēgums datoram (CAT) | Mazs strāvas patēriņš uztveršanā; svars |
-| Antenu skaņotājs | Vēlams iebūvēts | Ļoti vēlams, jo antenas dabā ir kompromiss |
+| Antenas salāgotājs | Vēlams iebūvēts | Ļoti vēlams, jo antenas dabā ir kompromiss |
 | Barošana | 13,8 V barošanas bloks | Akumulators, vislabāk LiFePO4 |
 
 Ko nozīmē jauda praksē: ar 100 W un vienkāršu antenu sakari izdodas bez
@@ -148,7 +148,7 @@ pirktai: dipolu var uzbūvēt vienā pēcpusdienā.
 - divi vienāda garuma pleci, kopā puse viļņa garuma;
 - viens augsts atbalsta punkts vidū, galus nolaiž uz leju;
 - jo augstāk, jo labāk;
-- pareizi nogrieztam dipolam skaņotājs nav vajadzīgs, bet zems SWR ir tikai
+- pareizi nogrieztam dipolam salāgotājs nav vajadzīgs, bet zems SWR ir tikai
   vienā diapazonā.
 
 **Kuram diapazonam?** Padomā par trim lietām: cik vietas tev ir, kurā

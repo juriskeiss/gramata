@@ -29,7 +29,7 @@ par **rezonanses frekvenci** [2]:
 $$f = \frac{1}{2\pi\sqrt{LC}}$$
 
 No formulas redzams: jo lielāka induktivitāte vai kapacitāte, jo zemāka
-rezonanses frekvence. Griežot maināmo kondensatoru, kontūru pārskaņo — tā
+rezonanses frekvence. Griežot maiņkondensatoru, kontūru pārskaņo — tā
 darbojās veco radiouztvērēju skaņošanas kloķis.
 
 Kontūram ir divi slēgumi, un rezonansē tie uzvedas pretēji [1]:

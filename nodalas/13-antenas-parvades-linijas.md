@@ -14,7 +14,7 @@ bez liekiem zudumiem un saprast, ko rāda SWR mērītājs.
 - salīdzināt dipolu, vertikālo antenu un Yagi;
 - izvēlēties pārvades līniju un pateikt, no kā atkarīgi tās zudumi;
 - izskaidrot, kas ir SWR, un novērtēt, vai rādījums ir pieņemams;
-- pateikt, kad vajag balunu, ununu un antenas skaņotāju.
+- pateikt, kad vajag balunu, ununu un antenas salāgotāju.
 
 ## 13.1. Ko dara antena
 
@@ -103,7 +103,7 @@ variantus [1].
 | Antena | Kā uzbūvēta | Kad izvēlēties |
 | --- | --- | --- |
 | **Inverted-V** | Dipols ar vienu mastu vidū; pleci nolaisti slīpi uz leju | Ir tikai viens augsts atbalsta punkts |
-| **Vairākjoslu dipols (fan dipole)** | Vairāki dažāda garuma dipoli uz viena pievada | Vajag vairākus diapazonus bez skaņotāja |
+| **Vairākjoslu dipols (fan dipole)** | Vairāki dažāda garuma dipoli uz viena pievada | Vajag vairākus diapazonus bez salāgotāja |
 | **OCF dipols** | Pievads nav vidū; pieslēgts caur 4:1 vai 6:1 transformatoru | Viena antena vairākiem diapazoniem |
 
 ![13.2. attēls. Dipola varianti.](../atteli/13-2-dipola-varianti.svg)
@@ -177,7 +177,7 @@ Antenu veidu ir simtiem; izvēli nosaka diapazons, vieta un mērķis [1].
 | Delta Loop | Trijstūra formas pilna viļņa cilpa |
 | Hexbeam | Kompakta virziena antena vairākiem HF diapazoniem |
 | Paraboliskā antena | "Šķīvis" ar ļoti lielu pastiprinājumu; GHz diapazoniem |
-| Nejauša garuma vads | Jebkura garuma vads ar 9:1 ununu un skaņotāju |
+| Nejauša garuma vads | Jebkura garuma vads ar 9:1 ununu un salāgotāju |
 
 ## 13.8. Pārvades līnijas
 
@@ -255,14 +255,17 @@ traucējumi mājas tehnikā. To novērš ar balunu [1].
 | **Ununs** | unbalanced–unbalanced | 9:1 | Nejauša garuma vada antenas |
 | | | 49:1 | Gala barotās pusviļņa antenas (EFHW) |
 
-**Antenas skaņotājs** (tūneris, ATU) ir regulējama spoļu un kondensatoru
-shēma starp transīveru un antenas sistēmu. Tas pārveido pretestību tā, lai
-transīvers redzētu 50 Ω.
+**Antenas salāgotājs** (angliski antenna tuner, ATU; sarunvalodā arī
+"tūneris") ir regulējama spoļu un kondensatoru shēma, kas salāgo divas
+pretestības. Ja salāgotājs ir pie antenas, tas salāgo antenas ieejas
+pretestību ar barošanas līnijas raksturpretestību. Ja tas ir pie transīvera,
+tas salāgo līnijas ieejas pretestību ar transīvera 50 Ω. Antenu pašu tas
+neskaņo: antenas rezonanses frekvence nemainās.
 
-![13.7. attēls. SWR mērītāja, antenas skaņotāja un baluna vieta stacijā.](../atteli/13-7-saskanosana.svg)
+![13.7. attēls. SWR mērītāja, antenas salāgotāja un baluna vieta stacijā.](../atteli/13-7-saskanosana.svg)
 
-> **Atceries:** skaņotājs nepadara antenu labāku. Tas tikai ļauj raidītājam
-> strādāt ar pilnu jaudu. Stāvviļņi un zudumi kabelī starp skaņotāju un
+> **Atceries:** salāgotājs nepadara antenu labāku. Tas tikai ļauj raidītājam
+> strādāt ar pilnu jaudu. Stāvviļņi un zudumi kabelī starp salāgotāju un
 > antenu paliek.
 
 ## 13.10. Izstarotā jauda
@@ -330,8 +333,8 @@ stieņa un radiāļu garumu.
 - Kabelis zaudē jaudu: jo garāks un jo augstāka frekvence, jo vairāk.
 - SWR rāda salāgošanu; zem 1,5:1 ir ļoti labi, virs 3:1 — bīstami
   raidītājam.
-- Baluns novērš strāvu uz kabeļa apvalka; skaņotājs salāgo, bet antenu
-  nelabo.
+- Baluns novērš strāvu uz kabeļa apvalka; salāgotājs salāgo pretestības,
+  bet antenu nelabo.
 
 ## Paškontroles jautājumi
 
@@ -425,8 +428,8 @@ stieņa un radiāļu garumu.
 
 18. Tev ir 15 m garš pagalms un viens 8 m augsts masts. Kuru antenu no šīs
     nodaļas tu izvēlētos 80 m diapazonam un kāpēc? Kādi būs kompromisi?
-19. Paskaidro, kāpēc antenas skaņotājs pie transīvera nesamazina zudumus
-    kabelī starp skaņotāju un antenu.
+19. Paskaidro, kāpēc antenas salāgotājs pie transīvera nesamazina zudumus
+    kabelī starp salāgotāju un antenu.
 
 ## Atbildes
 
@@ -451,9 +454,9 @@ stieņa un radiāļu garumu.
 | 17 | A | −3 dB ir puse: 50 W. |
 
 Atvērtie jautājumi: astoņpadsmitajā pilns 80 m dipols (38,5 m) neietilpst;
-iespējamie risinājumi ir EFHW vai nejauša garuma vads ar skaņotāju, vai
+iespējamie risinājumi ir EFHW vai nejauša garuma vads ar salāgotāju, vai
 saīsināta vertikālā antena, katrs ar mazāku efektivitāti. Deviņpadsmitajā
-jāpiemin, ka skaņotājs maina tikai to, ko redz raidītājs; aiz skaņotāja
+jāpiemin, ka salāgotājs maina tikai to, ko redz raidītājs; aiz salāgotāja
 nesalāgojums un stāvviļņi paliek.
 
 ## Padziļināti

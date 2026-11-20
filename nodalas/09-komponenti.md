@@ -12,7 +12,9 @@ radioiekārta, un iemāca aprēķināt to slēgumus.
 - pateikt, ko dara rezistors, kondensators, spole, transformators, diode un
   tranzistors, un atpazīt to apzīmējumus shēmā;
 - aprēķināt rezistoru, kondensatoru un spoļu virknes un paralēlo slēgumu;
-- nolasīt rezistora vērtību pēc krāsu koda;
+- aprēķināt divu tuvu esošu spoļu kopējo induktivitāti, ņemot vērā savstarpējo
+  induktivitāti;
+- nolasīt rezistora vērtību pēc krāsu koda tabulas;
 - paskaidrot, kā kondensatora un spoles pretestība atkarīga no frekvences;
 - aprēķināt transformatora izejas spriegumu.
 
@@ -40,6 +42,10 @@ Pirmās divas joslas ir cipari, trešā — nuļļu skaits, ceturtā — pielaid
 | Dzeltena | 4 | | Balta | 9 |
 
 Pielaides josla: zelta ±5 %, sudraba ±10 %.
+
+> **Atceries:** krāsu kods nav jāmācās no galvas — ne eksāmenam, ne praksei.
+> Lieto tabulu vai izmēri pretestību ar multimetru. Mērījums ir drošāks arī
+> tāpēc, ka vecu rezistoru krāsas mēdz izbalēt.
 
 > **Piemērs.** Rezistoram ir joslas: dzeltena, violeta, sarkana, zelta. Kāda
 > ir tā pretestība?
@@ -128,7 +134,7 @@ $$W = \frac{C \cdot U^2}{2}$$
 
 Biežāk sastopamie veidi: keramiskie (mazas kapacitātes, augstām frekvencēm),
 elektrolītiskie (lielas kapacitātes, barošanas blokos; tiem ir polaritāte)
-un maināmie (antenu skaņotājos un kontūros).
+un maiņkondensatori (antenu salāgotājos un kontūros).
 
 > **Uzmanību!** Elektrolītiskajam kondensatoram ir plus un mīnus izvads.
 > Pieslēgts otrādi, tas var uzsprāgt. Lieli kondensatori barošanas blokos
@@ -184,6 +190,30 @@ vērtības [1].
 >
 > 1. Virknē saskaita: 12 + 9 = 21 mH.
 
+**Savstarpējā induktivitāte.** Ja spoles atrodas tuvu, vienas spoles
+magnētiskais lauks šķērso otru. Šo saiti raksturo **savstarpējā
+induktivitāte** M; to arī mēra henrijos. Virknes slēgumā [1]:
+
+$$L_{kop} = L_1 + L_2 \pm 2M$$
+
+Zīme atkarīga no tā, kā tinumi saslēgti (9.5. attēls). Shēmās tinuma sākumu
+apzīmē ar **punktu**:
+
+- strāva abās spolēs ieplūst pa punktoto galu — lauki pastiprina viens otru,
+  **+2M**;
+- vienā spolē pa punktoto, otrā pa nepunktoto galu — lauki vājina viens otru,
+  **−2M**.
+
+![9.5. attēls. Savstarpējā induktivitāte: divas virknē slēgtas spoles ar saskaņotiem un pretējiem tinumiem.](../atteli/09-5-savstarpeja-induktivitate.svg)
+
+> **Piemērs.** Spoles 12 mH un 9 mH novietotas tuvu, M = 2 mH. Kāda ir kopējā
+> induktivitāte?
+>
+> 1. Kā 9.5. attēlā (a): 12 + 9 + 2 · 2 = 25 mH.
+> 2. Kā 9.5. attēlā (b): 12 + 9 − 2 · 2 = 17 mH.
+
+Uz savstarpējās induktivitātes balstās transformators (9.5. apakšnodaļa).
+
 > **Piemērs.** Kāda ir 10 µH spoles reaktīvā pretestība 7 MHz frekvencē?
 >
 > 1. X_L = 2π · f · L = 6,28 · 7 · 10⁶ · 10 · 10⁻⁶.
@@ -195,7 +225,7 @@ vērtības [1].
 Maiņstrāva primārajā tinumā rada mainīgu magnētisko lauku, kas inducē
 spriegumu sekundārajā tinumā [1].
 
-![9.5. attēls. Transformatora apzīmējums.](../atteli/09-5-transformators.svg)
+![9.6. attēls. Transformatora apzīmējums.](../atteli/09-6-transformators.svg)
 
 Spriegumu attiecība ir vienāda ar vijumu skaita attiecību; strāvām ir
 otrādi [1]:
@@ -223,7 +253,7 @@ saskaņošanai — tādi ir antenu baluni un ununi (13. nodaļa).
 pretējā. Tai ir divi izvadi: **anods** (A) un **katods** (K). Strāva plūst no
 anoda uz katodu [1].
 
-![9.6. attēls. Diožu apzīmējumi.](../atteli/09-6-diodes.svg)
+![9.7. attēls. Diožu apzīmējumi.](../atteli/09-7-diodes.svg)
 
 | Veids | Ko dara | Kur lieto |
 | --- | --- | --- |
@@ -239,7 +269,7 @@ Diode nav ideāls slēdzis: vadošā virzienā uz silīcija diodes krīt ap 0,6�
 signālu vada lielu strāvu. Tas dara divas lietas: **pastiprina** signālu vai
 strādā kā **slēdzis** [1].
 
-![9.7. attēls. Tranzistoru apzīmējumi.](../atteli/09-7-tranzistori.svg)
+![9.8. attēls. Tranzistoru apzīmējumi.](../atteli/09-8-tranzistori.svg)
 
 | Veids | Izvadi | Kā vada |
 | --- | --- | --- |
@@ -263,7 +293,8 @@ shēmu** (mikroshēmu).
 - Rezistori virknē: saskaita. Paralēli: saskaita apgrieztās vērtības.
 - Kondensatori: paralēli saskaita, virknē — apgrieztās vērtības (pretēji
   rezistoriem).
-- Spoles: kā rezistori.
+- Spoles: kā rezistori. Tuvām spolēm virknē L_kop = L1 + L2 ± 2M: + ja strāva
+  abās ieplūst pa punktoto galu, − ja pretēji.
 - X_C = 1 / (2πfC) — frekvencei augot, samazinās.
 - X_L = 2πfL — frekvencei augot, pieaug.
 - Kondensators līdzstrāvu nelaiž; spole laiž.
@@ -298,7 +329,8 @@ strāva. Atkārto ar spoli.
 - Spole uzkrāj enerģiju magnētiskajā laukā, laiž līdzstrāvu un bremzē
   augstas frekvences.
 - Virknes un paralēlā slēguma formulas rezistoriem un spolēm ir vienādas,
-  kondensatoriem — apgrieztas.
+  kondensatoriem — apgrieztas; tuvām spolēm jāņem vērā savstarpējā
+  induktivitāte M (±2M).
 - Transformators maina maiņspriegumu proporcionāli vijumu skaitam.
 - Diode vada vienā virzienā; tranzistors pastiprina vai slēdz.
 
@@ -334,7 +366,7 @@ strāva. Atkārto ar spoli.
     - B. 3 mH
     - C. 5,1 mH
     - D. 108 mH
-7. Rezistoram ir joslas: sarkana, sarkana, brūna. Kāda ir tā pretestība?
+7. Rezistoram ir joslas: sarkana, sarkana, brūna. Kāda ir tā pretestība? (Izmanto 9.1. attēla tabulu.)
     - A. 22 Ω
     - B. 2200 Ω
     - C. 221 Ω
@@ -384,12 +416,18 @@ strāva. Atkārto ar spoli.
     - B. 6 V
     - C. 8 V
     - D. 12 V
+17. Spoles 10 µH un 6 µH saslēgtas virknē kā 9.5. attēlā (a). Savstarpējā
+    induktivitāte M = 2 µH. Kāda ir kopējā induktivitāte?
+    - A. 16 µH
+    - B. 20 µH
+    - C. 12 µH
+    - D. 18 µH
 
 **Atvērtie jautājumi**
 
-17. Tev vajag 50 Ω slodzi, bet ir tikai 100 Ω un 200 Ω rezistori. Piedāvā
+18. Tev vajag 50 Ω slodzi, bet ir tikai 100 Ω un 200 Ω rezistori. Piedāvā
     divus veidus, kā to salikt.
-18. Paskaidro saviem vārdiem, kāpēc kondensatoru var lietot, lai atdalītu
+19. Paskaidro saviem vārdiem, kāpēc kondensatoru var lietot, lai atdalītu
     maiņstrāvas signālu no līdzsprieguma.
 
 ## Atbildes
@@ -412,16 +450,14 @@ strāva. Atkārto ar spoli.
 | 14 | A | Zenera diode (stabilitrons) notur nemainīgu spriegumu. |
 | 15 | B | Aizvars, notece un izteka ir lauktranzistoram. |
 | 16 | C | I = 12 / 60 = 0,2 A; U = 0,2 · 40 = 8 V. |
+| 17 | B | Strāva ieplūst abos punktotajos galos: 10 + 6 + 2 · 2 = 20 µH. (12 µH būtu pretējā slēgumā.) |
 
-Atvērtie jautājumi: septiņpadsmitajā der divi 100 Ω paralēli vai četri
-200 Ω paralēli; arī 100 Ω paralēli ar diviem 200 Ω. Astoņpadsmitajā jāpiemin,
+Atvērtie jautājumi: astoņpadsmitajā der divi 100 Ω paralēli vai četri
+200 Ω paralēli; arī 100 Ω paralēli ar diviem 200 Ω. Deviņpadsmitajā jāpiemin,
 ka kondensators līdzstrāvu nelaiž, bet maiņstrāvai tā pretestība ir maza.
 
 ## Padziļināti
 
-- **Savstarpējā induktivitāte.** Ja divas spoles atrodas tuvu, to magnētiskie
-  lauki ietekmē viens otru, un virknes slēguma formulā parādās papildu
-  loceklis ±2M. Uz šī efekta balstās transformators.
 - **Kvarca rezonators.** Kvarca kristāla plāksnīte, kas svārstās ļoti
   precīzā frekvencē. To lieto ģeneratoros un šauros filtros (10. un
   11. nodaļa).

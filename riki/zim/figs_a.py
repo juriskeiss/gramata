@@ -255,7 +255,7 @@ def f09_2():
 
 def f09_3():
     f = Fig(720, 170)
-    items = [(120, "Kondensators"), (360, "Elektrolītiskais\nkondensators"), (600, "Maināmais\nkondensators")]
+    items = [(120, "Kondensators"), (360, "Elektrolītiskais\nkondensators"), (600, "Maiņkondensators")]
     y = 70
     for x, lab in items:
         f.line(x - 60, y, x - 4, y); f.line(x + 4, y, x + 60, y)
@@ -280,6 +280,68 @@ def f09_4():
     f.save("atteli/09-4-spoles.svg", "Spoles apzīmējumi")
 
 
+def _subtext(f, cx, y, parts, size=14, bold=False, italic=False):
+    """Teksts ar apakšindeksiem kā atsevišķi <text> elementi (bez tspan),
+    lai to vienādi attēlo jebkura SVG programma. parts: [(teksts, vai_indekss)];
+    atstarpes teksta sākumā un beigās kļūst par atkāpi."""
+    ss = size * 0.7
+    k = 0.62 if bold else 0.58
+    gap = size * 0.3
+    items = []
+    for t, sub in parts:
+        sz = ss if sub else size
+        items.append((gap if t[:1] == " " else 0, t.strip(), sub, sz, gap if t[-1:] == " " else 0))
+    total = sum(a + len(t) * sz * k + b for a, t, _, sz, b in items)
+    x = cx - total / 2
+    for a, t, sub, sz, b in items:
+        x += a
+        f.text(x, y + (size * 0.25 if sub else 0), t, anchor="start", size=sz, bold=bold, italic=italic)
+        x += len(t) * sz * k + b
+
+
+def f09_5m():
+    """9.5. attēls: savstarpējā induktivitāte, divas virknē slēgtas spoles."""
+    f = Fig(780, 300)
+    panels = [(200, "(a) Lauki pastiprina viens otru", False, "+"),
+              (580, "(b) Lauki vājina viens otru", True, "−")]
+    y = 130
+    for cx, title, opposite, formula in panels:
+        f.text(cx, 28, title, size=14, bold=True)
+        x1, x2 = cx - 60, cx + 60
+        h1 = f.inductor(x1, y); h2 = f.inductor(x2, y)
+        # vadi un spailes
+        f.line(cx - 160, y, x1 - h1, y); f.line(x1 + h1, y, x2 - h2, y); f.line(x2 + h2, y, cx + 160, y)
+        f.circ(cx - 160, y, 3.5); f.circ(cx + 160, y, 3.5)
+        # strāva
+        f.arrow(cx - 150, y - 12, cx - 112, y - 12, w=1.4)
+        f.text(cx - 131, y - 20, "I", italic=True, size=14)
+        # nosaukumi
+        _subtext(f, x1, y + 34, [("L", 0), ("1", 1)], size=14, italic=True)
+        _subtext(f, x2, y + 34, [("L", 0), ("2", 1)], size=14, italic=True)
+        # punkti — tinuma sākums
+        f.circ(x1 - h1 + 2, y - 14, 3.5, fill=K)
+        dx2 = (x2 + h2 - 2) if opposite else (x2 - h2 + 2)
+        f.circ(dx2, y - 14, 3.5, fill=K)
+        # savstarpējā induktivitāte
+        f.darrow(x1, y - 46, x2, y - 46, w=1.2)
+        f.text(cx, y - 54, "M", italic=True, size=15, bold=True)
+        # magnētiskā lauka virziens
+        yb = y + 62
+        f.arrow(x1 - h1, yb, x1 + h1, yb, w=2.2, color=BLUE)
+        if opposite:
+            f.arrow(x2 + h2, yb, x2 - h2, yb, w=2.2, color=BLUE)
+        else:
+            f.arrow(x2 - h2, yb, x2 + h2, yb, w=2.2, color=BLUE)
+        f.text(cx, yb + 24, "magnētiskais lauks", size=11, italic=True, color=BLUE)
+        _subtext(f, cx, 270, [("L", 0), ("kop", 1), (" = ", 0), ("L", 0), ("1", 1), (" + ", 0), ("L", 0), ("2", 1),
+                             (f" {formula} ", 0), ("2M", 0)],
+                 size=15, bold=True)
+    f.line(390, 20, 390, 285, dash="3 5", w=1, color=MG)
+    f.text(390, 296, "● — tinuma sākums", size=11, italic=True, color="#555")
+    f.save("atteli/09-5-savstarpeja-induktivitate.svg",
+           "Savstarpējā induktivitāte: virknē slēgtas spoles ar saskaņotiem un pretējiem tinumiem")
+
+
 def f09_5():
     f = Fig(560, 230)
     xc, yc = 280, 115
@@ -297,7 +359,7 @@ def f09_5():
     f.text(xc - 80, 28, "Primārais tinums", size=13); f.text(xc + 82, 28, "Sekundārais tinums", size=13)
     f.text(xc, 212, "serde", size=12, italic=True)
     f.line(xc, 198, xc, yc + L + 4, w=0.8)
-    f.save("atteli/09-5-transformators.svg", "Transformatora apzīmējums")
+    f.save("atteli/09-6-transformators.svg", "Transformatora apzīmējums")
 
 
 def f09_6():
@@ -312,7 +374,7 @@ def f09_6():
     f.text(120 - 58, y + 24, "anods", size=11); f.text(120 + 58, y + 24, "katods", size=11)
     f.arrow(120 - 30, y + 46, 120 + 30, y + 46, w=1.2)
     f.text(120, y + 64, "strāvas virziens", size=11, italic=True)
-    f.save("atteli/09-6-diodes.svg", "Diožu apzīmējumi")
+    f.save("atteli/09-7-diodes.svg", "Diožu apzīmējumi")
 
 
 def _bjt(f, x, y, npn=True):
@@ -359,7 +421,7 @@ def f09_7():
     f.text(x + 22, y - 48, "D", anchor="start", bold=True, size=14)
     f.text(x + 22, y + 56, "S", anchor="start", bold=True, size=14)
     f.text(x - 6, 205, "MOSFET", size=13)
-    f.save("atteli/09-7-tranzistori.svg", "Tranzistoru apzīmējumi")
+    f.save("atteli/09-8-tranzistori.svg", "Tranzistoru apzīmējumi")
 
 
 def f10_1():
@@ -479,5 +541,5 @@ def f10_3():
     f.save("atteli/10-4-barosanas-bloks.svg", "Barošanas bloka blokshēma")
 
 
-ALL = [f07_1, f07_2, f07_3, f08_1, f08_2, f08_3, f09_1, f09_2, f09_3, f09_4, f09_5, f09_6, f09_7,
+ALL = [f07_1, f07_2, f07_3, f08_1, f08_2, f08_3, f09_1, f09_2, f09_3, f09_4, f09_5m, f09_5, f09_6, f09_7,
        f10_1, f10_3]
