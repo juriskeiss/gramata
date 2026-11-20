@@ -261,7 +261,7 @@ sakristu neatkarīgi no laika joslas [1].
 | UTC | Diapazons, frekvence | Veids | Korespondents | RST nosūtīts / saņemts | Vārds |
 | --- | --- | --- | --- | --- | --- |
 | 14:32 | 15 m, 21,285 MHz | SSB | ON3DXY | 59 / 57 | Mark |
-| 14:47 | 2 m, 145,500 MHz | FM | YL3XXX | 59 / 59 | Anna |
+| 14:47 | 2 m, 145,500 MHz | FM | YL3XXX | 59 / 59 | Jānis |
 
 > **Piemērs.** QSO notika pulksten 16.40 pēc Latvijas ziemas laika. Kāds laiks
 > jāraksta žurnālā?
@@ -281,7 +281,7 @@ joprojām sūta, bet elektroniskās sistēmas ir ātrākas; par tām stāsta
 
 ## 5.7. VHF un UHF sakari, atkārtotāji
 
-Uz 2 m un 70 cm diapazoniem vietējie sakari parasti notiek FM. Kopējā
+2 m un 70 cm diapazonā vietējie sakari parasti notiek FM režīmā. Kopējā
 izsaukuma frekvence 2 m diapazonā ir 145,500 MHz: tajā izsauc, bet garu sarunu
 pārceļ uz citu brīvu frekvenci [1].
 
@@ -374,7 +374,7 @@ neskatoties lapā.
 Katram testa jautājumam ir viena pareiza atbilde. Eksāmena līmenis ir 60 %,
 tātad šeit mērķis ir vismaz 9 pareizas atbildes no 14.
 
-1. Tu gribi raidīt CQ brīvā izskatīgā frekvencē. Ko dari vispirms?
+1. Tu gribi raidīt CQ šķietami brīvā frekvencē. Ko dari vispirms?
     - A. Uzreiz sāc saukt CQ
     - B. Paklausies un pajautā, vai frekvence ir brīva, nosaucot savu izsaukuma signālu
     - C. Noregulē raidītāju šajā frekvencē ar pilnu jaudu

@@ -1,6 +1,6 @@
 # 19. nodaļa. Licence izsniegta — kas tagad?
 
-Eksāmens ir nokārtots. Šī nodaļa izved cauri pirmajiem mēnešiem: no atļaujas
+Eksāmens ir nokārtots. Šī nodaļa pavada tevi pirmajos mēnešos: no atļaujas
 pieprasījuma līdz pirmajai stacijai, pirmajam sakaram un vietai radioamatieru
 kopienā.
 

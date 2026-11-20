@@ -62,7 +62,7 @@ Par katru no šiem aizliegumiem sīkāk stāsta 3. un 4. nodaļa.
 
 ## 1.3. Kāpēc?
 
-Kāpēc lietot radio, ja var piezvanīt vai nosūtīt ziņu? Tāpēc pašu, kāpēc
+Kāpēc lietot radio, ja var piezvanīt vai nosūtīt ziņu? Tā paša iemesla dēļ, kāpēc
 cilvēki iet pārgājienos, lai gan var aizbraukt ar auto, un makšķerē, lai gan
 zivis var nopirkt. Prieks ir pašā darīšanā: sakars ar staciju otrā pasaules
 malā, ko esi nodibinājis ar paša uzbūvētu antenu, nav salīdzināms ar
@@ -79,7 +79,7 @@ Hobijam ir arī praktiska puse [1]:
 
 **Izsaukuma signāls** ir radioamatiera oficiālais vārds ēterā. Tas ir unikāls:
 pasaulē nav divu radioamatieru ar vienādu izsaukuma signālu. To piešķir valsts
-atbildīgā iestāde; Latvijā tie ir SIA "Elektroniskie sakari" (ES) [1].
+atbildīgā iestāde; Latvijā tā ir SIA "Elektroniskie sakari" (ES) [1].
 
 Izsaukuma signāls sastāv no divām daļām:
 

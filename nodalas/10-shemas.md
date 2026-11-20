@@ -2,7 +2,7 @@
 
 Šī nodaļa parāda, kā no iepriekšējā nodaļā apgūtajām detaļām saliek
 mezglus, no kuriem sastāv katrs uztvērējs un raidītājs: kontūrus, filtrus,
-barošanas bloku, pastiprinātāju, ģeneratoru un jaucēju.
+barošanas bloku, pastiprinātāju, ģeneratoru, jaucēju un loģiskos elementus.
 
 **Video lekcija:** LRAL bezmaksas kurss, 7. nodarbība, 1. daļa (QR kods).
 **Eksāmena programma:** shēmas.
@@ -53,7 +53,7 @@ Kontūram ir divi slēgumi, un rezonansē tie uzvedas pretēji [1]:
 > **Praktisks padoms.** Eksāmenā rezonanses uzdevumam parasti doti četri
 > atbilžu varianti, kas atšķiras 10 reizes (piemēram, 1,59 kHz, 15,9 kHz,
 > 159 kHz, 1,59 MHz). Cipari 159 nāk no 1 / (2π) ≈ 0,159. Tev jānosaka tikai
-> kārta: rūpīgi saskaiti desmit pakāpes.
+> kārta: rūpīgi seko desmit pakāpes kāpinātājiem (10⁻⁶, 10⁻¹² …).
 
 ## 10.2. Filtri
 

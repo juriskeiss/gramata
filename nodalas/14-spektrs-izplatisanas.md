@@ -248,8 +248,8 @@ atstaro, un diapazons pēkšņi uzvedas kā īsviļņu diapazons.
 
 Šie veidi bieži **kombinējas**. Signāls var atstaroties no viena Es mākoņa,
 nolaisties un atstaroties no nākamā (Es + Es), vai pēc atstarojuma no Es turpināt
-ceļu caur F2 slāni (Es + F2). Latvija atrodas tālu no ekvatora, tāpēc TEP
-no šejienes parasti sasniedz kopā ar Es atstarojumu līdz Dienvideiropai.
+ceļu caur F2 slāni (Es + F2). Latvija atrodas tālu no ekvatora, tāpēc no
+šejienes TEP parasti izdodas tikai kopā ar Es atstarojumu līdz Dienvideiropai.
 
 > **Praktisks padoms.** Ja vasarā 10 m diapazonā pēkšņi skan stipri
 > signāli no 1000–2000 km attāluma, pārbaudi arī 6 m: sporādiskā E

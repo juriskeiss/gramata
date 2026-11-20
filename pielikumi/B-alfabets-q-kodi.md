@@ -74,7 +74,7 @@ Ar jautājuma zīmi kods ir jautājums, bez tās — atbilde vai paziņojums.
 | --- | --- | --- |
 | R | Saprotamība | 1 — nav saprotams … 5 — pilnīgi saprotams |
 | S | Signāla stiprums | 1 — tik tikko dzirdams … 9 — ļoti stiprs |
-| T | Toņa kvalitāte (tikai telegrāfā) | 1 — rupjš … 9 — tīrs tonis |
+| T | Toņa kvalitāte (telegrāfā un RTTY) | 1 — rupjš … 9 — tīrs tonis |
 
 Telefonijā dod divus ciparus (RS, piemēram, "59"), telegrāfā — trīs (RST,
 piemēram, 599).

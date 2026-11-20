@@ -336,7 +336,7 @@ def f09_5m():
     f.line(390, 20, 390, 285, dash="3 5", w=1, color=MG)
     f.text(390, 296, "● — tinuma sākums", size=11, italic=True, color="#555")
     f.save("atteli/09-5-savstarpeja-induktivitate.svg",
-           "Savstarpējā induktivitāte: virknē slēgtas spoles ar saskaņotiem un pretējiem tinumiem")
+           "Savstarpējā induktivitāte: virknē slēgtas spoles saskaņotajā slēgumā un pretslēgumā")
 
 
 def f09_5():

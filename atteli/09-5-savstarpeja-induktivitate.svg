@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 300" width="780" height="300" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
-<title>Savstarpējā induktivitāte: virknē slēgtas spoles ar saskaņotiem un pretējiem tinumiem</title>
+<title>Savstarpējā induktivitāte: virknē slēgtas spoles saskaņotajā slēgumā un pretslēgumā</title>
 <rect x="0" y="0" width="780" height="300" fill="white"/>
 <text x="200.0" y="28.0" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">(a) Saskaņotais slēgums</text>
 <path d="M 112.0 130.0 a 7 7 0 0 1 14 0 a 7 7 0 0 1 14 0 a 7 7 0 0 1 14 0 a 7 7 0 0 1 14 0 " fill="none" stroke="#111111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>

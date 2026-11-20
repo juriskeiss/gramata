@@ -1,7 +1,7 @@
 # 3. nodaļa. Normatīvie akti
 
-Šī nodaļa izskaidro, kas un kā regulē radioamatieru darbību, un izved cauri
-Ministru kabineta noteikumiem Nr. 257 — galvenajam dokumentam, ko jautā
+Šī nodaļa izskaidro, kas un kā regulē radioamatieru darbību, un iepazīstina ar
+Ministru kabineta noteikumiem Nr. 257 — galveno dokumentu, ko jautā
 eksāmena juridiskajā daļā.
 
 **Video lekcija:** LRAL bezmaksas kurss, 2. nodarbība (QR kods).
@@ -206,7 +206,7 @@ Radioamatierim jānodrošina, ka viņa stacija nerada kaitīgus traucējumus
 
 | Cēlonis | Kas rīkojas un kā |
 | --- | --- |
-| Traucē tavas stacijas raidījumi | Tu pilnveido savu staciju, kamēr traucējumi ir novērsti vai samazināti līdz pieļaujamam līmenim |
+| Traucē tavas stacijas raidījumi | Tu pilnveido savu staciju, līdz traucējumi ir novērsti vai samazināti līdz pieļaujamam līmenim |
 | Traucētais uztvērējs ir bojāts vai netiek pareizi lietots | Trūkumus novērš uztvērēja īpašnieks |
 | Traucētā aparatūra nav pietiekami traucējumnoturīga | Abas puses vienojas par papildu pasākumiem, piemēram, filtriem vai antenas pārvietošanu |
 | Vienoties neizdodas | Pasākumus nosaka ES; tā var ierobežot jaudu, joslas un izstarojuma klases |
@@ -285,7 +285,7 @@ tev un kas — kaimiņam.
   glābšana.
 - Izsaukuma signāls jānosauc sākumā, beigās un reizi 10 minūtēs.
 - Stacijai jābūt drošai un tīrai: 42 V, 1 %, mazākā vajadzīgā jauda.
-- Par traucējumiem atbild radioamatieris; drošības dienestu traucēšana
+- Par savas stacijas radītajiem traucējumiem atbild radioamatieris; drošības dienestu traucēšana
   nozīmē tūlītēju raidīšanas pārtraukšanu.
 
 ## Paškontroles jautājumi

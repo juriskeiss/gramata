@@ -14,8 +14,8 @@ skaidrots plašāk.
 | Atstarojums (jonosfērā) | Hop | Signāla ceļš no Zemes līdz jonosfērai un atpakaļ; no F slāņa līdz 3000–4000 km (14.) |
 | Baluns | Balun | Savieno simetrisku antenu ar nesimetrisku kabeli (13.) |
 | Blakusizstarojums | Spurious emission | Nevēlams izstarojums ārpus vajadzīgās joslas (4., 12.) |
-| CW | Continuous wave | Telegrāfs ar Morzes kodu (8.) |
 | Ciparu darba veidi (MGM) | Digital modes | FT8, RTTY, PSK31 u.c.; signālu raida un atšifrē dators (1., 4.) |
+| CW | Continuous wave | Telegrāfs ar Morzes kodu (8.) |
 | Decibels (dB) | Decibel | Divu jaudu vai spriegumu attiecības logaritmiska mērvienība (8.) |
 | Detektors | Detector | Bloks, kas atdala informāciju no nesēja (11.) |
 | Diapazons | Band | Radioamatieriem iedalīts frekvenču apgabals, piemēram, 80 m (4.) |
@@ -68,11 +68,11 @@ skaidrots plašāk.
 | SSB | Single sideband | Vienas sānjoslas modulācija bez nesēja (8.) |
 | Starpfrekvence | Intermediate frequency, IF | Nemainīga frekvence superheterodīnā (11.) |
 | Superheterodīns | Superheterodyne | Uztvērējs, kas signālu pārnes uz starpfrekvenci (11.) |
-| SWR | Standing wave ratio | Stāvviļņu koeficients; rāda saskaņošanas kvalitāti (13., 15.) |
+| SWR | Standing wave ratio | Stāvviļņa koeficients; rāda salāgošanas kvalitāti (13., 15.) |
 | Telpas vilnis | Sky wave | Vilnis, kas atstarojas no jonosfēras (14.) |
 | Transīvers | Transceiver | Raidītājs un uztvērējs vienā korpusā (1.) |
 | UTC | Coordinated universal time | Koordinētais universālais laiks; to lieto žurnālā (5.) |
 | Viļņa garums | Wavelength | Attālums, ko vilnis noiet viena perioda laikā; λ = 300 / f (8.) |
 | Yagi antena | Yagi antenna | Virziena antena ar reflektoru, aktīvo elementu un direktoriem (13.) |
-| Zemējums | Grounding | Iekārtu korpusu savienojums ar zemi drošībai (17.) |
 | Zemes vilnis | Ground wave | Vilnis, kas izplatās gar Zemes virsmu (14.) |
+| Zemējums | Grounding | Iekārtu korpusu savienojums ar zemi drošībai (17.) |

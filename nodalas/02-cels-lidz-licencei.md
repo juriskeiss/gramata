@@ -85,7 +85,7 @@ tīmekļvietnē ne vēlāk kā mēnesi iepriekš [2].
 
 ## 2.4. Kā pieteikties
 
-Pieteikšanās ir četri soļi [1], [2]:
+Pieteikšanās notiek četros soļos [1], [2]:
 
 1. Aizpildi radioamatieru eksāmena pieteikuma veidlapu; tā ir ES
    tīmekļvietnē.
@@ -98,7 +98,7 @@ Pieteikšanās ir četri soļi [1], [2]:
 
 > **Uzmanību!** Ja eksāmena dienā tev vēl nav 16 gadu, kopā ar pieteikumu
 > jāiesniedz vecāku vai likumisko pārstāvju rakstveida piekrišana tam, ka
-> nodarbojies ar radioamatieru sakariem [2].
+> tu nodarbosies ar radioamatieru sakariem [2].
 
 Cena, adreses un datumi mainās, tāpēc grāmatā tie nav ierakstīti. Aktuālo
 informāciju pirms pieteikšanās pārbaudi ES tīmekļvietnē, sadaļā par

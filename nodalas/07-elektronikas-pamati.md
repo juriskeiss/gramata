@@ -156,7 +156,7 @@ Materiāli atšķiras ar to, cik labi vada strāvu. Šo īpašību sauc par
 | Grupa | Īpašība | Piemēri | Kur lieto |
 | --- | --- | --- | --- |
 | Vadītāji | Vada strāvu labi | Sudrabs, varš, alumīnijs, dzelzs | Vadi, antenas, kabeļi |
-| Pusvadītāji | Vadītspēju var vadīt | Silīcijs, germānijs | Diodes, tranzistori |
+| Pusvadītāji | Vadītspēju var mainīt | Silīcijs, germānijs | Diodes, tranzistori |
 | Izolatori | Strāvu praktiski nevada | Stikls, gumija, keramika, plastmasa | Vadu apvalki, antenu izolatori |
 
 Labākais vadītājs ir sudrabs, tūlīt aiz tā varš; tāpēc vadus un antenas
@@ -188,8 +188,8 @@ Sinusoidālam spriegumam efektīvā vērtība un amplitūda ir saistītas šādi
 
 $$U_{RMS} = \frac{U_{max}}{\sqrt{2}} \approx 0{,}707 \cdot U_{max} \qquad U_{max} \approx 1{,}414 \cdot U_{RMS}$$
 
-Kad saka "tīklā ir 230 V", domā efektīvo vērtību. Arī voltmetrs rāda
-efektīvo vērtību.
+Kad saka "tīklā ir 230 V", domā efektīvo vērtību. Arī multimetrs
+maiņsprieguma režīmā rāda efektīvo vērtību.
 
 > **Piemērs.** Tīkla spriegums ir 230 V. Kāda ir tā amplitūda?
 >
@@ -355,7 +355,7 @@ par siltumu.
   vienāda ar avota spriegumu. Tos lietosim 9. nodaļā, rēķinot rezistoru
   slēgumus.
 - **Lietderības koeficients.** Izejas jaudas attiecība pret patērēto jaudu.
-  Tipiskam 100 W transīveram tā ir ap 35–45 %.
+  Tipiskam 100 W transīveram tā ir ap 30–40 %.
 - **Kāpēc tieši 0,707?** Tas ir 1/√2. Jauda ir proporcionāla sprieguma
   kvadrātam, un sinusoīdas kvadrāta vidējā vērtība ir puse no maksimuma
   kvadrāta.

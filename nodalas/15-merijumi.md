@@ -93,7 +93,7 @@ Kam to lieto:
 - traucējumu meklēšanai (16. nodaļa).
 
 Slodzes ekvivalentam ir divi parametri: pretestība (50 Ω) un jauda, ko tas
-iztur. Lēts ekvivalents 100 W iztur tikai dažas desmitus sekunžu; seko
+iztur. Lēts ekvivalents 100 W iztur tikai dažus desmitus sekunžu; seko
 norādītajam darba laikam un ļauj tam atdzist.
 
 ## 15.4. Jaudas un SWR mērītājs

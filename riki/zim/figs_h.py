@@ -172,7 +172,7 @@ def f10_3():
     _curve(f, 620, yb, 220, 100, "bp")
     # BSF
     y = 230
-    _band(f, y, "Sprostfiltrs (režekcijas filtrs)", "BSF", "nomāc noteiktu frekvenču joslu, pārējās izlaiž", BLUE, BLUE_T)
+    _band(f, y, "Sprostfiltrs", "BSF", "nomāc noteiktu frekvenču joslu, pārējās izlaiž", BLUE, BLUE_T)
     yt, yb = y + 70, y + 180
     # a) virknes LC pret zemi
     _rails(f, 40, 280, yt, yb)

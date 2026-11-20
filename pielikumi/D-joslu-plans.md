@@ -3,7 +3,7 @@
 Tabulas sastādītas no jauna pēc IARU 1. reģiona HF joslu plāna (spēkā no
 2020. gada 16. oktobra) un VHF rokasgrāmatas (10.03. versija, 2026. gada
 februāris). Joslu plāns ik pa laikam mainās, tāpēc pirms raidīšanas pārbaudi
-aktuālo versiju vietnē iaru-r1.org. Iekrāsotās B kategorijas robežas ir
+aktuālo versiju vietnē iaru-r1.org. B kategorijas robežas ir
 C pielikumā; joslu plāna ievērošanu prasa MK noteikumu Nr. 257 53. punkts.
 
 **Lielākais joslas platums:** 200 Hz — telegrāfs; 500 Hz — šaurjoslas
@@ -52,6 +52,7 @@ darba veidi; 2700 Hz — visi darba veidi, arī SSB.
 | 28 190–28 225 | — | Tikai radiobākas |
 | 28 225–29 000 | 2700 Hz | Visi veidi; 28 360 — SSB QRP centrs |
 | 29 000–29 200 | — | Visi veidi; 29 100–29 200 — FM vienkāršie kanāli |
+| 29 200–29 300 | — | Visi veidi; ciparu darba veidi, automātiskās stacijas |
 | 29 300–29 510 | — | Satelīti |
 | 29 520–29 700 | 6 kHz | FM; atkārtotāji; 29 600 — FM izsaukuma kanāls |
 

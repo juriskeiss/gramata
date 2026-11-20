@@ -45,16 +45,16 @@ paša vārds, bet no lapas to var nolasīt (5.5. apakšnodaļa, 19.7. apakšnoda
 
 Telegrāfā sakars ir īsāks un lieto saīsinājumus (B pielikums). Iesācējam
 der lēns temps; ja korespondents raida par ātru, palūdz QRS. Piemērā tavs
-izsaukuma signāls ir YL2AB, korespondents — DL1XYZ.
+izsaukuma signāls ir YL3ABC, korespondents — DL1XYZ.
 
 | Kas | Teksts |
 | --- | --- |
 | DL1XYZ | `CQ CQ DE DL1XYZ DL1XYZ K` |
-| Tu | `DL1XYZ DE YL2AB YL2AB K` |
-| DL1XYZ | `YL2AB DE DL1XYZ GM TNX FER CALL UR RST 579 579 NAME HANS HANS QTH BERLIN BERLIN HW? YL2AB DE DL1XYZ K` |
-| Tu | `DL1XYZ DE YL2AB R TNX HANS UR RST 599 599 NAME [VĀRDS] [VĀRDS] QTH [VIETA] [VIETA] FIRST QSO HW? DL1XYZ DE YL2AB K` |
-| DL1XYZ | `YL2AB DE DL1XYZ R TNX FB QSO 73 GL YL2AB DE DL1XYZ SK` |
-| Tu | `DL1XYZ DE YL2AB TNX 73 SK` |
+| Tu | `DL1XYZ DE YL3ABC YL3ABC K` |
+| DL1XYZ | `YL3ABC DE DL1XYZ GM TNX FER CALL UR RST 579 579 NAME HANS HANS QTH BERLIN BERLIN HW? YL3ABC DE DL1XYZ K` |
+| Tu | `DL1XYZ DE YL3ABC R TNX HANS UR RST 599 599 NAME [VĀRDS] [VĀRDS] QTH [VIETA] [VIETA] FIRST QSO HW? DL1XYZ DE YL3ABC K` |
+| DL1XYZ | `YL3ABC DE DL1XYZ R TNX FB QSO 73 GL YL3ABC DE DL1XYZ SK` |
+| Tu | `DL1XYZ DE YL3ABC TNX 73 SK` |
 
 Biežākie saīsinājumi: GM, GA, GE — labrīt, labdien, labvakar; TNX — paldies;
 FER — par; UR — tavs; HW? — kā dzirdi?; FB — lieliski; GL — veiksmi;

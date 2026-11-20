@@ -214,7 +214,7 @@ Starptautiskā Telesakaru savienība (ITU) [3].
 
 ## 8.7. Decibeli
 
-Jaudas radiotehnikā atšķiras miljoniem reižu: raidītājs atdod 100 W, bet
+Jaudas radiotehnikā atšķiras simtiem miljardu reižu: raidītājs atdod 100 W, bet
 uztvērēja ieejā nonāk miljardā daļa vata. Lai ar tādiem skaitļiem būtu ērti
 rēķināt, attiecības izsaka **decibelos** (dB) [1], [2]:
 

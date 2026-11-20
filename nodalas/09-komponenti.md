@@ -106,7 +106,7 @@ spriegumu likums [2].
 > **Praktisks padoms.** Slodzes ekvivalentu raidītāja pārbaudei var salikt
 > pats: divdesmit 1 kΩ rezistori paralēli dod 50 Ω, un jauda sadalās uz
 > visiem divdesmit. Rezistoriem jābūt bezinduktīviem (oglekļa vai metāla
-> plēves), ne stieples.
+> plēves), nevis stieples.
 
 ## 9.3. Kondensators
 
@@ -205,7 +205,7 @@ apzīmē ar **punktu**:
 - vienā spolē pa punktoto, otrā pa nepunktoto galu — **pretslēgums**,
   magnētiskās plūsmas atņemas, **−2M**.
 
-![9.5. attēls. Savstarpējā induktivitāte: divas virknē slēgtas spoles ar saskaņotiem un pretējiem tinumiem.](../atteli/09-5-savstarpeja-induktivitate.svg)
+![9.5. attēls. Savstarpējā induktivitāte: divas virknē slēgtas spoles saskaņotajā slēgumā un pretslēgumā.](../atteli/09-5-savstarpeja-induktivitate.svg)
 
 > **Piemērs.** Spoles 12 mH un 9 mH novietotas tuvu, M = 2 mH. Kāda ir kopējā
 > induktivitāte?
@@ -246,7 +246,7 @@ pieaug.
 > magnētisko lauku nemaina, tāpēc sekundārajā tinumā nekas neinducējas.
 
 Radiotehnikā transformatorus lieto ne tikai barošanā, bet arī pretestību
-saskaņošanai — tādi ir antenu baluni un ununi (13. nodaļa).
+salāgošanai — tādi ir antenu baluni un ununi (13. nodaļa).
 
 ## 9.6. Diode
 
@@ -451,7 +451,7 @@ strāva. Atkārto ar spoli.
 | 14 | A | Zenera diode (stabilitrons) notur nemainīgu spriegumu. |
 | 15 | B | Aizvars, notece un izteka ir lauktranzistoram. |
 | 16 | C | I = 12 / 60 = 0,2 A; U = 0,2 · 40 = 8 V. |
-| 17 | B | Strāva ieplūst abos punktotajos galos: 10 + 6 + 2 · 2 = 20 µH. (12 µH būtu pretējā slēgumā.) |
+| 17 | B | Strāva ieplūst abos punktotajos galos: 10 + 6 + 2 · 2 = 20 µH. (12 µH būtu pretslēgumā.) |
 
 Atvērtie jautājumi: astoņpadsmitajā der divi 100 Ω paralēli vai četri
 200 Ω paralēli; arī 100 Ω paralēli ar diviem 200 Ω. Deviņpadsmitajā jāpiemin,

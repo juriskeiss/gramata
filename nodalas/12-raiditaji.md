@@ -43,7 +43,7 @@ jāieslēdz un jāizslēdz [1].
 | Bloks | Ko dara |
 | --- | --- |
 | Ģenerators | Rada stabilu nesēja frekvenci |
-| Atdalošais (bufer) pastiprinātājs | Atdala ģeneratoru no nākamajām pakāpēm, lai slodze neietekmētu frekvenci |
+| Atdalošais (bufera) pastiprinātājs | Atdala ģeneratoru no nākamajām pakāpēm, lai slodze neietekmētu frekvenci |
 | Manipulējamais pastiprinātājs | To ieslēdz un izslēdz telegrāfa atslēga Morzes koda ritmā |
 | Pastiprinātājs | Pastiprina signālu; var būt arī frekvences reizinātājs |
 | Izejas pastiprinātājs | Pastiprina signālu līdz izejas jaudai |
@@ -371,7 +371,7 @@ virs 7080 kHz, 21,6 MHz ir virs 21 450 kHz), tātad visas ir jāaiztur.
   fāzes nobīdi. Tā strādā lielākā daļa SDR transīveru: sānjoslu "aprēķina"
   programma.
 - **Runas procesors.** Kompresors, kas paaugstina vidējo runas līmeni,
-  nepārsniedzot maksimumus. Pareizi iestatīts, tas palīdz pile-up; pārāk
+  nepārsniedzot maksimumus. Pareizi iestatīts, tas palīdz pile-up situācijā; pārāk
   stiprs padara balsi nesaprotamu.
 - **Lietderības koeficients.** FM un CW gala pakāpes var strādāt ar
   60–70 % lietderību, lineārās SSB pakāpes — ap 40–50 %. Pārējais ir

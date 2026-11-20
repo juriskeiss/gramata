@@ -173,7 +173,7 @@ Antenu veidu ir simtiem; izvēli nosaka diapazons, vieta un mērķis [1].
 
 | Antena | Īss raksturojums |
 | --- | --- |
-| Magnētiskā cilpa | Maza cilpa ar maināmu kondensatoru; der balkonam; ļoti šaura josla |
+| Magnētiskā cilpa | Maza cilpa ar maiņkondensatoru; der balkonam; ļoti šaura josla |
 | Delta Loop | Trijstūra formas pilna viļņa cilpa |
 | Hexbeam | Kompakta virziena antena vairākiem HF diapazoniem |
 | Paraboliskā antena | "Šķīvis" ar ļoti lielu pastiprinājumu; GHz diapazoniem |
@@ -258,7 +258,7 @@ traucējumi mājas tehnikā. To novērš ar balunu [1].
 **Antenas salāgotājs** (angliski antenna tuner, ATU; sarunvalodā arī
 "tūneris") ir regulējama spoļu un kondensatoru shēma, kas salāgo divas
 pretestības. Ja salāgotājs ir pie antenas, tas salāgo antenas ieejas
-pretestību ar barošanas līnijas raksturpretestību. Ja tas ir pie transīvera,
+pretestību ar pārvades līnijas raksturpretestību. Ja tas ir pie transīvera,
 tas salāgo līnijas ieejas pretestību ar transīvera 50 Ω. Antenu pašu tas
 neskaņo: antenas rezonanses frekvence nemainās.
 
@@ -454,8 +454,9 @@ stieņa un radiāļu garumu.
 | 17 | A | −3 dB ir puse: 50 W. |
 
 Atvērtie jautājumi: astoņpadsmitajā pilns 80 m dipols (38,5 m) neietilpst;
-iespējamie risinājumi ir EFHW vai nejauša garuma vads ar salāgotāju, vai
-saīsināta vertikālā antena, katrs ar mazāku efektivitāti. Deviņpadsmitajā
+iespējamie risinājumi ir nejauša garuma vads ar salāgotāju (pa mastu uz
+augšu un tālāk pāri pagalmam) vai saīsināta vertikālā antena, abi ar mazāku
+efektivitāti; arī 80 m EFHW (ap 40 m) neietilpst. Deviņpadsmitajā
 jāpiemin, ka salāgotājs maina tikai to, ko redz raidītājs; aiz salāgotāja
 nesalāgojums un stāvviļņi paliek.
 

@@ -1,7 +1,7 @@
 # 11. nodaļa. Uztvērēji
 
 Šī nodaļa parāda, kā no antenas mikrovoltiem top skaņa skaļrunī, un iemāca
-izlasīt četru uztvērēju veidu blokshēmas.
+izlasīt piecu uztvērēju veidu blokshēmas.
 
 **Video lekcija:** LRAL bezmaksas kurss, 7. nodarbība, 2. daļa (QR kods).
 **Eksāmena programma:** uztvērēji.
@@ -193,7 +193,7 @@ pieslēgts internetam. Arī lielākā daļa mūsdienu transīveru iekšpusē ir 
 | ATT | Vājinātājs | Vājina visus signālus ieejā; palīdz pret pārslodzi |
 | FIL, WIDTH | Filtra platums | Šaurāks filtrs — mazāk traucējumu, bet arī mazāk skaņas joslas |
 | NB, NR | Trokšņu slāpētāji | Samazina impulsu traucējumus un fona troksni |
-| RIT | Uztvērēja atskaņošana | Nedaudz pārbīda uztveršanas frekvenci, nemainot raidīšanas |
+| RIT | Uztvērēja frekvences pieskaņošana | Nedaudz pārbīda uztveršanas frekvenci, nemainot raidīšanas |
 | SQL | Trokšņu slēdzis (squelch) | FM režīmā izslēdz skaļruni, kad signāla nav |
 | S metrs | Signāla stipruma mērītājs | Rāda signāla līmeni S vienībās |
 
@@ -207,8 +207,9 @@ pieslēgts internetam. Arī lielākā daļa mūsdienu transīveru iekšpusē ir 
 
 ## Eksāmenā jāzina
 
-- Uztvērēja parametri: jutība, selektivitāte, stabilitāte.
-- Detektoruztvērējs: kontūrs, detektors, austiņas; bez pastiprinātāja un
+- Uztvērēja parametri: jutība, selektivitāte, stabilitāte, dinamiskais
+  diapazons.
+- Detektoruztvērējs: antena, preselektors, detektors, austiņas; bez pastiprinātāja un
   barošanas; AM signāliem.
 - Tiešā pastiprinājuma uztvērējs: AFP, detektors, ZFP.
 - Superheterodīna bloki secībā: AFP, jaucējs ar heterodīnu, starpfrekvences
@@ -241,7 +242,7 @@ frekvenci.
 ## Kopsavilkums
 
 - Uztvērējs izvēlas, pastiprina un demodulē.
-- Detektoruztvērējs ir vienkāršākais: kontūrs, diode, austiņas.
+- Detektoruztvērējs ir vienkāršākais: preselektors, diode, austiņas.
 - Superheterodīns pārnes signālu uz nemainīgu starpfrekvenci, kur to
   filtrē un pastiprina.
 - Uztvērēju noskaņo, mainot heterodīna frekvenci.

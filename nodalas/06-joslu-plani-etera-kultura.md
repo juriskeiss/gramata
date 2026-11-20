@@ -67,7 +67,7 @@ un 28,074 MHz.
 
 ## 6.3. SSB sānjoslas izvēle
 
-SSB signālam ir divi varianti, un visi lieto vienu un to pašu, lai
+SSB signālam ir divi varianti, un katrā diapazonā visi lieto vienu un to pašu, lai
 saprastos:
 
 | Diapazons | Sānjosla |
@@ -113,7 +113,7 @@ Radioamatierisms ir starptautisks hobijs. Sarunu biedrs var būt no valsts ar
 citām paražām un valodu; angļu valoda bieži ir vienīgā kopīgā. Runā lēni,
 vienkāršiem vārdiem, un nebrīnies par akcentu — arī tavējais ir dzirdams.
 
-## 6.5. Kā uzvesties pile-up
+## 6.5. Kā uzvesties pile-up situācijā
 
 Kad retu staciju vienlaikus sauc daudzi, veidojas **pile-up**. Tā ir vieta,
 kur ētera kultūra tiek pārbaudīta visvairāk. Starptautiski pazīstams ieteikumu
@@ -133,7 +133,7 @@ paradumi:
 Kad sakars izdevies, pasaki paldies un atbrīvo frekvenci. Kad neizdodas,
 neļaunojies: retā stacija būs ēterā arī rīt.
 
-> **Praktisks padoms.** Pile-up vienmēr atradīsies kāds, kurš raida nepareizā
+> **Praktisks padoms.** Pile-up situācijā vienmēr atradīsies kāds, kurš raida nepareizā
 > frekvencē vai traucē tīši. Neatbildi viņam un nelabo viņu ēterā: katrs
 > "tu traucē!" ir vēl viens traucējums. Labākā atbilde tīšam traucētājam ir
 > klusums.

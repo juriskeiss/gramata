@@ -69,7 +69,7 @@ atrodas (37. punkts) [1].
 Atkārtotājam var piešķirt arī signālu ar trīs burtu sufiksu, kura pirmais
 burts ir R, piemēram, YL2RKA; tad /R nepievieno [1].
 
-Mobila vai pārnēsājama stacija /M un /P **drīkst** pievienot (68. punkts);
+Mobilai vai pārnēsājamai stacijai /M un /P **drīkst** pievienot (68. punkts);
 zīmes /MM un /AM attiecas tikai uz A kategoriju, jo no kuģa un gaisa kuģa
 B kategorija raidīt nedrīkst [1].
 
