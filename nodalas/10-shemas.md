@@ -14,7 +14,9 @@ barošanas bloku, pastiprinātāju, ģeneratoru, jaucēju un loģiskos elementus
 - atšķirt četrus filtru veidus un pateikt, kur katru lieto;
 - izskaidrot barošanas bloka uzbūvi no transformatora līdz stabilizatoram;
 - pateikt, ko dara pastiprinātājs, ģenerators un jaucējs;
-- aprēķināt jaucēja izejas frekvences.
+- aprēķināt jaucēja izejas frekvences;
+- nosaukt loģisko elementu UN, VAI un NE darbību un pārvērst bināro skaitli
+  decimālajā.
 
 ## 10.1. Svārstību kontūrs un rezonanse
 
@@ -53,7 +55,7 @@ Kontūram ir divi slēgumi, un rezonansē tie uzvedas pretēji [1]:
 > **Praktisks padoms.** Eksāmenā rezonanses uzdevumam parasti doti četri
 > atbilžu varianti, kas atšķiras 10 reizes (piemēram, 1,59 kHz, 15,9 kHz,
 > 159 kHz, 1,59 MHz). Cipari 159 nāk no 1 / (2π) ≈ 0,159. Tev jānosaka tikai
-> kārta: rūpīgi seko desmit pakāpes kāpinātājiem (10⁻⁶, 10⁻¹² …).
+> kārta: rūpīgi seko desmit pakāpju kāpinātājiem (10⁻⁶, 10⁻¹² …).
 
 ## 10.2. Filtri
 
@@ -310,6 +312,8 @@ barošanas bloka shēmu un sameklē tajā četras pakāpes no 10.3. apakšnodaļ
 - Pastiprinātājs palielina signālu; ģenerators to rada; jaucējs pārceļ uz
   citu frekvenci.
 - Jaucēja izejā ir summa un starpība; vajadzīgo izvēlas ar filtru.
+- Loģiskie elementi: UN dod 1, ja abas ieejas ir 1; VAI — ja vismaz viena;
+  NE dod pretējo.
 
 ## Paškontroles jautājumi
 

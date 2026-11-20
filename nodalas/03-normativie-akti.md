@@ -109,7 +109,7 @@ Noteikumu 2. punkts definē terminus. Eksāmenā biežāk vajadzīgie [1]:
 
 ## 3.4. Radiostacijas un atļaujas
 
-Radiostacijas iedala trīs veidos (16. punkts) [1]:
+Radiostacijas iedala pēc trim pazīmēm (16. punkts) [1]:
 
 - pēc lietošanas: **individuālās** un **koplietošanas** (kluba) stacijas;
 - pēc darbības: **apkalpojamās** un **neapkalpojamās** (atkārtotāji, bākas);

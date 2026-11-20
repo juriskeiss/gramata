@@ -25,6 +25,7 @@ local CALLOUTS = {
   ["Piemērs."]          = { cls = "piemers",  label = "Piemērs" },
   ["Atceries:"]         = { cls = "atceries", label = "Atceries" },
   ["Padziļināti."]      = { cls = "padzilinati", label = "Padziļināti" },
+  ["C kategorijai."]    = { cls = "ckat",     label = "C kategorijai" },
 }
 
 local SECTIONS = {

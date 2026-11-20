@@ -81,15 +81,16 @@ Hobijam ir arī praktiska puse [1]:
 pasaulē nav divu radioamatieru ar vienādu izsaukuma signālu. To piešķir valsts
 atbildīgā iestāde; Latvijā tā ir SIA "Elektroniskie sakari" (ES) [1].
 
-Izsaukuma signāls sastāv no divām daļām:
+Izsaukuma signāls sastāv no trim daļām:
 
 | Daļa | Ko norāda | Piemērā YL3ABC |
 | --- | --- | --- |
-| Prefikss | Valsti vai teritoriju | YL3 |
-| Sufikss | Konkrēto staciju | ABC |
+| Prefikss | Valsti vai teritoriju | YL |
+| Cipars | Latvijā reģionu nenorāda | 3 |
+| Sufikss | Konkrēto staciju; garums rāda kategoriju | ABC |
 
 Latvijas prefikss ir **YL**. Dažu citu valstu prefiksi: LY — Lietuva,
-ES — Igaunija, DL — Vācija, ON — Beļģija, PY — Brazīlija. Dzirdot izsaukuma
+ES — Igaunija (nejaukt ar iestādes saīsinājumu ES), DL — Vācija, ON — Beļģija, PY — Brazīlija. Dzirdot izsaukuma
 signālu, pēc prefiksa uzreiz zini, no kuras valsts stacija raida.
 
 Pastāv arī īpašie izsaukuma signāli, ko piešķir jubilejām un pasākumiem,
@@ -268,7 +269,7 @@ bet klausīties drīkst ikviens. Pieraksti:
 | 1 | B | Izšķirošais ir nokārtots eksāmens un apliecība, nevis aparatūra vai dalība biedrībā. |
 | 2 | D | Pārējie varianti apraksta apraidi, komerciālus un valsts sakarus, kas ir citi dienesti. |
 | 3 | A | Radioamatieru ziņojumiem jābūt atklātiem; šifrēšana ir aizliegta. |
-| 4 | C | YL ir Latvija; LY ir Lietuva, ES ir Igaunija. |
+| 4 | C | YL ir Latvija; LY ir Lietuva, ES (izsaukuma signālos) ir Igaunija. |
 | 5 | B | Izsaukuma signālus piešķir valsts atbildīgā iestāde, nevis biedrība. |
 | 6 | A | QTH ir atrašanās vieta, CQ ir vispārējs izsaukums, QRM ir traucējumi. |
 | 7 | D | QSL ir sakara apstiprinājums; sakarus pieraksta žurnālā. |

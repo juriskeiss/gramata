@@ -111,7 +111,7 @@ saīsināšanas koeficientu 0,95 (13. nodaļa).
 > 2. Elektriskais garums λ/2: 42,9 / 2 ≈ 21,4 m.
 > 3. Fiziskais garums: 21,4 · 0,95 ≈ 20,3 m.
 
-> **Praktisks padoms.** 80 m diapazona dipola vads ir ap 38 m garš, bet
+> **Praktisks padoms.** 80 m diapazona dipola vads ir ap 38,5 m garš, bet
 > 2 m diapazona dipols — mazāk par 1 m. Tāpēc īsviļņu antenai vajag
 > pagalmu, bet 2 m diapazona antena ietilpst uz balkona. Vairāk 13. nodaļā.
 
@@ -174,6 +174,10 @@ apakšējā (**LSB**); kuru lietot, pasaka 6. nodaļa.
 paliek nemainīga. Tā kā lielākā daļa traucējumu ietekmē tieši amplitūdu, FM
 skan tīri. Cena ir joslas platums: no radioamatieru balss veidiem FM
 aizņem visplatāko joslu [1].
+
+**PM — fāzes modulācija.** Balss maina nesēja fāzi. Uztvērējā PM skan tāpat
+kā FM, un daudzi FM raidītāji patiesībā lieto fāzes modulāciju (izstarojuma
+klase G3E).
 
 **CW — nepārtraukts vilnis.** Tīrs nesējs, ko ieslēdz un izslēdz. Signāls ir
 ļoti šaurs, tāpēc uztvērējs var izmantot šauru filtru un sadzirdēt to arī
@@ -436,9 +440,6 @@ filtru. Deviņpadsmitajā: −3 dB + 6 dB = +3 dB, tātad 50 W · 2 = 100 W.
 
 ## Padziļināti
 
-- **Fāzes modulācija (PM).** Informācija maina nesēja fāzi. Uztvērējā PM un
-  FM izklausās līdzīgi, un daudzi "FM" raidītāji patiesībā lieto fāzes
-  modulāciju.
 - **dBm, dBi un dBd.** Ja atskaites līmenis ir noteikts, decibeli kļūst par
   absolūtu mēru: dBm ir pret 1 mW, dBi — pret izotropu antenu, dBd — pret
   dipolu. Antenu pastiprinājumu skaidro 13. nodaļa.

@@ -371,9 +371,6 @@ neskatoties lapā.
 
 ## Paškontroles jautājumi
 
-Katram testa jautājumam ir viena pareiza atbilde. Eksāmena līmenis ir 60 %,
-tātad šeit mērķis ir vismaz 9 pareizas atbildes no 14.
-
 1. Tu gribi raidīt CQ šķietami brīvā frekvencē. Ko dari vispirms?
     - A. Uzreiz sāc saukt CQ
     - B. Paklausies un pajautā, vai frekvence ir brīva, nosaucot savu izsaukuma signālu

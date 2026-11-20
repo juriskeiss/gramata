@@ -143,7 +143,7 @@ Kā lasīt tabulu:
 
 Tikpat svarīgi ir zināt robežas. B kategorijai **nav** atļauti:
 
-- diapazoni 160 m, 30 m, 20 m, 17 m un 12 m — to tabulā nav vispār;
+- citi diapazoni, piemēram, 160 m, 30 m, 20 m, 17 m un 12 m — to tabulā nav vispār;
 - 80 m diapazona malas: zem 3510 kHz un virs 3750 kHz;
 - 40 m diapazonā viss ārpus 7010–7080 kHz.
 

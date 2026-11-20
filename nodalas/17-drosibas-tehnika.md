@@ -154,7 +154,7 @@ Spriegums pārnesamiem elektroinstrumentiem [3]:
 | **220 V** | Telpās ar paaugstinātu bīstamību | Korpuss jāzemē (izņemot instrumentus ar dubultizolāciju), un jālieto individuālie aizsardzības līdzekļi |
 | **12 V** | Sevišķi bīstamās telpās | Vienīgais atļautais spriegums: 220 V instrumentus lietot aizliegts. Korpusu zemēt nav obligāti, bet jāstrādā ar individuālajiem aizsardzības līdzekļiem |
 
-> **Uzmanību!** 42 V un 12 V nav savstarpēji aizstājami. Telpa, kas ir tikai
+> **Uzmanību!** 42 V nedrīkst lietot tur, kur prasīts 12 V. Telpa, kas ir tikai
 > mitra vai tikai ar vadošu grīdu, ir telpa ar paaugstinātu bīstamību, un tajā
 > der 42 V. Ja abas pazīmes ir vienlaikus, telpa ir sevišķi bīstama, un
 > drīkst lietot tikai 12 V.
@@ -170,7 +170,7 @@ Spriegums pārnesamiem elektroinstrumentiem [3]:
 >    aizsardzības līdzekļiem.
 
 Skaitlis 42 V parādās arī MK noteikumos: stacijas barošanas spriegums uz
-antenām un fīderiem nedrīkst pārsniegt 42 V [2, 53.9. apakšpunkts].
+antenām un fīderiem nedrīkst pārsniegt 42 V (53.9. apakšpunkts) [2].
 
 ## 17.6. Ugunsdrošība
 

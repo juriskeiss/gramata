@@ -27,7 +27,7 @@ ir 4. nodaļā.
 
 ## Kur B kategorija nedrīkst raidīt
 
-- 160 m, 30 m, 20 m, 17 m un 12 m diapazonā;
+- citos diapazonos, piemēram, 160 m, 30 m, 20 m, 17 m un 12 m;
 - 80 m diapazonā zem 3510 kHz un virs 3750 kHz;
 - 40 m diapazonā ārpus 7010–7080 kHz un 40 m diapazonā ar balsi.
 

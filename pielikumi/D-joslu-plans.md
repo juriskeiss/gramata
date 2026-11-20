@@ -5,6 +5,8 @@ Tabulas sastādītas no jauna pēc IARU 1. reģiona HF joslu plāna (spēkā no
 februāris). Joslu plāns ik pa laikam mainās, tāpēc pirms raidīšanas pārbaudi
 aktuālo versiju vietnē iaru-r1.org. B kategorijas robežas ir
 C pielikumā; joslu plāna ievērošanu prasa MK noteikumu Nr. 257 53. punkts.
+Tabulas ir vienkāršotas: starp dažiem segmentiem ir šauras aizsargjoslas, un
+pilnu sadalījumu skaties IARU plānā.
 
 **Lielākais joslas platums:** 200 Hz — telegrāfs; 500 Hz — šaurjoslas
 darba veidi; 2700 Hz — visi darba veidi, arī SSB.
@@ -54,7 +56,19 @@ darba veidi; 2700 Hz — visi darba veidi, arī SSB.
 | 29 000–29 200 | — | Visi veidi; 29 100–29 200 — FM vienkāršie kanāli |
 | 29 200–29 300 | — | Visi veidi; ciparu darba veidi, automātiskās stacijas |
 | 29 300–29 510 | — | Satelīti |
+| 29 510–29 520 | — | Aizsargkanāls; neraida |
 | 29 520–29 700 | 6 kHz | FM; atkārtotāji; 29 600 — FM izsaukuma kanāls |
+
+## 6 m (B kategorijai 50–52 MHz, līdz 100 W)
+
+| Segments, MHz | Lietojums |
+| --- | --- |
+| 50,000–⁠50,100 | Tikai telegrāfs; 50,000–50,030 — sinhronizētās radiobākas; 50,090 — starpkontinentālais CW centrs |
+| 50,100–⁠50,200 | CW un SSB, starptautiskie sakari; 50,110 — starpkontinentālā izsaukuma frekvence, 50,150 — SSB centrs |
+| 50,200–⁠50,300 | CW un SSB, vispārēja lietošana |
+| 50,300–⁠50,400 | Šaurjoslas ciparu darba veidi un CW (FT8 — 50,313); 50,320–50,380 — meteoru atstarošana |
+| 50,400–⁠50,500 | Tikai radiobākas |
+| 50,500–⁠52,000 | Visi veidi: FM, ciparu balss, atkārtotāji, ciparu sakari; 51,510 — FM izsaukuma frekvence |
 
 ## 2 m (B kategorijai 144–146 MHz, līdz 50 W)
 
@@ -79,6 +93,7 @@ Atkārtotāju nobīde 2 m diapazonā ir 600 kHz: atkārtotājs, kas raida
 
 | Segments, MHz | Lietojums |
 | --- | --- |
+| 430,000–432,000 | Valsts plānojums: atkārtotāji, ciparu sakari, daudzveida kanāli |
 | 432,000–432,400 | CW un SSB; 432,050 — CW centrs, 432,200 — SSB centrs |
 | 432,400–432,490 | Tikai radiobākas |
 | 433,000–433,375 | Atkārtotāju ieejas |
@@ -86,6 +101,22 @@ Atkārtotāju nobīde 2 m diapazonā ir 600 kHz: atkārtotājs, kas raida
 | 434,600–434,9875 | Atkārtotāju izejas |
 | 435,000–438,000 | Satelīti |
 | 438,000–440,000 | Ciparu sakari, atkārtotāji |
+
+## 23 cm (B kategorijai 1240–1300 MHz, līdz 10 W)
+
+| Segments, MHz | Lietojums |
+| --- | --- |
+| 1240,000–⁠1243,250 | Visi veidi; ciparu sakari, atkārtotāju izejas |
+| 1243,250–⁠1260,000 | Ciparu ATV |
+| 1260,000–⁠1270,000 | Satelīti |
+| 1270,000–⁠1272,000 | Visi veidi; atkārtotāju ieejas, ciparu sakari |
+| 1272,000–⁠1290,994 | Ciparu ATV |
+| 1290,994–⁠1296,000 | Atkārtotāju ieejas, visi veidi |
+| 1296,000–⁠1296,150 | CW un šaurjoslas ciparu darba veidi; 1296,000–1296,025 — EME |
+| 1296,150–⁠1296,800 | CW, SSB, ciparu darba veidi; 1296,200 — šaurjoslas centrs |
+| 1296,800–⁠1296,994 | Tikai radiobākas |
+| 1296,994–⁠1297,981 | FM un ciparu balss: atkārtotāju izejas, vienkāršie kanāli; 1297,500 — FM vienkāršo kanālu centrs |
+| 1298,000–⁠1300,000 | Visi veidi; ciparu datu kanāli |
 
 Valsts joslu plāns var būt sīkāks; Latvijas atkārtotāju frekvences skaties
 LRAL vietnē.

@@ -115,8 +115,8 @@ stundas. Tas noder, plānojot darbu ārpus mājas.
 
 ## 7.4. Metriskie prefiksi
 
-Radiotehnikā lielumi atšķiras miljardiem reižu: antenas strāva ir ampēros,
-kondensatora kapacitāte — pikofaradās. Lai nerakstītu garas nuļļu rindas,
+Radiotehnikā skaitļi atšķiras miljardiem reižu: frekvences ir gigahercos,
+kapacitātes — pikofaradās. Lai nerakstītu garas nuļļu rindas,
 lieto prefiksus [1].
 
 | Prefikss | Apzīmējums | Reizinātājs | Piemērs radio pasaulē |
@@ -159,8 +159,8 @@ Materiāli atšķiras ar to, cik labi vada strāvu. Šo īpašību sauc par
 | Pusvadītāji | Vadītspēju var mainīt | Silīcijs, germānijs | Diodes, tranzistori |
 | Izolatori | Strāvu praktiski nevada | Stikls, gumija, keramika, plastmasa | Vadu apvalki, antenu izolatori |
 
-Labākais vadītājs ir sudrabs, tūlīt aiz tā varš; tāpēc vadus un antenas
-taisa no vara. Alumīnijs vada sliktāk, bet ir vieglāks, tāpēc no tā būvē
+Labākais vadītājs ir sudrabs, tūlīt aiz tā varš, kas ir daudz lētāks; tāpēc
+vadus un antenas taisa no vara. Alumīnijs vada sliktāk, bet ir vieglāks, tāpēc no tā būvē
 lielas antenas.
 
 ## 7.6. Līdzstrāva un maiņstrāva

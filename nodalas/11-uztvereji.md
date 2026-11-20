@@ -212,8 +212,8 @@ pieslēgts internetam. Arī lielākā daļa mūsdienu transīveru iekšpusē ir 
 - Detektoruztvērējs: antena, preselektors, detektors, austiņas; bez pastiprinātāja un
   barošanas; AM signāliem.
 - Tiešā pastiprinājuma uztvērējs: AFP, detektors, ZFP.
-- Superheterodīna bloki secībā: AFP, jaucējs ar heterodīnu, starpfrekvences
-  filtrs, SFP, detektors, ZFP.
+- Superheterodīna bloki secībā: preselektors un AFP, jaucējs ar heterodīnu,
+  starpfrekvences filtrs, SFP, detektors, ZFP.
 - Starpfrekvence ir signāla un heterodīna frekvenču starpība; tā ir
   nemainīga.
 - Selektivitāti nosaka starpfrekvences filtrs.
@@ -242,7 +242,7 @@ frekvenci.
 ## Kopsavilkums
 
 - Uztvērējs izvēlas, pastiprina un demodulē.
-- Detektoruztvērējs ir vienkāršākais: preselektors, diode, austiņas.
+- Detektoruztvērējs ir vienkāršākais: preselektors, detektors (diode), austiņas.
 - Superheterodīns pārnes signālu uz nemainīgu starpfrekvenci, kur to
   filtrē un pastiprina.
 - Uztvērēju noskaņo, mainot heterodīna frekvenci.

@@ -364,7 +364,8 @@ diapazonā?
 
 Atvērtie jautājumi: sešpadsmitajā otrā harmonika ir 7,2 MHz, trešā —
 10,8 MHz, sestā — 21,6 MHz. Neviena netrāpa B kategorijas joslās (7,2 MHz ir
-virs 7080 kHz, 21,6 MHz ir virs 21 450 kHz), tātad visas ir jāaiztur.
+virs 7080 kHz, 21,6 MHz ir virs 21 450 kHz). Harmonikas jebkurā gadījumā
+jāaiztur.
 
 ## Padziļināti
 

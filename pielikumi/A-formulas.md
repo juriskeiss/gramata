@@ -54,7 +54,7 @@ $$C_{kop} = C_1 + C_2 + \cdots + C_n \quad \text{[F]}$$
 
 ::: fl-apz
 | $P$ — jauda [W]
-| $E$ — spriegums [V]
+| $E$ — spriegums [V] (tekstā — U)
 | $I$ — strāva [A]
 | $R$ — pretestība [Ω]
 :::
@@ -91,7 +91,7 @@ $$U_{p\text{-}p} = 2 \cdot U_{max} \quad \text{[V]}$$
 | giga (G) | $10^{9}$ | 1 000 000 000 | 1 GHz |
 | mega (M) | $10^{6}$ | 1 000 000 | 1 MΩ |
 | kilo (k) | $10^{3}$ | 1 000 | 1 kΩ |
-| hecto (h) | $10^{2}$ | 100 | 1 hF |
+| hekto (h) | $10^{2}$ | 100 | 1 hF |
 | deka (da) | $10^{1}$ | 10 | 1 daV |
 | deci (d) | $10^{-1}$ | 0,1 | 1 dV |
 | centi (c) | $10^{-2}$ | 0,01 | 1 cm |

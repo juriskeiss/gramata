@@ -115,8 +115,8 @@ vienkāršiem vārdiem, un nebrīnies par akcentu — arī tavējais ir dzirdams
 
 ## 6.5. Kā uzvesties pile-up situācijā
 
-Kad retu staciju vienlaikus sauc daudzi, veidojas **pile-up**. Tā ir vieta,
-kur ētera kultūra tiek pārbaudīta visvairāk. Starptautiski pazīstams ieteikumu
+Kad retu staciju vienlaikus sauc daudzi, veidojas **pile-up**. Šādā situācijā
+ētera kultūra tiek pārbaudīta visvairāk. Starptautiski pazīstams ieteikumu
 kopums šādām situācijām ir DX uzvedības kodekss [5]. Tā būtība ir pieci
 paradumi:
 
@@ -229,7 +229,7 @@ labu un vienu sliktu uzvedības piemēru.
     - D. Raidi tikai ar mazu jaudu
 8. DX stacija saka "only Japan". Tu esi Latvijā. Ko dari?
     - A. Sauc, bet tikai vienreiz
-    - B. Neraidi un gaidi, kamēr DX sauks Eiropu
+    - B. Neraidi un gaidi, līdz DX sauks Eiropu
     - C. Sauc ar lielāku jaudu
     - D. Pasaki ēterā, ka tas ir negodīgi
 9. Kāds raida mūziku un lamājas tavā sakara frekvencē. Kā rīkojies?

@@ -78,8 +78,8 @@ Jonosfērā izšķir trīs slāņus.
 Dienā F slānis sadalās divos, F1 un F2; naktī tie saplūst vienā.
 
 **D slānis ir šķērslis, nevis spogulis.** Dienā tas absorbē 80 m un 40 m
-signālus, pirms tie sasniedz F slāni. Pēc saulrieta D slānis dažu minūšu
-laikā izzūd, un zemie diapazoni "atveras". Tāpēc 80 m ir nakts diapazons [1].
+signālus, pirms tie sasniedz F slāni. Pēc saulrieta D slānis drīz
+izzūd, un zemie diapazoni "atveras". Tāpēc 80 m ir nakts diapazons [1].
 
 **F slānis** ir visaugstāk, tāpēc atstarošanās no tā dod vislielāko
 attālumu: ar vienu atstarojumu līdz apmēram 3000–4000 km. Tālākiem
@@ -262,12 +262,12 @@ Izplatīšanos nevar droši paredzēt, bet to var novērot.
 
 - **Radiobākas.** Bākas raida nepārtraukti zināmās frekvencēs. Ja dzirdi
   bāku no Dienvidāfrikas, diapazons uz dienvidiem ir atvērts.
-- **DX klasteris.** Tīmekļa vietne, kur operatori ziņo, ko tikko dzirdējuši.
+- **DX klasteris.** Tīmekļvietne, kur operatori ziņo, ko tikko dzirdējuši.
 - **Ciparu darba veidu kartes.** Tiešsaistes kartes rāda, kur pasaulē šobrīd
   uztver FT8 signālus no tava reģiona.
 - **WebSDR.** Paklausies diapazonu no uztvērēja citā valstī un uzzināsi, vai
   tur dzird Latvijas stacijas.
-- **Pašu ausis.** Pagriez skaņošanas kloķi. Tukšs diapazons bieži nozīmē,
+- **Savas ausis.** Pagriez skaņošanas kloķi. Tukšs diapazons bieži nozīmē,
   ka visi klausās un neviens nesauc CQ.
 
 ## Eksāmenā jāzina

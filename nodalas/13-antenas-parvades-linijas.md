@@ -331,7 +331,7 @@ stieņa un radiāļu garumu.
 - Vertikālā antena ir ceturtdaļu viļņa gara un prasa radiāļus.
 - Yagi koncentrē signālu vienā virzienā ar reflektoru un direktoriem.
 - Kabelis zaudē jaudu: jo garāks un jo augstāka frekvence, jo vairāk.
-- SWR rāda salāgošanu; zem 1,5:1 ir ļoti labi, virs 3:1 — bīstami
+- SWR rāda salāgošanu; līdz 1,5:1 ir ļoti labi, virs 3:1 — bīstami
   raidītājam.
 - Baluns novērš strāvu uz kabeļa apvalka; salāgotājs salāgo pretestības,
   bet antenu nelabo.

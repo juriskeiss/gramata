@@ -150,7 +150,7 @@ jebkuram plānam:
 ## Eksāmenā jāzina
 
 - Kategorijas: C — FM operators, B — iesācējs (NOVICE), A — HAREC.
-- B kategorijas atļauju dod Iesācēja radioamatiera eksaminācijas apliecība.
+- Tiesības saņemt B kategorijas atļauju dod Iesācēja radioamatiera eksaminācijas apliecība.
 - Eksāmens notiek testa veidā; to rīko SIA "Elektroniskie sakari" ne retāk kā
   divas reizes gadā.
 - Pieteikties jāpaspēj ne vēlāk kā vienu nedēļu pirms eksāmena.
@@ -177,7 +177,7 @@ kuru nodaļu kurā nedēļā apgūsi. Pēdējo nedēļu atstāj izmēģinājuma 
 - Latvijā ir A, B un C kategorija; šī grāmata gatavo B kategorijai.
 - Eksāmens ir elektronisks tests: 40 jautājumi, 60 minūtes, vajag vismaz
   24 pareizas atbildes.
-- Eksāmenam piesakās ES ne vēlāk kā nedēļu iepriekš.
+- Eksāmenam piesakās pie ES ne vēlāk kā nedēļu iepriekš.
 - Apliecība apliecina zināšanas; raidīt ļauj tikai radiostacijas atļauja.
 - Kopā ar atļauju saņem izsaukuma signālu ar trīs burtu sufiksu.
 - Uz A kategoriju ved B atļauja un 1000 apliecināti sakari.

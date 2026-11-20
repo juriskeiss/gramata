@@ -267,15 +267,15 @@ Diode nav ideāls slēdzis: vadošā virzienā uz silīcija diodes krīt ap 0,6�
 ## 9.7. Tranzistors
 
 **Tranzistors** ir pusvadītāju elements ar trim izvadiem, kas ar mazu
-signālu vada lielu strāvu. Tas dara divas lietas: **pastiprina** signālu vai
+signālu regulē lielu strāvu. Tas dara divas lietas: **pastiprina** signālu vai
 strādā kā **slēdzis** [1].
 
 ![9.8. attēls. Tranzistoru apzīmējumi.](../atteli/09-8-tranzistori.svg)
 
 | Veids | Izvadi | Kā vada |
 | --- | --- | --- |
-| Bipolārais (NPN, PNP) | Bāze (B), kolektors (C), emiters (E) | Maza bāzes strāva vada lielu strāvu starp kolektoru un emiteru |
-| Lauktranzistors (FET) | Aizvars (G), notece (D), izteka (S) | Spriegums uz aizvara vada strāvu starp noteci un izteku |
+| Bipolārais (NPN, PNP) | Bāze (B), kolektors (C), emiters (E) | Maza bāzes strāva regulē lielu strāvu starp kolektoru un emiteru |
+| Lauktranzistors (FET) | Aizvars (G), notece (D), izteka (S) | Spriegums uz aizvara regulē strāvu starp noteci un izteku |
 
 Lauktranzistori ir divu veidu: JFET un MOSFET. MOSFET aizvars ir izolēts no
 kanāla, tāpēc tā ieejas pretestība ir ļoti liela; tādi tranzistori ir

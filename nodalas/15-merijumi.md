@@ -107,7 +107,7 @@ rāda arī pašu jaudu vatos.
 
 **Kā izmēra SWR:**
 
-1. Izvēlies brīvu frekvenci un pārliecinies, ka tā ir brīva.
+1. Izvēlies frekvenci un pārliecinies, ka tā ir brīva.
 2. Samazini jaudu līdz 5–10 W.
 3. Izvēlies nemainīga nesēja režīmu: FM, AM vai CW.
 4. Nospied raidīšanu uz dažām sekundēm un nolasi SWR.
@@ -151,7 +151,7 @@ vajadzīgo frekvenci, antena ir par garu un tā jāsaīsina; ja augstāk — par
 | Kur lieto | Pastāvīgi ieslēgts stacijā | Antenu būvē un noskaņošanā |
 
 Lēti vektoru analizatori ir padarījuši šo mērīšanu pieejamu katram; antenu
-būvētājam tā ir otrā svarīgākā mērierīce pēc multimetra.
+būvētājam analizators ir otrā svarīgākā mērierīce pēc multimetra.
 
 ## 15.6. Frekvence un signāla forma
 

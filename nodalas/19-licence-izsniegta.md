@@ -156,7 +156,7 @@ diennakts laikā strādāsi un ar ko gribi sazināties [1].
 
 | Diapazons | Dipola garums | Dienā | Naktī |
 | --- | --- | --- | --- |
-| 80 m | ap 39 m | Latvija un Baltija | Eiropa; ar labu antenu tālāk |
+| 80 m | ap 38,5 m | Latvija un Baltija | Eiropa; ar labu antenu tālāk |
 | 40 m | ap 20 m | Baltija un Eiropa (B kategorijai CW un ciparu darba veidi) | Eiropa un tālāk |
 | 15 m | ap 6,7 m | Tālā Eiropa un citi kontinenti | Parasti slēgts |
 | 10 m | ap 5 m | Maksimuma gados visa pasaule | Slēgts |
