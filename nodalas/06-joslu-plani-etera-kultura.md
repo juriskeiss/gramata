@@ -265,10 +265,9 @@ labu un vienu sliktu uzvedības piemēru.
 | 9 | C | Jebkura atbilde tīšam traucētājam ir tas, ko viņš grib. |
 | 10 | D | Politiku, reliģiju un komercdarījumus ēterā neapspriež. |
 
-Atvērtie jautājumi: vienpadsmitajā jāpiemin, ka balss signāls ir daudzkārt
-platāks un stiprāks par vājiem šaurjoslas signāliem un tos nosegtu.
-Divpadsmitajā jābūt: klausīšanās, izsaukuma signāla un split virziena
-noskaidrošana, SPLIT ieslēgšana un raidīšanas frekvences pārbaude, īss
+Atvērtie jautājumi: 11. jautājumā jāpiemin, ka balss signāls ir daudzkārt
+platāks un stiprāks par vājiem šaurjoslas signāliem un tos nosegtu. 12. jautājumā
+jābūt: klausīšanās, izsaukuma signāla un split virziena noskaidrošana, SPLIT ieslēgšana un raidīšanas frekvences pārbaude, īss
 izsaukums pareizajā brīdī.
 
 ## Padziļināti

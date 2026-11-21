@@ -58,6 +58,12 @@ Ar jautājuma zīmi kods ir jautājums, bez tās — atbilde vai paziņojums.
 | BK | Pārtraucu; ātra pārslēgšanās |
 | R | Saņemts, sapratu |
 | PSE | Lūdzu |
+| GM, GA, GE | Labrīt, labdien, labvakar |
+| FER | Par |
+| UR | Tavs |
+| HW? | Kā dzirdi? |
+| FB | Lieliski |
+| GL | Veiksmi |
 | TNX, TU | Paldies |
 | OM | Operators (vīrietis) |
 | YL | Operatore (sieviete) |

@@ -366,10 +366,10 @@ atnāk ar sūdzību par traucējumiem televizorā.
 | 12 | D | Mazāka jauda samazina gan harmonikas, gan pārslodzi. |
 | 13 | A | Ja troksnis pazūd, avots ir tavā elektrotīklā. |
 
-Atvērtie jautājumi: četrpadsmitajā "visos kanālos" norāda uz pārslodzi, nevis
+Atvērtie jautājumi: 14. jautājumā "visos kanālos" norāda uz pārslodzi, nevis
 harmoniku; secība — pārbaude savās mājās, jaudas samazināšana, slodzes
 ekvivalents, augsto frekvenču filtrs un ferīta gredzeni pie televizora,
-baluns un antenas novietojums savā pusē. Piecpadsmitajā jāpiemin strāva uz
+baluns un antenas novietojums savā pusē. 15. jautājumā jāpiemin strāva uz
 kabeļa apvalka, kas izstaro mājas iekšpusē.
 
 ## Padziļināti

@@ -453,10 +453,10 @@ stieņa un radiāļu garumu.
 | 16 | D | Vada galā pretestība ir ļoti augsta; 49:1 to pārveido tuvu 50 Ω. |
 | 17 | A | −3 dB ir puse: 50 W. |
 
-Atvērtie jautājumi: astoņpadsmitajā pilns 80 m dipols (38,5 m) neietilpst;
+Atvērtie jautājumi: 18. jautājumā pilns 80 m dipols (38,5 m) neietilpst;
 iespējamie risinājumi ir nejauša garuma vads ar salāgotāju (pa mastu uz
 augšu un tālāk pāri pagalmam) vai saīsināta vertikālā antena, abi ar mazāku
-efektivitāti; arī 80 m EFHW (ap 40 m) neietilpst. Deviņpadsmitajā
+efektivitāti; arī 80 m EFHW (ap 40 m) neietilpst. 19. jautājumā
 jāpiemin, ka salāgotājs maina tikai to, ko redz raidītājs; aiz salāgotāja
 nesalāgojums un stāvviļņi paliek.
 

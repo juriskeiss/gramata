@@ -226,6 +226,7 @@ Katram QSO ir četras daļas [1]:
 | YL3ABC | "YL2XYZ, labdien! Dzirdu jūs pieci deviņi. Mans vārds Anna, QTH Rīga. Uztveru." |
 | YL2XYZ | "Paldies, Anna. Jūs dzirdu pieci septiņi. Vārds Mārtiņš, QTH Liepāja. Uztveru." |
 | YL3ABC | "Paldies par sakaru, Mārtiņ! 73. YL2XYZ, šeit YL3ABC, beidzu." |
+| YL2XYZ | "73, uz redzēšanos! YL3ABC, šeit YL2XYZ, beidzu." |
 
 > **Uzmanību!** Savs izsaukuma signāls jānosauc sakara sākumā, beigās un sakara
 > laikā vismaz reizi 10 minūtēs [2]. Garā sarunā ieliec to katras savas
@@ -468,8 +469,8 @@ neskatoties lapā.
 | 13 | B | CQ DX ir adresēts tālām stacijām; kaimiņvalsts tāda nav. |
 | 14 | C | 73 ir tradicionāls atvadu sveiciens. |
 
-Atvērtie jautājumi: piecpadsmitajā pārbaudi, vai tavam QSO ir visas četras
-daļas un vai abi izsaukuma signāli nosaukti sākumā un beigās. Sešpadsmitajā
+Atvērtie jautājumi: 15. jautājumā pārbaudi, vai tavam QSO ir visas četras
+daļas un vai abi izsaukuma signāli nosaukti sākumā un beigās. 16. jautājumā
 jāpiemin, ka saucēji citādi noslāpē DX staciju un ka tas, kurš raida DX
 frekvencē, traucē visiem.
 

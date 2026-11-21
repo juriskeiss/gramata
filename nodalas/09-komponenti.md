@@ -453,8 +453,8 @@ strāva. Atkārto ar spoli.
 | 16 | C | I = 12 / 60 = 0,2 A; U = 0,2 · 40 = 8 V. |
 | 17 | B | Strāva ieplūst abos punktotajos galos: 10 + 6 + 2 · 2 = 20 µH. (12 µH būtu pretslēgumā.) |
 
-Atvērtie jautājumi: astoņpadsmitajā der divi 100 Ω paralēli vai četri
-200 Ω paralēli; arī 100 Ω paralēli ar diviem 200 Ω. Deviņpadsmitajā jāpiemin,
+Atvērtie jautājumi: 18. jautājumā der divi 100 Ω paralēli vai četri
+200 Ω paralēli; arī 100 Ω paralēli ar diviem 200 Ω. 19. jautājumā jāpiemin,
 ka kondensators līdzstrāvu nelaiž, bet maiņstrāvai tā pretestība ir maza.
 
 ## Padziļināti

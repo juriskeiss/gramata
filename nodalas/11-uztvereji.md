@@ -349,9 +349,9 @@ frekvenci.
 | 13 | D | Aparatūra tikai pārvērš signālu skaitļos. |
 | 14 | A | AGC samazina pastiprinājumu stipriem signāliem. |
 
-Atvērtie jautājumi: piecpadsmitajā jāpiemin, ka nemainīgā frekvencē var
+Atvērtie jautājumi: 15. jautājumā jāpiemin, ka nemainīgā frekvencē var
 lietot vienu šauru, kvalitatīvu filtru un stabilu pastiprinājumu visiem
-diapazoniem. Sešpadsmitajā heterodīns ir 7,05 + 9 = 16,05 MHz; spoguļkanāls
+diapazoniem. 16. jautājumā heterodīns ir 7,05 + 9 = 16,05 MHz; spoguļkanāls
 ir 16,05 + 9 = 25,05 MHz (pārbaude: 7,05 + 2 · 9 = 25,05 MHz).
 
 ## Padziļināti

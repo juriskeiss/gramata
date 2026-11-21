@@ -139,7 +139,7 @@ draudošas briesmas), kā arī valsts pārvaldes iestāžu vadītās glābšanas
 operācijās vai to mācībās (42. punkts). Par šādu sakaru **trīs darbdienu
 laikā** jāziņo ES (43. punkts) [1].
 
-Visus šīs daļas noteikumus kopā rāda tabula (39.–52. punkts) [1]:
+Svarīgākos šīs daļas noteikumus kopā rāda tabula (39.–52. punkts) [1]:
 
 | Noteikums | Punkts |
 | --- | --- |
@@ -386,9 +386,9 @@ tev un kas — kaimiņam.
 | 13 | C | 47. punkts: antenas regulēšana ar mazāko jaudu ir viens no izņēmumiem. |
 | 14 | B | 77. punkts: tikai A kategorija un ar kapteiņa atļauju. |
 
-Atvērtie jautājumi: piecpadsmitajā jāpiemin, ka dienests pastāv pašizglītībai
+Atvērtie jautājumi: 15. jautājumā jāpiemin, ka dienests pastāv pašizglītībai
 un eksperimentiem bez komerciāla vai slepena nolūka un ka atklātība ļauj
-uzraudzīt spektra lietošanu. Sešpadsmitajā — ka ITU ir valstu regulators ar
+uzraudzīt spektra lietošanu. 16. jautājumā — ka ITU ir valstu regulators ar
 saistošiem lēmumiem, bet IARU pārstāv radioamatierus un dod ieteikumus.
 
 ## Padziļināti

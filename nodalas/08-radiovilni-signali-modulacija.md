@@ -434,9 +434,9 @@ LSB uz USB. Pieraksti, kas notiek ar balsi.
 | 16 | C | J — viena sānjosla bez nesēja, 3 — analogs signāls, E — telefonija. |
 | 17 | A | A1A ir telegrāfija uztveršanai ar ausi, tātad CW. |
 
-Atvērtie jautājumi: astoņpadsmitajā jāpiemin, ka SSB neraida nesēju un otru
+Atvērtie jautājumi: 18. jautājumā jāpiemin, ka SSB neraida nesēju un otru
 sānjoslu, tāpēc visa jauda ir informācijā un uztvērējs var lietot šaurāku
-filtru. Deviņpadsmitajā: −3 dB + 6 dB = +3 dB, tātad 50 W · 2 = 100 W.
+filtru. 19. jautājumā: −3 dB + 6 dB = +3 dB, tātad 50 W · 2 = 100 W.
 
 ## Padziļināti
 

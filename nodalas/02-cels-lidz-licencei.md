@@ -141,8 +141,8 @@ jebkuram plānam:
 
 - **Maz, bet regulāri.** Pusstunda katru dienu dod vairāk nekā četras
   stundas svētdienā.
-- **Vispirms nodaļa, tad video.** Vai otrādi, bet abi. Lasot un klausoties
-  vielu atceras labāk nekā tikai lasot.
+- **Gan video, gan nodaļa.** Vispirms noskaties video lekciju, tad izlasi
+  nodaļu (18.2.). Lasot un klausoties vielu atceras labāk nekā tikai lasot.
 - **Jautājumus risini rakstiski.** Atbildi pieraksti, pirms skaties atbilžu
   tabulā. Ja atbilde ir nepareiza, izlasi skaidrojumu un atgriezies pie
   apakšnodaļas.
@@ -263,9 +263,9 @@ kuru nodaļu kurā nedēļā apgūsi. Pēdējo nedēļu atstāj izmēģinājuma 
 | 10 | B | Sakarus pierāda ar QSL kartītēm vai elektroniskiem apstiprinājumiem. |
 | 11 | A | A kategorijai divi burti, B kategorijai trīs, C kategorijai četri. |
 
-Atvērtie jautājumi: divpadsmitajā jāpiemin, ka apliecību dod eksāmens un tā
+Atvērtie jautājumi: 12. jautājumā jāpiemin, ka apliecību dod eksāmens un tā
 ir zināšanu pierādījums, bet atļauju izsniedz pēc pieprasījuma un tā ļauj
-lietot radiostaciju ar konkrētu izsaukuma signālu. Trīspadsmitajā — ka
+lietot radiostaciju ar konkrētu izsaukuma signālu. 13. jautājumā — ka
 1000 apliecināti sakari ir nosacījums A kategorijas eksāmenam.
 
 ## Padziļināti

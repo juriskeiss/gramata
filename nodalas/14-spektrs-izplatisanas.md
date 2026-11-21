@@ -445,9 +445,9 @@ tuvākajam atkārtotājam, ja zini tā augstumu.
 | 16 | B | F slānis ir augstu, tāpēc viens atstarojums sniedzas tālu; tālāk vajag vairākus atstarojumus. |
 | 17 | C | Es mākoņi vasarā atstaro 50 MHz; viens atstarojums 1000–2000 km. |
 
-Atvērtie jautājumi: astoņpadsmitajā atbilde ir 80 m — attālums ir ap 400 km,
+Atvērtie jautājumi: 18. jautājumā atbilde ir 80 m — attālums ir ap 400 km,
 naktī D slāņa nav, un ar zemu dipolu (NVIS) signāls nosedz visu Latviju;
-15 m un 10 m naktī ir slēgti, VHF un UHF nesniedz tik tālu. Deviņpadsmitajā
+15 m un 10 m naktī ir slēgti, VHF un UHF nesniedz tik tālu. 19. jautājumā
 jāpiemin mirusī zona: Igaunija ir par tālu zemes vilnim un par tuvu pirmajai
 telpas viļņa nolaišanās vietai.
 

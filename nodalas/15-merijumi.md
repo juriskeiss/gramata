@@ -330,9 +330,9 @@ aprēķini frekvenci; salīdzini ar avota iestatījumu.
 | 12 | C | T = 5 · 2 ms = 10 ms = 0,01 s; f = 1 / 0,01 = 100 Hz. |
 | 13 | A | Spektra analizatorā harmonikas redzamas kā atsevišķas līnijas. |
 
-Atvērtie jautājumi: četrpadsmitajā jābūt brīvai frekvencei, mazai jaudai,
+Atvērtie jautājumi: 14. jautājumā jābūt brīvai frekvencei, mazai jaudai,
 nemainīga nesēja režīmam un mērījumiem vismaz trīs punktos diapazonā;
-lēmums pēc tā, kurā pusē SWR ir zemāks. Piecpadsmitajā jāpiemin, ka kabeļa
+lēmums pēc tā, kurā pusē SWR ir zemāks. 15. jautājumā jāpiemin, ka kabeļa
 zudumi vājina atstaroto jaudu atceļā.
 
 ## Padziļināti

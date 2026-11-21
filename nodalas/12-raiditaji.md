@@ -362,7 +362,7 @@ diapazonā?
 | 13 | C | Slodzes ekvivalents neko neizstaro un nevienam netraucē. |
 | 14 | D | Galotnes jauda, pX. |
 
-Atvērtie jautājumi: sešpadsmitajā otrā harmonika ir 7,2 MHz, trešā —
+Atvērtie jautājumi: 16. jautājumā otrā harmonika ir 7,2 MHz, trešā —
 10,8 MHz, sestā — 21,6 MHz. Neviena netrāpa B kategorijas joslās (7,2 MHz ir
 virs 7080 kHz, 21,6 MHz ir virs 21 450 kHz). Harmonikas jebkurā gadījumā
 jāaiztur.

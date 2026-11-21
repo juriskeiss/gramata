@@ -343,8 +343,8 @@ strāvu.
 | 13 | A | U_max = 1,414 · 230 ≈ 325 V. |
 | 14 | C | 20 Ah / 4 A = 5 h. |
 
-Atvērtie jautājumi: piecpadsmitajā U = √(P · R) = √(50 · 50) = 50 V un
-I = U / R = 50 / 50 = 1 A; pārbaude: P = U · I = 50 W. Sešpadsmitajā jāpiemin,
+Atvērtie jautājumi: 15. jautājumā U = √(P · R) = √(50 · 50) = 50 V un
+I = U / R = 50 / 50 = 1 A; pārbaude: P = U · I = 50 W. 16. jautājumā jāpiemin,
 ka raidītājs tikai daļu patērētās jaudas pārvērš izejas jaudā, pārējā kļūst
 par siltumu.
 

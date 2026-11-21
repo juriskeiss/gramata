@@ -94,7 +94,7 @@ ES — Igaunija (nejaukt ar iestādes saīsinājumu ES), DL — Vācija, ON — 
 signālu, pēc prefiksa uzreiz zini, no kuras valsts stacija raida.
 
 Pastāv arī īpašie izsaukuma signāli, ko piešķir jubilejām un pasākumiem,
-piemēram, YL100RADIO; to uzbūve ir tāda pati.
+piemēram, YL100RADIO; arī tie sākas ar YL (4. nodaļa).
 
 > **Uzmanību!** Izsaukuma signāls obligāti jānosauc raidījuma laikā. Raidījumi
 > bez izsaukuma signāla ir aizliegti [2].
@@ -197,7 +197,7 @@ bet klausīties drīkst ikviens. Pieraksti:
   tehniskiem pētījumiem, bez peļņas nolūka.
 - Sakari ir atklāti: bez šifrēšanas, bez anonimitātes, bez komercijas un
   apraides.
-- Izsaukuma signāls sastāv no prefiksa (valsts) un sufiksa (stacija);
+- Izsaukuma signāls sastāv no prefiksa (valsts), cipara un sufiksa (stacija);
   Latvijas prefikss ir YL.
 - QSO ir sakars starp divām stacijām; QSL ir tā apstiprinājums.
 - Sakaru veidi ir dažādi: SSB un FM balss, CW telegrāfs, ciparu darba veidi,

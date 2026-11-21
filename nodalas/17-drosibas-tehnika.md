@@ -200,7 +200,8 @@ konstrukcijām vai pie speciāli sienās iemūrētiem enkuriem. Pie skursteņiem
 televīzijas antenu mastiem, radiotranslācijas traversām un karnīzēm atsaites
 stiprināt kategoriski aizliegts. Atsaites nedrīkst saskarties ar
 elektrolīniju, telefona un citiem vadiem. Bīstamā zona ap mastu ir **1/3**
-masta augstuma [3].
+masta augstuma [3]. Tā ir darba zona pacelšanas laikā; krītot masts aizsniedz
+visu savu garumu, tāpēc attālumam līdz elektrolīnijām jābūt lielākam (sk. tālāk).
 
 **Cilvēku skaits masta pacelšanai** [3]:
 
@@ -440,8 +441,8 @@ un pārbaudi, vai antenas kabeli tiešām var viegli atvienot.
 | 16 | D | 5 m. |
 | 17 | A | Pie skursteņiem, TV antenu mastiem, translācijas traversām un karnīzēm — kategoriski aizliegts. |
 
-Atvērtie jautājumi: astoņpadsmitajā jāpiemin, ka ūdens vada strāvu un
-dzēsējs nonāk zem sprieguma. Deviņpadsmitajā jābūt: attālums līdz
+Atvērtie jautājumi: 18. jautājumā jāpiemin, ka ūdens vada strāvu un
+dzēsējs nonāk zem sprieguma. 19. jautājumā jābūt: attālums līdz
 elektrolīnijām, stiprinājums pie nesošām konstrukcijām vai pamata, atsaites,
 vismaz seši cilvēki, piemēroti laikapstākļi, zemējums un zibens aizsardzība.
 

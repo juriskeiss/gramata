@@ -300,9 +300,9 @@ stacijas. Katrai nosaki:
 | 11 | A | 35. punkts: līdz vienam gadam. |
 | 12 | B | 36. punkts. |
 
-Atvērtie jautājumi: trīspadsmitajā atbilde ir ap 3,513 MHz, jo LSB signāls
-aizņem ap 3 kHz uz leju no noskaņotās frekvences un tam jāpaliek virs
-3510 kHz.
+Atvērtie jautājumi: 13. jautājumā atbilde ir ap 3,603 MHz. B kategorijas
+josla sākas 3510 kHz, bet SSB pēc joslu plāna ir no 3600 kHz, un LSB signāls
+aizņem ap 3 kHz uz leju no noskaņotās frekvences (sk. 6.2.).
 
 ## Padziļināti
 

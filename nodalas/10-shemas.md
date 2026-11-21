@@ -291,7 +291,7 @@ atver gatavu piemēru (Circuits → Passive Filters) vai uzbūvē pats: rezistor
 virknē, kondensators uz zemi. Maini avota frekvenci un atzīmē:
 
 - [ ] kādā frekvencē izejas signāls ir tāds pats kā ieejas;
-- [ ] kādā frekvencē tas ir aptuveni uz pusi mazāks;
+- [ ] kādā frekvencē tas ir aptuveni 0,7 no ieejas (robežfrekvence, −3 dB);
 - [ ] kas notiek, ja rezistoru un kondensatoru samaina vietām.
 
 **2. Atrodi rezonansi (15 minūtes).** Tajā pašā simulatorā saslēdz spoli un
@@ -432,7 +432,7 @@ barošanas bloka shēmu un sameklē tajā četras pakāpes no 10.3. apakšnodaļ
 | 16 | D | VAI (OR) dod 1, ja vismaz vienā ieejā ir 1. |
 | 17 | B | 8 + 0 + 2 + 0 = 10. |
 
-Atvērtie jautājumi: deviņpadsmitajā L · C = 10⁻⁶ · 10⁻¹⁰ = 10⁻¹⁶;
+Atvērtie jautājumi: 19. jautājumā L · C = 10⁻⁶ · 10⁻¹⁰ = 10⁻¹⁶;
 √(10⁻¹⁶) = 10⁻⁸; 2π · 10⁻⁸ ≈ 6,28 · 10⁻⁸; f ≈ 15,9 MHz.
 
 ## Padziļināti
