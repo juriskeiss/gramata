@@ -255,6 +255,9 @@ traucējumi mājas tehnikā. To novērš ar balunu [1].
 | **Ununs** | unbalanced–unbalanced | 9:1 | Nejauša garuma vada antenas |
 | | | 49:1 | Gala barotās pusviļņa antenas (EFHW) |
 
+Tabulā norādīta pretestību attiecība. Vijumu attiecība ir tās kvadrātsakne
+(9.5. apakšnodaļa): 4:1 balunam 2 : 1, 9:1 ununam 3 : 1, 49:1 ununam 7 : 1.
+
 **Antenas salāgotājs** (angliski antenna tuner, ATU; sarunvalodā arī
 "tūneris") ir regulējama spoļu un kondensatoru shēma, kas salāgo divas
 pretestības. Ja salāgotājs ir pie antenas, tas salāgo antenas ieejas

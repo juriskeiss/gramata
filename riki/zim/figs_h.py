@@ -312,7 +312,7 @@ def f10_8():
     f.line(410, 20, 410, 330, dash="3 5", w=1, color=MG)
     f.mtext(200, 345, "kolektorā rezistors: pastiprina plašu joslu", size=10.5, italic=True)
     f.mtext(620, 345, "kolektorā LC kontūrs: pastiprina tikai rezonanses frekvenci", size=10.5, italic=True)
-    f.save("atteli/10-8-pastiprinataju-veidi.svg", "Platjoslas un rezonanses pastiprinātājs")
+    f.save("atteli/10-9-pastiprinataju-veidi.svg", "Platjoslas un rezonanses pastiprinātājs")
 
 
 # ---------------------------------------------------------------- 10.10.
@@ -350,7 +350,7 @@ def f10_10():
     f.pl([(xw, 250), (xw + 12, 250), (xw + 12, 226), (xw + 30, 226), (xw + 30, 250), (xw + 48, 250),
           (xw + 48, 226), (xw + 66, 226), (xw + 66, 250), (xw + 78, 250)], w=1.8, color=BLUE)
     f.mtext(640, 274, "taisnstūra\nimpulsi", size=10.5, italic=True)
-    f.save("atteli/10-10-multivibrators.svg", "Multivibrators: divi tranzistori ar krustenisku saiti")
+    f.save("atteli/10-11-multivibrators.svg", "Multivibrators: divi tranzistori ar krustenisku saiti")
 
 
 ALL = [f10_2, f10_3, f10_5, f10_6, f10_8, f10_10]

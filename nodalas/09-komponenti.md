@@ -11,12 +11,13 @@ radioiekārta, un iemāca aprēķināt to slēgumus.
 
 - pateikt, ko dara rezistors, kondensators, spole, transformators, diode un
   tranzistors, un atpazīt to apzīmējumus shēmā;
-- aprēķināt rezistoru, kondensatoru un spoļu virknes un paralēlo slēgumu;
+- aprēķināt rezistoru, kondensatoru un spoļu virknes un paralēlo slēgumu un
+  spriegumus rezistoru un kondensatoru dalītājā;
 - aprēķināt divu tuvu esošu spoļu kopējo induktivitāti, ņemot vērā savstarpējo
   induktivitāti;
 - nolasīt rezistora vērtību pēc krāsu koda tabulas;
 - paskaidrot, kā kondensatora un spoles pretestība atkarīga no frekvences;
-- aprēķināt transformatora izejas spriegumu.
+- aprēķināt transformatora izejas spriegumu un pārveidoto pretestību.
 
 ## 9.1. Rezistors
 
@@ -100,7 +101,8 @@ Divi īsceļi paralēlajam slēgumam:
 >    spriegumu.
 
 Otrais piemērs ir **sprieguma dalītājs**: divi rezistori virknē sadala
-spriegumu proporcionāli savām pretestībām. Pārbaudes solis ir Kirhofa
+spriegumu proporcionāli savām pretestībām (kondensatoriem ir otrādi, 9.3.).
+Pārbaudes solis ir Kirhofa
 spriegumu likums [2].
 
 > **Praktisks padoms.** Slodzes ekvivalentu raidītāja pārbaudei var salikt
@@ -149,6 +151,25 @@ $$\text{paralēli: } C_{kop} = C_1 + C_2 + \dots \qquad \text{virknē: } \frac{1
 >
 > 1. Paralēli saskaita: 100 + 100 = 200 pF.
 > 2. Virknē divi vienādi dod pusi: 50 pF.
+
+**Kapacitatīvais sprieguma dalītājs.** Kad virknē slēgtus kondensatorus
+pieslēdz līdzsprieguma avotam, caur tiem īsu brīdi plūst uzlādes strāva. Tā
+ir vienāda caur visiem kondensatoriem, tāpēc katrs saņem vienādu lādiņu Q.
+Spriegums uz kondensatora ir U = Q / C, tāpēc spriegumi sadalās **apgriezti
+proporcionāli** kapacitātēm — otrādi nekā uz rezistoriem (9.2.):
+
+$$\frac{U_1}{U_2} = \frac{C_2}{C_1}$$
+
+Uz lielākā kondensatora ir mazākais spriegums.
+
+> **Piemērs.** 12 V avotam virknē pieslēgti C1 = 1 µF un C2 = 2 µF. Kāds
+> spriegums ir uz katra kondensatora?
+>
+> 1. C2 ir divreiz lielāks, tāpēc uz tā ir divreiz mazāks spriegums:
+>    U1 : U2 = 2 : 1.
+> 2. 12 V dala 3 daļās, katra ir 4 V.
+> 3. Uz C1 (1 µF): 2 · 4 = 8 V. Uz C2 (2 µF): 4 V.
+> 4. Pārbaude: 8 V + 4 V = 12 V.
 
 > **Piemērs.** Kāda ir 100 pF kondensatora reaktīvā pretestība 7 MHz
 > frekvencē?
@@ -245,8 +266,22 @@ pieaug.
 > **Uzmanību!** Transformators darbojas tikai ar maiņstrāvu. Līdzstrāva
 > magnētisko lauku nemaina, tāpēc sekundārajā tinumā nekas neinducējas.
 
-Radiotehnikā transformatorus lieto ne tikai barošanā, bet arī pretestību
-salāgošanai — tādi ir antenu baluni un ununi (13. nodaļa).
+**Pretestības transformācija.** Transformators pārveido ne tikai spriegumu,
+bet arī pretestību. Pretestību attiecība ir vienāda ar vijumu skaita
+attiecības **kvadrātu**:
+
+$$\frac{R_1}{R_2} = \left(\frac{N_1}{N_2}\right)^2$$
+
+To izmanto slodzes salāgošanā: slodzē nonāk lielākā jauda, ja tās pretestība
+ir salāgota ar avota pretestību. Tādi transformatori ir antenu baluni un
+ununi (13. nodaļa).
+
+> **Piemērs.** Ununa vijumu attiecība ir 3 : 1. Kāda ir tā pretestību
+> attiecība, un kādu pretestību redz 50 Ω kabelis, ja otrā pusē ir 450 Ω
+> antena?
+>
+> 1. Pretestību attiecība: 3² = 9, tātad 9 : 1.
+> 2. 450 Ω / 9 = 50 Ω — antena ir salāgota ar kabeli.
 
 ## 9.6. Diode
 
@@ -294,6 +329,8 @@ shēmu** (mikroshēmu).
 - Rezistori virknē: saskaita. Paralēli: saskaita apgrieztās vērtības.
 - Kondensatori: paralēli saskaita, virknē — apgrieztās vērtības (pretēji
   rezistoriem).
+- Kondensatori virknē: spriegums sadalās apgriezti proporcionāli
+  kapacitātēm — uz lielākā kondensatora mazākais spriegums.
 - Spoles: kā rezistori. Tuvām spolēm virknē L_kop = L1 + L2 ± 2M: + ja strāva
   abās ieplūst pa punktoto galu, − ja pretēji.
 - X_C = 1 / (2πfC) — frekvencei augot, samazinās.
@@ -423,12 +460,17 @@ strāva. Atkārto ar spoli.
     - B. 20 µH
     - C. 12 µH
     - D. 18 µH
+18. 9 V avotam virknē pieslēgti kondensatori 3 µF un 6 µF. Kāds spriegums ir uz 6 µF kondensatora?
+    - A. 3 V
+    - B. 6 V
+    - C. 4,5 V
+    - D. 9 V
 
 **Atvērtie jautājumi**
 
-18. Tev vajag 50 Ω slodzi, bet ir tikai 100 Ω un 200 Ω rezistori. Piedāvā
+19. Tev vajag 50 Ω slodzi, bet ir tikai 100 Ω un 200 Ω rezistori. Piedāvā
     divus veidus, kā to salikt.
-19. Paskaidro saviem vārdiem, kāpēc kondensatoru var lietot, lai atdalītu
+20. Paskaidro saviem vārdiem, kāpēc kondensatoru var lietot, lai atdalītu
     maiņstrāvas signālu no līdzsprieguma.
 
 ## Atbildes
@@ -452,9 +494,10 @@ strāva. Atkārto ar spoli.
 | 15 | B | Aizvars, notece un izteka ir lauktranzistoram. |
 | 16 | C | I = 12 / 60 = 0,2 A; U = 0,2 · 40 = 8 V. |
 | 17 | B | Strāva ieplūst abos punktotajos galos: 10 + 6 + 2 · 2 = 20 µH. (12 µH būtu pretslēgumā.) |
+| 18 | A | Kapacitāte divreiz lielāka — spriegums divreiz mazāks: 9 V dala 3 daļās, uz 6 µF viena daļa, 3 V. (6 V ir uz 3 µF.) |
 
-Atvērtie jautājumi: 18. jautājumā der divi 100 Ω paralēli vai četri
-200 Ω paralēli; arī 100 Ω paralēli ar diviem 200 Ω. 19. jautājumā jāpiemin,
+Atvērtie jautājumi: 19. jautājumā der divi 100 Ω paralēli vai četri
+200 Ω paralēli; arī 100 Ω paralēli ar diviem 200 Ω. 20. jautājumā jāpiemin,
 ka kondensators līdzstrāvu nelaiž, bet maiņstrāvai tā pretestība ir maza.
 
 ## Padziļināti

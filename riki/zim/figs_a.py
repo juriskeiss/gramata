@@ -500,7 +500,7 @@ def f10_2():
 
 def f10_3():
     f = Fig(800, 250)
-    labels = ["Transformators", "Taisngriezis", "Gludinātājs", "Stabilizators"]
+    labels = ["Transformators", "Taisngriezis", "Gludināšanas\nfiltrs", "Stabilizators"]
     y = 170
     x0 = 100
     pos = chain(f, labels, x0, y, gap=64, size=12, minw=104)
@@ -538,5 +538,38 @@ def f10_3():
     f.save("atteli/10-4-barosanas-bloks.svg", "Barošanas bloka blokshēma")
 
 
+def f10_7():
+    """Impulsu barošanas bloks ar atgriezenisko saiti."""
+    f = Fig(860, 300)
+    labels = ["Taisngriezis\nun filtrs", "Slēdzis\n(tranzistors)", "Impulsu\ntransformators", "Taisngriezis\nun filtrs"]
+    y = 110
+    x0 = 100
+    pos = chain(f, labels, x0, y, bh=52, gap=70, size=12, minw=110)
+    # ieeja un izeja
+    xin, xout = x0 - 70, pos[-1][2] + 80
+    f.arrow(xin, y, x0, y)
+    f.arrow(pos[-1][2], y, xout, y)
+    f.text(xin + 30, y - 12, "230 V ~", size=12)
+    f.text(xout - 36, y - 12, "13,8 V =", size=12)
+    # signāli starp blokiem
+    caps = ["≈ 325 V =", "impulsi\n20–500 kHz", "pazemināti\nimpulsi"]
+    for i, c in enumerate(caps):
+        cx = (pos[i][2] + pos[i + 1][1]) / 2
+        f.mtext(cx, y - 52, c, size=10, color=MG)
+    # vadības shēma un atgriezeniskā saite
+    yc = 235
+    cxs = pos[1][0]
+    f.box(cxs, yc, 150, 44, "Vadības shēma", size=12, fill=BLUE_T, color=BLUE)
+    xf = pos[-1][2] + 40
+    f.circ(xf, y, 3, fill=BLUE, color=BLUE, sw=1)
+    f.pl([(xf, y), (xf, yc), (cxs + 75, yc)], w=1.6, color=BLUE)
+    f.arrow(cxs + 120, yc, cxs + 75, yc, color=BLUE)
+    f.text((cxs + 75 + xf) / 2, yc - 10, "atgriezeniskā saite", size=11, italic=True, color=BLUE)
+    f.arrow(cxs, yc - 22, cxs, y + 26, color=BLUE)
+    f.text(cxs + 8, (yc - 22 + y + 26) / 2 + 4, "impulsu platums", anchor="start", size=10, italic=True, color=BLUE)
+    f.w = xout + 20
+    f.save("atteli/10-7-impulsu-barosanas-bloks.svg", "Impulsu barošanas bloka blokshēma ar atgriezenisko saiti")
+
+
 ALL = [f07_1, f07_2, f07_3, f08_1, f08_2, f08_3, f09_1, f09_2, f09_3, f09_4, f09_5m, f09_5, f09_6, f09_7,
-       f10_1, f10_3]
+       f10_1, f10_3, f10_7]

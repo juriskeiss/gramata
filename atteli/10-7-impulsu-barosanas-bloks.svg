@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 300" width="860" height="300" font-family="DejaVu Sans, Arial, Helvetica, sans-serif">
+<title>Impulsu barošanas bloka blokshēma ar atgriezenisko saiti</title>
+<rect x="0" y="0" width="860" height="300" fill="white"/>
+<rect x="100.0" y="84.0" width="110.0" height="52.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="155.0" y="106.8" text-anchor="middle" font-size="12" fill="#111111">Taisngriezis</text>
+<text x="155.0" y="121.8" text-anchor="middle" font-size="12" fill="#111111">un filtrs</text>
+<line x1="210.0" y1="110.0" x2="274.6" y2="110.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="280.0,110.0 271.8,113.7 271.8,106.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="280.0" y="84.0" width="111.6" height="52.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="335.8" y="106.8" text-anchor="middle" font-size="12" fill="#111111">Slēdzis</text>
+<text x="335.8" y="121.8" text-anchor="middle" font-size="12" fill="#111111">(tranzistors)</text>
+<line x1="391.6" y1="110.0" x2="456.2" y2="110.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="461.6,110.0 453.4,113.7 453.4,106.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="461.6" y="84.0" width="118.8" height="52.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="521.0" y="106.8" text-anchor="middle" font-size="12" fill="#111111">Impulsu</text>
+<text x="521.0" y="121.8" text-anchor="middle" font-size="12" fill="#111111">transformators</text>
+<line x1="580.4" y1="110.0" x2="645.0" y2="110.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="650.4,110.0 642.2,113.7 642.2,106.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="650.4" y="84.0" width="110.0" height="52.0" rx="4" fill="white" stroke="#111111" stroke-width="1.6"/>
+<text x="705.4" y="106.8" text-anchor="middle" font-size="12" fill="#111111">Taisngriezis</text>
+<text x="705.4" y="121.8" text-anchor="middle" font-size="12" fill="#111111">un filtrs</text>
+<line x1="30.0" y1="110.0" x2="94.6" y2="110.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="100.0,110.0 91.8,113.7 91.8,106.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="760.4" y1="110.0" x2="835.0" y2="110.0" stroke="#111111" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="840.4,110.0 832.2,113.7 832.2,106.3" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="60.0" y="98.0" text-anchor="middle" font-size="12" fill="#111111">230 V ~</text>
+<text x="804.4" y="98.0" text-anchor="middle" font-size="12" fill="#111111">13,8 V =</text>
+<text x="245.0" y="61.6" text-anchor="middle" font-size="10" fill="#9a9a9a">≈ 325 V =</text>
+<text x="426.6" y="55.4" text-anchor="middle" font-size="10" fill="#9a9a9a">impulsi</text>
+<text x="426.6" y="67.8" text-anchor="middle" font-size="10" fill="#9a9a9a">20–500 kHz</text>
+<text x="615.4" y="55.4" text-anchor="middle" font-size="10" fill="#9a9a9a">pazemināti</text>
+<text x="615.4" y="67.8" text-anchor="middle" font-size="10" fill="#9a9a9a">impulsi</text>
+<rect x="260.8" y="213.0" width="150.0" height="44.0" rx="4" fill="#dde8f6" stroke="#1e5aa8" stroke-width="1.6"/>
+<text x="335.8" y="239.3" text-anchor="middle" font-size="12" fill="#111111">Vadības shēma</text>
+<circle cx="800.4" cy="110.0" r="3.0" fill="#1e5aa8" stroke="#1e5aa8" stroke-width="1"/>
+<polyline points="800.4,110.0 800.4,235.0 410.8,235.0" fill="none" stroke="#1e5aa8" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="455.8" y1="235.0" x2="416.2" y2="235.0" stroke="#1e5aa8" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="410.8,235.0 419.0,231.3 419.0,238.7" fill="#1e5aa8" stroke="#1e5aa8" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="605.6" y="225.0" text-anchor="middle" font-size="11" fill="#1e5aa8" font-style="italic">atgriezeniskā saite</text>
+<line x1="335.8" y1="213.0" x2="335.8" y2="141.4" stroke="#1e5aa8" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="335.8,136.0 339.5,144.2 332.1,144.2" fill="#1e5aa8" stroke="#1e5aa8" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="343.8" y="178.5" text-anchor="start" font-size="10" fill="#1e5aa8" font-style="italic">impulsu platums</text>
+</svg>

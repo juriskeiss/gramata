@@ -59,7 +59,7 @@ def f10_4():
     f.ground(556, yg, stem=6)
     f.mtext(575, 358, "R1 un R2 iestata darba punktu, RC — slodze;\nC1 un C2 nelaiž cauri līdzstrāvu",
             size=10, italic=True)
-    f.save("atteli/10-7-pastiprinatajs.svg", "Pastiprinātājs: darbība un pakāpe ar tranzistoru")
+    f.save("atteli/10-8-pastiprinatajs.svg", "Pastiprinātājs: darbība un pakāpe ar tranzistoru")
 
 
 # ------------------------------------------------------------------ 10.5.
@@ -100,7 +100,7 @@ def f10_5():
                                 (MG, "summa — filtrs to aiztur"))):
         f.line(520, 140 + i * 20, 548, 140 + i * 20, w=4, color=c)
         f.text(556, 144 + i * 20, t, anchor="start", size=11)
-    f.save("atteli/10-11-jaucejs.svg", "Jaucējs: summa un starpība")
+    f.save("atteli/10-12-jaucejs.svg", "Jaucējs: summa un starpība")
 
 
 # ------------------------------------------------------------------ 10.6.
@@ -161,7 +161,7 @@ def f10_6():
     _gate_ansi(f, 400, 225, "or")
     _gate_ansi(f, 620, 225, "not")
     f.line(30, 165, 740, 165, dash="3 5", w=1, color=MG)
-    f.save("atteli/10-12-logiskie-elementi.svg", "Loģisko elementu UN, VAI, NE apzīmējumi")
+    f.save("atteli/10-13-logiskie-elementi.svg", "Loģisko elementu UN, VAI, NE apzīmējumi")
 
 
 # ------------------------------------------------------------------ 13.7.

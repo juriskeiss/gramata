@@ -12,7 +12,8 @@ barošanas bloku, pastiprinātāju, ģeneratoru, jaucēju un loģiskos elementus
 
 - aprēķināt svārstību kontūra rezonanses frekvenci;
 - atšķirt četrus filtru veidus un pateikt, kur katru lieto;
-- izskaidrot barošanas bloka uzbūvi no transformatora līdz stabilizatoram;
+- izskaidrot barošanas bloka uzbūvi no transformatora līdz stabilizatoram un
+  atšķirt lineāro un impulsu barošanas bloku;
 - pateikt, ko dara pastiprinātājs, ģenerators un jaucējs;
 - aprēķināt jaucēja izejas frekvences;
 - nosaukt loģisko elementu UN, VAI un NE darbību un pārvērst bināro skaitli
@@ -107,13 +108,20 @@ Kur katru filtru sastop radioamatiera stacijā:
 ## 10.3. Barošanas bloks
 
 Transīveram vajag 13,8 V līdzspriegumu, bet rozetē ir 230 V maiņspriegums.
-Starp tiem ir barošanas bloks, kas sastāv no četrām pakāpēm.
+Starp tiem ir barošanas bloks. Barošanas bloki ir divu tipu:
+
+| Tips | Kā pazemina spriegumu | Īpašības |
+| --- | --- | --- |
+| Lineārais (ar tīkla transformatoru) | Ar transformatoru tīkla frekvencē, 50 Hz | Smags un liels; radiotraucējumus nerada |
+| Impulsu | Tīkla spriegumu taisno, ar tranzistoru pārslēdz augstā frekvencē un pazemina ar mazu impulsu transformatoru | Viegls un mazs; slikti uzbūvēts rada radiotraucējumus (16. nodaļa) |
+
+Lineārais barošanas bloks sastāv no četrām pakāpēm.
 
 | Pakāpe | Ko dara | Galvenā detaļa |
 | --- | --- | --- |
 | 1. Transformators | Pazemina maiņspriegumu | Transformators |
 | 2. Taisngriezis | Pārvērš maiņstrāvu pulsējošā līdzstrāvā | Diodes |
-| 3. Gludinātājs | Izlīdzina pulsācijas | Liels elektrolītiskais kondensators |
+| 3. Gludināšanas filtrs | Samazina maiņstrāvas pulsācijas līdzstrāvā | Liels elektrolītiskais kondensators; dažreiz arī spole (droselis) |
 | 4. Stabilizators | Notur nemainīgu izejas spriegumu | Zenera diode, tranzistors vai mikroshēma |
 
 ![10.4. attēls. Barošanas bloka blokshēma.](../atteli/10-4-barosanas-bloks.svg)
@@ -126,8 +134,11 @@ slodzi tā vienmēr plūst vienā virzienā.
 
 ![10.5. attēls. Taisngriezis ar diožu tiltu.](../atteli/10-5-diozu-tilts.svg)
 
-**Gludināšanas kondensators** uzlādējas sprieguma maksimumos un atdod
-enerģiju starp tiem, tā aizpildot "bedres".
+**Gludināšanas filtrs** būtībā ir zemo frekvenču filtrs (10.2.):
+līdzspriegumu laiž cauri, pulsācijas aiztur. Tā galvenā detaļa ir liels
+elektrolītiskais kondensators: tas uzlādējas sprieguma maksimumos un atdod
+enerģiju starp tiem, tā aizpildot "bedres". Dažreiz ceļā liek arī spoli
+(droseli), kas pulsācijas aiztur vēl labāk.
 
 **Sprieguma stabilizators** nodrošina nemainīgu izejas spriegumu arī tad,
 kad mainās ieejas spriegums vai slodze. Ieejas spriegumam jābūt lielākam par
@@ -144,8 +155,14 @@ tranzistora.
 > kondensatori saglabā lādiņu arī pēc atvienošanas no rozetes. Neatver
 > barošanas bloku, ja neesi izlasījis 17. nodaļu.
 
-Mūsdienu **impulsu barošanas bloki** dara to pašu citā secībā un ir daudz
-vieglāki, bet slikti uzbūvēti rada radiotraucējumus (16. nodaļa).
+**Impulsu barošanas bloks** (10.7. attēls) tīkla spriegumu vispirms taisno un
+filtrē. Tad tranzistors to pārslēdz desmitiem līdz simtiem kilohercu
+frekvencē, mazs impulsu transformators pazemina, un otrs taisngriezis ar
+filtru dod izejas līdzspriegumu. Izejas spriegumu notur **atgriezeniskā
+saite**: vadības shēma salīdzina izejas spriegumu ar etalonu un maina, cik
+ilgi tranzistors ir atvērts.
+
+![10.7. attēls. Impulsu barošanas bloka blokshēma ar atgriezenisko saiti.](../atteli/10-7-impulsu-barosanas-bloks.svg)
 
 ## 10.4. Pastiprinātājs
 
@@ -153,7 +170,7 @@ vieglāki, bet slikti uzbūvēti rada radiotraucējumus (16. nodaļa).
 tāds pats signāls kā ieejā, tikai lielāks. Cik reižu lielāks, pasaka
 **pastiprinājums**, ko parasti izsaka decibelos [1].
 
-![10.7. attēls. Pastiprinātājs: darbība un pakāpe ar tranzistoru.](../atteli/10-7-pastiprinatajs.svg)
+![10.8. attēls. Pastiprinātājs: darbība un pakāpe ar tranzistoru.](../atteli/10-8-pastiprinatajs.svg)
 
 | Veids | Ko pastiprina | Kur lieto |
 | --- | --- | --- |
@@ -166,7 +183,7 @@ Platjoslas un rezonanses pastiprinātājs atšķiras ar to, kas ir tranzistora
 kolektora ķēdē: rezistors pastiprina visas frekvences vienādi, bet LC kontūrs —
 tikai savu rezonanses frekvenci [1].
 
-![10.8. attēls. Platjoslas un rezonanses pastiprinātājs.](../atteli/10-8-pastiprinataju-veidi.svg)
+![10.9. attēls. Platjoslas un rezonanses pastiprinātājs.](../atteli/10-9-pastiprinataju-veidi.svg)
 
 > **Piemērs.** Pastiprinātāja pastiprinājums ir 10 dB. Ieejā padod 5 W. Kāda
 > ir izejas jauda?
@@ -191,7 +208,7 @@ pastiprinātājs, kura izejas signāla daļa padota atpakaļ uz ieeju, un
 frekvenci nosaka kontūrs vai kvarca rezonators. Svarīgākie parametri ir
 izejas frekvence un tās stabilitāte [1].
 
-![10.9. attēls. Ģenerators: pastiprinātājs ar atgriezenisko saiti.](../atteli/10-9-generators.svg)
+![10.10. attēls. Ģenerators: pastiprinātājs ar atgriezenisko saiti.](../atteli/10-10-generators.svg)
 
 | Veids | Saīsinājums | Īpašība |
 | --- | --- | --- |
@@ -206,7 +223,7 @@ saiti caur kondensatoriem pārmaiņus atveras un aizveras, un izejā rodas
 rezistori. Multivibratorus izmanto impulsu ģenerēšanai, piemēram, digitālajās
 ierīcēs [1].
 
-![10.10. attēls. Multivibrators.](../atteli/10-10-multivibrators.svg)
+![10.11. attēls. Multivibrators.](../atteli/10-11-multivibrators.svg)
 
 Raidītāja frekvences stabilitāte ir atkarīga no ģeneratora. Nestabils
 ģenerators "peld": signāls lēnām aizslīd prom, un korespondentam jāskaņojas
@@ -221,7 +238,7 @@ $$f_{izejā} = f_1 + f_2 \quad \text{un} \quad f_1 - f_2$$
 
 Aiz jaucēja liek joslas filtru, kas izvēlas vienu no abām.
 
-![10.11. attēls. Jaucējs: izejā ir summa un starpība; filtrs izvēlas vienu.](../atteli/10-11-jaucejs.svg)
+![10.12. attēls. Jaucējs: izejā ir summa un starpība; filtrs izvēlas vienu.](../atteli/10-12-jaucejs.svg)
 
 > **Piemērs.** Jaucējam padod 9 MHz un 2 MHz signālus. Kādas frekvences ir
 > izejā?
@@ -243,7 +260,7 @@ nesēja [1].
 Ciparu tehnikā signālam ir tikai divi stāvokļi: 0 un 1. **Loģiskie elementi**
 no vienas vai divām ieejām veido izeju pēc noteikta likuma [2].
 
-![10.12. attēls. Loģisko elementu UN, VAI un NE apzīmējumi.](../atteli/10-12-logiskie-elementi.svg)
+![10.13. attēls. Loģisko elementu UN, VAI un NE apzīmējumi.](../atteli/10-13-logiskie-elementi.svg)
 
 | A | B | UN (AND) | VAI (OR) |
 | --- | --- | --- | --- |
@@ -308,7 +325,9 @@ barošanas bloka shēmu un sameklē tajā četras pakāpes no 10.3. apakšnodaļ
 - Filtri izmanto to, ka spole un kondensators dažādi laiž dažādas
   frekvences.
 - Raidītāja izejā liek zemo frekvenču filtru harmoniku aizturēšanai.
-- Barošanas bloks: transformators, taisngriezis, gludinātājs, stabilizators.
+- Lineārais barošanas bloks: transformators, taisngriezis, gludināšanas
+  filtrs, stabilizators. Impulsu bloks spriegumu pazemina augstā frekvencē un
+  stabilizē ar atgriezenisko saiti.
 - Pastiprinātājs palielina signālu; ģenerators to rada; jaucējs pārceļ uz
   citu frekvenci.
 - Jaucēja izejā ir summa un starpība; vajadzīgo izvēlas ar filtru.

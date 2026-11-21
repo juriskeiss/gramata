@@ -29,8 +29,10 @@ skaidrots plašāk.
 | Fīders | Feeder | Līnija, kas pārvada signālu starp staciju un antenu (3., 13.) |
 | Frekvences modulācija (FM) | Frequency modulation | Informācija maina nesēja frekvenci (8.) |
 | Galotnes jauda (pX) | Peak envelope power, PEP | Raidītāja jauda signāla maksimumos (4.) |
+| Gludināšanas filtrs | Smoothing filter | Barošanas bloka pakāpe aiz taisngrieža, kas samazina pulsācijas; būtībā zemo frekvenču filtrs (10.) |
 | Harmonika | Harmonic | Signāls pamatfrekvences daudzkārtnī (8., 12.) |
 | Heterodīns | Local oscillator | Uztvērēja ģenerators, ar kuru to noskaņo (11.) |
+| Impulsu barošanas bloks | Switching power supply, SMPS | Barošanas bloks, kas spriegumu pazemina augstā frekvencē ar mazu transformatoru (10., 16.) |
 | Izotropā antena | Isotropic antenna | Teorētiska antena, kas izstaro vienādi visos virzienos; 0 dBi (13.) |
 | Izsaukuma signāls | Call sign | Stacijas unikālais vārds ēterā (1., 4.) |
 | Izstarojuma klase | Emission class | Trīs zīmju apzīmējums darba veidam, piemēram, A1A — CW, J3E — SSB, F3E — FM (8.) |
