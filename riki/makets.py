@@ -31,7 +31,7 @@ from qr import qr_svg  # noqa: E402
 
 GRAMATA = "No nulles līdz izsaukuma signālam"
 APAKSV = "Mācību grāmata radioamatiera B kategorijai"
-VERSIJA = "0.1.1"          # R.M.m (relīze.major.minor); katram jaunam PDF palielina m, sk. README
+VERSIJA = "0.1.2"          # R.M.m (relīze.major.minor); katram jaunam PDF palielina m, sk. README
 IZDOTS = "21.11.2026."     # versijas izdošanas datums
 _LOGO = DIZ / "lral-logo.png"
 if not _LOGO.exists() and _LOGO.with_suffix(".png.b64").exists():

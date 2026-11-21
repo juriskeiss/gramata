@@ -96,6 +96,7 @@ nosaukums. Versijas numurs un izdošanas datums titullapā ir konstantes
 
 | Versija | Datums | Saturs |
 | --- | --- | --- |
+| 0.1.2 | 21.11.2026. | 3. nodaļā pievienota IARU reģionu karte (3.2. attēls) un reģionu tabula. Git birka `v0.1.2`. |
 | 0.1.1 | 21.11.2026. | YL2FD 2. kārtas labojumi (kapacitatīvais dalītājs, pretestības transformācija, divi barošanas bloku tipi, "gludināšanas filtrs", jauns 10.7. attēls); 5. pārbaudes labojumi; 3. nodaļā precizēts jautājums par raidīšanu no kuģa. Titullapā norādīti modeļi Claude Fable 5.2 un Claude Opus 5.5. Git birka `v0.1.1`. |
 | 0.1 | 20.11.2026. | Pirmā pilnā versija: 19 nodaļas, A–H pielikums, pateicības; pēc YL2FD, YL2GD, YL3MS, YL3OI un YL2SM recenzijām un divām pilnām pārbaudēm. Git birka `v0.1`, PDF — `no-nulles-lidz-izsaukuma-signalam.pdf`. |
 
