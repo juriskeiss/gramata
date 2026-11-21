@@ -133,7 +133,7 @@ Kā lasīt tabulu:
 - **MGM** (machine generated modes) ir ciparu darba veidi, piemēram, FT8
   un RTTY.
 
-> **Atceries:** HF un 6 m — 100 W. Tālāk jauda krītas: 2 m — 50 W,
+> **Atceries!** HF un 6 m — 100 W. Tālāk jauda krītas: 2 m — 50 W,
 > 70 cm — 20 W, 23 cm — 10 W.
 
 > **Uzmanību!** 40 m diapazonā B kategorija drīkst strādāt tikai telegrāfā

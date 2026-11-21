@@ -4,7 +4,7 @@
   Pārveido VEIDNE.md pierakstu par maketa blokiem:
     - nodaļas virsrakstu, ievadteikumu, meta rindas un mācību mērķus
       par nodaļas atvēruma lapu;
-    - izceltos lodziņus (Praktisks padoms., Uzmanību!, Piemērs., Atceries:,
+    - izceltos lodziņus (Praktisks padoms., Uzmanību!, Piemērs., Atceries!,
       Padziļināti.) par krāsainām kartītēm;
     - numurētus apakšvirsrakstus (5.1. ...) par virsrakstu ar uzrakstu;
     - nodaļas beigu sadaļas (Eksāmenā jāzina, Pamēģini pats, Kopsavilkums,
@@ -23,7 +23,7 @@ local CALLOUTS = {
   ["Praktisks padoms."] = { cls = "padoms",   label = "Praktisks padoms" },
   ["Uzmanību!"]         = { cls = "uzmanibu", label = "Uzmanību!" },
   ["Piemērs."]          = { cls = "piemers",  label = "Piemērs" },
-  ["Atceries:"]         = { cls = "atceries", label = "Atceries" },
+  ["Atceries!"]         = { cls = "atceries", label = "Atceries!" },
   ["Padziļināti."]      = { cls = "padzilinati", label = "Padziļināti" },
   ["C kategorijai."]    = { cls = "ckat",     label = "C kategorijai" },
 }

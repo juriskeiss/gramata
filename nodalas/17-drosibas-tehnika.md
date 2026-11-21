@@ -42,7 +42,7 @@ Maiņstrāvas (50 Hz) iedarbība uz cilvēku [1]:
 > 2. Tas ir 115 mA — vairāk par 100 mA robežu.
 > 3. Tīkla spriegums ir nāvējošs.
 
-> **Atceries:** 100 mA ir desmitā daļa ampēra. Transīvers raidot patērē
+> **Atceries!** 100 mA ir desmitā daļa ampēra. Transīvers raidot patērē
 > 20 A — divsimt reižu vairāk. Cilvēka nogalināšanai pietiek ar strāvu, ko
 > mājas drošinātājs pat nepamana.
 
@@ -102,7 +102,7 @@ zemes [3].
 
 ![17.2. attēls. Stacijas zemējums.](../atteli/17-2-stacijas-zemejums.svg)
 
-> **Atceries:** četri — dabīgo zemētāju izmanto, ja tā pretestība nav lielāka
+> **Atceries!** Četri — dabīgo zemētāju izmanto, ja tā pretestība nav lielāka
 > par 4 Ω. Gāzes un degvielas caurules, alumīnija kabeļu apvalki — nekad.
 
 ## 17.4. Instrumenti un aizsarglīdzekļi

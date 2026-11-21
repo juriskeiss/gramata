@@ -23,7 +23,7 @@ failā `nodalas/NN-nosaukums.md` un aizpildi.
   ```
 
   Atļautie nosaukumi: `Praktisks padoms.`, `Uzmanību!`, `Piemērs.`,
-  `Atceries:`, `Padziļināti.`, `C kategorijai.`
+  `Atceries!`, `Padziļināti.`, `C kategorijai.`
 - **Formulas.** LaTeX pierakstā: rindā `$U = I \cdot R$`, atsevišķā rindā
   `$$f = \frac{1}{2\pi\sqrt{LC}}$$`.
 - **Terminoloģija.** Digitālos darba veidus (FT8, RTTY, PSK31 u.c.) sauc par

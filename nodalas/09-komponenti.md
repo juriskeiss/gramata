@@ -43,7 +43,7 @@ Pirmās divas joslas ir cipari, trešā — nuļļu skaits, ceturtā — pielaid
 
 Pielaides josla: zelta ±5 %, sudraba ±10 %.
 
-> **Atceries:** krāsu kods nav jāmācās no galvas — ne eksāmenam, ne praksei.
+> **Atceries!** Krāsu kods nav jāmācās no galvas — ne eksāmenam, ne praksei.
 > Lieto tabulu vai izmēri pretestību ar multimetru. Mērījums ir drošāks arī
 > tāpēc, ka vecu rezistoru krāsas mēdz izbalēt.
 
@@ -76,7 +76,7 @@ $$R_{kop} = \frac{R_1 \cdot R_2}{R_1 + R_2}$$
 
 ![9.2. attēls. Rezistoru virknes un paralēlais slēgums.](../atteli/09-2-rezistoru-slegumi.svg)
 
-> **Atceries:** virknē kopējā pretestība ir lielāka par lielāko. Paralēli —
+> **Atceries!** Virknē kopējā pretestība ir lielāka par lielāko. Paralēli —
 > mazāka par mazāko. Ja atbilde tam neatbilst, aprēķinā ir kļūda.
 
 Divi īsceļi paralēlajam slēgumam:

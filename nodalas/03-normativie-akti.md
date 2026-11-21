@@ -43,7 +43,7 @@ Līdzās regulatoriem darbojas radioamatieru pašu organizācijas [2]:
 ITU un IARU pasauli dala trīs reģionos. Latvija ir **1. reģionā** kopā ar
 Eiropu, Āfriku un Tuvajiem Austrumiem [2].
 
-> **Atceries:** ITU sadala spektru, CEPT saskaņo Eiropu, ES izsniedz atļaujas.
+> **Atceries!** ITU sadala spektru, CEPT saskaņo Eiropu, ES izsniedz atļaujas.
 > IARU un LRAL pārstāv radioamatierus, bet atļaujas neizsniedz.
 
 ## 3.2. MK noteikumi Nr. 257

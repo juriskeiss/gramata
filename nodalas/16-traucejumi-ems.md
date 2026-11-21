@@ -35,7 +35,7 @@ Saderībai ir divas puses:
 Radioamatiera stacija ir abās pusēs uzreiz: tā var traucēt citiem, un citi
 var traucēt tai.
 
-> **Atceries:** tas, ka kaimiņa ierīce reaģē uz tavu raidītāju, vēl
+> **Atceries!** Tas, ka kaimiņa ierīce reaģē uz tavu raidītāju, vēl
 > nenozīmē, ka tavs raidītājs ir vainīgs. Vispirms jānoskaidro, kurā pusē ir
 > cēlonis.
 

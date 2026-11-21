@@ -101,7 +101,7 @@ Kur katru filtru sastop radioamatiera stacijā:
 - **BSF** — lai izgrieztu vienu traucējošu signālu; šauru sprostfiltru sauc
   arī par režektorfiltru (notch).
 
-> **Atceries:** LPF pie raidītāja, HPF pie televizora. Abi sargā no tā paša:
+> **Atceries!** LPF pie raidītāja, HPF pie televizora. Abi sargā no tā paša:
 > lai īsviļņu raidītājs netraucētu uztveršanu augstākās frekvencēs.
 
 ## 10.3. Barošanas bloks

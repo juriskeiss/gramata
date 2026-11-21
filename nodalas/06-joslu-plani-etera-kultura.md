@@ -106,7 +106,7 @@ normas (52. punkts) [1]. Praksē tie ir daži vienkārši likumi [4]:
 - **Runā patiesību.** Nepatiesas vai maldinošas ziņas raidīt aizliegts
   (46. punkts) [1].
 
-> **Atceries:** ētikas pamatlikums vienā teikumā — nedari ēterā neko tādu,
+> **Atceries!** Ētikas pamatlikums vienā teikumā — nedari ēterā neko tādu,
 > kas citam traucētu pabeigt iesāktu sakaru.
 
 Radioamatierisms ir starptautisks hobijs. Sarunu biedrs var būt no valsts ar

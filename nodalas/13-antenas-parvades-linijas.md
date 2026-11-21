@@ -33,7 +33,7 @@ to, ko tu dzirdi; pastiprinātājs palīdz tikai raidīšanā.
 | **Pastiprinājums** | Cik reižu spēcīgāk antena izstaro galvenajā virzienā, salīdzinot ar atskaites antenu |
 | **Polarizācija** | Elektriskā lauka virziens; to nosaka antenas novietojums (8. nodaļa) |
 
-> **Atceries:** antena jaudu nerada. "Pastiprinājums" nozīmē tikai to, ka
+> **Atceries!** Antena jaudu nerada. "Pastiprinājums" nozīmē tikai to, ka
 > jauda tiek koncentrēta vienā virzienā uz citu virzienu rēķina.
 
 ## 13.2. Izotropā antena un decibeli
@@ -164,7 +164,7 @@ Signāls ir visstiprākais direktoru virzienā. Kas jāzina par Yagi [1]:
 
 ![13.5. attēls. Dipola un Yagi starojuma diagrammas.](../atteli/13-5-starojuma-diagrammas.svg)
 
-> **Atceries:** reflektors — garākais un aizmugurē. Direktori — īsākie un
+> **Atceries!** Reflektors — garākais un aizmugurē. Direktori — īsākie un
 > priekšā. Signāls iet no garā uz īso.
 
 ## 13.7. Citas antenas
@@ -264,7 +264,7 @@ neskaņo: antenas rezonanses frekvence nemainās.
 
 ![13.7. attēls. SWR mērītāja, antenas salāgotāja un baluna vieta stacijā.](../atteli/13-7-saskanosana.svg)
 
-> **Atceries:** salāgotājs nepadara antenu labāku. Tas tikai ļauj raidītājam
+> **Atceries!** Salāgotājs nepadara antenu labāku. Tas tikai ļauj raidītājam
 > strādāt ar pilnu jaudu. Stāvviļņi un zudumi kabelī starp salāgotāju un
 > antenu paliek.
 

@@ -35,7 +35,7 @@ par iepriekšējo [1].
 | VHF | Metru viļņi | 30–300 MHz | 10–1 m | 6 m, 2 m |
 | UHF | Decimetru viļņi | 300–3000 MHz | 1 m – 10 cm | 70 cm, 23 cm |
 
-> **Atceries:** robežas ir trijnieki ar nullēm: 3, 30, 300, 3000. HF ir no
+> **Atceries!** Robežas ir trijnieki ar nullēm: 3, 30, 300, 3000. HF ir no
 > 3 līdz 30 MHz; virs 30 MHz sākas VHF, virs 300 MHz — UHF.
 
 Frekvence un viļņa garums ir saistīti: λ [m] = 300 / f [MHz] (8. nodaļa).
@@ -166,7 +166,7 @@ vaina var nebūt tavā antenā.
 | **2 m** | Tiešā redzamība, atkārtotāji | Tas pats | Tropo apstākļos simtiem kilometru |
 | **70 cm** | Tiešā redzamība, atkārtotāji | Tas pats | Labāk iziet cauri ēkām; lielāki kabeļa zudumi |
 
-> **Atceries:** zemās frekvences — nakts, augstās — diena. 80 m naktī,
+> **Atceries!** Zemās frekvences — nakts, augstās — diena. 80 m naktī,
 > 10 m un 15 m dienā.
 
 > **Praktisks padoms.** Nevari izlemt, kuru HF antenu būvēt pirmo? 80 m

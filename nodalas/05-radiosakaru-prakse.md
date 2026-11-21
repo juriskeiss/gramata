@@ -127,7 +127,7 @@ Bez Q kodiem sarunās pastāvīgi dzirdami daži saīsinājumi [1]:
 | WX | Laikapstākļi |
 | UP | Klausos augstākā frekvencē (sk. 5.6.) |
 
-> **Atceries:** QRM vai QRN? M kā "man-made" — cilvēku radīti traucējumi.
+> **Atceries!** QRM vai QRN? M kā "man-made" — cilvēku radīti traucējumi.
 > N kā "natural" — dabas radīti.
 
 > **Uzmanību!** Saīsinājumu ir simtiem. Iesācējam pietiek ar šīm divām

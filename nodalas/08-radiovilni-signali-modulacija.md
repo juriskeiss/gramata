@@ -183,7 +183,7 @@ klase G3E).
 ļoti šaurs, tāpēc uztvērējs var izmantot šauru filtru un sadzirdēt to arī
 tad, kad balss sen pazudusi troksnī.
 
-> **Atceries:** jo šaurāks signāls, jo tālāk tas aiziet ar to pašu jaudu.
+> **Atceries!** Jo šaurāks signāls, jo tālāk tas aiziet ar to pašu jaudu.
 > CW — šaurākais, SSB — vidū, FM — platākais.
 
 > **Uzmanību!** Pārāk skaļš mikrofona signāls SSB raidītājā izkropļo balsi
@@ -209,7 +209,7 @@ Starptautiskā Telesakaru savienība (ITU) [3].
 | G3E | Fāzes modulācijas telefonija; ēterā skan tāpat kā FM |
 | F1B | RTTY |
 
-> **Atceries:** A1A — CW, J3E — SSB, F3E — FM. Pēdējais burts E vienmēr
+> **Atceries!** A1A — CW, J3E — SSB, F3E — FM. Pēdējais burts E vienmēr
 > nozīmē balsi.
 
 > **C kategorijai.** C kategorijas stacijām atļautas tikai izstarojuma klases

@@ -195,7 +195,7 @@ Neviens mērījums nav absolūti precīzs. Trīs lietas, kas jāpatur prātā:
 - **Savienojumi.** Lielākā daļa "dīvaino" rādījumu rodas no slikta kontakta
   taustos, savienotājos vai kabelī.
 
-> **Atceries:** ja rādījums šķiet neticams, vispirms pārbaudi mērīšanas
+> **Atceries!** Ja rādījums šķiet neticams, vispirms pārbaudi mērīšanas
 > veidu un savienojumus, tikai tad meklē bojājumu iekārtā.
 
 ## Eksāmenā jāzina

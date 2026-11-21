@@ -87,7 +87,7 @@ Kursā apskatītās programmas [1]:
 Nav vienas pareizās. Izmēģini divas vai trīs un paliec pie tās, kurā ievade
 tev šķiet dabiska. Datus starp tām var pārnest ar ADIF failu.
 
-> **Atceries:** žurnālā laiks vienmēr ir UTC. Iestati to programmā vienreiz
+> **Atceries!** Žurnālā laiks vienmēr ir UTC. Iestati to programmā vienreiz
 > un vairs par to nedomā.
 
 ## 19.4. Pirmais transīvers

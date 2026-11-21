@@ -208,7 +208,7 @@ jaudas [2]. Ir četri galvenie nevēlamo izstarojumu veidi.
 > 2. Tā ir 70 cm radioamatieru diapazonā, kur var traucēt citiem
 >    radioamatieriem un atkārtotājiem.
 
-> **Atceries:** ALC ir tavs draugs. Ja SSB režīmā ALC rādītājs pastāvīgi ir
+> **Atceries!** ALC ir tavs draugs. Ja SSB režīmā ALC rādītājs pastāvīgi ir
 > ārpus atzīmētās zonas, samazini mikrofona pastiprinājumu. Tavs signāls
 > kļūs šaurāks, tīrāks un labāk saprotams, bet ne vājāks.
 

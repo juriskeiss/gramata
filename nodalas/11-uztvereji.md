@@ -141,7 +141,7 @@ $$f_{spog} = f_{sign} \pm 2 \cdot f_{SF}$$
 Spoguļkanālu aiztur ieejas filtrs pirms jaucēja. Jo augstāka starpfrekvence,
 jo tālāk spoguļkanāls ir no vajadzīgā signāla un jo vieglāk to nofiltrēt.
 
-> **Atceries:** selektivitāti nosaka starpfrekvences filtrs; aizsardzību no
+> **Atceries!** Selektivitāti nosaka starpfrekvences filtrs; aizsardzību no
 > spoguļkanāla — ieejas filtrs.
 
 ## 11.5. Tiešās pārveidošanas uztvērējs

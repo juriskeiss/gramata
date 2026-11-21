@@ -47,7 +47,7 @@ $$I = \frac{U}{R} \qquad U = I \cdot R \qquad R = \frac{U}{I}$$
 Tās ir viena un tā pati formula trīs pierakstos. Iegaumē vienu, pārējās
 izsaki pats.
 
-> **Atceries:** trijstūris. Uzzīmē trijstūri, augšā ieraksti U, apakšā I un R.
+> **Atceries!** Trijstūris. Uzzīmē trijstūri, augšā ieraksti U, apakšā I un R.
 > Aizklāj meklējamo lielumu: ja pārējie divi ir blakus, tos reizina; ja viens
 > virs otra, dala.
 

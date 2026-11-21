@@ -14,6 +14,6 @@ Pamatteksts ar **terminu treknrakstā** un atsauci [1].
 
 ![13.1. attēls. Pusviļņa dipols (zīmējuma paraugs).](../../atteli/13-1-dipols.svg)
 
-> **Atceries:** viļņa garums metros ≈ 300 / frekvence megahercos.
+> **Atceries!** Viļņa garums metros ≈ 300 / frekvence megahercos.
 
 > **Padziļināti.** Neobligāts skaidrojums tiem, kas grib zināt vairāk.

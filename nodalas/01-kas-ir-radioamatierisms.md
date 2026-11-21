@@ -37,7 +37,7 @@ un viens nosacījums [1]:
 - tehniskie pētījumi;
 - to visu dara cilvēki, kuriem radiotehnika ir interese, nevis peļņas avots.
 
-> **Atceries:** "amatieris" šeit nenozīmē "nepratējs". Tas nozīmē "bez
+> **Atceries!** "Amatieris" šeit nenozīmē "nepratējs". Tas nozīmē "bez
 > materiālas ieinteresētības". Daudzi radioamatieri ir profesionāli inženieri.
 
 ## 1.2. Ko radioamatieris dara un ko nedara
