@@ -40,8 +40,17 @@ Līdzās regulatoriem darbojas radioamatieru pašu organizācijas [2]:
   IARU biedre; pārstāv Latvijas radioamatierus valsts iestādēs un
   starptautiski.
 
-ITU un IARU pasauli dala trīs reģionos. Latvija ir **1. reģionā** kopā ar
-Eiropu, Āfriku un Tuvajiem Austrumiem [2].
+ITU un IARU pasauli dala trīs reģionos (3.2. attēls) [2]:
+
+| Reģions | Kas tajā ietilpst |
+| --- | --- |
+| 1. reģions | Eiropa, Āfrika, Tuvie Austrumi, visa Krievija, Kaukāzs, Vidusāzija un Mongolija |
+| 2. reģions | Ziemeļamerika un Dienvidamerika, arī Grenlande un Havaju salas |
+| 3. reģions | Pārējā Āzija (arī Irāna, Indija, Ķīna, Japāna) un Okeānija (Austrālija, Jaunzēlande, Klusā okeāna salas) |
+
+Latvija ir **1. reģionā**. Tāpēc Latvijā lieto IARU 1. reģiona joslu plānu.
+
+![3.2. attēls. IARU reģioni (shematiski). Latvija ir 1. reģionā.](../atteli/03-2-iaru-regioni.svg)
 
 > **Atceries!** ITU sadala spektru, CEPT saskaņo Eiropu, ES izsniedz atļaujas.
 > IARU un LRAL pārstāv radioamatierus, bet atļaujas neizsniedz.
