@@ -154,11 +154,11 @@ MK noteikumi Nr. 257 traucējumiem velta atsevišķu nodaļu [1].
 
 | Prasība | Punkts |
 | --- | --- |
+| Jālieto mazākā nepieciešamā jauda | 53. |
+| Ārpusjoslas izstarojumu kopējā jauda nedrīkst pārsniegt 1 % no izstarotās | 57. |
+| ES var noteikt ierobežojumus traucējumu novēršanai | 61. |
 | Pirms radiostacijas lietošanas jāpārliecinās, ka tā atbilst noteikumiem un blakusizstarojumu prasībām | 62. |
 | Kaitīgus radiotraucējumus radīt nedrīkst | 63. |
-| Ārpusjoslas izstarojumu kopējā jauda nedrīkst pārsniegt 1 % no izstarotās | 57. |
-| Jālieto mazākā nepieciešamā jauda | 53. |
-| ES var noteikt ierobežojumus traucējumu novēršanai | 61. |
 
 Ja traucējumi konstatēti, 64. punkts nosaka kārtību:
 

@@ -175,7 +175,7 @@ def tituls() -> str:
     <div><b>Licence</b><p>CC BY-NC-SA 4.0. Grāmatu drīkst lietot, pielāgot un uzlabot, ja norāda
       autoru, nelieto komerciāliem mērķiem un savu versiju izdod ar to pašu licenci.</p></div>
     <div><b>Mākslīgā intelekta izmantošana</b><p>Grāmatas sagatavošanā izmantots mākslīgā
-      intelekta modelis Claude Fable 5.2 (Anthropic); saturu pārbaudījuši un rediģējuši LRAL autori.</p></div>
+      intelekta modeļi Claude Fable 5.2 un Claude Opus 5.5 (Anthropic); saturu pārbaudījuši un rediģējuši LRAL autori.</p></div>
     <div class="kol-qr"><b>Mācību komplekts</b><p>Grāmata papildina LRAL bezmaksas kursa prezentācijas un video
       lekcijas LRAL.lv YouTube kanālā. Video saraksts:</p>{('<div class="qr">' + qr_svg(SARAKSTS) + '</div>') if SARAKSTS else ""}</div>
     <div><b>Zīmējumi</b><p>Oriģināli, uzzīmēti ar kodu; izdoti ar grāmatas licenci.</p></div>

@@ -152,6 +152,13 @@ $$\text{paralēli: } C_{kop} = C_1 + C_2 + \dots \qquad \text{virknē: } \frac{1
 > 1. Paralēli saskaita: 100 + 100 = 200 pF.
 > 2. Virknē divi vienādi dod pusi: 50 pF.
 
+> **Piemērs.** Kāda ir 100 pF kondensatora reaktīvā pretestība 7 MHz
+> frekvencē?
+>
+> 1. Pamatvienībās: f = 7 000 000 Hz, C = 0,000 000 000 1 F.
+> 2. 2π · f · C = 6,28 · 7 · 10⁶ · 100 · 10⁻¹² ≈ 0,0044.
+> 3. X_C = 1 / 0,0044 ≈ 227 Ω.
+
 **Kapacitatīvais sprieguma dalītājs.** Kad virknē slēgtus kondensatorus
 pieslēdz līdzsprieguma avotam, caur tiem īsu brīdi plūst uzlādes strāva. Tā
 ir vienāda caur visiem kondensatoriem, tāpēc katrs saņem vienādu lādiņu Q.
@@ -170,13 +177,6 @@ Uz lielākā kondensatora ir mazākais spriegums.
 > 2. 12 V dala 3 daļās, katra ir 4 V.
 > 3. Uz C1 (1 µF): 2 · 4 = 8 V. Uz C2 (2 µF): 4 V.
 > 4. Pārbaude: 8 V + 4 V = 12 V.
-
-> **Piemērs.** Kāda ir 100 pF kondensatora reaktīvā pretestība 7 MHz
-> frekvencē?
->
-> 1. Pamatvienībās: f = 7 000 000 Hz, C = 0,000 000 000 1 F.
-> 2. 2π · f · C = 6,28 · 7 · 10⁶ · 100 · 10⁻¹² ≈ 0,0044.
-> 3. X_C = 1 / 0,0044 ≈ 227 Ω.
 
 ## 9.4. Spole
 
@@ -201,6 +201,11 @@ $$X_L = 2\pi f L$$
 | Spole | Laiž | Maza pretestība | Liela pretestība |
 
 Šī tabula ir visu filtru pamats (10. nodaļa).
+
+> **Piemērs.** Kāda ir 10 µH spoles reaktīvā pretestība 7 MHz frekvencē?
+>
+> 1. X_L = 2π · f · L = 6,28 · 7 · 10⁶ · 10 · 10⁻⁶.
+> 2. X_L ≈ 440 Ω.
 
 **Spoļu slēgumi** ir tādi paši kā rezistoriem, ja spoles viena otru
 neietekmē: virknē induktivitātes saskaita, paralēli saskaita apgrieztās
@@ -235,11 +240,6 @@ apzīmē ar **punktu**:
 > 2. Kā 9.5. attēlā (b): 12 + 9 − 2 · 2 = 17 mH.
 
 Uz savstarpējās induktivitātes balstās transformators (9.5. apakšnodaļa).
-
-> **Piemērs.** Kāda ir 10 µH spoles reaktīvā pretestība 7 MHz frekvencē?
->
-> 1. X_L = 2π · f · L = 6,28 · 7 · 10⁶ · 10 · 10⁻⁶.
-> 2. X_L ≈ 440 Ω.
 
 ## 9.5. Transformators
 

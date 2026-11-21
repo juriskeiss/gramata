@@ -242,7 +242,8 @@ frekvenci.
 ## Kopsavilkums
 
 - Uztvērējs izvēlas, pastiprina un demodulē.
-- Detektoruztvērējs ir vienkāršākais: preselektors, detektors (diode), austiņas.
+- Detektoruztvērējs ir vienkāršākais: antena, preselektors, detektors (diode),
+  austiņas.
 - Superheterodīns pārnes signālu uz nemainīgu starpfrekvenci, kur to
   filtrē un pastiprina.
 - Uztvērēju noskaņo, mainot heterodīna frekvenci.
@@ -337,7 +338,7 @@ frekvenci.
 | 1 | B | Selektivitāte — spēja izvēlēties. |
 | 2 | A | Jutība — vājākais uztveramais signāls. |
 | 3 | C | Tam nav ne pastiprinātāju, ne heterodīna. |
-| 4 | D | Diode atdala AM signāla apliecēju; SSB un FM tā nedemodulē. |
+| 4 | D | Diode atdala skaņu no AM signāla nesēja; SSB un FM tā nedemodulē. |
 | 5 | A | Jaucēja izejā ir signāla un heterodīna frekvenču starpība. |
 | 6 | C | Mainot heterodīna frekvenci, starpfrekvencē nonāk cita stacija. |
 | 7 | B | Starpfrekvence ir nemainīga, tāpēc tur var likt šauru, kvalitatīvu filtru. |

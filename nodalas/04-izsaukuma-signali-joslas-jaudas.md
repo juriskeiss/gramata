@@ -81,7 +81,7 @@ B kategorija raidīt nedrīkst [1].
 Radioamatieru atļaujas Eiropā ir savstarpēji atzītas, tāpēc ceļojumā staciju
 var ņemt līdzi [1], [2].
 
-| Tava atļauja | Kam tā atbilst | Kā strādā viesis Latvijā |
+| Atļauja | Kam tā atbilst | Kā strādā ārvalstu viesis Latvijā |
 | --- | --- | --- |
 | A kategorija | CEPT atļauja (ieteikums T/R 61-01) | Pēc A kategorijas nosacījumiem (73. punkts) |
 | B kategorija | NOVICE atļauja (ieteikums ECC/REC (05)06) | Pēc B kategorijas nosacījumiem (74. punkts) |

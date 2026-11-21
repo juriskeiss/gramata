@@ -183,7 +183,7 @@ tīrai un drošai.
 | --- | --- | --- |
 | Jāievēro IARU joslu plāni | — | 53. |
 | Jālieto mazākā jauda, ar kuru sakars iespējams | — | 53. |
-| Stacijas barošanas spriegums uz antenām un fīderiem (piemēram, antenas pastiprinātāja barošana pa kabeli); uz augstfrekvences spriegumu tas neattiecas | ne vairāk kā **42 V** | 53. |
+| Stacijas barošanas spriegums uz antenām un fīderiem (piemēram, antenas pastiprinātāja barošana pa kabeli); uz augstfrekvences spriegumu tas neattiecas | ne vairāk kā **42 V** | 53.9. |
 | Ja raidītājs spēj pārsniegt atļauto jaudu, tam jābūt izejas jaudas mērītājam | — | 54. |
 | Atkārtotājus drīkst uzstādīt un lietot tikai joslās, kurās radioamatieru dienestam ir primārs statuss | virs **29 MHz** | 56. |
 | Ārpusjoslas izstarojumu kopējā jauda | ne vairāk kā **1 %** no izstarotās jaudas | 57. |
@@ -379,7 +379,7 @@ tev un kas — kaimiņam.
 | 6 | A | 39. punkts: ziņojumi ir atklāti, Q kodi un saīsinājumi ir atļauti. |
 | 7 | D | 42. punkts. |
 | 8 | B | 43. punkts. |
-| 9 | C | 53. punkts: barošanas spriegums uz antenām un fīderiem — ne vairāk kā 42 V. |
+| 9 | C | 53.9. apakšpunkts: barošanas spriegums uz antenām un fīderiem — ne vairāk kā 42 V. |
 | 10 | A | 1 % no 50 W ir 0,5 W. |
 | 11 | D | 65. punkts: nekavējoties, līdz cēloņa novēršanai. |
 | 12 | A | 66. punkts. |

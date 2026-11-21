@@ -142,7 +142,7 @@ jebkuram plānam:
 - **Maz, bet regulāri.** Pusstunda katru dienu dod vairāk nekā četras
   stundas svētdienā.
 - **Gan video, gan nodaļa.** Vispirms noskaties video lekciju, tad izlasi
-  nodaļu (18.2.). Lasot un klausoties vielu atceras labāk nekā tikai lasot.
+  nodaļu. Lasot un klausoties vielu atceras labāk nekā tikai lasot.
 - **Jautājumus risini rakstiski.** Atbildi pieraksti, pirms skaties atbilžu
   tabulā. Ja atbilde ir nepareiza, izlasi skaidrojumu un atgriezies pie
   apakšnodaļas.
@@ -253,7 +253,7 @@ kuru nodaļu kurā nedēļā apgūsi. Pēdējo nedēļu atstāj izmēģinājuma 
 | --- | --- | --- |
 | 1 | C | HAREC atbilst A kategorijai, FM operatora apliecība — C kategorijai. |
 | 2 | A | Eksāmens notiek testa veidā, elektroniski. |
-| 3 | B | 40 jautājumi; 20 jautājumi ir FM operatora eksāmenā. |
+| 3 | B | 40 jautājumi. |
 | 4 | D | 60 minūtes, tātad vidēji pusotra minūte jautājumam. |
 | 5 | C | 40 × 0,60 = 24. |
 | 6 | A | Ne vēlāk kā vienu nedēļu pirms eksāmena. |

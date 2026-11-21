@@ -29,11 +29,11 @@ par iepriekšējo [1].
 
 | Diapazons | Nosaukums | Frekvence | Viļņa garums | B kategorijas joslas |
 | --- | --- | --- | --- | --- |
-| LF | Garie viļņi | 30–300 kHz | 10–1 km | — |
+| LF | Garie viļņi | 30–300 kHz | 10 000–1000 m | — |
 | MF | Vidējie viļņi | 300–3000 kHz | 1000–100 m | — |
 | HF | Īsviļņi | 3–30 MHz | 100–10 m | 80 m, 40 m, 15 m, 10 m |
 | VHF | Metru viļņi | 30–300 MHz | 10–1 m | 6 m, 2 m |
-| UHF | Decimetru viļņi | 300–3000 MHz | 1 m – 10 cm | 70 cm, 23 cm |
+| UHF | Decimetru viļņi | 300–3000 MHz | 1–0,1 m | 70 cm, 23 cm |
 
 > **Atceries!** Robežas ir trijnieki ar nullēm: 3, 30, 300, 3000. HF ir no
 > 3 līdz 30 MHz; virs 30 MHz sākas VHF, virs 300 MHz — UHF.

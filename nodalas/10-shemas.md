@@ -424,7 +424,7 @@ barošanas bloka shēmu un sameklē tajā četras pakāpes no 10.3. apakšnodaļ
 
 **Atvērtie jautājumi**
 
-18. Uzzīmē barošanas bloka blokshēmu ar četrām pakāpēm un pie katras
+18. Uzzīmē lineārā barošanas bloka blokshēmu ar četrām pakāpēm un pie katras
     pieraksti, kāds spriegums ir tās izejā (forma un aptuvenā vērtība).
 19. Kontūrā L = 1 µH un C = 100 pF. Aprēķini rezonanses frekvenci. Parādi
     visus soļus.
@@ -451,7 +451,10 @@ barošanas bloka shēmu un sameklē tajā četras pakāpes no 10.3. apakšnodaļ
 | 16 | D | VAI (OR) dod 1, ja vismaz vienā ieejā ir 1. |
 | 17 | B | 8 + 0 + 2 + 0 = 10. |
 
-Atvērtie jautājumi: 19. jautājumā L · C = 10⁻⁶ · 10⁻¹⁰ = 10⁻¹⁶;
+Atvērtie jautājumi: 18. jautājumā: transformators — pazemināts
+maiņspriegums; taisngriezis — pulsējošs līdzspriegums; gludināšanas filtrs —
+izlīdzināts līdzspriegums ar nelielām pulsācijām; stabilizators — stabils
+13,8 V. 19. jautājumā L · C = 10⁻⁶ · 10⁻¹⁰ = 10⁻¹⁶;
 √(10⁻¹⁶) = 10⁻⁸; 2π · 10⁻⁸ ≈ 6,28 · 10⁻⁸; f ≈ 15,9 MHz.
 
 ## Padziļināti

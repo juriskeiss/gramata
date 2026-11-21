@@ -355,7 +355,8 @@ par siltumu.
   vienāda ar avota spriegumu. Tos lietosim 9. nodaļā, rēķinot rezistoru
   slēgumus.
 - **Lietderības koeficients.** Izejas jaudas attiecība pret patērēto jaudu.
-  Tipiskam 100 W transīveram tā ir ap 30–40 %.
+  Tipiskam 100 W transīveram kopumā (ar visām shēmām) tā ir ap
+  30–40 %.
 - **Kāpēc tieši 0,707?** Tas ir 1/√2. Jauda ir proporcionāla sprieguma
   kvadrātam, un sinusoīdas kvadrāta vidējā vērtība ir puse no maksimuma
   kvadrāta.
