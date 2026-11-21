@@ -201,7 +201,8 @@ televīzijas antenu mastiem, radiotranslācijas traversām un karnīzēm atsaite
 stiprināt kategoriski aizliegts. Atsaites nedrīkst saskarties ar
 elektrolīniju, telefona un citiem vadiem. Bīstamā zona ap mastu ir **1/3**
 masta augstuma [3]. Tā ir darba zona pacelšanas laikā; krītot masts aizsniedz
-visu savu garumu, tāpēc attālumam līdz elektrolīnijām jābūt lielākam (sk. tālāk).
+visu savu garumu, tāpēc attālumam līdz elektrolīnijām jābūt lielākam par masta
+augstumu un antenas garumu kopā (sk. tālāk).
 
 **Cilvēku skaits masta pacelšanai** [3]:
 

@@ -83,7 +83,7 @@ izzūd, un zemie diapazoni "atveras". Tāpēc 80 m ir nakts diapazons [1].
 
 **F slānis** ir visaugstāk, tāpēc atstarošanās no tā dod vislielāko
 attālumu: ar vienu atstarojumu līdz apmēram 3000–4000 km. Tālākiem
-sakariem vajag vairākus atstarojumus (skat. zemāk).
+sakariem vajag vairākus atstarojumus (sk. zemāk).
 
 **Augstākas frekvences iet cauri.** Jo augstāka frekvence, jo stiprākai
 jābūt jonizācijai, lai vilni atstarotu. Augstāko frekvenci, ko jonosfēra

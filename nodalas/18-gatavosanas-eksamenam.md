@@ -37,7 +37,7 @@ nevar izsecināt — tie vienkārši jāzina.
 
 ## 18.2. Mācību plāns
 
-Grāmatai ir 17 mācību nodaļas. Ar 4–5 stundām nedēļā to var apgūt desmit
+Grāmatai ir 17 mācību nodaļas. Ar 5–8 stundām nedēļā to var apgūt desmit
 nedēļās.
 
 | Nedēļa | Nodaļas | Tēma |

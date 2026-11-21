@@ -55,7 +55,7 @@ nedēļās (18. nodaļa). Iekavās — nodaļa, kurā skaitlis skaidrots.
 | 73 Ω, 2,15 dBi | Dipola pretestība un pastiprinājums (13.) |
 | 142,5 / f | Pusviļņa dipola garums metros (13.) |
 | 50 Ω, 75 Ω | Koaksiālā kabeļa raksturpretestība (13.) |
-| 1:1, 1,5:1, 3:1 | SWR: ideāls, ļoti labs, nevēlams (13.) |
+| 1:1 / līdz 1,5:1 / virs 3:1 | SWR: ideāls / ļoti labs / nevēlams (13.) |
 | 3–30 MHz | HF diapazons (14.) |
 | 11 gadi | Saules aktivitātes cikls (14.) |
 
