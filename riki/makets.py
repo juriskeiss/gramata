@@ -31,8 +31,8 @@ from qr import qr_svg  # noqa: E402
 
 GRAMATA = "No nulles līdz izsaukuma signālam"
 APAKSV = "Mācību grāmata radioamatiera B kategorijai"
-VERSIJA = "0.1"            # izdotās versijas numurs; pirms nākamās izdošanas palielina
-IZDOTS = "20.11.2026."     # versijas izdošanas datums
+VERSIJA = "0.1.1"          # R.M.m (relīze.major.minor); katram jaunam PDF palielina m, sk. README
+IZDOTS = "21.11.2026."     # versijas izdošanas datums
 _LOGO = DIZ / "lral-logo.png"
 if not _LOGO.exists() and _LOGO.with_suffix(".png.b64").exists():
     # projektā zīme glabājas kā base64 teksts; atjauno PNG pirms būvēšanas
