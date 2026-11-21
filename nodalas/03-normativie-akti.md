@@ -233,10 +233,11 @@ cilvēkam, kurš vēl mācās. Apmācībā lieto B kategorijas joslas un jaudas
 (71.–72. punkts) [1]. Tā tu vari izmēģināt īstu QSO vēl pirms eksāmena, ja
 blakus sēž A kategorijas operators.
 
-**Kuģi un gaisa kuģi.** Raidīt no Latvijas kuģa starptautiskajos ūdeņos vai no
-gaisa kuģa drīkst tikai A kategorijas radioamatieri un tikai ar kapteiņa
-atļauju (77. un 82. punkts) [1]. B kategorijai tas nav atļauts; eksāmenā
-pietiek zināt šo faktu.
+**Kuģi un gaisa kuģi.** Ar radioamatieru radiostaciju raidīt no Latvijas kuģa
+starptautiskajos ūdeņos vai no gaisa kuģa drīkst tikai A kategorijas
+radioamatieri un tikai ar kapteiņa atļauju (77. un 82. punkts) [1]. B kategorijai
+tas nav atļauts; eksāmenā pietiek zināt šo faktu. Kuģa vai gaisa kuģa dienesta
+radiosakarus šie noteikumi neskar.
 
 **Sporta raidītāji.** Radiopeilēšanas, radioorientēšanās un citās radiosporta
 sacensībās un treniņos lieto sporta raidītājus ar jaudu līdz **5 W**. Atļauju
@@ -260,7 +261,8 @@ pēc rīkotāja pieprasījuma izsniedz ES (90.–92. punkts) [1].
 - Atkārtotāji tikai joslās virs 29 MHz, kurās radioamatieru dienestam ir
   primārs statuss.
 - Traucējot drošības dienestiem, raidīšana jāpārtrauc nekavējoties.
-- No kuģa un gaisa kuģa drīkst raidīt tikai A kategorija.
+- Radioamatieru stacijas lietošana uz kuģa starptautiskajos ūdeņos un gaisa
+  kuģī: tikai A kategorija, ar kapteiņa atļauju.
 
 ## Pamēģini pats
 
@@ -355,11 +357,11 @@ tev un kas — kaimiņam.
     - B. Reklāmas paziņojums
     - C. Īss raidījums antenas noregulēšanai ar mazāko jaudu
     - D. Ziņu pārraide pilsētas iedzīvotājiem
-14. Kurš drīkst raidīt no radiostacijas uz Latvijas kuģa starptautiskajos ūdeņos?
+14. Kurš drīkst raidīt ar radioamatieru radiostaciju no Latvijas kuģa starptautiskajos ūdeņos?
     - A. Jebkurš radioamatieris ar kapteiņa atļauju
     - B. A kategorijas radioamatieris ar kapteiņa atļauju
     - C. B kategorijas radioamatieris bez īpašas atļaujas
-    - D. Tikai kuģa radists
+    - D. B kategorijas radioamatieris ar kapteiņa atļauju
 
 **Atvērtie jautājumi**
 
