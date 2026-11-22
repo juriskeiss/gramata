@@ -500,7 +500,7 @@ def f10_2():
 
 def f10_3():
     f = Fig(800, 250)
-    labels = ["Transformators", "Taisngriezis", "Gludināšanas\nfiltrs", "Stabilizators"]
+    labels = ["Transformators", "Taisngriezis", "Filtrs", "Stabilizators"]
     y = 170
     x0 = 100
     pos = chain(f, labels, x0, y, gap=64, size=12, minw=104)

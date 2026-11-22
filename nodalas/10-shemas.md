@@ -121,7 +121,7 @@ Lineārais barošanas bloks sastāv no četrām pakāpēm.
 | --- | --- | --- |
 | 1. Transformators | Pazemina maiņspriegumu | Transformators |
 | 2. Taisngriezis | Pārvērš maiņstrāvu pulsējošā līdzstrāvā | Diodes |
-| 3. Gludināšanas filtrs | Samazina maiņstrāvas pulsācijas līdzstrāvā | Liels elektrolītiskais kondensators; dažreiz arī spole (droselis) |
+| 3. Filtrs | Samazina maiņstrāvas pulsācijas līdzstrāvā | Liels elektrolītiskais kondensators; dažreiz arī spole (drosele) |
 | 4. Stabilizators | Notur nemainīgu izejas spriegumu | Zenera diode, tranzistors vai mikroshēma |
 
 ![10.4. attēls. Barošanas bloka blokshēma.](../atteli/10-4-barosanas-bloks.svg)
@@ -134,7 +134,7 @@ slodzi tā vienmēr plūst vienā virzienā.
 
 ![10.5. attēls. Taisngriezis ar diožu tiltu.](../atteli/10-5-diozu-tilts.svg)
 
-**Gludināšanas filtrs** būtībā ir zemo frekvenču filtrs (10.2.):
+**Filtrs** aiz taisngrieža būtībā ir zemo frekvenču filtrs (10.2.):
 līdzspriegumu laiž cauri, pulsācijas aiztur. Tā galvenā detaļa ir liels
 elektrolītiskais kondensators: tas uzlādējas sprieguma maksimumos un atdod
 enerģiju starp tiem, tā aizpildot "bedres". Dažreiz ceļā liek arī spoli
@@ -151,7 +151,7 @@ tranzistora.
 
 ![10.6. attēls. Sprieguma stabilizators ar Zenera diodi un tranzistoru.](../atteli/10-6-stabilizators.svg)
 
-> **Uzmanību!** Barošanas blokā ir tīkla spriegums, un gludināšanas
+> **Uzmanību!** Barošanas blokā ir tīkla spriegums, un filtra
 > kondensatori saglabā lādiņu arī pēc atvienošanas no rozetes. Neatver
 > barošanas bloku, ja neesi izlasījis 17. nodaļu.
 
@@ -325,8 +325,8 @@ barošanas bloka shēmu un sameklē tajā četras pakāpes no 10.3. apakšnodaļ
 - Filtri izmanto to, ka spole un kondensators dažādi laiž dažādas
   frekvences.
 - Raidītāja izejā liek zemo frekvenču filtru harmoniku aizturēšanai.
-- Lineārais barošanas bloks: transformators, taisngriezis, gludināšanas
-  filtrs, stabilizators. Impulsu bloks spriegumu pazemina augstā frekvencē un
+- Lineārais barošanas bloks: transformators, taisngriezis, filtrs,
+  stabilizators. Impulsu bloks spriegumu pazemina augstā frekvencē un
   stabilizē ar atgriezenisko saiti.
 - Pastiprinātājs palielina signālu; ģenerators to rada; jaucējs pārceļ uz
   citu frekvenci.
@@ -381,7 +381,7 @@ barošanas bloka shēmu un sameklē tajā četras pakāpes no 10.3. apakšnodaļ
     - B. Divas
     - C. Trīs
     - D. Četras
-10. Kāds ir gludināšanas kondensatora uzdevums barošanas blokā?
+10. Kāds ir filtra kondensatora uzdevums barošanas blokā?
     - A. Samazināt sprieguma pulsācijas pēc taisngrieža
     - B. Pazemināt tīkla spriegumu
     - C. Pārvērst maiņstrāvu līdzstrāvā
@@ -452,7 +452,7 @@ barošanas bloka shēmu un sameklē tajā četras pakāpes no 10.3. apakšnodaļ
 | 17 | B | 8 + 0 + 2 + 0 = 10. |
 
 Atvērtie jautājumi: 18. jautājumā: transformators — pazemināts
-maiņspriegums; taisngriezis — pulsējošs līdzspriegums; gludināšanas filtrs —
+maiņspriegums; taisngriezis — pulsējošs līdzspriegums; filtrs —
 izlīdzināts līdzspriegums ar nelielām pulsācijām; stabilizators — stabils
 13,8 V. 19. jautājumā L · C = 10⁻⁶ · 10⁻¹⁰ = 10⁻¹⁶;
 √(10⁻¹⁶) = 10⁻⁸; 2π · 10⁻⁸ ≈ 6,28 · 10⁻⁸; f ≈ 15,9 MHz.

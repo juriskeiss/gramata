@@ -21,15 +21,16 @@ skaidrots plašāk.
 | Diapazons | Band | Radioamatieriem iedalīts frekvenču apgabals, piemēram, 80 m (4.) |
 | Dipols | Dipole | Antena no diviem vienāda garuma pleciem, kopā λ/2 (13.) |
 | Diskriminators | Discriminator | FM detektors (11.) |
+| Drosele | Choke | Spole, kas laiž cauri līdzstrāvu un zemas frekvences, bet aiztur augstas. Barošanas blokā palīdz filtram; uz ferīta gredzena tīta — slāpē strāvu pa kabeļa ārpusi (10., 13., 19.) |
 | DX | DX | Tāla stacija vai tāls sakars (5.) |
 | Efektīvā vērtība | RMS value | Maiņsprieguma vērtība, kas dod tādu pašu jaudu kā līdzspriegums (7.) |
 | Elektromagnētiskā saderība (EMS) | EMC | Iekārtu spēja darboties blakus, savstarpēji netraucējot (16.) |
 | Ferīta gredzens | Ferrite toroid, ferrite ring | Gredzenveida ferīta serde. Uz tā tin balunus, ununus un droseles; caur gredzenu vairākas reizes izvērts kabelis slāpē traucējumus, jo gredzens aiztur strāvas pa vada ārpusi. Tam pašam nolūkam lieto arī citu formu ferītus: uz kabeļa uzspiežamas uzmavas un stieņus (13., 16.) |
 | Ferīts | Ferrite | Magnētisks materiāls, no kura izgatavo dažādu formu serdes augstfrekvences spolēm, transformatoriem un droselēm. Sarunvalodā par ferītu sauc arī ferīta gredzenu vai gatavu droseli (13., 16.) |
+| Filtrs | Filter | Shēma, kas vienas frekvences laiž cauri, bet citas aiztur. Barošanas blokā filtrs aiz taisngrieža izlīdzina pulsācijas; būtībā tas ir zemo frekvenču filtrs (10.) |
 | Fīders | Feeder | Līnija, kas pārvada signālu starp staciju un antenu (3., 13.) |
 | Frekvences modulācija (FM) | Frequency modulation | Informācija maina nesēja frekvenci (8.) |
 | Galotnes jauda (pX) | Peak envelope power, PEP | Raidītāja jauda signāla maksimumos (4.) |
-| Gludināšanas filtrs | Smoothing filter | Barošanas bloka pakāpe aiz taisngrieža, kas samazina pulsācijas; būtībā zemo frekvenču filtrs (10.) |
 | Harmonika | Harmonic | Signāls pamatfrekvences daudzkārtnī (8., 12.) |
 | Heterodīns | Local oscillator | Uztvērēja ģenerators, ar kuru to noskaņo (11.) |
 | Impulsu barošanas bloks | Switching power supply, SMPS | Barošanas bloks, kas spriegumu pazemina augstā frekvencē ar mazu transformatoru (10., 16.) |

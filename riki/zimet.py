@@ -549,7 +549,7 @@ def f102():
 @fig("10.3", "10-3-barosanas-bloks", "Barošanas bloka četras pakāpes un sprieguma forma pēc katras no tām")
 def f103():
     s = S(720, 250)
-    labels = ["Transfor-\nmators", "Taisngriezis", "Gludinātājs", "Stabilizators"]
+    labels = ["Transfor-\nmators", "Taisngriezis", "Filtrs", "Stabilizators"]
     cs = s.chain(105, 170, labels, bw=104, bh=48, gap=46, size=13)
     s.arrow(40, 170, 104, 170); s.arrow(cs[-1] + 52, 170, cs[-1] + 110, 170)
     s.text(40, 205, "230 V ~", 12); s.text(cs[-1] + 96, 205, "13,8 V =", 12)
