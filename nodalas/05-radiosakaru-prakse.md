@@ -264,15 +264,19 @@ sakristu neatkarīgi no laika joslas [1].
 | 14:32 | 15 m, 21,285 MHz | SSB | ON3DXY | 59 / 57 | Mark |
 | 14:47 | 2 m, 145,500 MHz | FM | YL3XXX | 59 / 59 | Jānis |
 
-> **Piemērs.** QSO notika pulksten 16.40 pēc Latvijas ziemas laika. Kāds laiks
-> jāraksta žurnālā?
+> **Piemērs.** QSO notika 15. janvārī pulksten 01.15 pēc Latvijas ziemas laika.
+> Kāds datums un laiks jāraksta žurnālā?
 >
 > 1. Latvijas ziemas laiks ir UTC + 2 stundas, vasaras laiks — UTC + 3 stundas.
-> 2. 16.40 − 2 stundas = 14.40.
-> 3. Žurnālā raksti 14:40 UTC.
+> 2. 01.15 − 2 stundas = 23.15. Pārrēķinot laiku, pāriet pāri pusnaktij, tāpēc
+>    mainās arī datums: pēc UTC vēl ir 14. janvāris.
+> 3. Žurnālā raksti 14.01., 23:15 UTC.
 
-Ap pusnakti mainās arī datums: 01.15 pēc Latvijas ziemas laika ir 23:15 UTC
-iepriekšējā dienā.
+> **Praktisks padoms.** Latvijas laiks mainās divreiz gadā. Marta pēdējā
+> svētdienā pāriet uz vasaras laiku (UTC + 3), oktobra pēdējā svētdienā — uz
+> ziemas laiku (UTC + 2). UTC nemainās nekad. Tāpēc pie stacijas turi atsevišķu
+> pulksteni, kas rāda UTC, un laiku žurnālā raksti no tā, nevis pārrēķini galvā.
+> Tā nekļūdīsies ne pusnaktī, ne pēc laika maiņas.
 
 **QSL.** Sakaru apstiprina ar QSL kartīti vai elektroniski. Papīra kartītes
 joprojām sūta, bet elektroniskās sistēmas ir ātrākas; par tām stāsta
