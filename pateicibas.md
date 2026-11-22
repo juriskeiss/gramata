@@ -1,4 +1,4 @@
-Šī grāmata nebūtu tapusi bez cilvēkiem, kas savas zināšanas dalījuši
+Šī grāmata nebūtu tapusi bez cilvēkiem, kas ar savām zināšanām dalījušies 
 atklāti. Paldies:
 
 - **LRAL bezmaksas kursa 2026** prezentāciju un video lekciju autoriem un
